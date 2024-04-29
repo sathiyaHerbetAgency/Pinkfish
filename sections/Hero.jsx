@@ -33,7 +33,8 @@ firstRef.play()
       lastCall = now;
       return fn(...args);
     }
-  }
+  };
+  
   
   
 
