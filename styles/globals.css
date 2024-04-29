@@ -1,0 +1,143 @@
+/* eslint-disable */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+/* Footer */
+
+.hr_line_footer {
+  border: solid 0.1px #fff;
+}
+
+
+.buy_ticket_footer{
+  @apply font-[Sofia] bg-[#F33288] text-[14px] md:text-[18px] leading-[20px] md:leading-[24px] font-[700] font-[Sofia] uppercase rounded-lg gap-2 text-white p-3 md:w-fit w-full ;
+}
+
+.browse_show{
+  @apply bg-transparent text-[14px] md:text-[18px] leading-[20px] md:leading-[24px] font-[700] font-[Sofia] uppercase rounded-lg gap-2 text-white p-3 md:w-fit w-full;  
+  border: 1px solid #fff;
+}
+
+.footer_heading{
+  @apply text-white uppercase md:text-[32px]  leading-[34px]    font-[Integral];
+  
+}
+
+.footer_bottom_text{
+  @apply text-[#fff] text-[12px] leading-[22px] text-center font-[Sofia]
+}
+
+.icon_text{
+  @apply text-white text-[20px] md:text-[14px] leading-[22px]    font-[Sofia];
+  text-align: center;
+
+}
+
+.home_bottom_header{
+  @apply text-[12px] md:text-[16px] leading-[16px] md:leading-[20px] font-[Integral] text-white  font-[500]
+
+}
+
+.logo_container{
+  @apply bg-[#00] md:bg-[#000];
+}
+
+/* NAVBAR */
+ 
+.navbar_main_container{
+  @apply py-6 max-w-[100vw]  md:min-h-[15vh]  sticky top-0  flex flex-col justify-center  bg-black ; 
+  z-index: 99;
+}
+*:focus {
+  outline: none;
+}
+
+.video {   
+  object-fit: cover;   
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1; 
+}
+.navbar_container{
+  @apply  flex flex-col  self-center ;
+}
+
+.desktop_navbar{
+
+/* @apply flex justify-between     ; */
+}
+
+.navbar_container_mob{
+  @apply    w-[100%]  md:hidden ;
+}
+
+.dropdown {
+  @apply   w-full  rounded-lg bg-black min-w-[210px] flex flex-col gap-3  items-center;
+}
+
+.dropdown_link {
+  @apply text-sm  text-[#F33288]  font-medium;
+}
+
+.menu_text_mob{
+
+  @apply w-fit self-center  uppercase text-[white] font-[Integral] font-[100] text-[14px] leading-[24px] md:leading-[24px] tracking-[5px];
+} 
+.menu_text{
+
+  @apply w-[100%] text-center uppercase text-[white]   pt-5 pb-2 font-[Integral] font-[700] text-[12px] md:text-[14px] leading-[14px] md:leading-[18px] tracking-[5px];
+  /* display: inline-block;
+  text-decoration: none; */
+}
+
+.address_title{ 
+  @apply uppercase font-[Sofia] text-[#D9D9D9] text-[16px] md:text-[16px] leading-[20px] md:leading-[20px] tracking-[2.4px] md:tracking-[3.2px] font-[400]
+}
+
+.select{
+  @apply border-b-4 border-white ;
+  /* padding: -10px; */
+}
+
+/* 
+.menu_text::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width .3s;
+}
+
+.menu_text:hover::after {
+  width: 100%;
+} */
+
+.buy_ticket{
+  @apply bg-[#F33288] rounded-lg uppercase pt-2 p-2  gap-2 text-white h-fit text-[12px] md:text-[14px] leading-[14px] md:leading-[16px] font-[500] font-[Integral];
+
+}
+
+@font-face {
+  font-family: 'Integral';
+  src: url("/fonts/Integral CF Regular.ttf");
+}
+@font-face {
+  font-family: 'Sofia';
+  src: url("/fonts/SofiaPro.ttf");
+}
+
+@font-face {
+  font-family: 'manrope';
+  src: url("/fonts/Manrope.ttf");
+}

@@ -1,0 +1,714 @@
+/* GLOBAL CSS */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.gradient-01 {
+  background-image: linear-gradient(
+    270deg,
+    hsl(295deg 76% 51%) 0%,
+    hsl(284deg 70% 73%) 26%,
+    hsl(257deg 70% 86%) 39%,
+    hsl(202deg 92% 90%) 50%,
+    hsl(215deg 77% 81%) 61%,
+    hsl(221deg 73% 70%) 74%,
+    hsl(220deg 76% 51%) 100%
+  );
+  filter: blur(125px);
+}
+
+.hero-gradient {
+  background: linear-gradient(
+    97.86deg,
+    #a509ff 0%,
+    #34acc7 53.65%,
+    #a134c7 100%
+  );
+}
+
+.gradient-02 {
+  position: absolute;
+  width: 200px;
+  height: 438px;
+  top: 0px;
+  right: 0px;
+
+  background: #7aebfb;
+  filter: blur(190px);
+}
+
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.gradient-03 {
+  position: absolute;
+  width: 404px;
+  height: 800px;
+  left: 20%;
+  top: 5%;
+
+  background: rgba(149, 66, 232, 0.35);
+  filter: blur(175px);
+  transform: rotate(-114.2deg);
+}
+
+.gradient-04 {
+  position: absolute;
+  width: 304px;
+  height: 100vh;
+  left: 30%;
+  top: 10%;
+
+  background: rgba(45, 72, 152, 0.75);
+  filter: blur(200px);
+  transform: rotate(-53.13deg);
+}
+
+.gradient-05 {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.04) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.feedback-gradient {
+  position: absolute;
+  width: 200px;
+  height: 316px;
+  left: 0px;
+  top: 0px;
+
+  background: #8d39a3;
+  filter: blur(175px);
+}
+
+.footer-gradient {
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  left: 37%;
+  bottom: 0;
+
+  background: #65c4fa;
+  filter: blur(150px);
+}
+
+/* Footer */
+
+.hr_line_footer_live {
+  border: solid 1px #F33288;
+}
+
+
+.buy_ticket_footer_live{
+  @apply font-[Sofia] bg-[#F33288] text-[14px] md:text-[18px] leading-[20px] md:leading-[24px] font-[700] font-[Sofia] uppercase rounded-lg gap-2 text-white p-3 md:w-fit w-full ;
+}
+
+.browse_show_live{
+  @apply bg-transparent text-[14px] md:text-[18px] leading-[20px] md:leading-[24px] font-[700] font-[Sofia] uppercase rounded-lg gap-2 text-white p-3 md:w-fit w-full;  
+  border: 1px solid #fff;
+}
+
+.footer_heading_live{
+  @apply text-white uppercase md:text-[32px]  leading-[34px]    font-[Integral];
+  
+}
+
+.footer_bottom_text_live{
+  @apply text-[#F33288] text-[12px] leading-[22px] text-center font-[Sofia]
+}
+
+.icon_text_live{
+  @apply text-white text-[14px] leading-[22px] text-start font-[Sofia];
+
+}
+
+
+/* NAVBAR */
+
+.navbar_main_container_live{
+  @apply bg-black md:min-h-[16vh] min-h-[10vh]   sticky top-0 flex flex-col justify-center;
+  z-index: 99;
+}
+
+.navbar_container_live{
+  @apply  flex flex-col ;
+}
+
+.desktop_navbar_live{
+
+@apply flex justify-between w-[90%] self-center  ;
+}
+
+.navbar_container_mob_live{
+  @apply flex justify-end h-auto  w-[90%] self-center  md:hidden ;
+}
+
+.dropdown_live {
+  @apply absolute right-0 top-full  w-full  rounded-lg bg-black min-w-[210px] flex flex-col   items-center;
+}
+
+.dropdown_link_live {
+  @apply text-sm  text-[#F33288]  font-medium;
+}
+
+.menu_text_mob_live{
+
+  @apply w-[100%] text-center uppercase text-[#F33288] hover:bg-[#F33288] hover:text-white bg-black pt-5 pb-5 font-[Integral] font-[700] text-[18px] leading-[28px] md:leading-[24px] tracking-[5px];
+}
+.menu_text_live{
+
+  @apply w-[100%] text-center uppercase text-[#F33288]  bg-black pt-5 pb-5 font-[Integral] font-[700] text-[12px] md:text-[18px] leading-[14px] md:leading-[24px] tracking-[5px];
+}
+
+.buy_ticket_live{
+  @apply bg-[#F33288] rounded-lg uppercase  gap-2 text-white p-3 text-[12px] md:text-[18px] leading-[14px] md:leading-[24px] font-[500] font-[Integral];
+
+}
+
+@font-face {
+  font-family: 'Integral';
+  src: url("/Live/fonts/Integral CF Regular.ttf");
+}
+@font-face {
+  font-family: 'Sofia';
+  src: url("?Live/fonts/SofiaPro.ttf");
+}
+
+
+
+/* CONTACT CSS */
+
+.contact_input_live{
+    background-color: transparent;
+    border: 1px solid white;
+    @apply rounded p-2
+
+}
+
+.contact_label_live{
+    @apply text-[20px] leading-[23px] font-[400] font-[Sofia] text-white
+}
+
+.contact_submit_live{
+    @apply bg-[#F33288] rounded w-full text-center md:w-fit    p-2 flex justify-center text-[16px] leading-[24px] font-[Integral] text-white font-[500] ;
+
+}
+
+.contact_header_live{
+    @apply text-[24px] md:text-[40px] leading-[24px] md:leading-[48px] font-[500] font-[Integral] text-white
+
+}
+.contact_text_live{
+    @apply text-[14px] md:text-[20px] leading-[16px] md:leading-[24px] font-[400] font-[Sofia] text-white w-[85%]
+}
+.contact_text_1_live{
+    @apply text-[16px] md:text-[20px] leading-[18px] md:leading-[24px] font-[400] font-[Sofia] text-white 
+}
+.contact_sub_header_live{
+    @apply text-[16px] md:text-[24px] leading-[18px] md:leading-[28px] font-[500] font-[Integral] text-white
+
+}
+
+.contact_main_container_live{
+    /* background-image: url("/contact_page_bg.png"); */
+    background: url('/Live/blackGradient.png')  bottom no-repeat, url("/Live/contact_page_bg.png")  top no-repeat ;
+    background-size: cover;
+}
+
+.question_text_live{
+    @apply text-[16px] md:text-[18px] leading-[24px] md:leading-[27px] font-[700] font-[Sofia] text-white uppercase
+
+}
+
+.answer_text_live{
+    @apply text-[18px] leading-[27px] font-[700] font-[Sofia] text-white
+
+}
+.top_btn_live{
+    @apply text-[12px] md:text-[18px]  leading-[13.5px] md:leading-[24px] font-[500] font-[Integral] text-white uppercase
+
+}
+.faq_main_container_live{
+    background: url('/hero_blackGradient.png')  bottom no-repeat, url("/faq_bg.png")  top no-repeat  ;
+    min-width: 100vw;
+    background-size: cover;
+   
+}
+
+.event_container_live{
+    background: url('/blackGradient.png')  bottom no-repeat, url("/event_bg.png")  top no-repeat  ;
+    background-size: cover;
+   min-width: 100vw;
+  
+}
+
+
+.event_main_header_live{
+    @apply text-[64px] leading-[84px] font-[500] font-[Integral] text-white text-center uppercase
+
+}
+
+.date_event_main_text_live{
+    /* @apply font-[Sofia] text-[20px] font-[400] leading-[24px] uppercase text-white */
+    @apply text-white text-[10px] md:text-[20px] leading-[24px] font-[400] font-[Sofia] uppercase tracking-[10px];
+
+}
+
+.event_section_header_live{
+    @apply font-[Integral] text-[24px] md:text-[40px] font-[400] leading-[24px] uppercase text-white tracking-[8px]
+
+}
+
+.event_section_text_live{
+    @apply font-[Sofia] text-[10px] md:text-[20px] font-[400] leading-[14px] md:leading-[24px]  text-white w-[80%]
+
+}
+
+.buy_ticket_event_main_live{
+    @apply font-[Sofia] text-[12px] md:text-[16px] font-[700] leading-[20px] text-center  text-black bg-[#B2B2B2] text-center p-1 rounded ;
+    text-align: center !important;
+}
+
+.soldout_ticket_event_main_live{
+    @apply font-[Sofia]  text-[12px] md:text-[16px] font-[400] leading-[20px]  text-black bg-[#D1CFCF] text-center p-1 rounded;
+
+}
+
+.event_bottom_container_live{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 1%, rgba(244,0,134,1) 1%, rgba(246,6,129,1) 2%, rgba(246,137,175,1) 98%, rgba(239,128,175,1) 99%, rgba(0,0,0,1) 99%);
+    margin-bottom: -10px;
+}
+
+.event_bottom_header_live{
+    @apply font-[Sofia] text-[14px] md:text-[24px] font-[400] leading-[18px] md:leading-[25px] uppercase text-white tracking-[1px]
+
+}
+
+.event_bottom_main_hearder_live{
+    @apply font-[Integral] text-[48px] md:text-[80px] font-[400] leading-[52px] md:leading-[94px] uppercase text-white w-[90%] md:w-[75%]
+
+}
+
+.black_btn_live{
+    @apply font-[Integral] rounded text-[12px] md:text-[14px] font-[400] leading-[13px] md:leading-[24px] uppercase text-white bg-black p-2 text-center  w-fit
+
+}
+
+.details_container_live{
+    border: solid 1px #F33288;
+   @apply text-white w-[100%] md:w-[80%];
+}
+
+.details_header_live{
+    @apply font-[Integral] text-[32px] font-[400] leading-[42px] uppercase text-white 
+
+}
+
+.details_sub_header_live{
+    @apply font-[Sofia] text-[16px] font-[800] leading-[24px] uppercase text-white 
+ 
+}
+
+.details_text_live{
+    @apply font-[Sofia] text-[14px] font-[400] leading-[24px] uppercase text-white 
+
+}
+
+.more_shows_header_live{
+    @apply font-[Integral] text-[24px] md:text-[64px] font-[500] leading-[24px] md:leading-[82px] uppercase text-white  text-center mt-11 mb-6
+
+}
+
+.first_container_live{
+ background: linear-gradient(180deg, transparent 20%, rgb(105, 96, 96) 40%, rgba(0,0,0,1) 40%, ); 
+}
+
+.tnc_header_live{
+    @apply text-[24px] md:text-[64px] font-[500] leading-[24px] md:leading-[74px] text-center  font-[Integral] uppercase mb-11;
+}
+
+.text_tnc_container_live{
+    @apply w-[75%] mt-11 flex flex-col gap-11 self-center ;
+}
+
+.tnc_text_header_live{
+    @apply text-[16px] md:text-[18px] font-[600] leading-[18px] md:leading-[20px]  font-[Sofia] ;
+
+}
+
+.tnc_text_live{
+    @apply text-[14px] md:text-[16px] font-[200] leading-[16px] md:leading-[20px]  font-[Sofia] ;
+
+}
+
+.bg_about_us_live{
+    background-image: url("/Live/aboutus_bg_1.png");
+}
+
+.bg_about_us_2_live{
+    background-image: url("/Live/aboutus_bg_2.png");
+}
+
+.about_us_header_live{
+    @apply text-[14px] md:text-[32px] font-[200] leading-[16px] md:leading-[32px] font-[400]  font-[Sofia]  text-center ;
+
+}
+
+.about_us_main_header_live{
+    @apply text-[14px] md:text-[64px] font-[200] leading-[16px] md:leading-[68px] font-[700]  font-[Sofia] text-center ;
+
+}
+
+.gallery_event_live{
+    @apply text-[18px] md:text-[24px] font-[200] leading-[16px] md:leading-[28px] font-[700]  font-[Integral] text-center ;
+
+}
+
+
+/* HOME CSS */
+
+.hero_container_live {
+    /* background-image: url('/HEROIMG.png'); */
+    background: url('/Live/hero_blackGradient.png')  bottom no-repeat, url("/Live/HEROIMG.png")  top ;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    min-height: 100vh;
+    @apply flex flex-col justify-end;
+    margin-top: 0px;
+    max-width: 100vw;
+}
+
+@media screen and (max-width:768px) {
+.hero_container_live{
+    /* background-image: url('/HEROIMG_Mob.png');
+    background-position: center; */
+    background-color: #000;
+    background-image: none;
+    min-height: 80vh;
+}
+}
+
+
+
+.hero_heading_live {
+    @apply  text-white text-[48px] w-fit block md:text-[80px] leading-[57.5px] md:leading-[108px] font-[400]  uppercase ;
+    /* font-family:'Courier New', Courier, monospace */
+font-family: "Integral";
+}
+/* .header_container{
+    background-image: url('/hero_blackGradient.png');
+} */
+.horizantal_line_live {
+
+    max-width: 99.9%
+}
+
+.horizantal_pink_container_live {
+    @apply bg-[#F33288] py-0 md:py-4;
+    transform: rotate(-1.5deg);
+    z-index: -99;
+    overflow: hidden;
+}
+
+.horizantal_text_1_live {
+    color: black;
+    -webkit-text-fill-color: #F33288;
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+  
+    margin-right: 0px;
+    @apply mt-4 md:mt-0 font-[Integral] text-[12px] md:text-[34px] leading-[16px] md:leading-[30px] font-[400] uppercase;
+
+}
+
+.svg_text_live{
+    @apply w-[25px] md:w-[49px] h-[19px] md:h-[36px] mt-4 md:mt-0 ;
+}
+
+
+.horizantal_text_2_live {
+    color: #fff;
+    @apply mt-4 md:mt-0 font-[Integral] text-[12px] md:text-[34px] leading-[16px] md:leading-[30px] font-[400] uppercase;
+}
+
+.horizantal_pink_container_body_live {
+
+    width: fit-content;
+    transform: translateX(0%);
+    /* Animation start out of the screen */
+
+    /* Add the animation */
+    animation: move 30s linear infinite
+        /* infinite make reapeat the animation indefinitely */
+    ;
+}
+
+/* Create the animation */
+@keyframes move {
+    from   { transform: translateX(0%); }
+    to { transform: translateX(50%); }
+  
+}
+
+.gradient_hero_live {
+    /* @apply h-[5vh];
+    background-image: linear-gradient(transparent, black, black, black);
+    opacity: 0.9; */
+    @apply max-h-[15vh];
+}
+
+.gradient_hero2_live {
+    @apply max-h-[20vh] ;
+    background-image: linear-gradient(black, black, black, black);
+    z-index: -99;
+}
+
+
+
+.event_header_live {
+    @apply text-white text-center text-[64px] leading-[24px] font-[700] font-[Integral] tracking-[3px]
+}
+
+.image_container_home_live{
+   height: fit-content;
+   
+   @apply     min-w-[100vw] ;
+}
+.image_container_home_event_live{
+    
+    @apply w-screen   overflow-x-hidden ;
+ }
+.image_container_home_desktop_live{
+    height: fit-content;
+    @apply   overflow-hidden max-w-[90%] ;
+
+}
+
+.text-block_live {
+    position: absolute;
+    bottom: 20px;
+
+    color: white;
+    padding-left: 24px;
+    padding-right: 20px;
+}
+
+
+
+.container_live {
+    position: relative;
+    /* @apply left-[14%] right-[20%]; */
+}
+
+
+
+.event_text_date_live {
+    @apply text-[10px] md:text-[12px] leading-[12px] md:leading-[24px] font-[400] font-[Sofia] uppercase tracking-[4px] md:tracking-[8px];
+}
+
+.event_text_live {
+    @apply text-[24px] md:text-[40px] leading-[24px] font-[500] font-[Integral];
+}
+
+.sub_heading_events_live{
+    @apply text-[16px] leading-[24px] font-[500] font-[Integral];
+
+}
+.sub_text_live{
+    @apply text-[16px] leading-[24px] font-[500] font-[Sofia];
+
+}
+.event_tickets_live {
+    @apply bg-[#F33288] rounded-lg w-fit md:w-[40%] p-2 flex text-[12px] md:text-[16px] leading-[14px] md:leading-[20px] font-[Integral];
+}
+
+.event_text_date2_live {
+    @apply text-[10px] md:text-[12px] leading-[12px] md:leading-[24px] font-[400] font-[Sofia] uppercase tracking-[4px] md:tracking-[8px];
+}
+
+.event_text2_live {
+    @apply text-[24px] md:text-[32px] leading-[24px] font-[500] font-[Integral];
+   
+}
+
+.event_tickets2_live {
+    @apply bg-[#fff] text-black rounded-lg w-fit md:w-fit p-2 flex text-[12px] md:text-[16px] leading-[14px] md:leading-[20px] font-[Integral];
+}
+
+.buy_ticket_live {
+    background-color: #F33288;
+    @apply rounded-lg gap-2 text-white p-3;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: Integral;
+}
+
+.gallery_container_live{
+    background-color: #F33288;
+    pointer-events: none;
+}
+.gallery_container_mob_live{
+    background-color: #F33288;
+}
+
+.gallery_header_live{
+    @apply text-[24px] md:text-[32px] leading-[24px] font-[Integral] text-white uppercase font-[500]
+}
+
+.gallery_text_live{
+    @apply text-[12px] md:text-[14px] leading-[24px] font-[Sofia] text-white  font-[400] w-4/5 md:w-full
+}
+
+.gallery_btn_live{
+    @apply text-[16px] leading-[20px] font-[Sofia] text-white  font-[700] bg-black text-white w-fit p-2 rounded
+
+
+}
+div::-webkit-scrollbar {
+    display: none;
+  }
+/* .img_cont{
+    display: inline-block;
+} */
+.gallery_main_container_live{
+ @apply overflow-x-scroll overflow-hidden;
+
+}
+
+.banner_header_live{
+    @apply text-[36px] md:text-[80px] leading-[50px] md:leading-[95px] font-[Integral] text-white uppercase font-[500]
+   
+}
+
+.banner_text_live{
+    @apply text-[12px] md:text-[24px] leading-[24px] font-[Sofia] text-white  font-[700]
+}
+
+.banner_container_live{
+    /* background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 1%, rgba(244,0,134,1) 1%, rgba(246,6,129,1) 2%, rgba(246,137,175,1) 98%, rgba(239,128,175,1) 99%, rgba(0,0,0,1) 99%);
+} */
+background-image: url('/Live/Gradient_pink_big.png');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+@media screen and (max-width:768px) {
+    .banner_container_live{
+       
+    background-image: url('/Live/Gradient_pink.png');
+    
+    }
+
+
+    
+    
+}
+
+.banner_img_1_live{
+    left: 15%;
+    top: -10%;
+    width: 150px;
+}
+
+.banner_img_2_live{
+    left: -10%;
+    top: 80%;
+    width: 350px;
+}
+.banner_img_3_live{
+    left: 96%;
+    top: 0%;
+    width: 164px;
+}
+
+.banner_img_4_live{
+    left: 65%;
+    top: 75%;
+    width: 60px;
+}
+
+.banner_img_5_live{
+    left: 64%;
+    top: 86%;
+    
+  
+    background-color: #F33288;
+   
+    @apply   p-1 pl-3 pr-3  rounded-2xl font-[400] font-[Sofia] text-[16px] leading-[24px]
+}
+
+@media screen and (min-width:1540px) {
+.banner_img_5_live{
+    @apply left-[65%]
+}
+}
+
+
+.marquee-container {
+  height: 50px;
+  overflow: hidden;
+  line-height: 30px;
+
+  .marquee {
+    top: 0;
+    left: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    animation: marquee 30s linear infinite;
+  }
+
+  .marquee2 {
+    animation-delay: 15s;
+  }
+  b {
+    padding-left: 10px;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%
+  }
+}
+
+
+.image_11_live {
+    overflow: hidden;
+}
+.image_11_live img {
+    transition: all 0.3s;
+    display: block;
+   
+    transform: scale(1);
+}
+
+
+.image_11_live:hover img {
+    transform: scale(1.1);
+}
