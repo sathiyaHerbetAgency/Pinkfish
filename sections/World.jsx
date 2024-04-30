@@ -204,30 +204,6 @@ return(
             
           </div>
         </div>
-        {/* <div id='gallery' className="gas flex overflow-x-scroll gap-3 ">
-       
-    
-    
-        <img   src='/home_bottom_img_1_1.png' className=" w-[100%] box " alt='gallery'/>
-        <img src='/home_bottom_img_1_2.png' className=" w-[100%] box" alt='gallery'/>
-        <img  src='/home_bottom_img_1_3.png' className=" w-[100%] block box" alt='gallery'/>
-        <img src='/home_bottom_img_1_4.png' className=" w-[100%]" alt='gallery'/>
-        <img src='/home_bottom_img_1_5.png' className=" w-[100%]" alt='gallery'/>
-        <img  src='/home_bottom_img_1_6.png' className=" w-[100%]" alt='gallery'/>
-        <img src='/home_bottom_img_1_7.png' className=" w-[100%]" alt='gallery'/>
-        <img src='/home_bottom_img_1_8.png' className=" w-[100%]" alt='gallery'/>
-        <img src='/home_bottom_img_1_9.png' className=" w-[100%]" alt='gallery'/>
-        <img src='/home_bottom_img_1_10.png' className=" w-[100%]" alt='gallery'/>
-        <img src='/home_bottom_img_1_11.png' className=" w-[100%]" alt='gallery'/>
-        <img src='/home_bottom_img_1_12.png' className=" w-[100%]" alt='gallery'/>
-        <img src='/home_bottom_img_1_13.png' className=" w-[100%]" alt='gallery'/>
-        <img src='/home_bottom_img_1_14.png' className=" w-[100%]" alt='gallery'/>
-        <img src='/home_bottom_img_1_15.png' className=" w-[100%]" alt='gallery'/>
-        <img src='/home_bottom_img_1_16.png' className=" w-[100%]" alt='gallery'/>
-        <img src='/home_bottom_img_1_17.png' className=" w-[100%]" alt='gallery'/>
-
-
-        </div> */}
       <Swiper ref={sliderRef} navigation={false} modules={[Navigation]}  className="mySwiper">
         <SwiperSlide><img src="/home_bottom_img_1_1.png"/></SwiperSlide>
         <SwiperSlide><img src="/home_bottom_img_1_2.png"/></SwiperSlide>
@@ -260,17 +236,6 @@ return(
           <img className="cursor-pointer" src='/right_arrow_home_bottom.svg' onClick={()=>{handleNext(sliderRef1)}} alt='arrow'/>
           </div>
         </div>
-        
-        {/* <div id='gallery1' className="w-[100%] flex overflow-x-scroll gap-3 ">
-        <img src='/home_bottom_img_1.png' className=" w-[100%]" alt='gallery'/>
-        <img src='/home_bottom_img_2.png' className="object-none" alt='gallery'/>
-        <img src='/home_bottom_img_3.png' className="object-none" alt='gallery'/>
-        <img src='/home_bottom_img_4.png' className="object-none" alt='gallery'/>
-        <img src='/home_bottom_img_5.png' className="object-none" alt='gallery'/>
-        <img src='/home_bottom_img_6.png' className="object-none" alt='gallery'/>
-
-
-        </div> */}
               <Swiper ref={sliderRef1} navigation={false} modules={[Navigation]} className="mySwiper">
               <SwiperSlide>
           <div className="container flex flex-col min-w-[100%]  ">

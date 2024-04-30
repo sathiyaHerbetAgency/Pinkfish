@@ -2766,6 +2766,10 @@ strong {
   height: 21rem;
 }
 
+.card_wrapper.desktop.flip-animation {
+  transform: rotate(0);
+}
+
 .card_wrapper.desktop.flip-animation.wide-card {
   width: 14rem;
 }
@@ -2954,12 +2958,12 @@ strong {
 
 .card_side.is-front.vip {
   background-image: url('../images/VIP-ticket-BG_1.jpg'), linear-gradient(180deg, #7500ce 14%, var(--brand-light-pink) 87%);
-  background-position: 50% 0, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: contain, auto;
   border-radius: 20px;
   display: block;
   transform: rotate(0);
+  box-shadow: 0 8px 8px 1px rgba(67, 7, 102, .18);
 }
 
 .card_side.is-front.vip.vvip-silver {
