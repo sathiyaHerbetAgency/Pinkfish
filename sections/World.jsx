@@ -255,7 +255,7 @@ return(
           <div className=" text-white flex flex-col  justify-center gap-2 md:gap-4 ">
             <div className="text-block_1 p-2  w-full">
             <h1 className="image_title opacity-1">“What the Fish?!” Here’s How Pinkfish is Serving M’sia’s HOTTEST Music & Arts Festival in 2023!</h1>
-            {/* <p className="image_description">description</p> */}
+           
             </div>
          
           </div>
