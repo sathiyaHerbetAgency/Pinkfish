@@ -440,6 +440,7 @@ strong {
 }
 
 .frame-155.sold-out {
+  cursor: not-allowed;
   background-color: #252425;
 }
 
@@ -2816,9 +2817,20 @@ strong {
   font-size: 23px;
 }
 
+.heading-5.ticket-category.front {
+  margin-bottom: 0;
+  padding-top: 5px;
+}
+
+.heading-5.ticket-category.front.plus {
+  padding-top: 0;
+  padding-bottom: .9vh;
+}
+
 .heading-5.ticket-category.depan {
   color: #fff;
-  margin-top: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .heading-5.ticket-category.depan.perks {
@@ -3044,9 +3056,13 @@ strong {
 }
 
 .card_main-text.vip-line {
+  grid-row-gap: 0rem;
   border-bottom-color: #fff;
-  margin-left: 20px;
-  margin-right: 20px;
+  flex-flow: row;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 10px 20px 0;
+  padding-top: 0;
 }
 
 .card_main-text.perks {
@@ -5300,7 +5316,7 @@ strong {
   grid-column-gap: 16px;
   grid-row-gap: 16px;
   grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
   display: grid;
 }
@@ -7463,6 +7479,10 @@ strong {
 
   .heading-5.ticket-category.front.perks {
     line-height: 19px;
+  }
+
+  .heading-5.ticket-category.front.plus {
+    margin-top: 0;
   }
 
   .heading-type {
