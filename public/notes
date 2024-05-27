@@ -54,7 +54,7 @@
           <a href="#" aria-current="page" class="navbar-link w-nav-link w--current">
             <div class="text">HOME</div>
           </a>
-          <a href="music&artsfestival/faql" class="navbar-link w-nav-link">
+          <a href="music&artsfestival/faq" class="navbar-link w-nav-link">
             <div class="text">FAQ</div>
           </a>
           <a href="#" class="navbar-link disable-menu-link w-nav-link">
