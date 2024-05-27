@@ -444,6 +444,13 @@ strong {
   background-color: #252425;
 }
 
+.frame-155.t-c-button {
+  background-color: #710cf6;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-shadow: 0 5px 8px rgba(113, 12, 246, .46);
+}
+
 .frame-156 {
   grid-column-gap: 10px;
   grid-row-gap: 10px;
@@ -3327,6 +3334,10 @@ strong {
   display: block;
 }
 
+.ticket-button.t-c-btn {
+  width: auto;
+}
+
 .vvip-button {
   width: 200px;
   margin-bottom: 20px;
@@ -5377,6 +5388,23 @@ strong {
   display: flex;
 }
 
+.image-29 {
+  background-image: linear-gradient(rgba(255, 255, 255, .79), rgba(255, 255, 255, .79));
+  border-radius: 8px;
+}
+
+.div-block-33 {
+  background-color: rgba(255, 255, 255, .9);
+  border-radius: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.div-block-33.mobile {
+  display: none;
+}
+
 @media screen and (min-width: 1920px) {
   .navbarcontainer.mobile {
     display: none;
@@ -6817,6 +6845,11 @@ strong {
     margin-bottom: 4px;
   }
 
+  .frame-155.t-c-button {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .frame-156 {
     grid-column-gap: 10px;
     grid-row-gap: 10px;
@@ -8202,6 +8235,18 @@ strong {
   .faq-link {
     color: #ed2582;
     font-weight: 700;
+  }
+
+  .div-block-33 {
+    border-radius: 6px;
+  }
+
+  .div-block-33.desktop {
+    display: none;
+  }
+
+  .div-block-33.mobile {
+    display: block;
   }
 }
 

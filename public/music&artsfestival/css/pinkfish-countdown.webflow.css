@@ -49,7 +49,7 @@ a {
   min-height: 1058.35px;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  background-image: url('../../images/Countdown.png'), linear-gradient(to bottom, transparent 72%, var(--brand-midnight-blue)), url('../../images/landscape-Updated.png'), linear-gradient(to bottom, #120831 7%, #752f9f 24%, #e30569 53%, #edf013 87%);
+  background-image: url('../images/Countdown.png'), linear-gradient(to bottom, transparent 72%, var(--brand-midnight-blue)), url('../images/landscape-Updated.png'), linear-gradient(to bottom, #120831 7%, #752f9f 24%, #e30569 53%, #edf013 87%);
   background-position: 50% 0, 0 0, 50% 100%, 0 0;
   background-repeat: repeat-x, repeat, no-repeat, repeat;
   background-size: auto, auto, 100%, auto;
@@ -381,7 +381,7 @@ a {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   background-color: #212156;
-  background-image: url('../../images/Countdown.png');
+  background-image: url('../images/Countdown.png');
   background-repeat: no-repeat;
   background-size: contain;
   flex-direction: column;
@@ -912,7 +912,7 @@ a {
   min-height: 560px;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  background-image: linear-gradient(#212156 4%, rgba(113, 12, 246, .58) 50%, #710cf6), url('../../images/abstract-colored-firework-background-with-free-space-text-min.jpg');
+  background-image: linear-gradient(#212156 4%, rgba(113, 12, 246, .58) 50%, #710cf6), url('../images/abstract-colored-firework-background-with-free-space-text-min.jpg');
   background-position: 0 0, 0 0;
   background-size: auto, contain;
   flex-direction: column;
@@ -944,7 +944,7 @@ a {
   grid-row-gap: 0px;
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
-  background-image: url('../../images/Lava-lounge-2.jpg'), linear-gradient(151deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .35) 46%, rgba(255, 255, 255, .1));
+  background-image: url('../images/Lava-lounge-2.jpg'), linear-gradient(151deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .35) 46%, rgba(255, 255, 255, .1));
   background-position: 50%, 0 0;
   background-size: cover, auto;
   border: 2px solid rgba(146, 146, 146, .31);
@@ -1271,7 +1271,7 @@ a {
   min-height: 800px;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 95, 169, .38)), linear-gradient(to bottom, rgba(237, 37, 130, 0) 56%, var(--brand-beige)), url('../../images/landscape-Updated.png'), linear-gradient(to bottom, #d42d97, #dea05b);
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 95, 169, .38)), linear-gradient(to bottom, rgba(237, 37, 130, 0) 56%, var(--brand-beige)), url('../images/landscape-Updated.png'), linear-gradient(to bottom, #d42d97, #dea05b);
   background-position: 0 0, 0 0, 50% 100%, 0 0;
   background-repeat: repeat, repeat, no-repeat, repeat;
   background-size: auto, auto, cover, auto;
@@ -2780,7 +2780,7 @@ a {
   width: 100%;
   min-height: 560px;
   background-color: var(--brand-midnight-blue);
-  background-image: url('../../images/Countdown.png');
+  background-image: url('../images/Countdown.png');
   background-position: 50% 0;
   background-size: auto;
   flex-direction: column;
@@ -3529,7 +3529,7 @@ a {
 @media screen and (max-width: 479px) {
   .hero-section {
     min-height: 800px;
-    background-image: url('../../images/Countdown.png'), linear-gradient(to bottom, transparent 72%, var(--brand-midnight-blue)), url('../../images/landscape-phone.png'), linear-gradient(to bottom, var(--brand-midnight-blue), var(--brand-purple) 34%, var(--brand-pink) 74%, var(--brand-beige));
+    background-image: url('../images/Countdown.png'), linear-gradient(to bottom, transparent 72%, var(--brand-midnight-blue)), url('../images/landscape-phone.png'), linear-gradient(to bottom, var(--brand-midnight-blue), var(--brand-purple) 34%, var(--brand-pink) 74%, var(--brand-beige));
     background-position: 0 0, 0 0, 15% 100%, 0 0;
     background-repeat: repeat-x, repeat, no-repeat, repeat;
     background-size: auto, auto, 180%, auto;
