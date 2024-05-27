@@ -80,7 +80,7 @@ strong {
 .hero-section {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  background-image: url('../images/Countdown.png'), linear-gradient(rgba(0, 0, 0, 0) 72%, #370631), linear-gradient(rgba(0, 0, 0, .47), rgba(0, 0, 0, .47)), url('../images/landscape-Updated.png'), linear-gradient(#120831 7%, #752f9f 24%, #e30569 53%, #edf013 87%);
+  background-image: url('../../images/Countdown.png'), linear-gradient(rgba(0, 0, 0, 0) 72%, #370631), linear-gradient(rgba(0, 0, 0, .47), rgba(0, 0, 0, .47)), url('../../images/landscape-Updated.png'), linear-gradient(#120831 7%, #752f9f 24%, #e30569 53%, #edf013 87%);
   background-position: 50% 0, 0 0, 0 0, 50% 115%, 0 0;
   background-repeat: repeat-x, repeat, repeat, no-repeat, repeat;
   background-size: auto, auto, auto, 100%, auto;
@@ -93,7 +93,7 @@ strong {
 }
 
 .hero-section.perks {
-  background-image: url('../images/PFF24-Landscape.png'), linear-gradient(rgba(255, 255, 255, 0), rgba(212, 255, 255, .53) 53%, #ff9719 84%);
+  background-image: url('../../images/PFF24-Landscape.png'), linear-gradient(rgba(255, 255, 255, 0), rgba(212, 255, 255, .53) 53%, #ff9719 84%);
   background-position: 50% 100%, 0 0;
   background-repeat: repeat-x, repeat;
   background-size: contain, auto;
@@ -529,7 +529,7 @@ strong {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   background-color: #212156;
-  background-image: linear-gradient(rgba(0, 150, 229, .81), rgba(121, 180, 231, .85)), url('../images/FAQ-BG.svg'), linear-gradient(#0095e7, #006ab1 24%, #006ab1 79%, #7ab4e8), url('../images/Countdown.png');
+  background-image: linear-gradient(rgba(0, 150, 229, .81), rgba(121, 180, 231, .85)), url('../../images/FAQ-BG.svg'), linear-gradient(#0095e7, #006ab1 24%, #006ab1 79%, #7ab4e8), url('../../images/Countdown.png');
   background-position: 0 0, 0 0, 0 0, 50% 0;
   background-repeat: repeat, repeat, repeat, repeat-y;
   background-size: auto, contain, auto, contain;
@@ -1129,7 +1129,7 @@ strong {
 .waitlist {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  background-image: linear-gradient(#212156 4%, rgba(113, 12, 246, .58) 50%, #710cf6), url('../images/abstract-colored-firework-background-with-free-space-text-min.jpg');
+  background-image: linear-gradient(#212156 4%, rgba(113, 12, 246, .58) 50%, #710cf6), url('../../images/abstract-colored-firework-background-with-free-space-text-min.jpg');
   background-position: 0 0, 0 0;
   background-size: auto, contain;
   flex-direction: column;
@@ -1157,7 +1157,7 @@ strong {
 }
 
 .waitlist.cta {
-  background-image: url('../images/PFF24-Landscape.png'), linear-gradient(#7ab4e8, #fff);
+  background-image: url('../../images/PFF24-Landscape.png'), linear-gradient(#7ab4e8, #fff);
   background-position: 50%, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: cover, auto;
@@ -1170,7 +1170,7 @@ strong {
   grid-row-gap: 0px;
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
-  background-image: url('../images/VVIP-SpacePlus-Lounge.png'), linear-gradient(151deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .35) 46%, rgba(255, 255, 255, .1));
+  background-image: url('../../images/VVIP-SpacePlus-Lounge.png'), linear-gradient(151deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .35) 46%, rgba(255, 255, 255, .1));
   background-position: 50%, 0 0;
   background-size: cover, auto;
   border: 2px solid rgba(146, 146, 146, .31);
@@ -1527,7 +1527,7 @@ strong {
 .past-events {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 95, 169, .38)), linear-gradient(to bottom, rgba(237, 37, 130, 0) 56%, var(--brand-beige)), url('../images/landscape-Updated.png'), linear-gradient(to bottom, #d42d97, #dea05b);
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 95, 169, .38)), linear-gradient(to bottom, rgba(237, 37, 130, 0) 56%, var(--brand-beige)), url('../../images/landscape-Updated.png'), linear-gradient(to bottom, #d42d97, #dea05b);
   background-position: 0 0, 0 0, 50% 100%, 0 0;
   background-repeat: repeat, repeat, no-repeat, repeat;
   background-size: auto, auto, cover, auto;
@@ -1542,7 +1542,7 @@ strong {
 }
 
 .past-events.mobile {
-  background-image: url('../images/PFF24-Landscape.png'), linear-gradient(#78ccfa, #ffb96e 52%);
+  background-image: url('../../images/PFF24-Landscape.png'), linear-gradient(#78ccfa, #ffb96e 52%);
   background-position: 50% 25%, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: cover, auto;
@@ -1550,7 +1550,7 @@ strong {
 }
 
 .past-events.mobile.dark-mode {
-  background-image: linear-gradient(rgba(157, 37, 237, 0), #170036 78%), url('../images/landscape-Updated.png'), linear-gradient(#1c032b, #170036);
+  background-image: linear-gradient(rgba(157, 37, 237, 0), #170036 78%), url('../../images/landscape-Updated.png'), linear-gradient(#1c032b, #170036);
   background-position: 0 0, 50% 100%, 0 0;
   background-repeat: repeat, no-repeat, repeat;
   background-size: auto, cover, auto;
@@ -2952,7 +2952,7 @@ strong {
 .card_side.is-front {
   z-index: 1;
   grid-row-gap: 2.5rem;
-  background-image: url('../images/ticket-BG.jpg'), linear-gradient(180deg, #ed2582, var(--brand-beige) 40%);
+  background-image: url('../../images/ticket-BG.jpg'), linear-gradient(180deg, #ed2582, var(--brand-beige) 40%);
   background-position: 50% 0, 0 0;
   background-size: contain, auto;
   border-style: none;
@@ -2969,7 +2969,7 @@ strong {
 }
 
 .card_side.is-front.vip {
-  background-image: url('../images/VIP-ticket-BG_1.jpg'), linear-gradient(180deg, #7500ce 14%, var(--brand-light-pink) 87%);
+  background-image: url('../../images/VIP-ticket-BG_1.jpg'), linear-gradient(180deg, #7500ce 14%, var(--brand-light-pink) 87%);
   background-repeat: no-repeat, repeat;
   background-size: contain, auto;
   border-radius: 20px;
@@ -2979,14 +2979,14 @@ strong {
 }
 
 .card_side.is-front.vip.vvip-silver {
-  background-image: linear-gradient(180deg, rgba(199, 199, 199, .89), rgba(133, 133, 133, .77) 49%), url('../images/VIP-ticket-BG_1.jpg'), linear-gradient(180deg, #7500ce 14%, var(--brand-light-pink) 87%);
+  background-image: linear-gradient(180deg, rgba(199, 199, 199, .89), rgba(133, 133, 133, .77) 49%), url('../../images/VIP-ticket-BG_1.jpg'), linear-gradient(180deg, #7500ce 14%, var(--brand-light-pink) 87%);
   background-position: 0 0, 50% 0, 0 0;
   background-repeat: repeat, no-repeat, repeat;
   background-size: auto, contain, auto;
 }
 
 .card_side.is-front.vip.vvip-bronze {
-  background-image: linear-gradient(180deg, #fc773d, rgba(243, 180, 137, 0)), url('../images/VIP-ticket-BG_1.jpg'), linear-gradient(180deg, #7500ce 14%, var(--brand-light-pink) 87%);
+  background-image: linear-gradient(180deg, #fc773d, rgba(243, 180, 137, 0)), url('../../images/VIP-ticket-BG_1.jpg'), linear-gradient(180deg, #7500ce 14%, var(--brand-light-pink) 87%);
   background-position: 0 0, 50% 0, 0 0;
   background-repeat: repeat, no-repeat, repeat;
   background-size: auto, contain, auto;
@@ -3016,11 +3016,11 @@ strong {
 }
 
 .card_side.is-front.vvip {
-  background-image: url('../images/VVIP-ticket-BG.jpg'), linear-gradient(to bottom, #ed2582, var(--brand-beige) 40%);
+  background-image: url('../../images/VVIP-ticket-BG.jpg'), linear-gradient(to bottom, #ed2582, var(--brand-beige) 40%);
 }
 
 .card_side.is-front.vvip-gold {
-  background-image: linear-gradient(180deg, rgba(255, 158, 31, .94), rgba(255, 216, 144, 0) 80%), url('../images/ticket-BG.jpg'), linear-gradient(180deg, #ed2582, var(--brand-beige) 40%);
+  background-image: linear-gradient(180deg, rgba(255, 158, 31, .94), rgba(255, 216, 144, 0) 80%), url('../../images/ticket-BG.jpg'), linear-gradient(180deg, #ed2582, var(--brand-beige) 40%);
   background-position: 0 0, 50% 0, 0 0;
   background-size: auto, contain, auto;
 }
@@ -3229,7 +3229,7 @@ strong {
 }
 
 .price-desc.perks {
-  background-image: url('../images/Tick-Icon.svg');
+  background-image: url('../../images/Tick-Icon.svg');
   background-position: 0%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -3451,7 +3451,7 @@ strong {
 
 .line-up {
   background-color: var(--brand-midnight-blue);
-  background-image: url('../images/Countdown.png');
+  background-image: url('../../images/Countdown.png');
   background-position: 50% 0;
   background-size: auto;
   flex-direction: column;
@@ -3856,7 +3856,7 @@ strong {
   text-align: center;
   transform-style: preserve-3d;
   background-color: #ec2482;
-  background-image: linear-gradient(rgba(255, 0, 134, .75), rgba(255, 0, 134, .75)), url('../images/PFF-Pattern.svg');
+  background-image: linear-gradient(rgba(255, 0, 134, .75), rgba(255, 0, 134, .75)), url('../../images/PFF-Pattern.svg');
   background-position: 0 0, 50%;
   background-repeat: repeat, repeat;
   background-size: auto, auto 3em;
@@ -3911,7 +3911,7 @@ strong {
   backdrop-filter: none;
   mix-blend-mode: normal;
   background-color: #fff;
-  background-image: url('../images/business-3-100_wide.jpg');
+  background-image: url('../../images/business-3-100_wide.jpg');
   background-position: 100%;
   background-size: 71%;
   background-attachment: scroll;
@@ -3926,12 +3926,12 @@ strong {
 }
 
 .blur-bg.hotel._2 {
-  background-image: linear-gradient(to right, #000 22%, rgba(255, 255, 255, 0) 77%), url('../images/sprh-deluxe-room-twin-02_wide.jpg');
+  background-image: linear-gradient(to right, #000 22%, rgba(255, 255, 255, 0) 77%), url('../../images/sprh-deluxe-room-twin-02_wide.jpg');
   background-size: auto, 73%;
 }
 
 .blur-bg.hotel._3 {
-  background-image: url('../images/testing-100_wide.jpg');
+  background-image: url('../../images/testing-100_wide.jpg');
   background-size: 75%;
 }
 
@@ -4091,7 +4091,7 @@ strong {
 
 .paragraph-3.points {
   text-transform: none;
-  background-image: url('../images/Tick-Icon.svg');
+  background-image: url('../../images/Tick-Icon.svg');
   background-position: 0%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -4103,7 +4103,7 @@ strong {
 
 .paragraph-3.amnities {
   color: #fff;
-  background-image: url('../images/24-hour-clock.png');
+  background-image: url('../../images/24-hour-clock.png');
   background-position: 0%;
   background-repeat: no-repeat;
   background-size: auto 15px;
@@ -4112,60 +4112,60 @@ strong {
 }
 
 .paragraph-3.amnities.reception {
-  background-image: url('../images/24-hour-clock.png');
+  background-image: url('../../images/24-hour-clock.png');
 }
 
 .paragraph-3.amnities.hairdryer {
-  background-image: url('../images/dryer.png');
+  background-image: url('../../images/dryer.png');
 }
 
 .paragraph-3.amnities.safebox {
-  background-image: url('../images/safebox.png');
+  background-image: url('../../images/safebox.png');
 }
 
 .paragraph-3.amnities.hotdrinks {
-  background-image: url('../images/coffee-1.png');
+  background-image: url('../../images/coffee-1.png');
 }
 
 .paragraph-3.amnities.iron {
-  background-image: url('../images/ironing.png');
+  background-image: url('../../images/ironing.png');
 }
 
 .paragraph-3.amnities.wifi {
-  background-image: url('../images/wifi-1.png');
+  background-image: url('../../images/wifi-1.png');
 }
 
 .paragraph-3.amnities.minibar {
-  background-image: url('../images/mini.png');
+  background-image: url('../../images/mini.png');
 }
 
 .paragraph-3.amnities.rooms {
-  background-image: url('../images/opened-door-aperture.png');
+  background-image: url('../../images/opened-door-aperture.png');
   display: none;
 }
 
 .paragraph-3.amnities.cocktail {
-  background-image: url('../images/cocktail.svg');
+  background-image: url('../../images/cocktail.svg');
 }
 
 .paragraph-3.amnities.speaker {
-  background-image: url('../images/speaker-filled-audio-tool.svg');
+  background-image: url('../../images/speaker-filled-audio-tool.svg');
 }
 
 .paragraph-3.amnities.curtains {
-  background-image: url('../images/window.svg');
+  background-image: url('../../images/window.svg');
 }
 
 .paragraph-3.amnities.makeup {
-  background-image: url('../images/lightbulb.svg');
+  background-image: url('../../images/lightbulb.svg');
 }
 
 .paragraph-3.amnities.shower {
-  background-image: url('../images/shower.svg');
+  background-image: url('../../images/shower.svg');
 }
 
 .paragraph-3.amnities.tech {
-  background-image: url('../images/service.svg');
+  background-image: url('../../images/service.svg');
 }
 
 .div-block-17 {
@@ -4738,7 +4738,7 @@ strong {
 }
 
 .slider-container {
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(11, 1, 17, .81) 34%, #1c032b), url('../images/Past-Events.png'), linear-gradient(#0b0112, #0b0112);
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(11, 1, 17, .81) 34%, #1c032b), url('../../images/Past-Events.png'), linear-gradient(#0b0112, #0b0112);
   background-position: 0 0, 0 0, 0 0;
   background-size: auto, contain, auto;
   width: 100vw;
@@ -4790,7 +4790,7 @@ strong {
 }
 
 .pff-hero-section {
-  background-image: linear-gradient(rgba(138, 74, 41, 0) 88%, #874827), url('../images/Hero-BG-small.jpg');
+  background-image: linear-gradient(rgba(138, 74, 41, 0) 88%, #874827), url('../../images/Hero-BG-small.jpg');
   background-position: 0 0, 50% 100%;
   background-size: auto, cover;
   width: 100%;
@@ -5413,7 +5413,7 @@ strong {
   }
 
   .countdown {
-    background-image: linear-gradient(rgba(0, 149, 231, .89), rgba(0, 106, 177, .88) 29%, rgba(0, 106, 177, .89) 77%, #7ab4e8), url('../images/FAQ-BG_1.svg'), linear-gradient(#0095e7, #006ab1 24%, #006ab1 79%, #7ab4e8), url('../images/Countdown.png');
+    background-image: linear-gradient(rgba(0, 149, 231, .89), rgba(0, 106, 177, .88) 29%, rgba(0, 106, 177, .89) 77%, #7ab4e8), url('../../images/FAQ-BG_1.svg'), linear-gradient(#0095e7, #006ab1 24%, #006ab1 79%, #7ab4e8), url('../../images/Countdown.png');
     background-position: 0 0, 0 0, 0 0, 50% 0;
     background-repeat: repeat, repeat, repeat, repeat-y;
     background-size: auto, contain, auto, contain;
@@ -5484,12 +5484,12 @@ strong {
   }
 
   .card_side.is-back.vvip {
-    background-image: linear-gradient(to bottom, rgba(110, 29, 134, .41) 52%, rgba(0, 0, 0, 0)), url('../images/VVIP-ticket-BG-back.jpg'), linear-gradient(to bottom, var(--brand-pink), var(--brand-beige) 62%);
+    background-image: linear-gradient(to bottom, rgba(110, 29, 134, .41) 52%, rgba(0, 0, 0, 0)), url('../../images/VVIP-ticket-BG-back.jpg'), linear-gradient(to bottom, var(--brand-pink), var(--brand-beige) 62%);
     transform: rotateX(0)rotateY(180deg)rotateZ(0);
   }
 
   .card_side.is-front.vvip {
-    background-image: url('../images/VVIP-ticket-BG.jpg'), linear-gradient(to bottom, #ed2582, var(--brand-beige) 40%);
+    background-image: url('../../images/VVIP-ticket-BG.jpg'), linear-gradient(to bottom, #ed2582, var(--brand-beige) 40%);
   }
 
   .card_main-text.vip-line {
@@ -5673,14 +5673,14 @@ strong {
 
 @media screen and (max-width: 991px) {
   .hero-section {
-    background-image: url('../images/Countdown.png'), linear-gradient(to bottom, transparent 72%, #370631), linear-gradient(to bottom, rgba(0, 0, 0, .47), rgba(0, 0, 0, .47)), url('../images/Past-Events.png'), linear-gradient(to bottom, var(--brand-midnight-blue), var(--brand-purple) 31%, var(--brand-pink) 65%, var(--brand-beige) 85%);
+    background-image: url('../../images/Countdown.png'), linear-gradient(to bottom, transparent 72%, #370631), linear-gradient(to bottom, rgba(0, 0, 0, .47), rgba(0, 0, 0, .47)), url('../../images/Past-Events.png'), linear-gradient(to bottom, var(--brand-midnight-blue), var(--brand-purple) 31%, var(--brand-pink) 65%, var(--brand-beige) 85%);
     background-position: 0 0, 0 0, 0 0, 50% 100%, 0 0;
     background-repeat: repeat-x, repeat, repeat, no-repeat, repeat;
     background-size: auto, auto, auto, contain, auto;
   }
 
   .hero-section.perks {
-    background-image: url('../images/Countdown.png'), linear-gradient(to bottom, transparent 72%, var(--brand-midnight-blue)), url('../images/landscape-Updated.png'), linear-gradient(to bottom, #120831, #752f9f 24%, #e30569 53%, #edf013 77%, #221e52 89%);
+    background-image: url('../../images/Countdown.png'), linear-gradient(to bottom, transparent 72%, var(--brand-midnight-blue)), url('../../images/landscape-Updated.png'), linear-gradient(to bottom, #120831, #752f9f 24%, #e30569 53%, #edf013 77%, #221e52 89%);
     background-position: 50% 0, 0 0, 50% 88%, 0 0;
     background-repeat: repeat-x, repeat, no-repeat, repeat;
     background-size: auto, auto, 100%, auto;
@@ -6664,7 +6664,7 @@ strong {
 
 @media screen and (max-width: 479px) {
   .hero-section {
-    background-image: url('../images/Countdown.png'), linear-gradient(to bottom, transparent 72%, #370631), linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/landscape-phone.png'), linear-gradient(to bottom, var(--brand-midnight-blue), var(--brand-purple) 34%, var(--brand-pink) 74%, var(--brand-beige));
+    background-image: url('../../images/Countdown.png'), linear-gradient(to bottom, transparent 72%, #370631), linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../../images/landscape-phone.png'), linear-gradient(to bottom, var(--brand-midnight-blue), var(--brand-purple) 34%, var(--brand-pink) 74%, var(--brand-beige));
     background-position: 0 0, 0 0, 0 0, 15% 100%, 0 0;
     background-repeat: repeat-x, repeat, repeat, no-repeat, repeat;
     background-size: auto, auto, auto, 180%, auto;
@@ -6673,7 +6673,7 @@ strong {
   }
 
   .hero-section.perks {
-    background-image: url('../images/Countdown.png'), linear-gradient(to bottom, transparent 72%, var(--brand-midnight-blue)), url('../images/landscape-phone.png'), linear-gradient(to bottom, var(--brand-midnight-blue), var(--brand-purple) 34%, var(--brand-pink) 62%, var(--brand-beige) 76%, #212156 85%);
+    background-image: url('../../images/Countdown.png'), linear-gradient(to bottom, transparent 72%, var(--brand-midnight-blue)), url('../../images/landscape-phone.png'), linear-gradient(to bottom, var(--brand-midnight-blue), var(--brand-purple) 34%, var(--brand-pink) 62%, var(--brand-beige) 76%, #212156 85%);
     background-position: 50% 0, 0 0, 50% 88%, 0 0;
     background-repeat: repeat-x, repeat, no-repeat, repeat;
     background-size: auto, auto, 180%, auto;
@@ -7101,7 +7101,7 @@ strong {
   }
 
   .past-events.mobile {
-    background-image: url('../images/PFF24-Landscape.png'), linear-gradient(#78ccfa, #ffb96e 80%);
+    background-image: url('../../images/PFF24-Landscape.png'), linear-gradient(#78ccfa, #ffb96e 80%);
     background-position: 50% 100%, 0 0;
     background-size: auto, auto;
     min-height: 500px;
@@ -7519,7 +7519,7 @@ strong {
   }
 
   .card_side.is-front.vip {
-    background-image: linear-gradient(180deg, rgba(206, 0, 185, .27), var(--brand-light-pink) 25%), url('../images/VIP-ticket-BG.jpg'), linear-gradient(to bottom, transparent, transparent);
+    background-image: linear-gradient(180deg, rgba(206, 0, 185, .27), var(--brand-light-pink) 25%), url('../../images/VIP-ticket-BG.jpg'), linear-gradient(to bottom, transparent, transparent);
     background-position: 0 0, 0 0, 0 0;
     background-repeat: repeat, no-repeat, repeat;
     background-size: auto, contain, auto;
@@ -7527,7 +7527,7 @@ strong {
   }
 
   .card_side.is-front.vvip-gold {
-    background-image: linear-gradient(180deg, rgba(255, 158, 31, .94), rgba(255, 212, 119, 0) 63%), url('../images/ticket-BG.jpg'), linear-gradient(180deg, #ed2582, var(--brand-beige) 40%);
+    background-image: linear-gradient(180deg, rgba(255, 158, 31, .94), rgba(255, 212, 119, 0) 63%), url('../../images/ticket-BG.jpg'), linear-gradient(180deg, #ed2582, var(--brand-beige) 40%);
     background-position: 0 0, 50% 0, 0 0;
     background-size: auto, contain, auto;
   }
@@ -7792,7 +7792,7 @@ strong {
 
   .div-block-12 {
     transform: scale3d(1none, 1none, 1none);
-    background-image: linear-gradient(rgba(255, 0, 134, .75), rgba(255, 0, 134, .75)), url('../images/PFF-Pattern.svg');
+    background-image: linear-gradient(rgba(255, 0, 134, .75), rgba(255, 0, 134, .75)), url('../../images/PFF-Pattern.svg');
     background-size: auto, auto 2em;
     width: 27em;
     height: 140px;
@@ -7812,7 +7812,7 @@ strong {
   }
 
   .blur-bg.hotel {
-    background-image: linear-gradient(113deg, #000 22%, rgba(255, 255, 255, 0) 77%), url('../images/sclh-deluxe-plus-room-twin-01_wide.jpg');
+    background-image: linear-gradient(113deg, #000 22%, rgba(255, 255, 255, 0) 77%), url('../../images/sclh-deluxe-plus-room-twin-01_wide.jpg');
     background-position: 0 0, 50% 100%;
     background-size: auto, 100%;
     background-attachment: scroll, scroll;
@@ -7822,7 +7822,7 @@ strong {
   }
 
   .blur-bg.hotel._2 {
-    background-image: url('../images/sprh-deluxe-room-twin-02_wide.jpg');
+    background-image: url('../../images/sprh-deluxe-room-twin-02_wide.jpg');
     background-position: 50% 100%;
     background-size: 106%;
     background-attachment: scroll;
@@ -7833,7 +7833,7 @@ strong {
   }
 
   .blur-bg.hotel._4 {
-    background-image: linear-gradient(113deg, #000 22%, rgba(255, 255, 255, 0) 77%), url('../images/business-3-100_wide.jpg');
+    background-image: linear-gradient(113deg, #000 22%, rgba(255, 255, 255, 0) 77%), url('../../images/business-3-100_wide.jpg');
   }
 
   .blur-bg.seas {
