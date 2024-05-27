@@ -1,91 +1,91 @@
-    <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar-logo-left w-nav">
-      <div class="navbarcontainer desktop w-container">
-        <a href="#" class="nav-home-left w-inline-block">
-          <div class="logo"><img src="images/PFF-Fish-Logo.svg" loading="lazy" width="100" height="30" alt="" class="pf-logo-white-glow"></div>
-        </a>
-        <div class="navbar-content desktop">
-          <nav role="navigation" class="navbar-menu w-nav-menu">
-            <a href="#" class="navbar-link hide w-nav-link">
-              <div class="text">what’s new</div>
-            </a>
-            <a href="#" class="navbar-link w-nav-link">
-              <div class="text">HOME</div>
-            </a>
-            <a href="music&artsfestival/faq" class="navbar-link w-nav-link">
-              <div class="text">FAQ</div>
-            </a>
-            <a href="#" class="navbar-link disable-menu-link w-nav-link">
-              <div class="text">fun hub</div>
-            </a>
-            <a href="../" class="nav-home mobile w-inline-block">
-              <div class="logo"><img src="images/Pinkfish-SVGArtboard-1.svg" loading="lazy" width="120" alt="" class="pf-logo-white-glow"></div>
-            </a>
-            <a href="#gallery" class="navbar-link hide w-nav-link">
-              <div class="text">gallery</div>
-            </a>
-            <a href="#" class="navbar-link disable-menu-link w-nav-link">
-              <div class="text">news</div>
-            </a>
-            <a href="../Contact" class="navbar-link w-nav-link">
-              <div class="text">contact us</div>
-            </a>
-            <a href="#tickets" class="buy-tix-menu-btn w-inline-block">
-              <div class="frame-155 smaller">
-                <div class="frame-156">
-                  <div class="text-3 buy-tix-text">BUY TICKETS</div>
-                </div>
+<div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar-logo-left w-nav">
+    <div class="navbarcontainer desktop w-container">
+      <a href="#" class="nav-home-left w-inline-block">
+        <div class="logo"><img src="images/PFF-Fish-Logo.svg" loading="lazy" width="100" height="30" alt="" class="pf-logo-white-glow"></div>
+      </a>
+      <div class="navbar-content desktop">
+        <nav role="navigation" class="navbar-menu w-nav-menu">
+          <a href="#" class="navbar-link hide w-nav-link">
+            <div class="text">what’s new</div>
+          </a>
+          <a href="#" class="navbar-link w-nav-link">
+            <div class="text">HOME</div>
+          </a>
+          <a href="music&artsfestival/faq" class="navbar-link w-nav-link">
+            <div class="text">FAQ</div>
+          </a>
+          <a href="#" class="navbar-link disable-menu-link w-nav-link">
+            <div class="text">fun hub</div>
+          </a>
+          <a href="../" class="nav-home mobile w-inline-block">
+            <div class="logo"><img src="images/Pinkfish-SVGArtboard-1.svg" loading="lazy" width="120" alt="" class="pf-logo-white-glow"></div>
+          </a>
+          <a href="#gallery" class="navbar-link hide w-nav-link">
+            <div class="text">gallery</div>
+          </a>
+          <a href="#" class="navbar-link disable-menu-link w-nav-link">
+            <div class="text">news</div>
+          </a>
+          <a href="../Contact" class="navbar-link w-nav-link">
+            <div class="text">contact us</div>
+          </a>
+          <a href="#tickets" class="buy-tix-menu-btn w-inline-block">
+            <div class="frame-155 smaller">
+              <div class="frame-156">
+                <div class="text-3 buy-tix-text">BUY TICKETS</div>
               </div>
-            </a>
-          </nav>
-        </div>
-        <div class="menu-button w-nav-button">
-          <div class="div-block-2"><img src="images/menu.svg" loading="lazy" alt=""></div>
-        </div>
+            </div>
+          </a>
+        </nav>
       </div>
-      <div class="navbarcontainer mobile w-container">
-        <a href="../" class="nav-home-left w-inline-block">
-          <div class="logo"><img src="images/Pinkfish-SVGArtboard-1.svg" loading="lazy" width="100" height="30" alt="" class="pf-logo-white-glow"></div>
-        </a>
-        <div class="navbar-content">
-          <nav role="navigation" class="navbar-menu mobile w-nav-menu">
-            <a href="#" class="navbar-link hide w-nav-link">
-              <div class="text">what’s new</div>
-            </a>
-            <a href="index.html" aria-current="page" class="navbar-link w-nav-link w--current">
-              <div class="text">HOME</div>
-            </a>
-            <a href="faq.html" class="navbar-link w-nav-link">
-              <div class="text">FAQ</div>
-            </a>
-            <a href="#" class="navbar-link disable-menu-link w-nav-link">
-              <div class="text">fun hub</div>
-            </a>
-            <a href="old-home.html" class="nav-home mobile w-inline-block">
-              <div class="logo"><img src="images/PFF-Fish-Logo.svg" loading="lazy" width="120" alt="" class="pf-logo-white-glow"></div>
-            </a>
-            <a href="#gallery" class="navbar-link hide w-nav-link">
-              <div class="text">gallery</div>
-            </a>
-            <a href="#" class="navbar-link disable-menu-link w-nav-link">
-              <div class="text">news</div>
-            </a>
-            <a href="../contact" class="navbar-link w-nav-link">
-              <div class="text">contact us</div>
-            </a>
-            <a href="#tickets" class="buy-tix-menu-btn w-inline-block">
-              <div class="frame-155 smaller mobile-btn">
-                <div class="frame-156">
-                  <div class="text-3 buy-tix-text">BUY TICKETS</div>
-                </div>
-              </div>
-            </a>
-          </nav>
-        </div>
-        <div class="menu-button w-nav-button">
-          <div class="div-block-2"><img src="images/menu.svg" loading="lazy" alt=""></div>
-        </div>
+      <div class="menu-button w-nav-button">
+        <div class="div-block-2"><img src="images/menu.svg" loading="lazy" alt=""></div>
       </div>
     </div>
+    <div class="navbarcontainer mobile w-container">
+      <a href="../" class="nav-home-left w-inline-block">
+        <div class="logo"><img src="images/Pinkfish-SVGArtboard-1.svg" loading="lazy" width="100" height="30" alt="" class="pf-logo-white-glow"></div>
+      </a>
+      <div class="navbar-content">
+        <nav role="navigation" class="navbar-menu mobile w-nav-menu">
+          <a href="#" class="navbar-link hide w-nav-link">
+            <div class="text">what’s new</div>
+          </a>
+          <a href="#" aria-current="page" class="navbar-link w-nav-link w--current">
+            <div class="text">HOME</div>
+          </a>
+          <a href="music&artsfestival/faql" class="navbar-link w-nav-link">
+            <div class="text">FAQ</div>
+          </a>
+          <a href="#" class="navbar-link disable-menu-link w-nav-link">
+            <div class="text">fun hub</div>
+          </a>
+          <a href="old-home.html" class="nav-home mobile w-inline-block">
+            <div class="logo"><img src="images/PFF-Fish-Logo.svg" loading="lazy" width="120" alt="" class="pf-logo-white-glow"></div>
+          </a>
+          <a href="#gallery" class="navbar-link hide w-nav-link">
+            <div class="text">gallery</div>
+          </a>
+          <a href="#" class="navbar-link disable-menu-link w-nav-link">
+            <div class="text">news</div>
+          </a>
+          <a href="../contact" class="navbar-link w-nav-link">
+            <div class="text">contact us</div>
+          </a>
+          <a href="#tickets" class="buy-tix-menu-btn w-inline-block">
+            <div class="frame-155 smaller mobile-btn">
+              <div class="frame-156">
+                <div class="text-3 buy-tix-text">BUY TICKETS</div>
+              </div>
+            </div>
+          </a>
+        </nav>
+      </div>
+      <div class="menu-button w-nav-button">
+        <div class="div-block-2"><img src="images/menu.svg" loading="lazy" alt=""></div>
+      </div>
+    </div>
+  </div>
 
 
     ////End of menu button music and arts festival
