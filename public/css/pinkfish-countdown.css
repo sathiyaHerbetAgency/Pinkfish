@@ -6583,6 +6583,8 @@ strong {
 
   .column-12.mobile {
     text-align: left;
+    justify-content: center;
+    display: flex;
   }
 
   .columns.desktop {

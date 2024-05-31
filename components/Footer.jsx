@@ -12,11 +12,11 @@ const Footer = () => (
         
        <div className='flex flex-col gap-6'>
         <h1 className="home_bottom_header ">as seen on</h1>
-        <div className="flex gap-6 ">
+        <div className="flex w-[350px] gap-6 ">
           {/* <img  src='/home_bottom_logo_mob_1.svg'/> */}
-          <img className="w-[140px]" src='/logo_tp.png'/>
-          <img className='w-1/2' src='/home_bottom_logo_mob_3.svg'/>
-          <img className="object-none" src='/home_bottom_logo_mob_4.svg'/>
+          <img className="w-[15%]" src='/trb.png'/>
+          <img className='w-[15%]' src='/home_bottom_logo_mob_3.svg'/>
+          <img className="w-[15%]" src='/home_bottom_logo_mob_4.svg'/>
 
         </div>
         <div className="flex gap-6 ">
@@ -106,35 +106,49 @@ const Footer = () => (
   <div className='w-[80%] self-center flex flex-col gap-6'>
 <div className='flex flex-col gap-6 self-center mb-6'>
         <h1 className="home_bottom_header_seen text-center mt-6">as seen on</h1>
-        <div className="flex gap-6">
-          {/* <img src='/home_bottom_logo_mob_1.svg'/> */}
-          <img className="" src='/logo_tp.png'/>
+        {/* <div className="flex gap-6">
+
+          <img className="w-[15%]" src='/trb.png'/>
+
           <img src='/home_bottom_logo_mob_3.svg'/>
          
-
+          <img className="object-none" src='/home_bottom_logo_mob_4.svg'/>
         </div>
         <div className="flex gap-6 items-center">
-        <img className="object-none" src='/home_bottom_logo_mob_4.svg'/>
+    
           <img src='/logo_gf_media.png'/>
           <img src='/home_bottom_logo_mob_7.svg'/>
          
+          <img className="object-none" src='/home_bottom_logo_mob_6.svg'/>
 
         </div>
         
         <div className="flex gap-6 ">
-        <img className="object-none" src='/home_bottom_logo_mob_6.svg'/>
-        <img src='/logo_yl.png'/>
+          <img src='/logo_yl.png'/>
          
 
         </div>
         <div className="flex gap-6 ">
-        <img className="object-none" src='/logo_mm.png'/>
+          <img className="object-none" src='/logo_mm.png'/>
 
           <img src='/logo_juice.png'/>
          
 
-          </div>
+        </div> */}
+        <div className="flex  gap-3 grid grid-cols-3">
+          <img className="" src='/trb.png'/>
+          <img src='/home_bottom_logo_mob_3.svg'/>
+          <img className="object-none" src='/home_bottom_logo_mob_4.svg'/>
+          <img src='/logo_gf_media.png'/>
+          <img src='/home_bottom_logo_mob_7.svg'/>
+          <img className="object-" src='/home_bottom_logo_mob_6.svg'/>
+          <img src='/logo_yl.png'/>
+          <img className="object-non" src='/logo_mm.png'/>
+          <img className='object-non' src='/logo_juice.png'/>
+         
         </div>
+
+      </div>
   <hr className="hr_line_footer w-[110%] self-center " />
   <div className="flex flex-col text-white mt-11 mb-11  gap-1  ">
       <a className='flex justify-center' href="WhatTheFish">
