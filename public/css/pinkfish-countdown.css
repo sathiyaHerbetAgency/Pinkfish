@@ -3056,9 +3056,7 @@ strong {
   grid-row-gap: .5rem;
   border-bottom: 1px solid #fff;
   flex-direction: column;
-  margin-bottom: 1rem;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 10px 20px 1rem;
   display: flex;
 }
 
@@ -3353,6 +3351,7 @@ strong {
 
 .front-card-info {
   flex: 0 auto;
+  padding-top: 0;
   line-height: 20px;
 }
 
