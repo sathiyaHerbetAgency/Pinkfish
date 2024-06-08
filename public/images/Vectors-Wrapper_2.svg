@@ -1,10 +1,22 @@
-<svg width="3" height="4" viewBox="0 0 3 4" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_114_147)">
-<path d="M0 2.33188C0 1.79548 0.142857 1.41617 0.428571 1.19395C0.714286 0.964064 1.06303 0.849121 1.47479 0.849121C1.90336 0.849121 2.26471 0.964064 2.55882 1.19395C2.85294 1.41617 3 1.79548 3 2.33188C3 2.86062 2.85294 3.24759 2.55882 3.4928C2.26471 3.73035 1.90336 3.84912 1.47479 3.84912C1.06303 3.84912 0.714286 3.73035 0.428571 3.4928C0.142857 3.24759 0 2.86062 0 2.33188Z" fill="#F2F2F2"/>
+<svg width="27" height="41" viewBox="0 0 27 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_107_144)">
+<g filter="url(#filter0_d_107_144)">
+<path d="M19.9712 0.849121H7.02879C-0.481013 0.849121 -1.06023 7.60912 2.99427 11.2891L24.0057 30.4091C28.0602 34.0891 27.481 40.8491 19.9712 40.8491H7.02879C-0.481013 40.8491 -1.06023 34.0891 2.99427 30.4091L24.0057 11.2891C28.0602 7.60912 27.481 0.849121 19.9712 0.849121Z" stroke="#FF5FA9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" shape-rendering="crispEdges"/>
+</g>
 </g>
 <defs>
-<clipPath id="clip0_114_147">
-<rect width="3" height="3" fill="white" transform="translate(0 0.849121)"/>
+<filter id="filter0_d_107_144" x="-21.0012" y="-16.6509" width="69.0024" height="83" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="10"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.870588 0 0 0 0 0.627451 0 0 0 0 0.356863 0 0 0 0.5 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_107_144"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_107_144" result="shape"/>
+</filter>
+<clipPath id="clip0_107_144">
+<rect width="26" height="40" fill="white" transform="translate(0.5 0.849121)"/>
 </clipPath>
 </defs>
 </svg>
