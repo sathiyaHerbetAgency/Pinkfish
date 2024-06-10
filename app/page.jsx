@@ -11,9 +11,9 @@ const Page = () => {
 let popupContainerRef=useRef(null)
 let popupOverlayRefMob=useRef(null)
 let popupContainerRefMob=useRef(null)
-useEffect(()=>{
-openPopup()
-},[])
+// useEffect(()=>{
+// openPopup()
+// },[])
 
 // function openPopup() {
 //   popupOverlayRef.current.style.display = "flex";
