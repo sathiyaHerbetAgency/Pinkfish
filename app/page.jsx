@@ -37,6 +37,41 @@ function closePopup() {
     popupOverlayRefMob.current.style.display = "none";
   }, 1000);
 }
+
+
+const component=()=>{
+  <div className='hidden md:block'>
+      <div ref={popupOverlayRef} class="popup-overlay ">
+          <div ref={popupContainerRef}  class="popup-container_main flex flex-col">
+            <div class="popup-card_main flex flex-col self-center w-[40%] flex mt-6">
+            <img onClick={()=>{closePopup()}} className='w-[30px]  h-[30px] p-2 bg-[#F33288] rounded self-end cursor-pointer'  src='close.png' alt="close" />
+            <a href='/music&artsfestival'> <img  src='popup_new.jpg' className='' alt='img'/></a>
+          
+            </div>
+          
+          </div>
+        </div>
+        </div>
+
+      <div className=' md:hidden'>
+        <div ref={popupOverlayRefMob} class="popup-overlay ">
+            <div ref={popupContainerRefMob}  class="popup-container_main w-[90%] flex flex-col gap-3">
+            <div className='flex justify-end  '>
+            {/* <button onClick={()=>{closePopup()}}  className='' id="close-popup_main" >X </button> */}
+            
+            <img onClick={()=>{closePopup()}} className='w-[40px] p-3 bg-[#F33288] rounded cursor-pointer'  src='close.png' alt="close" />
+            
+            </div>
+              <div class="popup-card_main  ">
+            
+              <a href='/music&artsfestival'> <img  src='popup_new.jpg' className='object-cover' alt='img'/></a>
+
+              </div>
+            
+            </div>
+          </div>
+    </div>
+};
   return(
   <div className="bg-black min-h-[100vh]">
      
@@ -46,37 +81,7 @@ function closePopup() {
      <img className=' md:block hidden right-[0] top-[70%]  fixed  ' src='/fish.png' />
  <World/>
  <Footer />
- <div className='hidden md:block'>
- <div ref={popupOverlayRef} class="popup-overlay ">
-    <div ref={popupContainerRef}  class="popup-container_main flex flex-col">
-      <div class="popup-card_main flex flex-col self-center w-[40%] flex mt-6">
-      <img onClick={()=>{closePopup()}} className='w-[30px]  h-[30px] p-2 bg-[#F33288] rounded self-end cursor-pointer'  src='close.png' alt="close" />
-       <a href='/music&artsfestival'> <img  src='popup_new.jpg' className='' alt='img'/></a>
-     
-      </div>
-     
-    </div>
-  </div>
-  </div>
-
-  <div className=' md:hidden'>
- <div ref={popupOverlayRefMob} class="popup-overlay ">
-    <div ref={popupContainerRefMob}  class="popup-container_main w-[90%] flex flex-col gap-3">
-     <div className='flex justify-end  '>
-    {/* <button onClick={()=>{closePopup()}}  className='' id="close-popup_main" >X </button> */}
     
-    <img onClick={()=>{closePopup()}} className='w-[40px] p-3 bg-[#F33288] rounded cursor-pointer'  src='close.png' alt="close" />
-    
-    </div>
-      <div class="popup-card_main  ">
-    
-       <a href='/music&artsfestival'> <img  src='popup_new.jpg' className='object-cover' alt='img'/></a>
-
-      </div>
-     
-    </div>
-  </div>
-  </div>
   </div>
 );
   }
