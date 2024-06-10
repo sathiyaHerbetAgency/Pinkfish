@@ -326,6 +326,10 @@ strong {
   margin-bottom: 60px;
 }
 
+.column.hero-logo.pff-hero-logo.small-logo {
+  width: 15em;
+}
+
 .column-2 {
   grid-column-gap: 24px;
   grid-row-gap: 24px;
@@ -1549,11 +1553,11 @@ strong {
 }
 
 .past-events.mobile {
-  background-image: url('../images/PFF24-Landscape.png'), linear-gradient(#78ccfa, #ffb96e 52%);
-  background-position: 50% 25%, 0 0;
-  background-repeat: no-repeat, repeat;
-  background-size: cover, auto;
-  min-height: 800px;
+  background-image: linear-gradient(#874827, #ffb96e 52%);
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto;
+  min-height: auto;
 }
 
 .past-events.mobile.dark-mode {
@@ -4426,7 +4430,8 @@ strong {
 .container-13 {
   padding-left: 0;
   padding-right: 0;
-  display: none;
+  display: block;
+  overflow: hidden;
 }
 
 .container-13.display {
@@ -4827,6 +4832,11 @@ strong {
   right: auto;
 }
 
+.pff-logo {
+  max-width: 250px;
+  min-height: 8em;
+}
+
 .btn-down {
   width: 4em;
 }
@@ -4855,6 +4865,10 @@ strong {
 .image-27 {
   height: 3.5em;
   transform: rotate(-12deg);
+}
+
+.image-27.white-png {
+  filter: brightness(500%);
 }
 
 .countdown-header {
@@ -5404,6 +5418,10 @@ strong {
   display: none;
 }
 
+.image-31 {
+  height: 22em;
+}
+
 @media screen and (min-width: 1920px) {
   .navbarcontainer.mobile {
     display: none;
@@ -5429,6 +5447,10 @@ strong {
 
   .column.hero-logo.pff-hero-logo {
     width: 35em;
+  }
+
+  .column.hero-logo.pff-hero-logo.small-logo {
+    width: 25em;
   }
 
   .hero-buttons.top-margin {
@@ -5479,6 +5501,7 @@ strong {
 
   .past-events.mobile {
     background-position: 50%, 0 0;
+    min-height: auto;
   }
 
   .container-6 {
@@ -5695,6 +5718,10 @@ strong {
 
   .div-block-31 {
     min-height: 10vh;
+  }
+
+  .image-31 {
+    height: 30em;
   }
 }
 
@@ -5918,6 +5945,11 @@ strong {
   .btn-primary {
     padding-top: 24px;
     padding-bottom: 24px;
+  }
+
+  .past-events.mobile {
+    min-height: auto;
+    padding-bottom: 40px;
   }
 
   ._2-columns-3 {
@@ -6279,7 +6311,10 @@ strong {
   }
 
   .container-13 {
-    display: none;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: block;
   }
 
   .owl-carousel {
@@ -6305,6 +6340,10 @@ strong {
 
   .slider-2 {
     width: 30em;
+  }
+
+  .pff-logo {
+    max-width: 250px;
   }
 
   .heading-1 {
@@ -6363,6 +6402,10 @@ strong {
 
   .socmed-wrapper {
     flex-flow: row;
+  }
+
+  .image-31 {
+    height: 22em;
   }
 }
 
@@ -6769,6 +6812,10 @@ strong {
     margin-bottom: 0;
   }
 
+  .column.hero-logo.pff-hero-logo.small-logo {
+    height: 120px;
+  }
+
   .column-2 {
     margin-bottom: 0;
     padding-bottom: 0;
@@ -7135,9 +7182,8 @@ strong {
   }
 
   .past-events.mobile {
-    background-image: url('../images/PFF24-Landscape.png'), linear-gradient(#78ccfa, #ffb96e 80%);
-    background-position: 50% 100%, 0 0;
-    background-size: auto, auto;
+    background-image: linear-gradient(#874827, #ffb96e 80%);
+    background-size: auto;
     min-height: 500px;
     padding-top: 0;
     padding-bottom: 0;
@@ -8134,6 +8180,14 @@ strong {
     height: 3em;
   }
 
+  .pff-logo {
+    min-width: 0%;
+    max-width: 170px;
+    min-height: 4em;
+    line-height: 10px;
+    overflow: clip;
+  }
+
   .btn-down {
     width: 2em;
   }
@@ -8249,6 +8303,11 @@ strong {
   .div-block-33.mobile {
     display: block;
   }
+
+  .image-31 {
+    max-width: 220px;
+    height: 13em;
+  }
 }
 
 #w-node-_7b4b16ee-1a04-2632-7cb5-0be4f4142161-79de2dbf {
@@ -8306,6 +8365,34 @@ strong {
 }
 
 #w-node-d5ac56f1-a986-9bac-f263-b127da30b982-79de2e1c, #w-node-d5ac56f1-a986-9bac-f263-b127da30b98d-79de2e1c, #w-node-d5ac56f1-a986-9bac-f263-b127da30b998-79de2e1c {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+#w-node-_7b4b16ee-1a04-2632-7cb5-0be4f4142161-8a93dbdd {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+  align-self: auto;
+  justify-self: auto;
+}
+
+#w-node-_7b4b16ee-1a04-2632-7cb5-0be4f4142162-8a93dbdd, #w-node-_7b4b16ee-1a04-2632-7cb5-0be4f414215f-8a93dbdd, #w-node-_7b4b16ee-1a04-2632-7cb5-0be4f4142160-8a93dbdd, #w-node-ec8f1618-ee3d-a3fb-96e9-56e0c1ef44f7-8a93dbdd, #w-node-ec8f1618-ee3d-a3fb-96e9-56e0c1ef44f8-8a93dbdd, #w-node-_7b4b16ee-1a04-2632-7cb5-0be4f4142165-8a93dbdd, #w-node-_7b4b16ee-1a04-2632-7cb5-0be4f4142166-8a93dbdd {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+#w-node-f4f50039-a9fa-463b-7133-2d8051f01467-8a93dbdd {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+  align-self: auto;
+  justify-self: auto;
+}
+
+#w-node-f4f50039-a9fa-463b-7133-2d8051f01468-8a93dbdd, #w-node-f4f50039-a9fa-463b-7133-2d8051f0146b-8a93dbdd, #w-node-f4f50039-a9fa-463b-7133-2d8051f0146c-8a93dbdd, #w-node-f4f50039-a9fa-463b-7133-2d8051f0146f-8a93dbdd, #w-node-f4f50039-a9fa-463b-7133-2d8051f01477-8a93dbdd, #w-node-f4f50039-a9fa-463b-7133-2d8051f01478-8a93dbdd {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+#w-node-b8b91059-bdb5-7348-f6f4-75660ae71258-8a93dbdd {
+  justify-self: start;
+}
+
+#w-node-c8533ac0-6b66-4e22-6157-872a6fa21cad-8a93dbdd, #w-node-c8533ac0-6b66-4e22-6157-872a6fa21ca2-8a93dbdd, #w-node-c8533ac0-6b66-4e22-6157-872a6fa21c97-8a93dbdd {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
