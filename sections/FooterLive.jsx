@@ -84,7 +84,7 @@ const Footer = () => (
         </div>
       </div>
     </div>
-    <h1 className="footer_bottom_text_live mt-11">Copyright © 2023. All rights reserved</h1>
+    <h1 className="footer_bottom_text_live mt-11">Copyright © 2024. All rights reserved</h1>
   </div>
 );
 export default Footer;
