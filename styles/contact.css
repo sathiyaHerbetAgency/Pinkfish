@@ -102,6 +102,7 @@ contact_input:focus{
         background:  url("/contact_bg.png")   ;
         background-repeat: no-repeat;
         background-size:cover;
+        background-position:bottom;
         }
 
         .contact_main_container_what-merchandise{
@@ -119,7 +120,9 @@ contact_input:focus{
     .contact_main_container_what{
         background-image: url("/contact_bg.png");
         background-repeat: no-repeat;
-        background-size:contain;
+        background-size:cover;
+        background-position:center;
+        min-height:40vh;
         }
         .contact_main_container_what-merchandise{
             background:  url("/mob-bg-merchandise.png")   ;
@@ -134,6 +137,13 @@ contact_input:focus{
     }
     @media screen and (min-width:1024px) {
     
+        .contact_main_container_what{
+            background:  url("/contact_bg.png")   ;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:bottom;
+        min-height:40vh;
+        }
 
        
             .contact_main_container_what-merchandise{
@@ -149,7 +159,14 @@ contact_input:focus{
         }
     @media screen and (min-width:1280px) {
     
+        .contact_main_container_what{
+            background:  url("/contact_bg.png")   ;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:bottom;
+        min-height:60vh;
 
+        }
        
             .contact_main_container_what-merchandise{
                 background:  url("/desktop-bg-merchandise.png")   ;

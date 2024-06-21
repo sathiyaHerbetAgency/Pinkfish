@@ -10,7 +10,7 @@ const page = () => {
     <>
     <NewNavbar />
     <div className=" min-h-screen  text-white   ">
-    <div className="contact_main_container_what flex flex-col justify-center pd:mb-0 pb-6 md:min-h-[80vh]     ">
+    <div className="contact_main_container_what flex flex-col justify-center pd:mb-0 pb-6      ">
    
          <div className='flex flex-col gap-6    '>
             <div className='w-[80%] md:w[50%] flex flex-col justify-center gap-6 self-center  '>
@@ -42,7 +42,7 @@ const page = () => {
         
        
          </div>
-         <div className=' flex flex-col md:mt-0 mt-11'>
+         <div className=' flex flex-col md:mt-11 mt-11'>
             <div className='flex flex-col  gap-6 md:w-[50%] w-[80%] self-center'>
               
                 {/* <motion.h1 

@@ -160,7 +160,7 @@ const page = () => {
                       </p>
                       <div className="flex gap-3">
                         <p className="product-price">RM24.00</p>
-                        <p className="product-price crossed">$30.00</p>
+                        <p className="product-price crossed">RM30.00</p>
                         <span className="inline-flex items-center rounded-xl bg-[#DA3F3F] px-2  text-[12px] font-medium text-white font-[Poppins-Regular]  uppercase">
                           Save 20%
                         </span>
