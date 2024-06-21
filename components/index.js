@@ -3,6 +3,8 @@ import { TypingText, TitleText } from './CustomTexts';
 import NewFeatures from './NewFeatures';
 import InsightCard from './InsightCard';
 import Footer from './Footer';
+import Button from './Button';
+
 
 export {
   NewNavbar,
@@ -11,4 +13,5 @@ export {
   NewFeatures,
   InsightCard,
   Footer,
+  Button
 };

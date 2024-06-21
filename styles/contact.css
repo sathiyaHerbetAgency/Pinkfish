@@ -37,7 +37,12 @@ contact_input:focus{
 }
 
 .contact_text_header{
-    @apply text-[32px] md:text-[48px] leading-[38px] md:leading-[52px] font-[900] font-[Integral] text-[#fff]
+    @apply text-[28px] md:text-[48px] leading-[32px] md:leading-[52px] font-[900] font-[Integral] text-[#fff]
+
+}
+
+.contact_text_header-merchandise{
+    @apply text-[20px] md:text-[64px] leading-[24px] md:leading-[72px] tracking-wide font-[900] font-[Integral] text-[#fff]
 
 }
 .contact_sub_text {
@@ -62,6 +67,7 @@ contact_input:focus{
     @apply text-[14px] md:text-[16px] leading-[16px] md:leading-[18px] font-[900] font-[Integral] text-[#F33288]
 
 }
+
 .contact_text{
     @apply md:text-[16px] leading-[18px] md:leading-[24px] font-[400] font-[Sofia] text-[#F33288] w-[85%]
 }
@@ -93,9 +99,17 @@ contact_input:focus{
     
 
     .contact_main_container_what{
-        background:  url("/what_bg_mob_1.png")   ;
+        background:  url("/contact_bg.png")   ;
         background-repeat: no-repeat;
         background-size:cover;
+        }
+
+        .contact_main_container_what-merchandise{
+            background:  url("/mob-bg-merchandise.png")   ;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:bottom;
+
         }
     }
 
@@ -107,8 +121,82 @@ contact_input:focus{
         background-repeat: no-repeat;
         background-size:contain;
         }
+        .contact_main_container_what-merchandise{
+            background:  url("/mob-bg-merchandise.png")   ;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+        min-height:40vh;
+        }
+
+
     
     }
+    @media screen and (min-width:1024px) {
+    
+
+       
+            .contact_main_container_what-merchandise{
+                background:  url("/mob-bg-merchandise.png")   ;
+            background-repeat: no-repeat;
+            background-size:cover;
+            background-position:bottom;
+            min-height:40vh;
+            }
+    
+    
+        
+        }
+    @media screen and (min-width:1280px) {
+    
+
+       
+            .contact_main_container_what-merchandise{
+                background:  url("/desktop-bg-merchandise.png")   ;
+            background-repeat: no-repeat;
+            background-size:cover;
+            background-position:center;
+        min-height:80vh;
+
+            }
+    
+    
+        
+        }
+    /* Merchandise CSS Starts */
+
+    .product-title{
+        @apply text-[34px] md:text-[56px] leading-[36px] md:leading-[56px] font-[500] font-[Babas] text-[#fff] 
+    
+    }
+    .product-sub-title{
+        @apply text-[18px] md:text-[23px] leading-[20px] md:leading-[26px] font-[Poppins-Bold] text-[#FF0086]  uppercase
+    
+    }
+    .product-price{
+        @apply text-[15px] md:text-[19px] leading-[20px] md:leading-[26px] font-[Poppins-Regular] text-[#fff]  uppercase
+
+    }
+
+    .crossed{
+    @apply line-through text-[#666666]
+    }
+    .product-Size{
+        @apply text-[15px] md:text-[16px] leading-[20px] md:leading-[26px] font-[Poppins-Regular] text-[#fff] py-2 w-12 text-center  uppercase border-[1px] rounded-md border-white ;
+
+    }
+    .product-Size-small{
+        @apply text-[8px] md:text-[12px] leading-[12px] md:leading-[12px] font-[Poppins-Regular] text-[#fff] p-2  text-center  uppercase border-[1px] rounded-md border-white ;
+
+    }
+    .sale-container {
+      
+        color: #000; /* White text for the outline effect */
+        text-shadow:-2px 2px 0 #fff;
+
+    }
+
+    /* Merchandise CSS Ends */
 
 .fan_main_container{
     background-image: url("/fan_bg.png");
