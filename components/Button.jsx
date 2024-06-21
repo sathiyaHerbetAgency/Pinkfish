@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from "next/Link"
+import Link from "next/link"
 const Button = () => {
   return (
     <div className='bg-[#F33288] uppercase py-3 w-36 rounded-md text-center  mt-6 '   >
