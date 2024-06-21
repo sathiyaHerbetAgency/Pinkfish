@@ -6,8 +6,7 @@ import Link from 'next/link';
 import {  motion } from "framer-motion";
 import { fadeIn, planetVariants, staggerContainer, textContainer, textVariant, textVariant2, zoomIn } from "../../utils/motion";
 import PartyBanner from '../../sections/PartyBanner';
-import { Footer, NewNavbar } from '../../components';
-
+import { Footer, NewNavbar,NewsTemplate } from '../../components';
 const Event = () => {
   return (
   
@@ -21,31 +20,32 @@ const Event = () => {
     </div>
     <div className='flex flex-col self-center w-[70%] gap-6'>
       <div className='flex md:flex-row flex-col  gap-3'>
+        <NewsTemplate />
     <div className='basis-1/3 border rounded border-white flex flex-col gap-4'>
       <img src='/news_img_1_1.png' alt='news image' />
       <div className='flex flex-col gap-4 self-center pb-4 w-[90%]'>
-    <h1 className='news_card_header '>PINKFISH Paints The New Year’s Pink With An Unforgettable Celebration By Having One Of Malaysia’s Biggest Countdown To 2024</h1>
+      <h1 className='news_card_header '>PINKFISH Paints The New Year’s Pink With An Unforgettable Celebration By Having One Of Malaysia’s Biggest Countdown To 2024</h1>
 
-    <p className='news_card_text'>The Pinkfish Countdown, a curated adventure by Hitman Solutions and Happymoon, marked the pinnacle of New Year’s Eve celebrations, setting the stage for an epic commencement of 2024. Taking place at Surf Beach, Sunway Lagoon, the event drew in throngs of electro music fans eager to dance to the beats of both EDM legends and local talents.</p>
-    
-    <a href='https://klfoodie.com/pinkfish-countdown-2024/' target='_blank'>
-    <button type='button' className='news_read_btn'>Read More</button>
-    </a>
-    </div>
+      <p className='news_card_text'>The Pinkfish Countdown, a curated adventure by Hitman Solutions and Happymoon, marked the pinnacle of New Year’s Eve celebrations, setting the stage for an epic commencement of 2024. Taking place at Surf Beach, Sunway Lagoon, the event drew in throngs of electro music fans eager to dance to the beats of both EDM legends and local talents.</p>
+      
+      <a href='https://klfoodie.com/pinkfish-countdown-2024/' target='_blank'>
+      <button type='button' className='news_read_btn'>Read More</button>
+      </a>
+      </div>
     </div>
     <div className='basis-1/3 border rounded border-white flex flex-col gap-4'>
       <img src='/news_img_2_1.png' alt='news image' />
       <div className='flex flex-col gap-4 self-center pb-4 w-[90%]'>
-    <h1 className='news_card_header '>From TRX to Sarawak, here’s a list of top countdown parties across Malaysia to welcome 2024 </h1>
+      <h1 className='news_card_header '>From TRX to Sarawak, here’s a list of top countdown parties across Malaysia to welcome 2024 </h1>
 
-    <p className='news_card_text'>KUALA LUMPUR, Dec 30 — The final day of 2023 is just a day away and it’s time to welcome the New Year on a high note.</p>
-    <p className='news_card_text'>There are plenty of New Year’s Eve countdown parties all across Malaysia to use in 2024 with thrilling line-ups of music, performances and of course, fireworks.</p>
+      <p className='news_card_text'>KUALA LUMPUR, Dec 30 — The final day of 2023 is just a day away and it’s time to welcome the New Year on a high note.</p>
+      <p className='news_card_text'>There are plenty of New Year’s Eve countdown parties all across Malaysia to use in 2024 with thrilling line-ups of music, performances and of course, fireworks.</p>
 
-    
-    <a href='https://www.malaymail.com/news/life/2023/12/29/from-trx-to-sarawak-heres-a-list-of-top-countdown-parties-across-malaysia-to-welcome-2024/109792' target='_blank'>
-    <button type='button' className='news_read_btn'>Read More</button>
-    </a>
-    </div>
+      
+      <a href='https://www.malaymail.com/news/life/2023/12/29/from-trx-to-sarawak-heres-a-list-of-top-countdown-parties-across-malaysia-to-welcome-2024/109792' target='_blank'>
+      <button type='button' className='news_read_btn'>Read More</button>
+      </a>
+      </div>
     </div>
     <div className='basis-1/3 border rounded border-white flex flex-col gap-4'>
       <img src='/news_img_3_1.png' alt='news image' />

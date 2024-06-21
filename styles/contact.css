@@ -155,8 +155,8 @@ contact_input:focus{
                 background:  url("/desktop-bg-merchandise.png")   ;
             background-repeat: no-repeat;
             background-size:cover;
-            background-position:center;
-        min-height:80vh;
+            background-position:bottom;
+        min-height:60vh;
 
             }
     
@@ -164,7 +164,10 @@ contact_input:focus{
         
         }
     /* Merchandise CSS Starts */
-
+    .contact_sub_text_merchandise {
+        @apply text-[14px] md:text-[16px] leading-[16px] md:leading-[18px] font-[500] font-[Sofia] text-[#fff]
+    
+    }
     .product-title{
         @apply text-[34px] md:text-[56px] leading-[36px] md:leading-[56px] font-[500] font-[Babas] text-[#fff] 
     

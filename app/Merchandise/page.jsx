@@ -20,7 +20,7 @@ const page = () => {
                     <span className="sale-container"> Sale!</span>{" "}
                   </h1>
                 </div>
-                <h1 className="contact_sub_text text-[18px] text-center"> View our collection now!</h1>
+                <h1 className="contact_sub_text_merchandise text-center"> View our collection now!</h1>
               </div>
             </div>
           </div>
@@ -242,7 +242,7 @@ const page = () => {
 </div>
 </div>
         </div>
-        <h1 className="contact_sub_text text-[18px] text-center pt-8"> *Price excludes processing fee!</h1>
+        <h1 className="contact_sub_text_merchandise text-[18px] text-center pt-8"> *Price excludes processing fee.</h1>
 
       </div>
       <Footer />
