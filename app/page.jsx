@@ -54,7 +54,7 @@ function closePopup() {
           <div ref={popupContainerRef}  class="popup-container_main flex flex-col">
             <div class="popup-card_main flex flex-col self-center w-[40%] flex mt-6">
             <img onClick={()=>{closePopup()}} className='w-[30px]  h-[30px] p-2 bg-[#F33288] rounded self-end cursor-pointer'  src='close.png' alt="close" />
-            <a href='/merchandise'> <img  src='popup-merchandise.png' className='' alt='img'/></a>
+            <a href='/Merchandise'> <img  src='popup-merchandise.png' className='' alt='img'/></a>
           
             </div>
           
@@ -73,7 +73,7 @@ function closePopup() {
             </div>
               <div class="popup-card_main  ">
             
-              <a href='/merchandise'> <img  src='popup-merchandise.png' className='object-cover' alt='img'/></a>
+              <a href='/Merchandise'> <img  src='popup-merchandise.png' className='object-cover' alt='img'/></a>
 
               </div>
             

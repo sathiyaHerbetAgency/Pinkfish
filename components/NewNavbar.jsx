@@ -41,6 +41,9 @@ return (
         <a href="Contact">
           <h1 className="menu_text ">Contact us</h1>
         </a>
+        <a href="Merchandise">
+          <h1 className="menu_text ">Shop</h1>
+        </a>
       </div>
      
     </div>
@@ -78,6 +81,8 @@ return (
 <a href="News" className="menu_text_mob" onClick={()=>setToggleDropdown(false)}>News </a>
    
     <Link href="Contact" className="menu_text_mob mb-4" onClick={()=>setToggleDropdown(false)}>Contact us</Link>
+    <Link href="Merchandise" className="menu_text_mob mb-4" onClick={()=>setToggleDropdown(false)}>Shop</Link>
+
     {/* <Link href="/Contact" className='w-[100%] flex flex-col'  onClick={()=>setToggleDropdown(false)}>
         <button className="buy_ticket  self-center items-center p-5 mb-6 flex " type="button">Tickets
           <svg className=" " width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
