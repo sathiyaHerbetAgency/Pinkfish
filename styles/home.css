@@ -130,6 +130,10 @@ font-family: "Integral";
     color: #fff;
     @apply mt-4 md:mt-0 font-[Integral] text-[12px] md:text-[34px] leading-[16px] md:leading-[30px] font-[400] uppercase;
 }
+.horizantal_text_2_pff {
+    color: #fff;
+    @apply mt-4 md:mt-0 font-[Integral] text-[24px] md:text-[48px] leading-[30px] md:leading-[54px] font-bold uppercase;
+}
 
 .horizantal_pink_container_body {
 
@@ -369,9 +373,9 @@ background-size: cover;
 
 
 .marquee-container {
-  height: 50px;
+  min-height: 60px;
   overflow: hidden;
-  line-height: 30px;
+  line-height: 50px;
 
   .marquee {
     top: 0;
@@ -400,6 +404,39 @@ background-size: cover;
   }
 }
 
+
+.marquee-container-pfc {
+    min-height: 60px;
+    overflow: hidden;
+    line-height: 50px;
+  
+    .marquee-pfc {
+      top: 0;
+      left: 100%;
+      width: 100%;
+      overflow: hidden;
+      position: absolute;
+      white-space: nowrap;
+      animation: marquee 34s linear infinite;
+    }
+  
+    .marquee2-pfc {
+      animation-delay: 17s;
+    }
+    b {
+      padding-left: 10px;
+    }
+  }
+  
+  @keyframes marquee-pfc {
+    0% {
+      left: -100%;
+    }
+    100% {
+      left: 120%
+    }
+  }
+  
 
 .svg_hero{
     @apply absolute top-0 ;

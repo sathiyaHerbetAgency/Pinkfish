@@ -306,13 +306,13 @@ contact_input:focus{
 
 
 .question_text{
-    @apply text-[16px] md:text-[18px] leading-[24px] md:leading-[27px] font-[700] font-[Sofia] text-white uppercase
+    @apply text-[16px] md:text-[18px] leading-[24px] md:leading-[27px] font-[500] font-[SofiaMedium] text-white 
 
 }
 
 
 .answer_text{
-    @apply text-[18px] leading-[27px] font-[700] font-[Sofia] text-white
+    @apply text-[16px] leading-[27px] font-[100] font-[SofiaLight] text-white
 
 }
 .top_btn{
@@ -611,4 +611,18 @@ contact_input:focus{
     border-radius: 4px;
     cursor: pointer;
     @apply  md:h-[30px] h-[30px] font-[Sofia] w-fit  text-[#fff] ;
+  }
+
+
+  /* PFF */
+  .gradient-container-pff{
+    background: rgb(70,177,236);
+    background: linear-gradient(180deg, rgba(70,177,236,1) 0%, rgba(248,184,138,0.5971638655462185) 50%, rgba(248,184,138,1) 100%);
+    @apply min-h-screen
+  }
+
+  .gradient-container-pfc{
+    background: rgb(33,33,86);
+    background: linear-gradient(180deg, rgba(33,33,86,1) 0%,  rgba(106,12,149,1) 27%, rgba(255,0,134,1) 56%, rgba(248,184,138,1) 85%);
+    @apply min-h-screen
   }

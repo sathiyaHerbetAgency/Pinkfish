@@ -428,6 +428,12 @@ font-family: "Integral";
     overflow: hidden;
 }
 
+.horizantal_pink_container_live_pff {
+    @apply bg-[#F33288] py-0 md:py-4;
+    z-index: -99;
+    overflow: hidden;
+}
+
 .horizantal_text_1_live {
     color: black;
     -webkit-text-fill-color: #F33288;
@@ -712,3 +718,96 @@ background-size: cover;
 .image_11_live:hover img {
     transform: scale(1.1);
 }
+
+/* PFF */
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    grid-gap: 10px;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .gallery {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      grid-gap: 5px;
+    }
+  }
+  
+  .gallery__item {
+    min-width:'100%' !important;
+    object-fit: cover;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .gallery__item:hover {
+    transform: scale(1.05);
+  }
+
+  .bg-pff{
+    background: rgb(1,147,227);
+    background-image:url("/pff-bg-gradient.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+  }
+
+
+/* .bg-pff::before{
+   
+    background: rgb(1,147,227);
+    background: linear-gradient(180deg, rgba(1,147,227,0) 0%, rgba(1,147,227,1) 100%);
+content: '';
+display: block;
+height: 100vh;
+position: absolute;
+width: 100%;
+  } */
+  /* .bg-pff::before{
+    background: rgb(1,147,227);
+    background: linear-gradient(180deg, rgba(1,147,227,0) 0%, rgba(1,147,227,0.37307422969187676) 100%);
+content: '';
+display: block;
+height: 100%;
+position: absolute;
+width: 100%;
+  } */
+
+  .bg-pfc{
+    background-image:url("/pfc-bg-gradient.jpg");
+    background-size:cover;
+    min-height:100vh;
+  }
+
+  .banner-container-pff{
+    background-image:url("/palm-pff.png");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+   
+  }
+
+  .banner-container-pfc{
+    background-image:url("/mountainf-pfc.png");
+    background-size:contain;
+    background-position:bottom;
+    background-repeat:no-repeat;
+  }
+
+  .counter-timer-wrapper{
+    background: rgb(106,12,149);
+    background: radial-gradient(circle, rgba(106,12,149,0.5999649859943977) 100%, rgba(214,125,255,0.6111694677871149) 100%);
+    border-radius:100%;
+    height:150px;
+    width:150px;
+    box-shadow:10px;
+    @apply flex justify-center items-center flex flex-col;
+  }
+
+  .counter-timer{
+    @apply text-[32px] md:text-[48px] leading-[36px] md:leading-[54px] tracking-[1px] font-[Integral] text-[#D67DFF] uppercase font-bold
+  }
+  .counter-text{
+    @apply text-[18px] md:text-[24] leading-[24px] md:leading-[28px] font-[Integral] text-[#D67DFF] uppercase font-normal;
+
+  }
