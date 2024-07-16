@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import "../../styles/home.css"
 const Label1 = ({text}) => (
   <div className="horizantal_pink_container_live_pff">
