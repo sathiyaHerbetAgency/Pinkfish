@@ -7,7 +7,7 @@ const Banner = ({select}) => {
 
 
     const PFF={
-        first_heading:"what’s nextin store?",
+        first_heading:"what’s next in store?",
         text:"Scope out the other events we have lining up for you this year. Get hyped!",
         button_text:'Check out Pinkfish Countdown'
     }

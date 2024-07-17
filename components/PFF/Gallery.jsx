@@ -1,9 +1,12 @@
 /* eslint-disable */
+'use client'
 
 import React from 'react'
 import "../../styles/live.css"
+import "../../styles/contact.css"
+import ResponsiveGallery from 'react-responsive-gallery';
 
-const Gallery = (select) => {
+const Gallery = ({select}) => {
     const imagespff = [
         { src: '/pff/pff-gallery-1.png', alt: 'Image 1' },
         { src: '/pff/pff-gallery-2.png', alt: 'Image 2' },
@@ -29,12 +32,11 @@ const Gallery = (select) => {
         { src: '/pff/pfc-gallery-6.png', alt: 'Image 6' },
         { src: '/pff/pfc-gallery-7.png', alt: 'Image 7' },
         { src: '/pff/pfc-gallery-8.png', alt: 'Image 8' },
-        { src: '/pff/pfc-gallery-9.png', alt: 'Image 9' },
-        { src: '/pff/pfc-gallery-10.png', alt: 'Image 10' },
+        // { src: '/pff/pfc-gallery-9.png', alt: 'Image 9' },
         { src: '/pff/pfc-gallery-11.png', alt: 'Image 11' },
+        { src: '/pff/pfc-gallery-10.png', alt: 'Image 10' },
         { src: '/pff/pfc-gallery-12.png', alt: 'Image 12' },
       ];
-
 
 
       function checkContents(){
@@ -45,29 +47,78 @@ const Gallery = (select) => {
         }
     }
 
+    const count={xs: 1,s: 2,m: 3,l: 3,xl: 3, xxl:3}
+    const customMediaStyle = {
+      objectFit: 'cover',
+      width: '300px',
+      maxHeight:'300px'
+      
+    };
   return (
     <div className=" flex flex-col py-24">
-    <div className="columns-3 row-span-6 max-w-[60vw] gap-6 self-center">
+    {/* <div className="columns-3 row-span-6 max-w-[60vw] gap-6 self-center">
       {select==="PFF"?
          imagespff.map((image, index) => (
+          <div className='image_11'>
         <img
           key={index}
-          className="gallery__item pt-2 min-w-[20vw] "
+          className=" pt-2 min-w-[20vw] "
           src={image.src}
           alt={image.alt}
         />
+        </div>
       ))
       :
       imagespfc.map((image, index) => (
+        <div className='image_11_pff'>
         <img
           key={index}
-          className="gallery__item pt-2 min-w-[20vw] "
+          className="  min-w-[20vw] "
           src={image.src}
           alt={image.alt}
         />
+        </div>
       ))
     }
-    </div>
+    </div> */}
+     {/* <div className="gallery-grid">
+      {imagespfc.map((image,alt) => 
+     
+      (
+        <div key={alt} className="gallery-item-pfc">
+          <img src={image.src} alt={image.alt} />
+        </div>
+      ))}
+    </div> */}
+    <div className="max-w-[80vw] self-center">
+
+    {select==="PFF"?
+    <ResponsiveGallery
+        // useLightBox
+        numOfMediaPerRow={count}
+        media={imagespff}
+        customLoader
+        mediaMaxWidth={{xs: 100,s: 100,m: 100,l: 100,xl: 100,xxl:100}}
+        mediaClassName="gallery-item"
+        margin={2}
+        rowHeight={100}
+        style={{ margin: '2px auto' }}
+        mediaStyle={customMediaStyle}
+        />:
+        <ResponsiveGallery
+        // useLightBox
+        numOfMediaPerRow={count}
+        media={imagespfc}
+        customLoader
+        mediaMaxWidth={{xs: 100,s: 100,m: 100,l: 100,xl: 100,xxl:100}}
+        mediaClassName="gallery-item"
+        margin={2}
+        rowHeight={100}
+        style={{ margin: '2px auto' }}
+        mediaStyle={customMediaStyle}
+        />
+    }
+        </div>
     </div>
   )
 }

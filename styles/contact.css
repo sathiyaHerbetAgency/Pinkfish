@@ -263,6 +263,35 @@ contact_input:focus{
 
 }
 
+.gallery-grid-pfc{
+    overflow: hidden;
+}
+.gallery-grid-pfc img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-grid-pfc:hover img {
+    transform: scale(1.1);
+  }
+
+  .gallery-item {
+    overflow: hidden!important;
+  }
+  
+  .gallery-item img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    transition: transform 0.3s ease !important;
+  }
+  
+  .gallery-item:hover img {
+    transform: scale(1.1)!important;
+  }
+
 
 .image_11 {
     overflow: hidden;
@@ -270,7 +299,6 @@ contact_input:focus{
 .image_11 img {
     transition: all 0.3s;
     display: block;
-   
     transform: scale(1);
 }
 
@@ -278,6 +306,46 @@ contact_input:focus{
 .image_11:hover img {
     transform: scale(1.1);
 }
+
+.image_11_pff {
+    overflow: hidden !important;
+}
+.image_11_pff img {
+    transition: all 0.3s;
+    display: block;
+    transform: scale(1);
+}
+
+
+.image_11_pff:hover img {
+    transform: scale(1.1);
+}
+
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    max-width: 1200px;
+    padding: 10px;
+  }
+  
+  .gallery-item-pfc {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .gallery-item-pfc img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-itempfc:hover img {
+    transform: scale(1.1);
+  }
+
 
 .galler_svg_1{
     @apply absolute left-[10%] hidden md:block

@@ -27,9 +27,7 @@ import Bottom from './../../components/PFF/Bottom';
                <Gallery select={"PFF"} />
                <Banner  select={"PFF"}  />
                <Bottom   />
-
             </div>
-
         </div>
         <Footer />
     </div>
