@@ -4,7 +4,7 @@
 import React from 'react'
 // import "../../styles/live.css"
 // import "../../styles/contact.css"
-// import ResponsiveGallery from 'react-responsive-gallery';
+import ResponsiveGallery from 'react-responsive-gallery';
 const Gallery = ({select}) => {
     const imagespff = [
         { src: '/pff/pff-gallery-1.png', alt: 'Image 1' },
