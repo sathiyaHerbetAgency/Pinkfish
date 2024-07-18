@@ -4,7 +4,8 @@
 import React from 'react'
 // import "../../styles/live.css"
 // import "../../styles/contact.css"
-import ResponsiveGallery from 'react-responsive-gallery';
+// import ResponsiveGallery from 'react-responsive-gallery';
+import Masonry,{ResponsiveMasonry} from "react-responsive-masonry"
 const Gallery = ({select}) => {
     const imagespff = [
         { src: '/pff/pff-gallery-1.png', alt: 'Image 1' },
@@ -53,8 +54,50 @@ const Gallery = ({select}) => {
       maxHeight:'300px'
       
     };
+    const images = [
+      "https://picsum.photos/200/300?image=1050",
+      //...
+      "https://picsum.photos/300/300?image=206",
+  ]
+
+
   return (
-    <div className=" flex flex-col py-24">
+    <div className=" flex flex-col  py-24">
+      <div className="max-w-[60vw] mx-80 ">
+        <div className="">
+        {select==="PFF"?
+       <ResponsiveMasonry
+                columnsCountBreakPoints={{350: 2, 750: 3, 900: 3}}
+            >
+                <Masonry>
+                    {imagespff.map((image, i) => (
+                        <img
+                            key={i}
+                            src={image.src}
+                            style={{maxHeight:'300px',objectFit: 'cover', }}
+                            alt=""
+                        />
+                    ))}
+                </Masonry>
+            </ResponsiveMasonry>:
+            <ResponsiveMasonry
+            columnsCountBreakPoints={{350: 2, 750: 3, 900: 3}}
+        >
+            <Masonry>
+                {imagespfc.map((image, i) => (
+                    <img
+                        key={i}
+                        src={image.src}
+                        style={{maxHeight:'300px',objectFit: 'cover', }}
+                        alt=""
+                    />
+                ))}
+            </Masonry>
+        </ResponsiveMasonry>
+
+}
+            </div>
+            </div>
     {/* <div className="columns-3 row-span-6 max-w-[60vw] gap-6 self-center">
       {select==="PFF"?
          imagespff.map((image, index) => (
@@ -111,6 +154,17 @@ const Gallery = ({select}) => {
         mediaStyle={customMediaStyle}
         />
     } */}
+
+
+<Masonry columnsCount={3} gutter="10px">
+                {images.map((image, i) => (
+                    <img
+                        key={i}
+                        src={image}
+                        style={{width: "100%", display: "block"}}
+                    />
+                ))}
+            </Masonry>
         </div>
     </div>
   )

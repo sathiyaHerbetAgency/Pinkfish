@@ -29,6 +29,7 @@
     "react-grid-gallery": "^1.0.1",
     "react-gtm-module": "^2.0.11",
     "react-responsive-gallery": "^3.0.0-beta.2",
+    "react-responsive-masonry": "^2.2.1",
     "react-router-dom": "^6.16.0",
     "shadcn-ui": "^0.8.0",
     "swiper": "^10.3.1"
