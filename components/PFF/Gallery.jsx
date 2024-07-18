@@ -5,6 +5,7 @@ import React from 'react'
 // import "../../styles/live.css"
 // import "../../styles/contact.css"
 import ResponsiveGallery from 'react-responsive-gallery';
+import ReactDOM from 'react-dom/client';
 
 const Gallery = ({select}) => {
     const imagespff = [
