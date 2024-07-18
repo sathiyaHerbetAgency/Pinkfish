@@ -2,10 +2,10 @@
 'use client'
 
 import React from 'react'
-// import "../../styles/live.css"
-// import "../../styles/contact.css"
+import "../../styles/live.css"
+import "../../styles/contact.css"
 // import ResponsiveGallery from 'react-responsive-gallery';
-import Masonry,{ResponsiveMasonry} from "react-responsive-masonry"
+// import Masonry,{ResponsiveMasonry} from "react-responsive-masonry"
 const Gallery = ({select}) => {
     const imagespff = [
         { src: '/pff/pff-gallery-1.png', alt: 'Image 1' },
@@ -97,14 +97,14 @@ const Gallery = ({select}) => {
 
 }
             </div> */}
-            </div>
-    {/* <div className="columns-3 row-span-6 max-w-[60vw] gap-6 self-center">
+            {/* </div> */}
+     <div className="columns-3  max-w-[60vw] gap-[6px]  self-center">
       {select==="PFF"?
          imagespff.map((image, index) => (
-          <div className='image_11'>
+          <div className=' m-2 '>
         <img
           key={index}
-          className=" pt-2 min-w-[20vw] "
+          className="px-1 min-w-[20vw] object-cover "
           src={image.src}
           alt={image.alt}
         />
@@ -112,17 +112,17 @@ const Gallery = ({select}) => {
       ))
       :
       imagespfc.map((image, index) => (
-        <div className='image_11_pff'>
+        <div className='m-2'>
         <img
           key={index}
-          className="  min-w-[20vw] "
+          className="px-1  min-w-[20vw] object-cover "
           src={image.src}
           alt={image.alt}
         />
         </div>
       ))
     }
-    </div> */}
+    </div> 
      {/* <div className="gallery-grid">
       {imagespfc.map((image,alt) => 
      
@@ -132,7 +132,6 @@ const Gallery = ({select}) => {
         </div>
       ))}
     </div> */}
-    <div className="max-w-[80vw] self-center">
 
     {/* {select==="PFF"?
     <ResponsiveGallery
@@ -155,6 +154,7 @@ const Gallery = ({select}) => {
         />
     } */}
 
+{/* <div className="max-w-[80vw] self-center">
 
 <Masonry columnsCount={3} gutter="10px">
                 {images.map((image, i) => (
@@ -165,7 +165,7 @@ const Gallery = ({select}) => {
                     />
                 ))}
             </Masonry>
-        </div>
+        </div> */}
     </div>
   )
 }

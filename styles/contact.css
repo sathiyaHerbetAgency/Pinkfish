@@ -309,6 +309,7 @@ contact_input:focus{
 
 .image_11_pff {
     overflow: hidden !important;
+    /* @apply m-1;   */
 }
 .image_11_pff img {
     transition: all 0.3s;
