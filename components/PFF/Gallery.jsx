@@ -93,7 +93,7 @@ const Gallery = ({select}) => {
     </div> */}
     <div className="max-w-[80vw] self-center">
 
-    {select==="PFF"?
+    {/* {select==="PFF"?
     <ResponsiveGallery
         useLightBox
         numOfMediaPerRow={count}
@@ -112,7 +112,7 @@ const Gallery = ({select}) => {
         style={{ margin: '2px auto' }}
         mediaStyle={customMediaStyle}
         />
-    }
+    } */}
         </div>
     </div>
   )
