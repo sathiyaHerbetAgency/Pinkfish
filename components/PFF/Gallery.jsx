@@ -2,8 +2,8 @@
 'use client'
 
 import React from 'react'
-import "../../styles/live.css"
-import "../../styles/contact.css"
+// import "../../styles/live.css"
+// import "../../styles/contact.css"
 import ResponsiveGallery from 'react-responsive-gallery';
 
 const Gallery = ({select}) => {
@@ -98,7 +98,7 @@ const Gallery = ({select}) => {
         numOfMediaPerRow={count}
         media={imagespff}
         mediaMaxWidth={{xs: 100,s: 100,m: 100,l: 100,xl: 100,xxl:100}}
-        margin={2}
+        // margin={2}
         style={{ margin: '2px auto' }}
         mediaStyle={customMediaStyle}
         />:
@@ -107,7 +107,7 @@ const Gallery = ({select}) => {
         numOfMediaPerRow={count}
         media={imagespfc}
         mediaMaxWidth={{xs: 100,s: 100,m: 100,l: 100,xl: 100,xxl:100}}
-        margin={2}
+        // margin={2}
         style={{ margin: '2px auto' }}
         mediaStyle={customMediaStyle}
         />

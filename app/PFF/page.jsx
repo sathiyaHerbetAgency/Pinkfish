@@ -24,7 +24,7 @@ import Bottom from './../../components/PFF/Bottom';
             <div className="gradient-container-pff">
                <Heading text={"#PFF2024 official aftermovie"} page={"PFF"} />
                <Video  page={"PFF"} />
-               {/* <Gallery select={"PFF"} /> */}
+               <Gallery select={"PFF"} />
                <Banner  select={"PFF"}  />
                <Bottom   />
             </div>

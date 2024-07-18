@@ -25,7 +25,7 @@ import Timer from './../../components/PFF/Timer';
                 <Timer />
                <Heading text={"#PFC2023 official aftermovie"} page={"PFC"}  />
                <Video  page={"PFF"} />
-               {/* <Gallery select={"PFC"} /> */}
+               <Gallery select={"PFC"} />
                <Banner  select={"PFC"} />
                <Bottom   />
             </div>
