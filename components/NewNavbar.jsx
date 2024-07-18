@@ -18,31 +18,35 @@ const NewNavbar = () => {
 return (
 
   <nav className="navbar_main_container oveflow-hiden">
-   
-
     <div className='hidden md:block'>
     <div className=' flex justify-center  '>
     <div className="  flex justify-end  pb-2  w-[90%] ">
-      <div className=' w-[110%]  flex justify-center   desktop_navbar  items-center'>
+      <div className=' w-[110%]  flex justify-center   desktop_navbar  '>
       
-      <div className="flex gap-6   items-center ">
-      <a href="WhatTheFish">
+      <div className="flex gap-6   pt-2 ">
+      <a href="WhatTheFish" className=" flex flex-col justify-center ">
           <h1 className="menu_text  items-end">What the fish!</h1>
         </a>
-        <a href="FunHub">
+        <a href="FunHub" className=" flex flex-col justify-center ">
           <h1 className="menu_text ">FUN HUB</h1>
         </a>
-        <a href="/" className='flex mt-3 '>
+        <a href="/"className=" flex flex-col justify-center ">
         <img  src="/new_menu_logo_2.svg" className=" items-center w-[150px] " />
       </a>
-        <a href="News">
+        <a href="News" className=" flex flex-col justify-center ">
           <h1 className="menu_text ">News</h1>
         </a>
-        <a href="Contact">
+        <a href="Contact" className=" flex flex-col justify-center ">
           <h1 className="menu_text ">Contact us</h1>
         </a>
-        <a href="Merchandise">
+        <a className="bg-[#FF0086] rounded flex flex-col justify-center items-center" href="Merchandise">
+          <div className="flex self-center items-center px-2">
           <h1 className="menu_text ">Shop</h1>
+          <svg width="24" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10.1867 5.73611L6.08923 1.63861L7.16937 0.558472L13.1109 6.5L7.16937 12.4415L6.08923 11.3614L10.1867 7.26389H0.888672V5.73611H10.1867Z" fill="white"/>
+</svg>
+
+          </div>
         </a>
       </div>
      
@@ -81,8 +85,11 @@ return (
 <a href="News" className="menu_text_mob" onClick={()=>setToggleDropdown(false)}>News </a>
    
     <Link href="Contact" className="menu_text_mob mb-4" onClick={()=>setToggleDropdown(false)}>Contact us</Link>
-    <button className="bg-[#fff] p-6">
-    <Link href="Merchandise" className="menu_text_mob mb-4 " onClick={()=>setToggleDropdown(false)}>Shop</Link>
+    <button className="bg-[#FF0086] rounded flex  items-center p-2 gap-2 px-4">
+    <Link href="Merchandise" className="menu_text_mob  " onClick={()=>setToggleDropdown(false)}>Shop</Link>
+    <svg width="19" height="20" viewBox="0 0 19 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10.1867 5.73611L6.08923 1.63861L7.16937 0.558472L13.1109 6.5L7.16937 12.4415L6.08923 11.3614L10.1867 7.26389H0.888672V5.73611H10.1867Z" fill="white"/>
+</svg>
     </button>
     {/* <Link href="/Contact" className='w-[100%] flex flex-col'  onClick={()=>setToggleDropdown(false)}>
         <button className="buy_ticket  self-center items-center p-5 mb-6 flex " type="button">Tickets

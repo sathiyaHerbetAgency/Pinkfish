@@ -25,11 +25,11 @@ const Banner = ({select}) => {
     }
 
   return (
-    <div className={`${select==="PFF"?"banner-container-pff": "banner-container-pfc"} min-h-screen flex flex-col justify-start gap-6 items-center`}>
-        <div className="w-[30vw] flex flex-col gap-6 pt-24">
-            <h1 className="text-[#FF0086] font-bold  font-[Integral] text-[38px] leading-[42px] text-center uppercase">{checkContents().first_heading}</h1>
-            <p className="font-[SofiaLight] text-[24px] leading-[28px] text-center">{checkContents().text}</p>
-            <button type='button' className='uppercase text-white p-3 bg-[#FF0086] rounded-md font-[SofiaMedium] text-[20px]'>{checkContents().button_text}</button>
+    <div className={`${select==="PFF"?"banner-container-pff": "banner-container-pfc"} md:min-h-screen min-h-[50vh] flex flex-col justify-start gap-6 items-center`}>
+        <div className="md:w-[30vw] w-[80vw] flex flex-col gap-6 pt-11">
+            <h1 className="text-[#000] font-bold  font-[Integral] text-[34px] leading-[40px] text-center uppercase">{checkContents().first_heading}</h1>
+            <p className="font-[SofiaLight] text-[22px] leading-[26px] text-center">{checkContents().text}</p>
+            <button type='button' className='uppercase text-white p-3 px-4 self-center bg-[#FF0086] rounded-md font-[SofiaMedium] text-[16px] md:text-[18px] w-fit'>{checkContents().button_text}</button>
 
         </div>
     </div>

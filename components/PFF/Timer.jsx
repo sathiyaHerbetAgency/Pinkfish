@@ -68,25 +68,30 @@ const Timer = () => {
             state.seconds < 0 ?
             <div className='counter-timer'> Time up </div>
             :
-            <div className='flex gap-6 self-center'>
+            <div className='flex flex-col md:flex-row gap-6  self-center'>
+              <div className="flex gap-6">
             <div className='counter-timer-wrapper flex flex-col'>
               <div className='counter-timer'>{state.days || '00'}</div>
               <span  className='counter-text' >Days</span>
             </div>
-           
+          
             <div className='counter-timer-wrapper'>
               <div className='counter-timer'>{state.hours || '00'}</div>
               <span className='counter-text'  >Hours</span>
             </div>
-           
+            </div>
+            <div className="flex gap-6">
             <div className='counter-timer-wrapper'>
               <div className='counter-timer'>{state.minutes || '00'}</div>
               <span className='counter-text'  >Minutes</span>
             </div>
+            
+
           
             <div className='counter-timer-wrapper'>
               <div className='counter-timer'>{state.seconds || '00'}</div>
               <span className='counter-text'  >Seconds</span>
+            </div>
             </div>
           </div>
         }

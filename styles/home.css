@@ -130,9 +130,16 @@ font-family: "Integral";
     color: #fff;
     @apply mt-4 md:mt-0 font-[Integral] text-[12px] md:text-[34px] leading-[16px] md:leading-[30px] font-[400] uppercase;
 }
+.svg-gap{
+@apply flex items-center gap-0 md:gap-6
+}
+
+.svg-mob{
+    @apply md:p-0 p-3 
+}
 .horizantal_text_2_pff {
     color: #fff;
-    @apply mt-4 md:mt-0 font-[Integral] text-[24px] md:text-[48px] leading-[30px] md:leading-[54px] font-bold uppercase;
+    @apply md:mt-4 md:mt-0 font-[Integral] text-[18px] md:text-[48px] leading-[30px] md:leading-[54px] font-bold uppercase;
 }
 
 .horizantal_pink_container_body {
@@ -405,6 +412,9 @@ background-size: cover;
 }
 
 
+
+
+
 .marquee-container-pfc {
     min-height: 60px;
     overflow: hidden;
@@ -433,7 +443,7 @@ background-size: cover;
       left: -100%;
     }
     100% {
-      left: 120%
+      left: 100%
     }
   }
   

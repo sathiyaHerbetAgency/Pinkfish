@@ -31,19 +31,19 @@ const Hero = ({select}) => {
 
 
   return (
-    <div className={`min-h-screen flex flex-col pt-24  ${select==="PFF"?"bg-pff":"bg-pfc"}`}>
-    <div className="flex flex-col gap-4 self-center w-[80%]">
-        <div className="w-[65%] flex flex-col gap-4">
-            <h1 className="text-[24px] font-[Integral]  text-[#FF0086] uppercase">{checkContents().first_heading}</h1>
-            <h1 className="text-[48px] font-[Integral] leading-[54px] font-bold tracking-[1px] text-[#fff] uppercase">{checkContents().second_heading}</h1>
-            <p className="text-[24px] font-[SofiaLight] text-[#fff]"><span className="font-bold">{checkContents().span_text} </span>{checkContents().text}</p>
+    <div className={` flex flex-col justify-between  md:pt-24  ${select==="PFF"?"bg-pff":"bg-pfc"}`}>
+    <div className="flex flex-col gap-4 pt-24 self-center md:w-[80%]">
+        <div className="md:w-[65%] w-[70%] flex flex-col self-center md:self-start gap-4">
+            <h1 className="text-[22px] font-[Integral]  text-[#FF0086] text-center md:text-start uppercase">{checkContents().first_heading}</h1>
+            <h1 className="text-[36px] md:text-[44px] font-[Integral] md:leading-[50px] md:text-start font-bold tracking-[1px] text-center text-[#fff] uppercase">{checkContents().second_heading}</h1>
+            <p className="text-[18px] font-[SofiaLight] text-[#fff] text-center md:text-start"><span className="font-bold">{checkContents().span_text} </span>{checkContents().text}</p>
         </div>
-        <div className="flex gap-6">
-            <button type='button' className='uppercase text-white p-3 bg-[#FF0086] rounded-md font-[SofiaMedium] text-[20px]'>{checkContents().button_text}</button>
-            <button type='button'className=' uppercase text-white  px-4 outline outline-2 outline-[#fff] rounded-md font-[SofiaMedium] text-[20px]'>FAQ</button>
+        <div className="flex justify-center md:justify-start gap-6">
+            <button type='button' className='uppercase text-white p-3 bg-[#FF0086] rounded-md font-[SofiaMedium] text-[18px]'>{checkContents().button_text}</button>
+            <button type='button'className=' uppercase text-white  px-4 outline outline-2 outline-[#fff] rounded-md font-[SofiaMedium] text-[18px]'>FAQ</button>
 
         </div>
-        <div className="flex gap-3 items-center pt-11">
+        <div className="flex gap-3 items-center pt-11 hidden md:block">
         <p className="text-white">Be in the loop!</p>
         <div className="flex gap-3">
             <img src="/facebook-pfc.png" />
@@ -51,9 +51,17 @@ const Hero = ({select}) => {
             <img src="/pff-insta.png" />
         </div>
     </div>
+
     </div>
  
-        
+    <div className="flex justify-center items-center gap-3  md:hidden bg-black bg-opacity-50 py-8">
+        <p className="text-white">Be in the loop!</p>
+        <div className="flex items-center gap-3">
+            <img src="/facebook-pfc.png" />
+            <img src="/twitter-pfc.png" />
+            <img src="/pff-insta.png" />
+        </div>
+    </div>     
 </div>
   )
 }

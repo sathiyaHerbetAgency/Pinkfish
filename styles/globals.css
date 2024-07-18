@@ -95,7 +95,7 @@
 } 
 .menu_text{
 
-  @apply w-[100%] text-center uppercase text-[white]   pt-5 pb-2 font-[Integral] font-[700] text-[12px] md:text-[14px] leading-[14px] md:leading-[18px] tracking-[5px];
+  @apply w-[100%] text-center uppercase text-[white]    font-[Integral] font-[700] text-[12px] md:text-[14px] leading-[14px] md:leading-[18px] tracking-[5px];
   /* display: inline-block;
   text-decoration: none; */
 }

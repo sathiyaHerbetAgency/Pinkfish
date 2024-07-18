@@ -98,13 +98,13 @@ const Gallery = ({select}) => {
 }
             </div> */}
             {/* </div> */}
-     <div className="columns-3  max-w-[60vw] gap-[6px]  self-center">
+     <div className="columns-3  md:max-w-[60vw] gap-[6px]  self-center">
       {select==="PFF"?
          imagespff.map((image, index) => (
-          <div className=' m-2 '>
+          <div className='  w-full '>
         <img
           key={index}
-          className="px-1 min-w-[20vw] object-cover "
+          className="p-1 min-w-[20vw] object-cover "
           src={image.src}
           alt={image.alt}
         />
@@ -112,10 +112,10 @@ const Gallery = ({select}) => {
       ))
       :
       imagespfc.map((image, index) => (
-        <div className='m-2'>
+        <div className='  w-full'>
         <img
           key={index}
-          className="px-1  min-w-[20vw] object-cover "
+          className="p-1  min-w-[20vw] object-cover "
           src={image.src}
           alt={image.alt}
         />
@@ -166,6 +166,15 @@ const Gallery = ({select}) => {
                 ))}
             </Masonry>
         </div> */}
+    {/* <div className="max-w-[60vw] gap-[6px]  self-center">
+      <div className="flex">
+  <img className="width-[300px]" src="/pff/pfc-gallery-1.png" />
+  <img src="/pff/pfc-gallery-2.png" />
+  <img src="/pff/pfc-gallery-3.png" />
+  </div>
+    </div> */}
+
+
     </div>
   )
 }

@@ -750,6 +750,8 @@ background-size: cover;
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
+    @apply min-h-[92vh] md:min-h-[85vh];
+
   }
 
 
@@ -776,7 +778,7 @@ width: 100%;
   .bg-pfc{
     background-image:url("/pfc-bg-gradient.jpg");
     background-size:cover;
-    min-height:100vh;
+    @apply min-h-[92vh] md:min-h-[85vh];
   }
 
   .banner-container-pff{
