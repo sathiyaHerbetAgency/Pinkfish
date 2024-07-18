@@ -63,7 +63,7 @@ const Gallery = ({select}) => {
 
   return (
     <div className=" flex flex-col  py-24">
-      <div className="max-w-[60vw] mx-80 ">
+      {/* <div className="max-w-[60vw] mx-80 ">
         <div className="">
         {select==="PFF"?
        <ResponsiveMasonry
@@ -96,7 +96,7 @@ const Gallery = ({select}) => {
         </ResponsiveMasonry>
 
 }
-            </div>
+            </div> */}
             </div>
     {/* <div className="columns-3 row-span-6 max-w-[60vw] gap-6 self-center">
       {select==="PFF"?
