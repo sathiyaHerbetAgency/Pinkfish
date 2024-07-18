@@ -94,26 +94,20 @@ const Gallery = ({select}) => {
 
     {select==="PFF"?
     <ResponsiveGallery
-        // useLightBox
+        useLightBox
         numOfMediaPerRow={count}
         media={imagespff}
-        customLoader
         mediaMaxWidth={{xs: 100,s: 100,m: 100,l: 100,xl: 100,xxl:100}}
-        mediaClassName="gallery-item"
         margin={2}
-        rowHeight={100}
         style={{ margin: '2px auto' }}
         mediaStyle={customMediaStyle}
         />:
         <ResponsiveGallery
-        // useLightBox
+        useLightBox
         numOfMediaPerRow={count}
         media={imagespfc}
-        customLoader
         mediaMaxWidth={{xs: 100,s: 100,m: 100,l: 100,xl: 100,xxl:100}}
-        mediaClassName="gallery-item"
         margin={2}
-        rowHeight={100}
         style={{ margin: '2px auto' }}
         mediaStyle={customMediaStyle}
         />
