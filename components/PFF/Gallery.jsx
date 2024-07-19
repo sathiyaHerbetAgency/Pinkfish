@@ -24,34 +24,35 @@ const Gallery = ({select}) => {
     };
   }, []);
     const imagespff = [
-        { src: '/pff/pff-gallery-1.png', alt: 'Image 1' },
-        { src: '/pff/pff-gallery-2.png', alt: 'Image 2' },
-        { src: '/pff/pff-gallery-3.png', alt: 'Image 3' },
-        { src: '/pff/pff-gallery-4.png', alt: 'Image 4' },
-        { src: '/pff/pff-gallery-5.png', alt: 'Image 5' },
-        { src: '/pff/pff-gallery-6.png', alt: 'Image 6' },
-        { src: '/pff/pff-gallery-7.png', alt: 'Image 7' },
-        { src: '/pff/pff-gallery-8.png', alt: 'Image 8' },
-        { src: '/pff/pff-gallery-9.png', alt: 'Image 9' },
-        { src: '/pff/pff-gallery-10.png', alt: 'Image 10' },
-        { src: '/pff/pff-gallery-11.png', alt: 'Image 11' },
-        { src: '/pff/pff-gallery-12.png', alt: 'Image 12' },
-        { src: '/pff/pff-gallery-13.png', alt: 'Image 13' },
+      { src: '/pff/pff-gallery-1.png', alt: 'Image 1', width:"361", height:"196"  },
+      { src: '/pff/pff-gallery-2.png', alt: 'Image 2' ,width:"281", height:"196" },
+      { src: '/pff/pff-gallery-3.png', alt: 'Image 3', width:"193", height:"340`1" },
+      { src: '/pff/pff-gallery-4.png', alt: 'Image 4', width:"362", height:"162" },
+      { src: '/pff/pff-gallery-5.png', alt: 'Image 5',width:"412", height:"164" },
+      { src: '/pff/pff-gallery-6.png', alt: 'Image 6', width:"449", height:"210" },
+      { src: '/pff/pff-gallery-7.png', alt: 'Image 7', width:"389", height:"210" },
+      { src: '/pff/pff-gallery-8.png', alt: 'Image 8', width:"310", height:"340" },
+      { src: '/pff/pff-gallery-9.png', alt: 'Image 9', width:"536", height:"272" },
+      { src: '/pff/pff-gallery-11.png', alt: 'Image 11',width:"231", height:"234" },
+      { src: '/pff/pff-gallery-10.png', alt: 'Image 10', width:"310", height:"166" },
+      { src: '/pff/pff-gallery-12.png', alt: 'Image 12', width:"291", height:"516" },
+      // { src: '/pff/pff-gallery-13.png', alt: 'Image 13', width:"553", height:"271" },
+
       ];
 
       const imagespfc = [
         { src: '/pff/pfc-gallery-1.png', alt: 'Image 1', width:"361", height:"196"  },
-        { src: '/pff/pfc-gallery-2.png', alt: 'Image 2' ,width:"361", height:"196" },
-        { src: '/pff/pfc-gallery-3.png', alt: 'Image 3', width:"361", height:"196" },
-        { src: '/pff/pfc-gallery-4.png', alt: 'Image 4', width:"361", height:"196" },
-        { src: '/pff/pfc-gallery-5.png', alt: 'Image 5',width:"361", height:"196" },
-        { src: '/pff/pfc-gallery-6.png', alt: 'Image 6', width:"361", height:"196" },
-        { src: '/pff/pfc-gallery-7.png', alt: 'Image 7', width:"361", height:"196" },
-        { src: '/pff/pfc-gallery-8.png', alt: 'Image 8', width:"361", height:"196" },
+        { src: '/pff/pfc-gallery-2.png', alt: 'Image 2' ,width:"281", height:"196" },
+        { src: '/pff/pfc-gallery-3.png', alt: 'Image 3', width:"193", height:"369" },
+        { src: '/pff/pfc-gallery-4.png', alt: 'Image 4', width:"362", height:"162" },
+        { src: '/pff/pfc-gallery-5.png', alt: 'Image 5',width:"277", height:"280" },
+        { src: '/pff/pfc-gallery-6.png', alt: 'Image 6', width:"240", height:"207" },
+        { src: '/pff/pfc-gallery-7.png', alt: 'Image 7', width:"311", height:"207" },
+        { src: '/pff/pfc-gallery-8.png', alt: 'Image 8', width:"310", height:"340" },
         // { src: '/pff/pfc-gallery-9.png', alt: 'Image 9' },
-        { src: '/pff/pfc-gallery-11.png', alt: 'Image 11',width:"361", height:"196" },
-        { src: '/pff/pfc-gallery-10.png', alt: 'Image 10', width:"361", height:"196" },
-        { src: '/pff/pfc-gallery-12.png', alt: 'Image 12', width:"361", height:"196" },
+        { src: '/pff/pfc-gallery-11.png', alt: 'Image 11',width:"290", height:"516" },
+        { src: '/pff/pfc-gallery-10.png', alt: 'Image 10', width:"231", height:"234" },
+        { src: '/pff/pfc-gallery-12.png', alt: 'Image 12', width:"553", height:"271" },
       ];
 
 
@@ -193,8 +194,24 @@ const Gallery = ({select}) => {
 
 
 
-<div className="pswp-gallery md:columns-3 columns-2  md:max-w-[60vw] gap-[6px]  self-center" id="my-test-gallery">
-      {imagespfc.map((image, index) => (
+<div className="md:columns-3 columns-2  md:max-w-[60vw] gap-[6px]  self-center" id="my-test-gallery">
+{select==="PFF"?
+  imagespff.map((image, index) => (
+    <a
+    
+      href={image.src}
+      data-pswp-width={image.width}
+      data-pswp-height={image.height}
+      key={"my-test-gallery" + '-' + index}
+      target="_blank"
+      rel="noreferrer"
+      className="gap-1"
+    >
+      <img className=" min-w-[50vw] md:min-w-[20vw] pt-1 pl-1 object-cover" src={image.src} alt="" />
+    </a>
+  ))
+  :
+      imagespfc.map((image, index) => (
         <a
         
           href={image.src}
@@ -203,10 +220,12 @@ const Gallery = ({select}) => {
           key={"my-test-gallery" + '-' + index}
           target="_blank"
           rel="noreferrer"
+          className="gap-1"
         >
-          <img className="md:m-1 min-w-[20vw] object-cover" src={image.src} alt="" />
+          <img className=" min-w-[50vw] md:min-w-[20vw] pt-1 pl-1 object-cover" src={image.src} alt="" />
         </a>
-      ))}
+      ))
+    }
     </div>
 
 

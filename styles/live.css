@@ -754,6 +754,31 @@ background-size: cover;
 
   }
 
+  .bg-pfc{
+    background-image:url("/pfc-bg-gradient.jpg");
+    background-size:cover;
+    @apply min-h-[92vh] md:min-h-[85vh];
+  }
+  @media screen and (max-width:768px){
+
+
+.bg-pfc{
+  background-image:url("/pfc-bg-gradient-mob.jpg");
+  background-size:cover;
+  @apply min-h-[92vh] md:min-h-[85vh];
+}
+
+  
+.bg-pff{
+  background: rgb(1,147,227);
+  background-image:url("/pff-bg-gradient-mob.jpg");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  @apply min-h-[92vh] md:min-h-[85vh];
+
+}
+  }
 
 /* .bg-pff::before{
    
@@ -775,11 +800,6 @@ position: absolute;
 width: 100%;
   } */
 
-  .bg-pfc{
-    background-image:url("/pfc-bg-gradient.jpg");
-    background-size:cover;
-    @apply min-h-[92vh] md:min-h-[85vh];
-  }
 
   .banner-container-pff{
     background-image:url("/palm-pff.png");

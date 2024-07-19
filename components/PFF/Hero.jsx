@@ -32,7 +32,7 @@ const Hero = ({select}) => {
 
   return (
     <div className={` flex flex-col justify-between pt-24  md:pt-24 md:pb-11  ${select==="PFF"?"bg-pff":"bg-pfc"}`}>
-    <div className="flex flex-col gap-4 md:pt-16 pt:24 self-center md:w-[80%]">
+    <div className="flex flex-col gap-4 md:pt-16 pt:36 self-center md:w-[80%]">
         <div className="md:w-[65%] w-[78%] flex flex-col self-center md:self-start gap-4">
             <h1 className="text-[22px] font-[Integral]  text-[#FF0086] text-center md:text-start uppercase">{checkContents().first_heading}</h1>
             <h1 className="text-[36px] md:text-[44px] font-[Integral] md:leading-[50px] md:text-start font-bold tracking-[1px] text-center text-[#fff] uppercase">{checkContents().second_heading}</h1>
