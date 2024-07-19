@@ -1,7 +1,6 @@
 /* eslint-disable */
 "use client6"
 import React from 'react'
-import LiteYouTubeEmbed from 'react-lite-youtube-embed';
 import YoutubeEmbed from './../js/Youtube';
 const Video = ({id}) => {
   console.log(id)
