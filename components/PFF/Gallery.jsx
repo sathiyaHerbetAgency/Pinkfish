@@ -1,12 +1,28 @@
 /* eslint-disable */
 'use client'
-
-import React from 'react'
+import React, { useEffect } from 'react';
 import "../../styles/live.css"
 import "../../styles/contact.css"
+import PhotoSwipeLightbox from 'photoswipe/lightbox';
+import 'photoswipe/style.css';
+
+
 // import ResponsiveGallery from 'react-responsive-gallery';
 // import Masonry,{ResponsiveMasonry} from "react-responsive-masonry"
 const Gallery = ({select}) => {
+  useEffect(() => {
+    let lightbox = new PhotoSwipeLightbox({
+      gallery: '#' +"my-test-gallery",
+      children: 'a',
+      pswpModule: () => import('photoswipe'),
+    });
+    lightbox.init();
+
+    return () => {
+      lightbox.destroy();
+      lightbox = null;
+    };
+  }, []);
     const imagespff = [
         { src: '/pff/pff-gallery-1.png', alt: 'Image 1' },
         { src: '/pff/pff-gallery-2.png', alt: 'Image 2' },
@@ -24,18 +40,18 @@ const Gallery = ({select}) => {
       ];
 
       const imagespfc = [
-        { src: '/pff/pfc-gallery-1.png', alt: 'Image 1' },
-        { src: '/pff/pfc-gallery-2.png', alt: 'Image 2' },
-        { src: '/pff/pfc-gallery-3.png', alt: 'Image 3' },
-        { src: '/pff/pfc-gallery-4.png', alt: 'Image 4' },
-        { src: '/pff/pfc-gallery-5.png', alt: 'Image 5' },
-        { src: '/pff/pfc-gallery-6.png', alt: 'Image 6' },
-        { src: '/pff/pfc-gallery-7.png', alt: 'Image 7' },
-        { src: '/pff/pfc-gallery-8.png', alt: 'Image 8' },
+        { src: '/pff/pfc-gallery-1.png', alt: 'Image 1', width:"361", height:"196"  },
+        { src: '/pff/pfc-gallery-2.png', alt: 'Image 2' ,width:"361", height:"196" },
+        { src: '/pff/pfc-gallery-3.png', alt: 'Image 3', width:"361", height:"196" },
+        { src: '/pff/pfc-gallery-4.png', alt: 'Image 4', width:"361", height:"196" },
+        { src: '/pff/pfc-gallery-5.png', alt: 'Image 5',width:"361", height:"196" },
+        { src: '/pff/pfc-gallery-6.png', alt: 'Image 6', width:"361", height:"196" },
+        { src: '/pff/pfc-gallery-7.png', alt: 'Image 7', width:"361", height:"196" },
+        { src: '/pff/pfc-gallery-8.png', alt: 'Image 8', width:"361", height:"196" },
         // { src: '/pff/pfc-gallery-9.png', alt: 'Image 9' },
-        { src: '/pff/pfc-gallery-11.png', alt: 'Image 11' },
-        { src: '/pff/pfc-gallery-10.png', alt: 'Image 10' },
-        { src: '/pff/pfc-gallery-12.png', alt: 'Image 12' },
+        { src: '/pff/pfc-gallery-11.png', alt: 'Image 11',width:"361", height:"196" },
+        { src: '/pff/pfc-gallery-10.png', alt: 'Image 10', width:"361", height:"196" },
+        { src: '/pff/pfc-gallery-12.png', alt: 'Image 12', width:"361", height:"196" },
       ];
 
 
@@ -98,7 +114,7 @@ const Gallery = ({select}) => {
 }
             </div> */}
             {/* </div> */}
-     <div className="md:columns-3 columns-2  md:max-w-[60vw] gap-[6px]  self-center">
+     {/* <div className="md:columns-3 columns-2  md:max-w-[60vw] gap-[6px]  self-center">
       {select==="PFF"?
          imagespff.map((image, index) => (
           <div className=' overflow-x-hidden  w-full '>
@@ -122,7 +138,7 @@ const Gallery = ({select}) => {
         </div>
       ))
     }
-    </div> 
+    </div>  */}
      {/* <div className="gallery-grid">
       {imagespfc.map((image,alt) => 
      
@@ -173,6 +189,26 @@ const Gallery = ({select}) => {
   <img src="/pff/pfc-gallery-3.png" />
   </div>
     </div> */}
+
+
+
+
+<div className="pswp-gallery md:columns-3 columns-2  md:max-w-[60vw] gap-[6px]  self-center" id="my-test-gallery">
+      {imagespfc.map((image, index) => (
+        <a
+        
+          href={image.src}
+          data-pswp-width={image.width}
+          data-pswp-height={image.height}
+          key={"my-test-gallery" + '-' + index}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img className="md:m-1 min-w-[20vw] object-cover" src={image.src} alt="" />
+        </a>
+      ))}
+    </div>
+
 
 
     </div>
