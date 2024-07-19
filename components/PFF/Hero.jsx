@@ -56,7 +56,7 @@ const Hero = ({select}) => {
 
     </div>
  
-    <div className="flex justify-center items-center gap-3   md:hidden bg-black bg-opacity-50 py-8">
+    <div className="flex justify-center items-center gap-3  mt-6 md:hidden bg-black bg-opacity-50 py-8">
         <p className="text-white">Be in the loop!</p>
         <div className="flex items-center gap-3">
             <img src="/facebook-pfc.png" />

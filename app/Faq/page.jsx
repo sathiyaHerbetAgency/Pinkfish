@@ -10,24 +10,16 @@ import AccordItem from "../../components/js/AccordItem";
 const Faq = () => {
   const data0=["Pinkfish celebrates the best of dance, urban pop, and live music acts, all in one place. With a lineup of top-notch performers and artists, Pinkfish promises to be an unforgettable experience for music and art lovers alike. Whether you're a die-hard fan of your favourite performers or simply looking for a night of non-stop fun and entertainment, Pinkfish has something for everyone. It's more than just a festival - it's a celebration of creativity, expression, and community. Come and experience music, dance and art in new and exciting ways.",
     "Let Pinkfish be your way of life!"]
-    const data1=["Pinkfish celebrates the best of dance, urban pop, and live music acts, all in one place. With a lineup of top-notch performers and artists, Pinkfish promises to be an unforgettable experience for music and art lovers alike. Whether you're a die-hard fan of your favourite performers or simply looking for a night of non-stop fun and entertainment, Pinkfish has something for everyone. It's more than just a festival - it's a celebration of creativity, expression, and community. Come and experience music, dance and art in new and exciting ways.",
-      "Let Pinkfish be your way of life!"]
-    const data2=["Pinkfish celebrates the best of dance, urban pop, and live music acts, all in one place. With a lineup of top-notch performers and artists, Pinkfish promises to be an unforgettable experience for music and art lovers alike. Whether you're a die-hard fan of your favourite performers or simply looking for a night of non-stop fun and entertainment, Pinkfish has something for everyone. It's more than just a festival - it's a celebration of creativity, expression, and community. Come and experience music, dance and art in new and exciting ways.",
-      "Let Pinkfish be your way of life!"]
-    const data3=["Pinkfish celebrates the best of dance, urban pop, and live music acts, all in one place. With a lineup of top-notch performers and artists, Pinkfish promises to be an unforgettable experience for music and art lovers alike. Whether you're a die-hard fan of your favourite performers or simply looking for a night of non-stop fun and entertainment, Pinkfish has something for everyone. It's more than just a festival - it's a celebration of creativity, expression, and community. Come and experience music, dance and art in new and exciting ways.",
-      "Let Pinkfish be your way of life!"]
-    const data4=["Pinkfish celebrates the best of dance, urban pop, and live music acts, all in one place. With a lineup of top-notch performers and artists, Pinkfish promises to be an unforgettable experience for music and art lovers alike. Whether you're a die-hard fan of your favourite performers or simply looking for a night of non-stop fun and entertainment, Pinkfish has something for everyone. It's more than just a festival - it's a celebration of creativity, expression, and community. Come and experience music, dance and art in new and exciting ways.",
-      "Let Pinkfish be your way of life!"]
-    const data5=["Pinkfish celebrates the best of dance, urban pop, and live music acts, all in one place. With a lineup of top-notch performers and artists, Pinkfish promises to be an unforgettable experience for music and art lovers alike. Whether you're a die-hard fan of your favourite performers or simply looking for a night of non-stop fun and entertainment, Pinkfish has something for everyone. It's more than just a festival - it's a celebration of creativity, expression, and community. Come and experience music, dance and art in new and exciting ways.",
-      "Let Pinkfish be your way of life!"]
-    const data6=["Pinkfish celebrates the best of dance, urban pop, and live music acts, all in one place. With a lineup of top-notch performers and artists, Pinkfish promises to be an unforgettable experience for music and art lovers alike. Whether you're a die-hard fan of your favourite performers or simply looking for a night of non-stop fun and entertainment, Pinkfish has something for everyone. It's more than just a festival - it's a celebration of creativity, expression, and community. Come and experience music, dance and art in new and exciting ways.",
-      "Let Pinkfish be your way of life!"]
-    const data7=["Pinkfish celebrates the best of dance, urban pop, and live music acts, all in one place. With a lineup of top-notch performers and artists, Pinkfish promises to be an unforgettable experience for music and art lovers alike. Whether you're a die-hard fan of your favourite performers or simply looking for a night of non-stop fun and entertainment, Pinkfish has something for everyone. It's more than just a festival - it's a celebration of creativity, expression, and community. Come and experience music, dance and art in new and exciting ways.",
-      "Let Pinkfish be your way of life!"]
-    const data8=["Pinkfish celebrates the best of dance, urban pop, and live music acts, all in one place. With a lineup of top-notch performers and artists, Pinkfish promises to be an unforgettable experience for music and art lovers alike. Whether you're a die-hard fan of your favourite performers or simply looking for a night of non-stop fun and entertainment, Pinkfish has something for everyone. It's more than just a festival - it's a celebration of creativity, expression, and community. Come and experience music, dance and art in new and exciting ways.",
-      "Let Pinkfish be your way of life!"]
-    const data9=["Pinkfish celebrates the best of dance, urban pop, and live music acts, all in one place. With a lineup of top-notch performers and artists, Pinkfish promises to be an unforgettable experience for music and art lovers alike. Whether you're a die-hard fan of your favourite performers or simply looking for a night of non-stop fun and entertainment, Pinkfish has something for everyone. It's more than just a festival - it's a celebration of creativity, expression, and community. Come and experience music, dance and art in new and exciting ways.",
-      "Let Pinkfish be your way of life!"]
+    const data1=["We throw a diverse range of events, including music festivals, concerts, and arena shows. Each event promises a unique and exciting experience!"]
+    const data2=["Our events are held in various locations based on the type of event. Want to know where the next event is? Follow our official Facebook & Instagram – @pinkfishfestival for all the deets!"]
+    const data3=["Stay in the loop by following us on social media, and regularly checking our Instagram and Facebook page for the latest updates"]
+    const data4=["We welcome vendors and sponsors to join our festivals. Drop us an email at info@pinkfishfestival.com for more information on the application process and the benefits of collaborating with us!"]
+    const data5=["You can grab our merchandise online at https://pinkfishfestival.com/merchandise or directly at our festivals. Explore our range of apparel, accessories, and unique memorabilia."]
+    const data6=["We love to hear your feedback and suggestions! Drop us an email at info@pinkfishfestival.com or contact us directly to share your thoughts and help us make things even better!"]
+    const data7=["Yes, we are always on the lookout for passionate and creative individuals to join our team. Visit https://pinkfishfestival.com/contact and let’s chat!"]
+    const data8=["For more details or questions, hit us up on our Contact Us [https://pinkfishfestival.com/contact] page or email us at info@pinkfishfestival.com."]
+    // const data9=["Pinkfish celebrates the best of dance, urban pop, and live music acts, all in one place. With a lineup of top-notch performers and artists, Pinkfish promises to be an unforgettable experience for music and art lovers alike. Whether you're a die-hard fan of your favourite performers or simply looking for a night of non-stop fun and entertainment, Pinkfish has something for everyone. It's more than just a festival - it's a celebration of creativity, expression, and community. Come and experience music, dance and art in new and exciting ways.",
+    //   "Let Pinkfish be your way of life!"]
     
   return (
     <div>
@@ -39,29 +31,29 @@ const Faq = () => {
           
           </div>
           <div className=" self-center">
-          <AccordItem header="What is Pinkfish?" text={data1} no={"0"} />
+          <AccordItem header="What is Pinkfish?" text={data0} no={"0"} />
               <hr className="hr_line_question " />
-              <AccordItem header="What types of events does Pinkfish offers?" text={data2} no={"1"} />
+              <AccordItem header="What types of events does Pinkfish offers?" text={data1} no={"1"} />
               <hr className="hr_line_question " />
-              <AccordItem header="Where are Pinkfish events held?" no={"2"} text={data3}  />
+              <AccordItem header="Where are Pinkfish events held?" no={"2"} text={data2}  />
               <hr className="hr_line_question " />
 
-              <AccordItem header="How can I stay updated on upcoming festivals?" no={"3"} text={data4} />
+              <AccordItem header="How can I stay updated on upcoming festivals?" no={"3"} text={data3} />
 
               <hr className="hr_line_question " />
               <AccordItem header="How can I become a vendor or sponsor?" no={"4"} text={data4} />
 
               <hr className="hr_line_question " />
-              <AccordItem header="How can I purchase Pinkfish merchandise?" no={"5"} text={data4} />
+              <AccordItem header="How can I purchase Pinkfish merchandise?" no={"5"} text={data5} />
 
               <hr className="hr_line_question " /> 
-              <AccordItem header="How can I provide feedback or suggestions?" no={"6"} text={data4} />
+              <AccordItem header="How can I provide feedback or suggestions?" no={"6"} text={data6} />
 
               <hr className="hr_line_question " />
-              <AccordItem header="Are there career opportunities with Pinkfish?" no={"7"} text={data4} />
+              <AccordItem header="Are there career opportunities with Pinkfish?" no={"7"} text={data7} />
 
               <hr className="hr_line_question " />
-              <AccordItem header="Who can I contact for more information about Pinkfish?" no={"8"} text={data4} />
+              <AccordItem header="Who can I contact for more information about Pinkfish?" no={"8"} text={data8} />
 
               <hr className="hr_line_question " />
           </div>
