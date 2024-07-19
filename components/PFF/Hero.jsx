@@ -38,7 +38,7 @@ const Hero = ({select}) => {
             <h1 className="text-[36px] md:text-[44px] font-[Integral] md:leading-[50px]  font-bold tracking-[1px] er text-[#fff] uppercase">{checkContents().second_heading}</h1>
             <p className="text-[18px] w-[90%] font-[SofiaLight] text-[#fff] "><span className="font-bold">{checkContents().span_text} </span>{checkContents().text}</p>
         </div>
-        <div className="flex justify-center w-[80%] md:w-[100%] self-center md:justify-start gap-6">
+        <div className=" text-left md:text-center flex justify-center w-[80%] md:w-[100%] self-center md:justify-start gap-6">
             <button type='button' className='uppercase text-white p-3 bg-[#FF0086] rounded-md font-[SofiaMedium] text-[18px]'>{checkContents().button_text}</button>
            
             <button type='button' href="/faq" className=' uppercase text-white  px-4 outline outline-2 outline-[#fff] rounded-md font-[SofiaMedium] text-[18px]'>
