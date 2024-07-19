@@ -6,7 +6,7 @@ import Heading from './Heading';
 
 const Timer = () => {
     // stop it when needed
-    const countdownDate = new Date('2/25/2025');
+    const countdownDate = new Date('12/31/2024');
     //end date
     const [state, setState] = useState({
       days: 0,

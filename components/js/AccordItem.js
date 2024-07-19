@@ -45,12 +45,8 @@ const AccordItem = ({header,text,no}) => {
           active ? "block" : "hidden"
         }`}
       >
-        {/* <p className="answer_text py-3  leading-relaxed ">tasaaa</p> */}
-        {text.map(element => {
-            return(
-        <p className="answer_text py-3  leading-relaxed ">{element}</p>
-            )
-      })}
+
+      <> {text} </>
         
       </div>
   </div>

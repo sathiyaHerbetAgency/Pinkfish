@@ -207,7 +207,7 @@ const Gallery = ({select}) => {
       rel="noreferrer"
       className="gap-1"
     >
-      <img className=" min-w-[50vw] md:min-w-[20vw] pt-1 pl-1 object-cover" src={image.src} alt="" />
+      <img className=" min-w-[50vw] md:min-w-[20vw] pt-1 md:pl-1 object-cover" src={image.src} alt="" />
     </a>
   ))
   :

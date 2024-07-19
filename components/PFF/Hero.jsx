@@ -34,13 +34,15 @@ const Hero = ({select}) => {
     <div className={` flex flex-col justify-between pt-24  md:pt-24 md:pb-11  ${select==="PFF"?"bg-pff":"bg-pfc"}`}>
     <div className="flex flex-col gap-4 md:pt-16 pt:36 self-center md:w-[80%]">
         <div className="md:w-[65%] w-[78%] flex flex-col self-center md:self-start gap-4">
-            <h1 className="text-[22px] font-[Integral]  text-[#FF0086] text-center md:text-start uppercase">{checkContents().first_heading}</h1>
-            <h1 className="text-[36px] md:text-[44px] font-[Integral] md:leading-[50px] md:text-start font-bold tracking-[1px] text-center text-[#fff] uppercase">{checkContents().second_heading}</h1>
-            <p className="text-[18px] w-[90%] font-[SofiaLight] text-[#fff] text-center md:text-start"><span className="font-bold">{checkContents().span_text} </span>{checkContents().text}</p>
+            <h1 className="text-[22px] font-[Integral]  text-[#FF0086] text-start uppercase">{checkContents().first_heading}</h1>
+            <h1 className="text-[36px] md:text-[44px] font-[Integral] md:leading-[50px]  font-bold tracking-[1px] er text-[#fff] uppercase">{checkContents().second_heading}</h1>
+            <p className="text-[18px] w-[90%] font-[SofiaLight] text-[#fff] "><span className="font-bold">{checkContents().span_text} </span>{checkContents().text}</p>
         </div>
         <div className="flex justify-center w-[80%] md:w-[100%] self-center md:justify-start gap-6">
             <button type='button' className='uppercase text-white p-3 bg-[#FF0086] rounded-md font-[SofiaMedium] text-[18px]'>{checkContents().button_text}</button>
-            <button type='button'className=' uppercase text-white  px-4 outline outline-2 outline-[#fff] rounded-md font-[SofiaMedium] text-[18px]'>FAQ</button>
+           
+            <button type='button' href="/faq" className=' uppercase text-white  px-4 outline outline-2 outline-[#fff] rounded-md font-[SofiaMedium] text-[18px]'>
+            <a href="/Faq" >FAQ</a></button>
 
         </div>
         <div className="hidden md:block ">

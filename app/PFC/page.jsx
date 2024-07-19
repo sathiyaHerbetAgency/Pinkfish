@@ -24,7 +24,7 @@ import Timer from './../../components/PFF/Timer';
             <div className="gradient-container-pfc">
                 <Timer />
                <Heading text={"#PFC2023 official aftermovie"} page={"PFC"}  />
-               <Video  page={"PFF"} />
+               <Video  id={"rlJu8PURolU"}  />
                <Gallery select={"PFC"} />
                <Banner  select={"PFC"} />
                <Bottom   />
