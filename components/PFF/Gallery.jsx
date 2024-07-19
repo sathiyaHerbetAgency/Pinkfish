@@ -98,13 +98,13 @@ const Gallery = ({select}) => {
 }
             </div> */}
             {/* </div> */}
-     <div className="columns-3  md:max-w-[60vw] gap-[6px]  self-center">
+     <div className="md:columns-3 columns-2  md:max-w-[60vw] gap-[6px]  self-center">
       {select==="PFF"?
          imagespff.map((image, index) => (
           <div className=' overflow-x-hidden  w-full '>
         <img
           key={index}
-          className="m-1 min-w-[20vw] object-cover "
+          className="md:m-1 min-w-[20vw] object-cover "
           src={image.src}
           alt={image.alt}
         />
@@ -112,10 +112,10 @@ const Gallery = ({select}) => {
       ))
       :
       imagespfc.map((image, index) => (
-        <div className='  w-full'>
+        <div className=' '>
         <img
           key={index}
-          className="p-1  min-w-[20vw] object-cover "
+          className="md:p-1 min-w-[50vw] pb-1 pt-1 pr-1  md:min-w-[20vw] object-cover "
           src={image.src}
           alt={image.alt}
         />
