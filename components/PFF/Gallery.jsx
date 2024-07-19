@@ -101,10 +101,10 @@ const Gallery = ({select}) => {
      <div className="columns-3  md:max-w-[60vw] gap-[6px]  self-center">
       {select==="PFF"?
          imagespff.map((image, index) => (
-          <div className='  w-full '>
+          <div className=' overflow-x-hidden  w-full '>
         <img
           key={index}
-          className="p-1 min-w-[20vw] object-cover "
+          className="m-1 min-w-[20vw] object-cover "
           src={image.src}
           alt={image.alt}
         />

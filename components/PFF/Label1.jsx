@@ -357,7 +357,7 @@ const Label1 = ({text}) => (
   // </div>
   <div className="horizantal_pink_container_live_pff">
 <Marquee direction="right" >
-  <div className="flex justify-around min-w-[120vw] gap-6 px-6">
+  <div className="flex justify-around min-w-[120vw] items-center gap-6 px-6">
     <div className="svg-gap">
           <svg className="svg-mob"
             width="68"

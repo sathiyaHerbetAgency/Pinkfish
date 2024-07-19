@@ -320,6 +320,7 @@ contact_input:focus{
 
 .image_11_pff:hover img {
     transform: scale(1.1);
+    @apply m-1
 }
 
 
