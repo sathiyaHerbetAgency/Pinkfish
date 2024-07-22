@@ -194,7 +194,7 @@ const Gallery = ({select}) => {
 
 
 
-<div className="md:columns-3 columns-2 md:max-w-[60vw] gap-[4px]  md:gap-[8px]  self-center" id="my-test-gallery">
+<div className="md:columns-3 columns-2 md:max-w-[60vw] gap-[4px]  md:gap-[11px]  self-center" id="my-test-gallery">
 {select==="PFF"?
   imagespff.map((image, index) => (
     <a
