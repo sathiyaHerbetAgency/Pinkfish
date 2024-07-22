@@ -35,8 +35,8 @@ const Hero = ({select}) => {
     <div className="flex flex-col gap-4 md:pt-16 pt:36 self-center md:w-[80%]">
         <div className="md:w-[65%] w-[78%] flex flex-col self-center md:self-start gap-4">
             <h1 className="text-[22px] font-[Integral]  text-[#FF0086] text-start uppercase">{checkContents().first_heading}</h1>
-            <h1 className="text-[36px] md:text-[44px] font-[Integral] md:leading-[50px]  font-bold tracking-[1px] er text-[#fff] uppercase">{checkContents().second_heading}</h1>
-            <p className="text-[18px] w-[90%] font-[SofiaLight] text-[#fff] "><span className="font-bold">{checkContents().span_text} </span>{checkContents().text}</p>
+            <h1 className="text-[36px] md:text-[44px] font-[Integral] md:leading-[50px] leading-[38px] font-bold tracking-[1px] er text-[#fff] uppercase">{checkContents().second_heading}</h1>
+            <p className="world_text w-[90%]  "><span className="font-bold">{checkContents().span_text} </span>{checkContents().text}</p>
         </div>
         <div className=" text-left md:text-center flex justify-center w-[80%] md:w-[100%] self-center md:justify-start gap-6">
             <button type='button' className='uppercase text-white p-3 bg-[#FF0086] rounded-md font-[SofiaMedium] text-[18px]'>{checkContents().button_text}</button>

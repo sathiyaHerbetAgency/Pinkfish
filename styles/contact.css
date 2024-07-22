@@ -382,7 +382,7 @@ contact_input:focus{
 
 
 .answer_text{
-    @apply text-[16px] leading-[27px] font-[100] font-[SofiaLight] text-white
+    @apply text-[16px] leading-[24px] font-[100] font-[Sofia] text-white
 
 }
 .top_btn{

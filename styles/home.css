@@ -37,6 +37,9 @@
     @apply  text-white text-[12px]  md:text-[16px] leading-[16px] md:leading-[20px]   font-[Sofia] ;
 
 }
+.font_black{
+    color:#000 !important
+}
 .text-block {
     position: absolute;
     text-align: center;
