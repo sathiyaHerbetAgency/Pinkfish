@@ -39,19 +39,29 @@ const Hero = ({select}) => {
             <p className="world_text w-[90%]  "><span className="font-bold">{checkContents().span_text} </span>{checkContents().text}</p>
         </div>
         <div className=" text-left md:text-center flex justify-center w-[80%] md:w-[100%] self-center md:justify-start gap-6">
-            <button type='button' className='uppercase text-white p-3 bg-[#FF0086] rounded-md font-[SofiaMedium] text-[18px]'>{checkContents().button_text}</button>
+            <button type='button' className='uppercase contact_submit '>{checkContents().button_text}</button>
            
-            <button type='button' href="/faq" className=' uppercase text-white  px-4 outline outline-2 outline-[#fff] rounded-md font-[SofiaMedium] text-[18px]'>
+            <button type='button' href="/faq" className=' uppercase text-[16px] leading-[24px] font-[Sofia] text-white font-[500] px-3 outline outline-2 outline-[#fff] rounded-md '>
             <a href="/Faq" >FAQ</a></button>
 
         </div>
         <div className="hidden md:block ">
             <div className="flex gap-3 items-center pt-11 k">
                 <p className="text-white">Be in the loop!</p>
-                <div className="flex gap-3">
-                    <img src="/facebook-pfc.png" />
-                    <img src="/twitter-pfc.png" />
+                <div className="flex items-center gap-3">
+                    <a href='https://www.facebook.com/pinkfishfestival/' target="_blank" className=" ">
+       
+                        <img src="/facebook-pfc.png" />
+                    </a>
+                    <a href='https://www.youtube.com/@Pinkfishfestival' target="_blank" className=" ">
+                    <img src="/pff-youtube.png" />
+                    </a>
+                    <a href='https://www.instagram.com/pinkfishfestival/' target="_blank" className=" ">
                     <img src="/pff-insta.png" />
+                    </a>
+                    <a href='https://www.tiktok.com/@pinkfishfestival' target="_blank" className="">
+                    <img src="/pff-tiktok.png" />
+                    </a>
                 </div>
             </div>
         </div>
@@ -61,11 +71,14 @@ const Hero = ({select}) => {
     <div className="flex justify-center items-center gap-3  mt-6 md:hidden bg-black bg-opacity-50 py-8">
         <p className="text-white">Be in the loop!</p>
         <div className="flex items-center gap-3">
+        <a href='https://www.facebook.com/pinkfishfestival/' target="_blank" className="icon_text order-2 md:order-1">
             <img src="/facebook-pfc.png" />
+        </a>
             <img src="/twitter-pfc.png" />
             <img src="/pff-insta.png" />
         </div>
-    </div>     
+    </div>
+         
 </div>
   )
 }

@@ -185,7 +185,7 @@ const Footer = () => (
             <img src='/insta.svg'/>
             </a>
            
-            <a href=' https://www.tiktok.com/@pinkfishfestival' target="_blank" className="icon_text text-center order-2 md:order-1">
+            <a href='https://www.tiktok.com/@pinkfishfestival' target="_blank" className="icon_text text-center order-2 md:order-1">
             <img src='/tiktok.svg'/>
 
 </a> 
