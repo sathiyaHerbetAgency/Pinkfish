@@ -2,6 +2,8 @@
 
 import React from 'react'
 import "../../styles/live.css"
+import "../../styles/contact.css"
+
 
 
 const Hero = ({select}) => {
@@ -39,8 +41,7 @@ const Hero = ({select}) => {
             <p className="world_text w-[90%]  "><span className="font-bold">{checkContents().span_text} </span>{checkContents().text}</p>
         </div>
         <div className=" text-left md:text-center flex justify-center w-[80%] md:w-[100%] self-center md:justify-start gap-6">
-            <button type='button' className='uppercase contact_submit '>{checkContents().button_text}</button>
-           
+            <button type='button' className='uppercase contact_submit bg-[#FF0086]'>{checkContents().button_text}</button>
             <button type='button' href="/faq" className=' uppercase text-[16px] leading-[24px] font-[Sofia] text-white font-[500] px-3 outline outline-2 outline-[#fff] rounded-md '>
             <a href="/Faq" >FAQ</a></button>
 
@@ -50,7 +51,6 @@ const Hero = ({select}) => {
                 <p className="text-white">Be in the loop!</p>
                 <div className="flex items-center gap-3">
                     <a href='https://www.facebook.com/pinkfishfestival/' target="_blank" className=" ">
-       
                         <img src="/facebook-pfc.png" />
                     </a>
                     <a href='https://www.youtube.com/@Pinkfishfestival' target="_blank" className=" ">
