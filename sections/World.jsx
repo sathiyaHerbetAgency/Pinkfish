@@ -95,11 +95,11 @@ return(
      
         <div className="flex justify-between">
         {/* <a href='/music&artsfestival'>  */}
-        <a href='/pff'> 
+        <a href='/PFF'> 
 
     <img className="md:block hidden " src='/hero_logo_3.png' />
     </a>
-    <a   href='/pfc'>
+    <a   href='/PFC'>
     {/* <a   href='countdown'>  */}
 
     <img className="md:block hidden" src='/hero_logo_2.png' />
@@ -109,10 +109,10 @@ return(
   </a>
     </div>
     <div className="flex justify-between">
-      <a href="/pff">
+      <a href="/PFF">
     <img className="md:hidden" src='/hero_logo_mob_3.png' />
     </a>
-    <a   href='/pfc'> 
+    <a   href='/PFC'> 
     <img className="md:hidden" src='/hero_logo_mob_2.png' />
     </a>
     <a href="/Live">
