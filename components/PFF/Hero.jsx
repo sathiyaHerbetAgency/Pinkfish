@@ -13,14 +13,16 @@ const Hero = ({select}) => {
         second_heading:"pinkfish music & arts festival",
         span_text:"Pinkfish Music & Arts Festival ",
         text:"is a curated creative music & arts experience that featured live acts, both local & international, as well as art installations from various artists gifted in multiple mediums to celebrate the best in music & art in one big event.",
-        button_text:'Follow for more updates'
+        button_text:'Follow for more updates',
+        link:"https://www.instagram.com/pinkfishfestival/"
     }
     const PFC={
         first_heading:"coming soon in 2024",
         second_heading:"pinkfish countdown",
         span_text:"Pinkfish Countdown ",
         text:"is a curated experience of tight-knit celebration that features both international and local live acts upon the ushering into the new year. This event brings together the creative and music-loving community, as we count down to the new year.",
-        button_text:'Join the 2024 waitlist'
+        button_text:'Join the 2024 waitlist',
+        link:"https://forms.gle/UHnTfnZcNNfkXtk37"
     }
     function checkContents(){
         if(select==="PFF"){
@@ -41,7 +43,7 @@ const Hero = ({select}) => {
             <p className="world_text w-[90%]  "><span className="font-bold">{checkContents().span_text} </span>{checkContents().text}</p>
         </div>
         <div className=" text-left md:text-center flex justify-center w-[80%] md:w-[100%] self-center md:justify-start gap-6">
-            <button type='button' className='uppercase contact_submit bg-[#FF0086]'>{checkContents().button_text}</button>
+            <button type='button' className='uppercase contact_submit bg-[#FF0086]'> <a href={checkContents().link} target="_blank" > {checkContents().button_text} </a></button>
             <button type='button' href="/faq" className=' uppercase text-[16px] leading-[24px] font-[Sofia] text-white font-[500] px-3 outline outline-2 outline-[#fff] rounded-md '>
             <a href="/Faq" >FAQ</a></button>
 

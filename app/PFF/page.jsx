@@ -19,7 +19,7 @@ import Bottom from './../../components/PFF/Bottom';
             <Hero select={"PFF"} />
             <Label text={"see you in 2025"} />
             <div className="gradient-container-pff">
-               <Heading text={"#PFF2024 official aftermovie"} page={"PFF"} />
+               <Heading text={"#PFF2023 official aftermovie"} page={"PFF"} />
                <Video  id={"F8k-yI4zWLg"}  />
                <Gallery select={"PFF"} />
                <Banner  select={"PFF"}  />

@@ -1,6 +1,8 @@
 /* eslint-disable */
 "use client";
 import "../../styles/contact.css";
+import "../../styles/home.css";
+
 import  {Footer}   from "../../components";
 import Link from "next/link";
 // import AccordItem from './../../components/AccordItem';

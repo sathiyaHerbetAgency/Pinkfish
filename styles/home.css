@@ -34,9 +34,14 @@
 }
 
 .world_text{
-    @apply  text-white text-[12px]  md:text-[16px] leading-[16px] md:leading-[20px]   font-[Sofia] ;
+    @apply  text-white text-[12px]  md:text-[16px] leading-[16px] md:leading-[20px] font-[Sofia] ;
 
 }
+/* @font-face {
+    font-family: 'Sofia';
+    src: url("/fonts/SofiaPro.ttf");
+  } */
+  
 .font_black{
     color:#000 !important
 }
