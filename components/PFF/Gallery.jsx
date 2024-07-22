@@ -194,7 +194,7 @@ const Gallery = ({select}) => {
 
 
 
-<div className="md:columns-3 columns-2 m-1 md:m-0  md:max-w-[60vw] gap-[1px]  md:gap-[6px]  self-center" id="my-test-gallery">
+<div className="md:columns-3 columns-2 md:max-w-[60vw] gap-[4px]  gap-[11px]  self-center" id="my-test-gallery">
 {select==="PFF"?
   imagespff.map((image, index) => (
     <a
@@ -207,7 +207,7 @@ const Gallery = ({select}) => {
       rel="noreferrer"
       className="gap-1"
     >
-      <img className=" min-w-[50%] md:min-w-[20vw] pt-1 md:pl-1 object-cover" src={image.src} alt="" />
+      <img className=" min-w-[50vw] md:min-w-[20vw] pt-1 md:pl-1 object-cover" src={image.src} alt="" />
     </a>
   ))
   :
@@ -222,7 +222,7 @@ const Gallery = ({select}) => {
           rel="noreferrer"
           className="gap-1"
         >
-          <img className=" min-w-[50%] md:min-w-[20vw] pt-1 pl-1 object-cover" src={image.src} alt="" />
+          <img className=" min-w-[50vw] md:min-w-[20vw] pt-1 md:pl-  object-cover" src={image.src} alt="" />
         </a>
       ))
     }
