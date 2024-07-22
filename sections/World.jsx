@@ -105,16 +105,16 @@ return(
     <img className="md:block hidden" src='/hero_logo_2.png' />
     </a>
     <a href='/Live'> 
-    <img className="md:block hidden" src='/hero_logo_1.png' />
-  </a>
-    </div>
-    <div className="flex justify-between">
-      <a href="/PFF">
-    <img className="md:hidden" src='/hero_logo_mob_3.png' />
+      <img className="md:block hidden" src='/hero_logo_1.png' />
     </a>
-    <a   href='/PFC'> 
-    <img className="md:hidden" src='/hero_logo_mob_2.png' />
-    </a>
+      </div>
+      <div className="flex justify-between">
+        <a href="/PFF">
+      <img className="md:hidden" src='/hero_logo_mob_3.png' />
+      </a>
+      <a   href='/PFC'> 
+      <img className="md:hidden" src='/hero_logo_mob_2.png' />
+      </a>
     <a href="/Live">
     <img className="md:hidden" src='/hero_logo_mob_1.png' />
     </a>
