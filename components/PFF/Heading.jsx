@@ -3,7 +3,7 @@
 
 const Heading=({text,page})=>{
 return(
-    <div className="flex md:gap-8 justify-center items-center py-11 px-11 gap-3 ">
+    <div className="flex md:gap-8 justify-center items-center md:py-11 py-8 px-11 gap-3 ">
         {page==="PFF"?
         <svg width="63" height="49" viewBox="0 0 63 49" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clip-path="url(#clip0_39_317)">

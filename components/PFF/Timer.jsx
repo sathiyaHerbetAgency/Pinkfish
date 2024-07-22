@@ -61,7 +61,7 @@ const Timer = () => {
       };
 
   return (
-    <div className="flex flex-col gap-11">
+    <div className="flex flex-col md:gap-11 ">
         <Heading text={"counting down to #pfc2024"} page={"PFC"}  />
         <div className="flex flex-col">
         {

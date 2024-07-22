@@ -71,12 +71,20 @@ const Hero = ({select}) => {
     <div className="flex justify-center items-center gap-3  mt-6 md:hidden bg-black bg-opacity-50 py-8">
         <p className="text-white">Be in the loop!</p>
         <div className="flex items-center gap-3">
-        <a href='https://www.facebook.com/pinkfishfestival/' target="_blank" className="icon_text order-2 md:order-1">
-            <img src="/facebook-pfc.png" />
-        </a>
-            <img src="/twitter-pfc.png" />
-            <img src="/pff-insta.png" />
-        </div>
+                    <a href='https://www.facebook.com/pinkfishfestival/' target="_blank" className=" ">
+       
+                        <img src="/facebook-pfc.png" />
+                    </a>
+                    <a href='https://www.youtube.com/@Pinkfishfestival' target="_blank" className=" ">
+                    <img src="/pff-youtube.png" />
+                    </a>
+                    <a href='https://www.instagram.com/pinkfishfestival/' target="_blank" className=" ">
+                    <img src="/pff-insta.png" />
+                    </a>
+                    <a href='https://www.tiktok.com/@pinkfishfestival' target="_blank" className="">
+                    <img src="/pff-tiktok.png" />
+                    </a>
+                </div>
     </div>
          
 </div>
