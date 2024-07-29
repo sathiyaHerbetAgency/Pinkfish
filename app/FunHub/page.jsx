@@ -24,15 +24,15 @@ const FanHub = () => {
             <div className='basis-1/2  order-2 md:order-1  flex flex-col justify-center gap-4'>
                 <div className='flex flex-col self-center w-[80%] gap-6'>
                 <img src='/fan_box_logo_2.png' className='self-center' alt='Pinkfish Music & Arts Festival logo'/>
-                <p className='fish_bottom_text text-center self-center'> <span className='fish_bottom_heading'> Pinkfish Music & Arts Festival </span> is a curated creative music & arts experience that featured live acts,
-both local & international, as well as art installations from various artists gifted in multiple mediums.
-This event was to celebrate the best in music & art in one big event. Over 8,000 people from
-Malaysia and neighbouring countries attended this large-scale outdoor festival at Sunway Lagoon
-Surf Beach.</p>
+                <p className='fish_bottom_text text-center self-center'> <span className='fish_bottom_heading'> Pinkfish Music & Arts Festival </span> 
+                is a curated creative music & arts experience that features live acts, both local & international, as well as art installations from 
+                various artists gifted in multiple mediums. This event was to celebrate the best in music & art in one big event.
+                 Over 13,000 people from Malaysia and neighboring countries attended this large-scale outdoor festival at Sunway Lagoon Surf Beach.
+                </p>
 
-<p className='fish_bottom_text self-center text-center'>Two dynamic stages (Main Stage & Beach Hut) allowed for non-stop entertainment throughout the
+{/* <p className='fish_bottom_text self-center text-center'>Two dynamic stages (Main Stage & Beach Hut) allowed for non-stop entertainment throughout the
 festival. Headliners included DJ Snake, Yellow Claw, Meduza & Dash Berlin, and we also invited
-regional & local acts like Joe Flizzow, Ramengvrl, Gemini & many more.</p>
+regional & local acts like Joe Flizzow, Ramengvrl, Gemini & many more.</p> */}
 
 
     <Link className='fan_button self-center' href='/music&artsfestival'>
@@ -53,9 +53,9 @@ regional & local acts like Joe Flizzow, Ramengvrl, Gemini & many more.</p>
                 <div className='flex flex-col self-center w-[80%] gap-6'>
                 <img src='/fan_box_logo_3.png' className='self-center' alt='Pinkfish Countdown logo'/>
                 <p className='fish_bottom_text text-center self-center'> <span className='fish_bottom_heading'> Pinkfish Countdown </span>
-                is a curated experience of tight-knit celebration that features international live acts as we usher in the new year. 
-                This event brings together the creative and music-loving community this New Year’s Eve, 
-                31st of December 2023 as we count down to 2024.</p>
+                is a groundbreaking sub-brand designed to take your New Year's Eve celebration to new heights. Pinkfish Countdown 
+                is set to deliver an unparalleled experience that pushes boundaries and sets the stage for an unforgettable countdown party to midnight
+             </p>
 
                 {/* <p className='fish_bottom_text self-center text-center'>Stay tuned for the promising line-up and future announcements!</p> */}
 
@@ -74,13 +74,15 @@ regional & local acts like Joe Flizzow, Ramengvrl, Gemini & many more.</p>
             <div className='basis-1/2 order-2 md:order-1  flex flex-col justify-center gap-4'>
                 <div className='flex flex-col self-center w-[80%] gap-6'>
                 <img src='/fan_box_logo_1.png' className='self-center' alt='pinkfish live logo'/>
-                <p className='fish_bottom_text text-center self-center'> <span className='fish_bottom_heading'> Pinkfish Live </span> provides revolutionary and international-level live shows electrifying stage setup and show production, mind-bending LED and sound setup for Malaysians.
-Pinkfish Live brought these expertise together for Tyga’s show on the 9th August 2023, having
-concert-goers dancing the night away.</p>
+                <p className='fish_bottom_text text-center self-center'> <span className='fish_bottom_heading'> Pinkfish Live, </span> 
+                a sub-division of Pinkfish, provides revolutionary and international-level live shows, electrifying stage setup and show
+                 production, mind-bending LED and sound setup. We elevate and celebrate the artistry of rap and hip-hop through the sheer 
+                 power of live performances, bringing this cultural force to life on stage.
+                </p>
 
-<p className='fish_bottom_text self-center text-center'>The adrenaline-filled night also featured an exciting lineup of
+{/* <p className='fish_bottom_text self-center text-center'>The adrenaline-filled night also featured an exciting lineup of
 local acts. DJ sets from Nahsyk, Naufal, and Bad M.O.B. set the tone for the night, with exhilarating performances by guest artists such as Saixse and Kidd Santhe, who performed their crowd-favourite
-hits and had them singing along.</p>
+hits and had them singing along.</p> */}
 
 <Link href='/Live' className='fan_button self-center'>
     <button className='' type='button'>Start Living Your Life</button>

@@ -4,6 +4,7 @@
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import Navbar from '../sections/Navbar'
+import Dropdown  from './Dropdown';
 const NewNavbar = () => {
   const [toggleDropdown, setToggleDropdown] = useState(false)
   const [checkUrl,setCheckUrl]=useState(Boolean)
@@ -27,6 +28,8 @@ return (
       <a href="WhatTheFish" className=" flex flex-col justify-center ">
           <h1 className="menu_text  items-end">What the fish!</h1>
         </a>
+{/* <Dropdown /> */}
+
         <a href="FunHub" className=" flex flex-col justify-center ">
           <h1 className="menu_text ">FUN HUB</h1>
         </a>
