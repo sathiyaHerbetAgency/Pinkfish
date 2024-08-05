@@ -434,6 +434,12 @@ font-family: "Integral";
     overflow: hidden;
 }
 
+.horizantal_gray_container_live_pff {
+  @apply bg-[#2C2C2C] py-0 md:py-4;
+  z-index: -99;
+  overflow: hidden;
+}
+
 .horizantal_text_1_live {
     color: black;
     -webkit-text-fill-color: #F33288;

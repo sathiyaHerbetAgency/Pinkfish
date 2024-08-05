@@ -10,6 +10,9 @@ module.exports = {
   mode: 'jit',
   theme: {
     extend: {
+      backgroundImage: {
+        "ticket-title-image": "url('/public/PFA/title_ticket_bg.png')"
+      },
       colors: {
         'primary-black': '#1A232E',
         'secondary-white': '#c7c7c7',

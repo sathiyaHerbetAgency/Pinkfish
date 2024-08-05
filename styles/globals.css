@@ -128,6 +128,36 @@
 
 }
 
+.ticket-bg{
+  background-image:url("/PFA/title_ticket_bg.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+
+}
+
+.ticket-body-bg{
+  background-image:url("/PFA/body_ticket_bg.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+
+/* //Hero// */
+.bg-new-hero{
+  background-image:url("/Home/bg_hero.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.bg-second-hero{
+  background-image:url("/Home/bg_player.png");
+  background-size:contain;
+  background-repeat:no-repeat;
+}
+
+
+
+
 @font-face {
   font-family: 'Integral';
   src: url("/fonts/Integral CF Regular.ttf");
@@ -135,6 +165,19 @@
 @font-face {
   font-family: 'Sofia';
   src: url("/fonts/SofiaPro.ttf");
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url("/fonts/Nunito.ttf");
+}
+
+
+
+
+@font-face {
+  font-family: 'ShareTech-Regular';
+  src: url("/fonts/ShareTech-Regular.ttf");
 }
 
 @font-face {

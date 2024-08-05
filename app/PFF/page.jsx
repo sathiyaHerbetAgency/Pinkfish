@@ -15,7 +15,7 @@ import Bottom from './../../components/PFF/Bottom';
   return (
     <div >
         <NewNavbar />
-        <div className="bg-white">
+        <div className="bg-black">
             <Hero select={"PFF"} />
             <Label text={"see you in 2025"} />
             <div className="gradient-container-pff">

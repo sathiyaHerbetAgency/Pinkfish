@@ -32,6 +32,10 @@
     @apply  text-white text-[36px]  md:text-[48px] leading-[54px] md:leading-[54px] font-[900]  font-[Integral] ;
 
 }
+.world_header_home{
+    @apply  text-white text-[36px]  md:text-[40px] leading-[44px] md:leading-[50px] font-[900]  font-[Integral] ;
+
+}
 
 .world_text{
     @apply  text-white text-[12px]  md:text-[16px] leading-[16px] md:leading-[20px] font-[Sofia] ;
