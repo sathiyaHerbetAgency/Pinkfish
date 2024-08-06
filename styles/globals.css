@@ -155,6 +155,13 @@
   background-repeat:no-repeat;
 }
 
+.bg-pf-event{
+  background-image:url("/Home/Events/pfc_event.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+
+}
+
 
 
 

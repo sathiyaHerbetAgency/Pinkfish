@@ -11,7 +11,7 @@ const Label = ({color,direction}) => {
   return(
   <>
 
-  <div className={`${color==="pink" ? "horizantal_pink_container_live_pff":"horizantal_gray_container_live_pff"} `}>
+  <div id="brand" className={`${color==="pink" ? "horizantal_pink_container_live_pff":"horizantal_gray_container_live_pff"} `}>
   <Marquee direction={direction}>
   <div className="flex items-center justify-around min-w-[100vw] md:gap-6 gap-2 px-3">
 

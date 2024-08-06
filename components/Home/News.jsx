@@ -37,7 +37,7 @@ const News = () => {
                 </div>
             </div>    
             <div className="flex flex-col">
-        <NewsBody check={toogle==='1'&&"PFF"||toogle==="2"&&"PFF"||toogle==="3"&&"PFC"||toogle==="4"&&"PL"} />
+        <NewsBody check={toogle==='1'&&"ALL"||toogle==="2"&&"PFF"||toogle==="3"&&"PFC"||toogle==="4"&&"PL"} />
         <button className="bg-[#828282] text-[14px] font-[Poppins-Regular] text-center self-center  text-[#fff]  uppercase py-3 px-8 rounded"type="button"> view more</button>
 
         </div>
