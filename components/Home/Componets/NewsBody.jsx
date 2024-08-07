@@ -10,7 +10,7 @@ const NewsBody = ({check}) => {
             description:'Sunway Lagoon buzzed with 15,000 diverse music lovers and art enthusiasts, decked out in ‘sequins and silhouettes’.',
             date:"10 June 2024",
             author:'By The Rakyat Post',
-            link:'By The Rakyat Post',
+            link:'https://www.msn.com/en-my/lifestyle/other/pinkfish-does-it-again-elevates-music-festival-to-new-heights-in-second-year/ar-BB1nVbBY',
             btn:'#PFF2024'
         },
         {
@@ -19,7 +19,7 @@ const NewsBody = ({check}) => {
             description:'The trance maestro will be spinning the decks at the Surf Beach in Sunway Lagoon on June 8 alongside Ukrainian DJ Miss Monique, Korean rapper Sik-K and other acts.',
             date:"03 April 2024",
             author:'By The Rakyat Post',
-            link:'By Malay Mail',
+            link:'https://www.malaymail.com/news/life/2024/04/03/dutch-dj-armin-van-buuren-to-headline-pinkfish-festivalat-sunway-lagoon-in-june/127052',
             btn:'#PFF2024'
         },
         {
@@ -28,7 +28,7 @@ const NewsBody = ({check}) => {
             description:'Back with a bang, the second edition of Pinkfish Music & Arts Festival 2024 soared to new heights, returning to the iconic Surf Beach at Sunway Lagoon on 8th June 2024.',
             date:"09 June 2024",
             author:'By KL Foodie ',
-            link:'By The Rakyat Post',
+            link:'https://klfoodie.com/pinkfish-does-it-again-malaysias-most-anticipated-mid-year-festival-returns-kl/#google_vignette',
             btn:'#PFF2024'
         }
     ]
@@ -39,7 +39,7 @@ const NewsBody = ({check}) => {
             description:'Sunway Lagoon buzzed with 15,000 diverse music lovers and art enthusiasts, decked out in ‘sequins and silhouettes’.',
             date:"10 June 2024",
             author:'By The Rakyat Post',
-            link:'By The Rakyat Post',
+            link:'https://www.therakyatpost.com/fun/2024/06/10/pinkfish-does-it-again-elevates-music-festival-to-new-heights-in-second-year',
             btn:'#PFF2024'
         },
         {
@@ -48,7 +48,7 @@ const NewsBody = ({check}) => {
             description:'The trance maestro will be spinning the decks at the Surf Beach in Sunway Lagoon on June 8 alongside Ukrainian DJ Miss Monique, Korean rapper Sik-K and other acts.',
             date:"03 April 2024",
             author:'By The Rakyat Post',
-            link:'By Malay Mail',
+            link:'https://www.malaymail.com/news/life/2024/04/03/dutch-dj-armin-van-buuren-to-headline-pinkfish-festivalat-sunway-lagoon-in-june/127052',
             btn:'#PFF2024'
         },
         {
@@ -57,7 +57,7 @@ const NewsBody = ({check}) => {
             description:'Back with a bang, the second edition of Pinkfish Music & Arts Festival 2024 soared to new heights, returning to the iconic Surf Beach at Sunway Lagoon on 8th June 2024.',
             date:"09 June 2024",
             author:'By KL Foodie ',
-            link:'By The Rakyat Post',
+            link:'https://klfoodie.com/pinkfish-does-it-again-malaysias-most-anticipated-mid-year-festival-returns-kl/#google_vignette',
             btn:'#PFF2024'
         }
     ]
@@ -68,7 +68,7 @@ const NewsBody = ({check}) => {
             description:'One of Malaysia’s biggest countdown extravaganzas will be happening soon where Malaysians can welcome the new year on an exciting note!',
             date:"23 November 2023",
             author:'By Word of Buzz ',
-            link:'By The Rakyat Post',
+            link:'https://worldofbuzz.com/kshmr-coone-more-msians-can-party-til-the-new-year-at-pinkfish-countdown-2023/',
             btn:'#PFC2023'
         },
         {
@@ -77,7 +77,7 @@ const NewsBody = ({check}) => {
             description:'Kick off the New Year with the hottest beats and an unforgettable night. Music lovers, brace yourselves for the ultimate curated musical experience this New Year’s Eve.',
             date:"28 December 2023",
             author:'By The Rakyat Post',
-            link:'By The Rakyat Post',
+            link:'https://www.therakyatpost.com/fun/2023/12/28/pinkfish-countdown-the-ultimate-new-years-eve-bash/',
             btn:'#PFC2023'
         },
         {
@@ -86,7 +86,7 @@ const NewsBody = ({check}) => {
             description:'The carefully curated artiste lineup, culminating in a breathtaking countdown, created an unforgettable night of music and celebration.',
             date:"1 January 2024",
             author:'By New Strait Times',
-            link:'By The Rakyat Post',
+            link:'https://www.nst.com.my/lifestyle/groove/2024/01/996229/showbiz-malaysians%C2%A0welcome-new-year-electrifying-edm-spectacle',
             btn:'#PFC2023'
         }
     ]
@@ -97,7 +97,7 @@ const NewsBody = ({check}) => {
             description:'Look forward to a night of high energy trap and hip hop hits. ',
             date:"05 Jul 2023",
             author:'By Says',
-            link:'By The Rakyat Post',
+            link:'https://says.com/my/entertainment/tyga-is-coming-to-malaysia-in-august',
             btn:'#PFL'
         },
         {
@@ -106,7 +106,7 @@ const NewsBody = ({check}) => {
             description:'Tyga which is an acronym for Thank You God Always rose to fame through his debut studio album No Introduction in 2008.',
             date:"07 July 2023",
             author:'By New Strait Times   ',
-            link:'By The Rakyat Post',
+            link:'https://www.nst.com.my/lifestyle/groove/2023/07/928260/showbiz-tyga-perform-kl-next-month-first-round-tickets-sold-out-hour',
             btn:'#PF '
         },
         {
@@ -115,7 +115,7 @@ const NewsBody = ({check}) => {
             description:'Malaysians, get ready to “Go Loko” for Tyga Live in Kuala Lumpur, coming to you this 9 August in Zepp KL!',
             date:"13 July 2023",
             author:'By Word of Buzz',
-            link:'By The Rakyat Post',
+            link:'https://worldofbuzz.com/get-a-taste-of-rapping-sensation-tyga-live-in-kl-this-august-heres-why-you-cant-miss-it/',
             btn:'#PFL'
         }
     ]

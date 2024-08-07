@@ -110,7 +110,7 @@ const Page = () => {
   }
 
   return (
-    <div className="bg-black min-h-[100vh]">
+    <div className="bg-black min-h-[100vh] ">
       <NewNavbar />
       <Hero/>
       <Label color="pink" direction="left" />

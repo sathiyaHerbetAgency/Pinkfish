@@ -705,4 +705,15 @@ contact_input:focus{
 
   .bg-gallery-home{
     background: url("/Home/Gallery/gallery_bg.png");
+    /* background-size:cover; */
   }
+
+  @media screen and (max-width:768px) {
+    .bg-gallery-home{
+        background: url("/Home/Gallery/gallery_bg_mob.png");
+        background-repeat:no-repeat;
+        background-size:cover;
+        /* background-size:cover; */
+      }
+    }
+

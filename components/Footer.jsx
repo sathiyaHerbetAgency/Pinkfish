@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 const Footer = () => (
   <div className=''>
-  <div className="pb-11 md:block hidden ">
-  {/* <hr className="hr_line_footer " /> */}
+  <div className="pb-11 md:block hidden pt-11 ">
+  <hr className="hr_line_footer " />
   <div className="flex flex-col gap-11 mt-11 ">
     <div className=" flex flex-col md:flex-row justify-between  w-[90%] md:w-[80%] self-center  gap-11 ">
       <div className='flex justify-between basis-3/5'>

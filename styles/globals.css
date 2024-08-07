@@ -147,6 +147,16 @@
   background-image:url("/Home/bg_hero.png");
   background-size:cover;
   background-repeat:no-repeat;
+  background-position:center;
+}
+
+@media screen and (max-width:768px){
+  .bg-new-hero{
+    background-image:url("/Home/hero_bg_mob.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  }
 }
 
 .bg-second-hero{
