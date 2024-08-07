@@ -144,16 +144,24 @@
 
 /* //Hero// */
 .bg-new-hero{
-  background-image:url("/Home/bg_hero.png");
+  background-image:url("/Home/hero_1.png");
   background-size:cover;
-  background-repeat:no-repeat;
   background-position:center;
+  background-repeat:no-repeat;
+  z-index:-1;
 }
+.hero_container_new{
+  /* background-image: url('/HEROIMG.png'); */
+@apply bg-black;
+
+}
+
+
 
 @media screen and (max-width:768px){
   .bg-new-hero{
-    background-image:url("/Home/hero_bg_mob.png");
-    background-size:cover;
+    background-image:url("/Home/hero_1_mob_15.png");
+    background-size:none;
     background-repeat:no-repeat;
     background-position:center;
   }

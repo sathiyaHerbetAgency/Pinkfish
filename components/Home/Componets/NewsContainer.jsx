@@ -5,7 +5,7 @@ import "../../../styles/contact.css";
 const NewsContainer = ({link,title,description,image,btn,author,date}) => {
   return (
     <div className="md:basis-1/3  flex flex-row md:flex-col ">
-      <div className=" basis-2/5">
+      <div className=" basis-2/5 md:flex md:flex-col md:px-3">
       <button className="bg-[#F20D86] hidden md:block md:w-fit px-3 py-1 rounded-md relative self-end mr-4 top-[40px] text-white text-[14px] font-[Sofia] font-[700] leading-[18px]">{btn}</button>
       <a href={link} target="_blank" className="h-full">
       <img src={image} alt="news image" className="object-cover h-full " />
