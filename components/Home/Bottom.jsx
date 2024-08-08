@@ -10,11 +10,11 @@ const Bottom = () => {
           <div className=" md:basis-1/2 self-center  ">
             <div className="flex flex-col gap-6 justify-between">
               <div className="  ">
-                <h1 className="world_header_home md:text-[40px] leading-[50px] ">
+                <h1 className="world_header_home md:text-[40px] text-center md:text-left leading-[50px] ">
                   Ride on the rhythm of life
                 </h1>
               </div>
-              <div className=" items-center self-center gap-6 md:gap-11">
+              <div className=" items-center self-center gap-6 text-center md:text-left md:gap-11">
                 <p className="world_text mb-5">
                   Live your life loud and vibrant at Pinkfish!
                 </p>

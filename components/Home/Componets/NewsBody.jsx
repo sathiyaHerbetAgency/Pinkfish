@@ -107,7 +107,7 @@ const NewsBody = ({check}) => {
             date:"07 July 2023",
             author:'By New Strait Times   ',
             link:'https://www.nst.com.my/lifestyle/groove/2023/07/928260/showbiz-tyga-perform-kl-next-month-first-round-tickets-sold-out-hour',
-            btn:'#PF '
+            btn:'#PFL'
         },
         {
             image:"./Home/News/pl/pl_news_3.png",

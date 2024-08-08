@@ -85,8 +85,8 @@ return (
               </div> */}
               <EventContainer link="" title='#PFC' description="Pinkfish Countdown" />
               <EventContainer link="" title='#PFL' description="Pinkfish Live" />
-              <EventContainer link="" title='#pfF' description="pinkfish music & ARTS festival" />
-              <EventContainer link="" title='#pfA' description="pinkfish Arena" />
+              <EventContainer link="" title='#PFF' description="pinkfish music & ARTS festival" />
+              <EventContainer link="" title='#PFA' description="pinkfish Arena" />
 
 
             </div>
@@ -94,7 +94,7 @@ return (
         </div>
         }
     </div>
-    <div className="navbar_container_mob  ">
+    <div className="navbar_container_mob  flex flex-col md:hidden">
       <div className="flex">
         <div className="w-[90%] self-center flex justify-between">
           <a className="self-end" href="/">
@@ -107,7 +107,7 @@ return (
             type="button"
             onClick={() => {
               setToggleDropdown((prev) => !prev);
-              changeToggle();
+              changeToggle(); setToogle(false)
             }}
           >
             <svg
@@ -157,6 +157,7 @@ return (
           >
             News{" "}
           </a>
+          <a className="menu_text_mob" onClick={() => {setToggleDropdown(false); setToogle(!toogle)}}>Events</a>
 
           <Link
             href="Contact"
@@ -195,6 +196,23 @@ return (
       </Link> */}
         </div>
       )}
+      {toogle&&
+        <div className="text-white absolute top-[71px] self-center bg-black min-h-[40vh] min-w-[90vw] ">
+          <div className="flex flex-col py-11">
+            <div className="self-center grid md:grid-cols-2  grid-1  gap-6 pb-6">
+              {/* <div className="basis-1/3">
+
+              </div> */}
+              <EventContainer  link="" title='#PFC' description="Pinkfish Countdown" />
+              <EventContainer link="" title='#PFL' description="Pinkfish Live" />
+              <EventContainer link="" title='#PFF' description="pinkfish music & ARTS festival" />
+              <EventContainer link="" title='#PFA' description="pinkfish Arena" />
+
+
+            </div>
+          </div>
+        </div>
+        }
     </div>
   </nav>
 );

@@ -30,9 +30,7 @@ const LineUp = () => {
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
     >
-      
-    
-            {Object.keys(images).map((image, index) => (
+         {Object.keys(images).map((image, index) => (
                <SwiperSlide>
         <div key={index} className="" style={{ marginBottom: '20px' }}>
           <img src={`./PFA/Lineup/${image}`} alt={image} style={{ width: '200px', height: 'auto' }} />

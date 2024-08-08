@@ -136,10 +136,44 @@
 }
 
 .ticket-body-bg{
-  background-image:url("/PFA/body_ticket_bg.png");
+  background-image:url("/PFA/tick.png");
   background-size:cover;
   background-repeat:no-repeat;
 }
+
+.vip-banner{
+  background-image:url("/PFA/bg_vip.png");
+  background-size:contain;
+  background-repeat:no-repeat;
+}
+
+@media screen and (max-width:768px){
+  .vip-banner{
+    background-image:url("/PFA/bg_vip_mob.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+  }
+  /* .bg-bottom-pfa{
+    background-image:url("/PFA/Bottom/bg_bottom_mob.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+  
+  } */
+  .ticket-body-bg{
+    background-image:url("/PFA/tick_mob.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+  }
+  
+}
+
+.bg-bottom-pfa{
+  background-image:url("/PFA/Bottom/bg_bottom.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+
+}
+
 
 
 /* //Hero// */
@@ -173,8 +207,26 @@
   background-repeat:no-repeat;
 }
 
-.bg-pf-event{
+.bg-pfc-event{
   background-image:url("/Home/Events/pfc_event.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+
+}
+.bg-pff-event{
+  background-image:url("/Home/Events/pff_event.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+
+}
+.bg-pfl-event{
+  background-image:url("/Home/Events/pfl_event.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+
+}
+.bg-pfa-event{
+  background-image:url("/Home/Events/pfa_event.png");
   background-size:cover;
   background-repeat:no-repeat;
 

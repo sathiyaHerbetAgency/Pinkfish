@@ -2,13 +2,26 @@
 import React from 'react'
 
 const EventContainer = ({link,title,description}) => {
+    function checkContents(){
+        if(title==="#PFF"){
+            return "bg-pff-event"
+        }else if(title==="#PFC"){
+            return "bg-pfc-event"
+        }
+        else if(title==="#PFL"){
+            return "bg-pfl-event"
+        }else if(title==="#PFA"){
+            return "bg-pfa-event"
+        }
+    }
+
   return (
-    <div className="min-w-[300px] h-[120px] bg-pf-event rounded-2xl flex flex-col  justify-center text-white">
+    <div className={` md:min-w-[300px] h-[80px] md:h-[120px] ${checkContents()} rounded-2xl flex flex-col  justify-center text-white`}>
         <div className="flex flex-col justify-center ">
             <div className="self-center w-[90%] flex justify-between">
                 <div className="flex flex-col ">
-                    <h1 className="text-[40px] font-[Integral] font-[700]  text-left  text-[#F20D86]">{title}</h1>
-                    <h1 className="text-[14px] font-[Integral] font-[300]  text-left  text-[#fff]">{description}</h1>
+                    <h1 className="text-[32px] md:text-[40px] font-[Integral] font-[700]  text-left  text-[#F20D86]">{title}</h1>
+                    <h1 className="text-[12px] md:text-[14px] font-[Integral] font-[300]  text-left  text-[#fff]">{description}</h1>
                 </div>
                 <a className="cursor-pointer">
                     <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -2,7 +2,7 @@
 import React from 'react'
 
 const Brands = () => {
-    const containerClass="border-solid border-[#D9D9D9] flex flex-col items-center border rounded-2xl px-11 py-11"
+    const containerClass="border-solid border-[#D9D9D9] flex flex-col items-center border rounded-2xl px-6 py-6 md:px-11 md:py-11"
   return (
     <div className="flex flex-col">
         <div  className="flex flex-col self-center w-[80%] pt-11 pb-11 gap-6">
