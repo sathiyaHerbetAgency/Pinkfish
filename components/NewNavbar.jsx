@@ -198,12 +198,10 @@ return (
               {/* <div className="basis-1/3">
 
               </div> */}
-              <EventContainer  link="" title='#PFC' description="Pinkfish Countdown" />
-              <EventContainer link="" title='#PFL' description="Pinkfish Live" />
-              <EventContainer link="" title='#PFF' description="pinkfish music & ARTS festival" />
               <EventContainer link="" title='#PFA' description="pinkfish Arena" />
-
-
+              <EventContainer  link="" title='#PFC' description="Pinkfish Countdown" />
+              <EventContainer link="" title='#PFF' description="pinkfish music & ARTS festival" />
+              <EventContainer link="" title='#PFL' description="Pinkfish Live" />
             </div>
           </div>
         </div>

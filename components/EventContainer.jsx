@@ -20,7 +20,12 @@ const EventContainer = ({link,title,description}) => {
         <div className="flex flex-col justify-center ">
             <div className="self-center w-[90%] flex justify-between">
                 <div className="flex flex-col ">
-                    <h1 className="text-[32px] md:text-[40px] font-[Integral] font-[700]  text-left  text-[#F20D86]">{title}</h1>
+                    <div className="flex items-center gap-2">
+                        <h1 className="text-[32px] md:text-[40px] font-[Integral] font-[700]  text-left  text-[#F20D86]">{title}</h1>
+                        {title==="#PFA"&&  
+                            <button type='button' className='uppercase text-[8px] md:text-[10px] font-[Sofia] font-[100]  h-fit text-center w-fit px-1 py-1 rounded-2xl  text-[#fff]  bg-[#FF0086]'> Coming Soon</button>
+                        }
+                    </div>
                     <h1 className="text-[12px] md:text-[14px] font-[Integral] font-[300]  text-left  text-[#fff]">{description}</h1>
                 </div>
                 <a className="cursor-pointer">
