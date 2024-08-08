@@ -19,7 +19,7 @@ import Contact from './../../components/PFA/Contact';
   return (
     <div >
         <NewNavbar />
-        <div className="bg-black flex flex-col gap-11">
+        {/* <div className="bg-black flex flex-col gap-11">
           <Hero select={"PFF"} />
           <LineUp />
           <Calendar />
@@ -35,7 +35,7 @@ import Contact from './../../components/PFA/Contact';
           <BookingLabel />
           <Bottom />
           <Contact />
-           </div>
+           </div> */}
         <Footer />
     </div>
   )
