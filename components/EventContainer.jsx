@@ -16,7 +16,7 @@ const EventContainer = ({link,title,description}) => {
     }
 
   return (
-    <div className={` md:min-w-[300px] h-[80px] md:h-[120px] ${checkContents()} rounded-2xl flex flex-col  justify-center text-white`}>
+    <div className={` md:min-w-[300px] h-[80px] md:h-[120px] ${checkContents()} rounded-2xl flex flex-col  justify-center border md:border-none text-white`}>
         <div className="flex flex-col justify-center ">
             <div className="self-center w-[90%] flex justify-between">
                 <div className="flex flex-col ">
