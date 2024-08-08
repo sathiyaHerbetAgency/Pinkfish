@@ -5,13 +5,13 @@ import Marquee from "react-fast-marquee";
 
 const Label = ({color,direction}) => {
 
-  const text1="Experience music, dance and art in new and excitingways"
+  const text1="Experience music, dance and art in new and exciting ways"
   const text2="Welcome to Malaysia's Premier Music Festival"
 
   return(
   <>
 
-  <div id="brand" className={`${color==="pink" ? "horizantal_pink_container_live_pff":"horizantal_gray_container_live_pff mt-6"} `}>
+  <div id="brand" className={`${color==="pink" ? "horizantal_pink_container_live_pff ":"horizantal_gray_container_live_pff "} `}>
   <Marquee direction={direction}>
   <div className="flex items-center justify-around min-w-[100vw] md:gap-6 gap-2 px-3 md:py-1 py-6">
 

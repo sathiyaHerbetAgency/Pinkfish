@@ -23,7 +23,6 @@ import Contact from './../../components/PFA/Contact';
           <Hero select={"PFF"} />
           <LineUp />
           <Calendar />
-          
           <div className="flex flex-col min-w-[60vw]">
             <TicketGa />
             <InfoNote image="GA" text="Kindly note that all phases of General Admission (GA) grant equal access to the free-standing and seating area." />
@@ -35,7 +34,7 @@ import Contact from './../../components/PFA/Contact';
           <BookingLabel />
           <Bottom />
           <Contact />
-           </div> */}
+        </div> */}
         <Footer />
     </div>
   )

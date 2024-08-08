@@ -33,7 +33,7 @@ const LineUp = () => {
          {Object.keys(images).map((image, index) => (
                <SwiperSlide>
         <div key={index} className="" style={{ marginBottom: '20px' }}>
-          <img src={`./PFA/Lineup/${image}`} alt={image} style={{ width: '200px', height: 'auto' }} />
+          <img src={`./PFA/Lineup/${image}`} alt={image} style={{ width: '400px', height: 'auto' }} />
           {/*<h1 className="text-[20px] font-[700] tracking-[2px] font-[Integral] text-center  text-[#fff]  uppercase">Billings</h1> */}
         </div>
        </SwiperSlide>

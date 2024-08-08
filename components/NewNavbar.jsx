@@ -80,15 +80,10 @@ return (
         <div className="text-white absolute top-[100px] bg-black min-h-[40vh] min-w-[100vw] ">
           <div className="flex flex-col">
             <div className="self-center grid md:grid-cols-2  grid-1  gap-6 pb-6">
-              {/* <div className="basis-1/3">
-
-              </div> */}
-              <EventContainer link="" title='#PFC' description="Pinkfish Countdown" />
-              <EventContainer link="" title='#PFL' description="Pinkfish Live" />
-              <EventContainer link="" title='#PFF' description="pinkfish music & ARTS festival" />
               <EventContainer link="" title='#PFA' description="pinkfish Arena" />
-
-
+              <EventContainer link="" title='#PFC' description="Pinkfish Countdown" />
+              <EventContainer link="" title='#PFF' description="pinkfish music & ARTS festival" />
+              <EventContainer link="" title='#PFL' description="Pinkfish Live" />
             </div>
           </div>
         </div>

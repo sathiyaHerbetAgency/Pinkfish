@@ -31,7 +31,7 @@ const News = () => {
                             <a onClick={()=>{setToogle('3')}} className="cursor-pointer text-[16px] md:text-[24px] font-[Poppins-Regular] text-left  text-[#fff]  uppercase">#PFC2023</a>
                         </div>
                         <div className={toogle==='4'?animationBorderActive:animationBorder}>
-                            <a onClick={()=>{setToogle('4')}} className="cursor-pointertext-[16px] md:text-[24px] font-[Poppins-Regular] text-left  text-[#fff]  uppercase">#PFL</a>
+                            <a onClick={()=>{setToogle('4')}} className="cursor-pointer text-[16px] md:text-[24px] font-[Poppins-Regular] text-left  text-[#fff]  uppercase">#PFL2023</a>
                         </div>
                     </div>
                 </div>
