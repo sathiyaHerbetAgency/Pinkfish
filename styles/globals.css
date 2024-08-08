@@ -178,7 +178,7 @@
 
 /* //Hero// */
 .bg-new-hero{
-  background-image:url("/Home/hero_1.png");
+  background-image:url("/Home/hero_bg_new.png");
   background-size:cover;
   background-position:center;
   background-repeat:no-repeat;
@@ -194,8 +194,8 @@
 
 @media screen and (max-width:768px){
   .bg-new-hero{
-    background-image:url("/Home/hero_1_mob.png");
-    background-size:none;
+    background-image:url("/Home/hero_bg_new_mob.png");
+    background-size:cover;
     background-repeat:no-repeat;
     background-position:center;
   }
