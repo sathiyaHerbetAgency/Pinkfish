@@ -816,8 +816,8 @@ width: 100%;
   }
 
   .banner-container-pfc{
-    background-image:url("/mountainf-pfc.png");
-    background-size:contain;
+    background-image:url("/PFC/illusion_bg.png");
+    background-size:cover;
     background-position:bottom;
     background-repeat:no-repeat;
   }

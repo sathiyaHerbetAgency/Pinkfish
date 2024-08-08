@@ -29,8 +29,8 @@ const Hero = () => {
 
   return (
     <div className="">
-      <video src="/bg_video_1.mp4" ref={(el)=>firstRef=el} className='min-h-[75vh] md:h-[80vh] min-w-[100vw]  object-cover absolute hero_container_new' id='videos' autoPlay loop playsInline muted ></video>
-        <div className={` flex flex-col md:justify-end gap-11 justify-around min-h-[80vh] md:h-[80vh] bg-new-hero z-[50] relative`}>
+      <video src="/bg_video_1.mp4" ref={(el)=>firstRef=el} className='min-h-[75vh] md:h-[85vh] min-w-[100vw]  object-cover absolute hero_container_new' id='videos' autoPlay loop playsInline muted ></video>
+        <div className={` flex flex-col md:justify-center gap-11 justify-around min-h-[80vh] md:h-[85vh] bg-new-hero z-[50] relative`}>
             {/* <div className="self-center flex flex-col md:flex-row">
             <img src="./Home/svg/star.svg" className="w-[40px] hidden md:block md:w-[80px] relative top-[180px] right-[-40px]  md:right-[-250px] md:top-[15px]" alt="hero svg star" />
                 <img src="./Home/svg/wave.svg" className="w-[120px] hidden md:block relative md:right-[-250px] md:top-[-120px] " alt="hero svg star" />
@@ -38,7 +38,13 @@ const Hero = () => {
             <img src="./Home/svg/daimond.svg" className="w-[100px] hidden md:block relative top-[-80px] right-[180px]" alt="hero svg star" />
                 <img src="./Home/svg/fish.svg" className="w-[100px] hidden md:block relative top-[150px] right-[300px]  " alt="hero svg star" />
             </div> */}
-            <div className="mt-24">
+            {/* <div className="">
+                <img src="./Home/pf_main_logo.png" alt="aa" />
+            </div> */}
+            <div className=" mt-24 md:mt-0 flex flex-col">
+              <div className="self-center">  
+            <img src="./Home/pf_main_logo.png" className="hidden md:block w-[90%] " alt="aa" />
+            </div>
             <h1 className="text-[18px] md:text-[24px]  font-[Integral] text-center drop-shadow-2xl  text-[#fff]  uppercase">more than just a festival</h1>
         
 
