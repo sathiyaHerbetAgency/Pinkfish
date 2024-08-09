@@ -516,13 +516,23 @@ font-family: "Integral";
 
 .text-block_live {
     position: absolute;
-    bottom: 20px;
-
+    top: 20px;
+    right:10px;
     color: white;
     padding-left: 24px;
     padding-right: 20px;
 }
 
+@media screen and (max-width:768px){
+  .text-block_live {
+    position: absolute;
+    top: 20px;
+    right:5px;
+    color: white;
+    padding-left: 14px;
+    padding-right: 10px;
+}
+}
 
 
 .container_live {
@@ -562,7 +572,11 @@ font-family: "Integral";
 }
 
 .event_tickets2_live {
-    @apply bg-[#fff] text-black rounded-lg w-fit md:w-fit p-2 flex text-[12px] md:text-[16px] leading-[14px] md:leading-[20px] font-[Integral];
+    @apply bg-[#fff] text-black rounded-lg w-fit md:w-fit p-2 flex text-[10px] md:text-[16px] leading-[14px] md:leading-[20px] font-[Integral];
+}
+
+.banner_tag {
+  @apply bg-[#FF0086] text-white rounded-2xl w-fit md:w-fit p-2 flex text-[10px] md:text-[16px] leading-[14px] md:leading-[20px] px-3 font-[Sofia];
 }
 
 .buy_ticket_live {

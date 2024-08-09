@@ -28,7 +28,7 @@ const Slider = () => {
   }, []);
 
   return (
-    <div className="md:max-w-[65svw] w-[80vw]  self-center flex gap-3  py-6 pt-24">
+    <div className="md:max-w-[65svw] w-[80vw]   self-center flex gap-3  py-6 pt-24">
       <button
         onClick={handlePrev}
         className=" hidden md:block "
@@ -54,10 +54,10 @@ const Slider = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <SlideImage url="./PFF_1/pff_slider_21.jpg" urlMob="./PFF_1/pff_slider_mob_1.png" />
+          <SlideImage url="./PFF_1/pff_slider_21.jpg" urlMob="./PFF_1/pff_slider_mob_11.png" year="2024" />
         </SwiperSlide>
         <SwiperSlide>
-            <SlideImage url="./PFF_1/pff_slider_1.jpg" urlMob="./PFF_1/pff_slider_mob_2.png" />
+            <SlideImage url="./PFF_1/pff_slider_1.jpg" urlMob="./PFF_1/pff_slider_1.jpg" year="2023" />
         </SwiperSlide>
       </Swiper>
       

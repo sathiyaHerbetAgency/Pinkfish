@@ -84,7 +84,7 @@ const GalleryMob = ({check}) => {
   return (
     <div className=" flex flex-col gap-4 py-24" id="my-test-gallery" ref={galleryRef}>
       <div 
-        className="md:columns-3 columns-2 md:max-w-[60vw] gap-[2px]  md:gap-[4px]  self-center"
+        className="md:columns-3 columns-2 md:max-w-[60vw] gap-[4px]  md:gap-[4px]  self-center"
        
       >
          
@@ -98,7 +98,7 @@ const GalleryMob = ({check}) => {
                 rel="noreferrer"
                 className="gap-1"
               >
-                <img src={`./PFC/GalleryMob/${file}`} className="w-[100%] h-[100%] pb-2" alt={`${index + 1}`} />
+                <img src={`./PFC/GalleryMob/${file}`} className="w-[100%] h-[100%] pb-1" alt={`${index + 1}`} />
               </a>
              
             ))}

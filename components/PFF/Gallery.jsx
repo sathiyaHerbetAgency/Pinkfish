@@ -136,7 +136,7 @@ const Gallery = ({select}) => {
                   rel="noreferrer"
                   className="gap-1"
                 >
-                  <img src={`./PFF_1/2023Gallery/${file}`} className="w-[100%] h-[100%] pb-2" alt={`${index + 1}`} />
+                  <img src={`./PFF_1/2023Gallery/${file}`} className="w-[100%] h-[100%] pb-1" alt={`${index + 1}`} />
                 </a>
                
               ))}
@@ -155,7 +155,7 @@ const Gallery = ({select}) => {
                   rel="noreferrer"
                   className="gap-1"
                 >
-                  <img src={`./PFF_1/2024Gallery/${file}`} className="w-[100%] h-[100%] pb-2" alt={`${index + 1}`} />
+                  <img src={`./PFF_1/2024Gallery/${file}`} className="w-[100%] h-[100%] pb-1" alt={`${index + 1}`} />
                 </a>
                
               ))}
