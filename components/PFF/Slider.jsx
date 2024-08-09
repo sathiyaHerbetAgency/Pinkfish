@@ -28,7 +28,7 @@ const Slider = () => {
   }, []);
 
   return (
-    <div className="md:max-w-[60svw] w-[80vw]  self-center flex gap-3  py-6 pt-24">
+    <div className="md:max-w-[65svw] w-[80vw]  self-center flex gap-3  py-6 pt-24">
       <button
         onClick={handlePrev}
         className=" hidden md:block "

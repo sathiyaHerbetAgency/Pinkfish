@@ -21,7 +21,7 @@ import Slider from './../../components/PFF/Slider';
             <Label text={"see you in 2025"} />
            
             <div className="gradient-container-pff flex flex-col ">
-              <div className=" flex flex-col md:max-w-[93vw]">
+              <div className=" flex flex-col md:max-w-[90vw]">
                 <Slider />
                 </div>
                <Heading text={"#PFF2023 official aftermovie"} page={"PFF"} />
