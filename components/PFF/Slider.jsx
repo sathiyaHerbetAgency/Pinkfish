@@ -27,10 +27,10 @@ const Slider = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <SlideImage url="./PFF_1/pff_slider_1.png" urlMob="./PFF_1/pff_slider_mob_1.png" />
+          <SlideImage url="./PFF_1/pff_slider_1.jpg" urlMob="./PFF_1/pff_slider_mob_1.png" />
         </SwiperSlide>
         <SwiperSlide>
-            <SlideImage url="./PFF_1/pff_slider_1.png" urlMob="./PFF_1/pff_slider_mob_1.png" />
+            <SlideImage url="./PFF_1/pff_slider_21.jpg" urlMob="./PFF_1/pff_slider_mob_2.png" />
         </SwiperSlide>
       </Swiper>
     </div>

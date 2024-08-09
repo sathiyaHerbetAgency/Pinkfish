@@ -5,7 +5,7 @@ import React from 'react'
 import { scrollTop } from './../jsfile';
 const Bottom = ({select}) => {
   return (
-    <div className={`bg-[#FF0086] flex flex-col pt-6 justufy-center items-center relative top-[20%]`}>
+    <div className={`bg-[#EA2181] flex flex-col pt-6 justufy-center items-center relative top-[20%]`}>
       <div className="w-[70%] flex justify-center self-center md:[100%]">
         <img src="/bottom-pfc.png" alt="bottom" />
       </div>

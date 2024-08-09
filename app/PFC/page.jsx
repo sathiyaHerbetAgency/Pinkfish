@@ -4,7 +4,7 @@ import React from 'react'
 import "../../styles/contact.css";
 import NewNavbar from './../../components/NewNavbar';
 import Footer from './../../components/Footer';
-import Hero from './../../components/PFF/Hero';
+import Hero from './../../components/PFC/Hero';
 import Label1 from './../../components/PFF/Label1';
 import Heading from './../../components/PFF/Heading';
 import Video from './../../components/PFF/Video';
@@ -19,7 +19,7 @@ import Timer from './../../components/PFF/Timer';
     <div>
         <NewNavbar />
         {/* <div className="bg-white">
-            <Hero select={"PFC"} />
+            <Hero  />
             <Label1 text={"are you ready, lavas?"} />
             <div className="gradient-container-pfc">
                 <Timer />
