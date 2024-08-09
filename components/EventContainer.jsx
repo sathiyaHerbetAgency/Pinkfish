@@ -16,17 +16,17 @@ const EventContainer = ({link,title,description}) => {
     }
 
   return (
-    <div className={` md:min-w-[300px] h-[80px] md:h-[120px] ${checkContents()} rounded-2xl flex flex-col  justify-center border md:border-none text-white`}>
+    <a href="" className={` md:min-w-[300px] h-[80px] md:h-[120px] ${checkContents()} rounded-2xl flex flex-col  justify-center border md:border-none text-white`}>
         <div className="flex flex-col justify-center ">
             <div className="self-center w-[90%] flex justify-between">
                 <div className="flex flex-col ">
                     <div className="flex items-center gap-2">
-                        <h1 className="text-[32px] md:text-[40px] font-[Integral] font-[700]  text-left  text-[#F20D86]">{title}</h1>
+                        <h1 className="text-[24px] md:text-[40px] font-[Integral] font-[700]  text-left  text-[#F20D86]">{title}</h1>
                         {title==="#PFA"&&  
                             <button type='button' className='uppercase text-[8px] md:text-[10px] font-[Sofia] font-[100]  h-fit text-center w-fit px-1 py-1 rounded-2xl  text-[#fff]  bg-[#FF0086]'> Coming Soon</button>
                         }
                     </div>
-                    <h1 className="text-[12px] md:text-[14px] font-[Integral] font-[300]  text-left  text-[#fff]">{description}</h1>
+                    <h1 className="text-[10px] md:text-[14px] font-[Integral] font-[300]  text-left  text-[#fff]">{description}</h1>
                 </div>
                 <a className="cursor-pointer">
                     <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -35,7 +35,7 @@ const EventContainer = ({link,title,description}) => {
                 </a>
             </div>
         </div>   
-    </div>
+    </a>
   )
 }
 
