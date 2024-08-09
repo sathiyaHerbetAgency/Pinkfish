@@ -496,7 +496,7 @@ font-family: "Integral";
 
 
 .event_header_live {
-    @apply text-white text-center text-[64px] leading-[24px] font-[700] font-[Integral] tracking-[3px]
+    @apply text-white text-center text-[44px] md:text-[64px] leading-[24px] font-[700] font-[Integral] tracking-[3px]
 }
 
 .image_container_home_live{
@@ -526,7 +526,7 @@ font-family: "Integral";
 @media screen and (max-width:768px){
   .text-block_live {
     position: absolute;
-    top: 20px;
+    top: 5px;
     right:5px;
     color: white;
     padding-left: 14px;

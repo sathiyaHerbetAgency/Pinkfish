@@ -19,7 +19,7 @@ const Banner1 = () => {
             
             </div>
             <div className="md:hidden">
-              <img src="./PFC/Banner/pfc_banner_mob_1.png" alt="banner" className="max-w-[80vw] " />
+              <img src="./PFC/Banner/pfc_banner_mob_1.png" alt="banner" className="max-w-[90vw] " />
               <div className="text-block_live  text-white flex flex-col gap-2 md:gap-4">
               <a > 
                 <button className="banner_tag" alt="button">2023</button>

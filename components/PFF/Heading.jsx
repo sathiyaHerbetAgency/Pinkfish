@@ -5,7 +5,7 @@ const Heading=({text,page})=>{
 return(
     <div className="flex md:gap-8 justify-center items-center md:py-11 py-8 px-11 gap-3 ">
         {page==="PFF"?
-        <svg width="63" height="49" viewBox="0 0 63 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg minWidth="63" height="49" viewBox="0 0 63 49" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clip-path="url(#clip0_39_317)">
         <path d="M46.9653 48.0064L19.4256 6.25122L6.48499e-05 49L46.9653 48.0064Z" fill="white"/>
         <path d="M63 26.4995L45.5237 0L33.1954 27.1288L63 26.4995Z" fill="white"/>
