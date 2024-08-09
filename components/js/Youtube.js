@@ -2,8 +2,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const YoutubeEmbed = ({ embedId }) => (
-  <div className="video-responsive rounded border-[10px]">
+const YoutubeEmbed = ({ embedId,text,type }) => (
+  <div className={`video-responsive rounded ${type==="PFC"&&"border-[#8600BA]"} border-[2px] md:border-[4px]`}>
     <iframe
       className="w-[100%] h-[200px] md:w-[853px] md:h-[480px]"
       src={`https://www.youtube.com/embed/${embedId}`}

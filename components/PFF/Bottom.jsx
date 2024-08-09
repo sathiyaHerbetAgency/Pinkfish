@@ -3,9 +3,9 @@
 'use client'
 import React from 'react'
 import { scrollTop } from './../jsfile';
-const Bottom = ({select}) => {
+const Bottom = ({type}) => {
   return (
-    <div className={`bg-[#EA2181] flex flex-col pt-6 justufy-center items-center relative top-[20%]`}>
+    <div className={`${type==="PFF"?"bg-[#EA2181]":'bg-[#BB12FF]'} flex flex-col pt-6 justufy-center items-center relative top-[20%]`}>
       <div className="w-[70%] flex justify-center self-center md:[100%]">
         <img src="/bottom-pfc.png" alt="bottom" />
       </div>

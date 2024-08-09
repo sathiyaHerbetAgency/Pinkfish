@@ -2,7 +2,7 @@
 
 'use client'
 import React, { useState, useRef, useEffect } from "react";
-import Heading from './Heading';
+import Heading from '../PFC/Heading';
 
 const Timer = () => {
     // stop it when needed
@@ -62,7 +62,7 @@ const Timer = () => {
 
   return (
     <div className="flex flex-col md:gap-11 ">
-        <Heading text={"counting down to #pfc2024"} page={"PFC"}  />
+       <Heading type="1" />
         <div className="flex flex-col">
         {
             state.seconds < 0 ?

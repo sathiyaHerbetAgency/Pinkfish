@@ -30,56 +30,58 @@ const Hero = () => {
 
   return (
     <div className= 'flex flex-col justify-center md:pb-11 bg-pfc'>
-    <div className="flex flex-col gap-4  self-center md:w-[80%]">
-        <div className="md:w-[65%] w-[78%] flex flex-col self-center  gap-4">
-        <img src="/PFC/pf_logo.png" className="object-none h-[100px]" />
-        <img src="/PFC/countdown_logo.png" className="object-contain" />
-
-        </div>
-        
-        <div className=" self-center">
-            <div className="flex  gap-3 items-center pt-11 k">
-                <p className="text-[#D9D9D9] font-[Sofia] text-[18px]">Be in the loop!</p>
-                <div className="flex items-center gap-3">
-                    <a href='https://www.facebook.com/pinkfishfestival/' target="_blank" className=" ">
-                        <img src="./PFC/Social/pfc_fb.png"  className="object-contain w-[30px] md:w-[40px]" />
-                    </a>
-                    <a href='https://www.youtube.com/@Pinkfishfestival' target="_blank" className=" ">
-                    <img src="./PFC/Social/pfc_yt.png"  className="object-contain w-[30px] md:w-[40px]" />
-                    </a>
-                    <a href='https://www.instagram.com/pinkfishfestival/'  target="_blank" className=" ">
-                    <img src="./PFC/Social/pfc_insta.png"  className="object-contain w-[30px] md:w-[40px]" />
-                    </a>
-                    <a href='https://www.tiktok.com/@pinkfishfestival' target="_blank" className="">
-                    <img src="./PFC/Social/pfc_tiktok.png" className="object-contain w-[30px] md:w-[40px]" />
-                    </a>
+        <div className="flex flex-col gap-4  self-center md:w-[80%]">
+            <div className="md:w-[65%] w-[78%] flex flex-col self-center  gap-4">
+                <img src="/PFC/pf_logo.png" className="object-none h-[100px]" />
+                <img src="/PFC/countdown_logo.png" className="object-contain" />
+            </div>
+            
+            <div className=" self-center ">
+                <div className="flex  gap-3 items-center pt-11 k">
+                    <p className="text-[#D9D9D9] font-[Sofia] text-[18px]">Be in the loop!</p>
+                    <div className="flex items-center gap-3">
+                        <a href='https://www.facebook.com/pinkfishfestival/' target="_blank" className=" ">
+                            <img src="./PFC/Social/pfc_fb.png"  className="object-contain w-[30px] md:w-[40px]" />
+                        </a>
+                        <a href='https://www.youtube.com/@Pinkfishfestival' target="_blank" className=" ">
+                        <img src="./PFC/Social/pfc_yt.png"  className="object-contain w-[30px] md:w-[40px]" />
+                        </a>
+                        <a href='https://www.instagram.com/pinkfishfestival/'  target="_blank" className=" ">
+                        <img src="./PFC/Social/pfc_insta.png"  className="object-contain w-[30px] md:w-[40px]" />
+                        </a>
+                        <a href='https://www.tiktok.com/@pinkfishfestival' target="_blank" className="">
+                        <img src="./PFC/Social/pfc_tiktok.png" className="object-contain w-[40px]" />
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
 
-    </div>
+        </div>
  
-    {/* <div className="flex justify-center items-center gap-3  mt-6 md:hidden  py-8">
-        <p className="text-white font-[Sofia] text-[17px]  ">Be in the loop!</p>
-        <div className="flex items-center gap-3">
-                    <a href='https://www.facebook.com/pinkfishfestival/' target="_blank" className=" ">
-       
-                        <img src="/facebook-pfc.png" />
-                    </a>
-                    <a href='https://www.youtube.com/@Pinkfishfestival' target="_blank" className=" ">
-                    <img src="/pff-youtube.png" />
-                    </a>
-                    <a href='https://www.instagram.com/pinkfishfestival/' target="_blank" className=" ">
-                    <img src="/pff-insta.png" />
-                    </a>
-                    <a href='https://www.tiktok.com/@pinkfishfestival' target="_blank" className="">
-                    <img src="/pff-tiktok.png" />
-                    </a>
-                </div>
-    </div> */}
+      
          
 </div>
   )
 }
 
 export default Hero
+
+
+
+ //   <div className="flex justify-center items-center gap-3  mt-6 md:hidden  py-8">
+// <p className="text-[#D9D9D9] font-[Sofia] text-[18px]">Be in the loop!</p>
+// <div className="flex items-center gap-3">
+//     <a href='https://www.facebook.com/pinkfishfestival/' target="_blank" className=" ">
+//         <img src="./PFC/Social/pfc_fb.png"  className="object-contain w-[30px] md:w-[40px]" />
+//     </a>
+//     <a href='https://www.youtube.com/@Pinkfishfestival' target="_blank" className=" ">
+//     <img src="./PFC/Social/pfc_yt.png"  className="object-contain w-[30px] md:w-[40px]" />
+//     </a>
+//     <a href='https://www.instagram.com/pinkfishfestival/'  target="_blank" className=" ">
+//     <img src="./PFC/Social/pfc_insta.png"  className="object-contain w-[30px] md:w-[40px]" />
+//     </a>
+//     <a href='https://www.tiktok.com/@pinkfishfestival' target="_blank" className="">
+//     <img src="./PFC/Social/pfc_tiktok.png" className="object-contain w-[40px]" />
+//     </a>
+// </div>
+// </div>
