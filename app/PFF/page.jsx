@@ -11,16 +11,19 @@ import Video from './../../components/PFF/Video';
 import Gallery from './../../components/PFF/Gallery';
 import Banner from './../../components/PFF/Banner';
 import Bottom from './../../components/PFF/Bottom';
+import Slider from './../../components/PFF/Slider';
  const PFF = () => {
   return (
     <div >
         <NewNavbar />
         <div className="bg-black">
             <Hero select={"PFF"} />
-            <Label text={"see you in 2025"} />
+            {/* <Label text={"see you in 2025"} /> */}
+            <Slider />
             <div className="gradient-container-pff">
                <Heading text={"#PFF2023 official aftermovie"} page={"PFF"} />
                <Video  id={"F8k-yI4zWLg"}  />
+               <Heading text={"#PFF gallery"} page={"PFC"} />
                <Gallery select={"PFF"} />
                <Banner  select={"PFF"}  />
                <Bottom   />

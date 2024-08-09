@@ -698,8 +698,10 @@ contact_input:focus{
   }
 
   .gradient-container-pfc{
-    background: rgb(33,33,86);
-    background: linear-gradient(180deg, rgba(33,33,86,1) 0%,  rgba(106,12,149,1) 27%, rgba(255,0,134,1) 56%, rgba(248,184,138,1) 85%);
+    /* background: rgb(33,33,86);
+    background: linear-gradient(180deg, rgba(33,33,86,1) 0%,  rgba(106,12,149,1) 27%, rgba(255,0,134,1) 56%, rgba(248,184,138,1) 85%); */
+    background-image:url("/PFC/Globe.png"),url("/Home/hero_bg_new.png");
+    background-repeat:no-repeat;
     @apply min-h-screen
   }
 

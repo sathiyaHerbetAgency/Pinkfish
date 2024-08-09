@@ -761,8 +761,8 @@ background-size: cover;
   }
 
   .bg-pfc{
-    background-image:url("/pfc-bg-gradient.jpg");
-    background-size:cover;
+    background-image:url("/PFC/PFC_hero.png");
+    background-size:contain;
     @apply min-h-[92vh] md:min-h-[85vh];
   }
   @media screen and (max-width:768px){

@@ -18,7 +18,7 @@ import Timer from './../../components/PFF/Timer';
   return (
     <div>
         <NewNavbar />
-        <div className="bg-white">
+        {/* <div className="bg-white">
             <Hero select={"PFC"} />
             <Label1 text={"are you ready, lavas?"} />
             <div className="gradient-container-pfc">
@@ -29,7 +29,7 @@ import Timer from './../../components/PFF/Timer';
                <Banner  select={"PFC"} />
                <Bottom   />
             </div>
-        </div>
+        </div> */}
         <Footer />
     </div>
   )
