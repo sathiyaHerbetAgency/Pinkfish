@@ -692,8 +692,10 @@ contact_input:focus{
 
   /* PFF */
   .gradient-container-pff{
+    /* background: rgb(70,177,236);
+    background: linear-gradient(180deg, rgba(70,177,236,1) 0%, rgba(248,184,138,0.5971638655462185) 50%, rgba(248,184,138,1) 100%); */
     background: rgb(70,177,236);
-    background: linear-gradient(180deg, rgba(70,177,236,1) 0%, rgba(248,184,138,0.5971638655462185) 50%, rgba(248,184,138,1) 100%);
+    background: linear-gradient(180deg, rgba(70,177,236,1) 0%, rgba(248,184,138,1) 60%, rgba(252,188,142,1) 100%);
     @apply min-h-screen
   }
 
