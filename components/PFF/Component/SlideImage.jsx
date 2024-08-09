@@ -3,12 +3,12 @@ import React from 'react'
 
 const SlideImage = ({url,urlMob}) => {
   return (
-    <div className=" flex flex-col min-w-[100vw] ">
+    <div className=" flex flex-col  ">
     <div className="self-center ">
-      <div className="hidden md:block w-[100%]">
+      <div className="hidden md:block">
         <img
           src={url}
-          className="min-h-[100vh] min-w-[100vw] object-cover"
+          className=""
           alt="slider"
         />
       </div>

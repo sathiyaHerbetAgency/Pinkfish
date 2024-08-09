@@ -18,9 +18,12 @@ import Slider from './../../components/PFF/Slider';
         <NewNavbar />
         <div className="bg-black">
             <Hero select={"PFF"} />
-            {/* <Label text={"see you in 2025"} /> */}
-            <Slider />
-            <div className="gradient-container-pff">
+            <Label text={"see you in 2025"} />
+           
+            <div className="gradient-container-pff flex flex-col ">
+              <div className=" flex flex-col md:max-w-[93vw]">
+                <Slider />
+                </div>
                <Heading text={"#PFF2023 official aftermovie"} page={"PFF"} />
                <Video  id={"F8k-yI4zWLg"}  />
                <Heading text={"#PFF gallery"} page={"PFC"} />

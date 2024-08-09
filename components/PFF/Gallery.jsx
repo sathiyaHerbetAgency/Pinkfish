@@ -1,6 +1,6 @@
 /* eslint-disable */
 'use client'
-import React, { useEffect,useState } from 'react';
+import React, { useEffect,useState,useRef} from 'react';
 import "../../styles/live.css"
 import "../../styles/contact.css"
 import PhotoSwipeLightbox from 'photoswipe/lightbox';
@@ -11,10 +11,20 @@ import 'photoswipe/style.css';
 // import Masonry,{ResponsiveMasonry} from "react-responsive-masonry"
 const Gallery = ({select}) => {
   const [toogle,setToogle]=useState('1')
-
+  const galleryRef = useRef();
   useEffect(() => {
+    const galleryElements = galleryRef.current.querySelectorAll('a');
+    galleryElements.forEach((element) => {
+      const img = new Image();
+      img.src = element.href;
+      img.onload = () => {
+        element.setAttribute('data-pswp-width', img.width);
+        element.setAttribute('data-pswp-height', img.height);
+      };
+    });
+
     let lightbox = new PhotoSwipeLightbox({
-      gallery: '#' +"my-test-gallery",
+      gallery: '#my-test-gallery',
       children: 'a',
       pswpModule: () => import('photoswipe'),
     });
@@ -24,7 +34,7 @@ const Gallery = ({select}) => {
       lightbox.destroy();
       lightbox = null;
     };
-  }, []);
+  }, [select]);
     const imagespff_1 = [
       { src: '/pff/pff-gallery-1.png', alt: 'Image 1', width:"361", height:"196"  },
       { src: '/pff/pff-gallery-2.png', alt: 'Image 2' ,width:"281", height:"196" },
@@ -84,6 +94,11 @@ const Gallery = ({select}) => {
         }
     }
 
+    const imageSets = {
+    
+      pff_mob: ["gallery_1.png", "gallery_2.png", "gallery_3.png", "gallery_4.png", "gallery_5.png", "gallery_6.png", "gallery_7.png", "gallery_8.png", "gallery_9.png", "gallery_10.png", "gallery_11.png", "gallery_12.png","gallery_13.png"],
+    };
+
     const count={xs: 1,s: 2,m: 3,l: 3,xl: 3, xxl:3}
     const customMediaStyle = {
       objectFit: 'cover',
@@ -101,57 +116,49 @@ const Gallery = ({select}) => {
   const button2=`transition-all text-[16px] md:text-[20px] font-[Sofia] ${toogle==='2'?"bg-[#FF0086] text-[#fff]":'bg-[#DADADA] text-[#111111]' }  w-fit  px-4  rounded-lg`
   
   return (
-    <div className=" flex flex-col gap-4">
+    <div className=" flex flex-col gap-4" id="my-test-gallery" ref={galleryRef}>
     <div className="flex self-center gap-3 justiyfy-center">
-      <button className={button1}onClick={() => {setToogle("1");}}type="button">2024</button>
-      <button className={button2}onClick={() => {setToogle("2");}}type="button">2023</button>
+      <button className={button1}onClick={() => {setToogle("1");}}type="button">2023</button>
+      <button className={button2}onClick={() => {setToogle("2");}}type="button">2024</button>
 
     </div>
     {toogle === "1" ? (
       <div
         className="md:columns-3 columns-2 md:max-w-[60vw] gap-[4px]  md:gap-[11px]  self-center"
-        id="my-test-gallery"
+       
       >
-        {imagespff_1.map((image, index) => (
-          <a
-            href={image.src}
-            data-pswp-width={image.width}
-            data-pswp-height={image.height}
-            key={"my-test-gallery" + "-" + index}
-            target="_blank"
-            rel="noreferrer"
-            className="gap-1"
-          >
-            <img
-              className=" min-w-[50vw] md:min-w-[20vw] pt-1 md:pl-1 object-cover"
-              src={image.src}
-              alt=""
-            />
-          </a>
-        ))}
+       {imageSets["pff_mob"].map((file, index) => (
+                
+                <a
+                  href={`./PFF_1/2023Gallery/${file}`}
+                  key={"my-test-gallery" + '-' + index}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="gap-1"
+                >
+                  <img src={`./PFF_1/2023Gallery/${file}`} className="w-[100%] h-[100%] pb-2" alt={`${index + 1}`} />
+                </a>
+               
+              ))}
       </div>
     ) : (
       <div
         className="md:columns-3 columns-2 md:max-w-[60vw] gap-[4px]  md:gap-[11px]  self-center"
         id="my-test-gallery"
       >
-        {imagespff_2.map((image, index) => (
-          <a
-            href={image.src}
-            data-pswp-width={image.width}
-            data-pswp-height={image.height}
-            key={"my-test-gallery" + "-" + index}
-            target="_blank"
-            rel="noreferrer"
-            className="gap-1"
-          >
-            <img
-              className=" min-w-[50vw] md:min-w-[20vw] pt-1 md:pl-1 object-cover"
-              src={image.src}
-              alt=""
-            />
-          </a>
-        ))}
+        {imageSets["pff_mob"].map((file, index) => (
+                
+                <a
+                  href={`./PFF_1/2024Gallery/${file}`}
+                  key={"my-test-gallery" + '-' + index}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="gap-1"
+                >
+                  <img src={`./PFF_1/2024Gallery/${file}`} className="w-[100%] h-[100%] pb-2" alt={`${index + 1}`} />
+                </a>
+               
+              ))}
       </div>
     )}
   </div>

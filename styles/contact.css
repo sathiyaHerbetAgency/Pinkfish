@@ -700,15 +700,15 @@ contact_input:focus{
   }
 
   .gradient-container-pfc{
-    /* background: rgb(33,33,86);
-    background: linear-gradient(180deg, rgba(33,33,86,1) 0%,  rgba(106,12,149,1) 27%, rgba(255,0,134,1) 56%, rgba(248,184,138,1) 85%); */
-    background:url("/PFC/Globe.png") top no-repeat, url('/PFC/bg_black_gradient.png')  bottom no-repeat;
-    background-position:top,bottom;
+    background: rgb(33,33,86);
+    background: linear-gradient(180deg, rgba(33,33,86,1) 0%,  rgba(106,12,149,1) 27%, rgba(255,0,134,1) 56%, rgba(248,184,138,1) 85%);
+    /* background:url("/PFC/Globe.png") top no-repeat, url('/PFC/bg_black_gradient.png')  bottom no-repeat;
+    background-position:top,bottom; */
     background-repeat:no-repeat;
     @apply min-h-screen
   }
   
-  @media screen and (max-width:768px) {
+  /* @media screen and (max-width:768px) {
       .gradient-container-pfc{
         background: #000;
         background-repeat:no-repeat;
@@ -716,7 +716,7 @@ contact_input:focus{
       }
     
 
-    }
+    } */
 
   .bg-gallery-home{
     background: url("/Home/Gallery/gallery_bg.png");

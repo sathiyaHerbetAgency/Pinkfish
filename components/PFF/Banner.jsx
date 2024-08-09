@@ -29,8 +29,8 @@ const Banner = ({select}) => {
   return (
     <div className={`${select==="PFF"?"banner-container-pff": "banner-container-pfc"} md:min-h-screen min-h-[50vh] flex flex-col justify-start gap-6 items-center`}>
         <div className="md:w-[30vw] w-[85vw] flex flex-col gap-6 pt-11">
-            <h1 className={` ${select==="PFC"?"text-[#fff]":"text-[#000]"} font-bold  font-[Integral] text-[34px] leading-[40px] text-center uppercase`}>{checkContents().first_heading}</h1>
-            <p className={` ${select==="PFC"?"text-[#fff]":"text-[#000]"} world_text  text-center`}>{checkContents().text}</p>
+            <h1 className={` ${select==="PFC"?"text-[#000]":"text-[#000]"} font-bold  font-[Integral] text-[34px] leading-[40px] text-center uppercase`}>{checkContents().first_heading}</h1>
+            <p className={`  font-[Sofia] text-[18px] leading-[22px] text-[#000]  text-center`}>{checkContents().text}</p>
            {select==="PFF"? <button type='button' className='uppercase text-white p-3 px-4 self-center bg-[#FF0086] rounded-md font-[SofiaMedium] text-[16px] md:text-[18px] w-fit'> <a href={checkContents().link}  >{checkContents().button_text}</a></button>
            : <button type='button' className='uppercase text-white p-3 px-4 self-center bg-[#FF0086] rounded-md font-[SofiaMedium] text-[16px] md:text-[18px] w-fit'> <a href={checkContents().link}  >{checkContents().button_text}</a></button>
   }

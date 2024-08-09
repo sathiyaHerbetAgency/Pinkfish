@@ -19,10 +19,10 @@ const button2=`transition-all text-[16px] md:text-[20px] font-[Sofia] ${toogle==
 
   return (
     <div className="flex  flex-col gap-4">
-      <div className="flex self-center gap-3 justiyfy-center">
+      {/* <div className="flex self-center gap-3 justiyfy-center">
       <button className={button1} onClick={()=>{setToogle('1')}} type='button'>2024</button>
       <button className={button2} onClick={()=>{setToogle('2')}} type='button'>2023</button>
-      </div>
+      </div> */}
     <div className='self-center'>
         {/* <YouTube videoId="rlJu8PURolU" opts={opts} /> */}
         {toogle==="1"?
