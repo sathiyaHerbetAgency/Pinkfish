@@ -5,7 +5,7 @@ import "../../styles/live.css"
 
 const Banner1 = () => {
   return (
-    <div className="flex flex-col py-16">
+    <div className="flex flex-col pt-16 py-6">
        
         <div className="self-center">
         

@@ -1,10 +1,10 @@
 import Link from "next/link";
 import "../styles/live.css"
 const Events = () => (
-  <section id="Events" className="event_section  mt-11 mb-24">
+  <section id="Events" className="event_section   mb-24">
     <div className="w-[100%] flex flex-col   ">
-      <h1 className=" event_header_live mb-11 mt-24">EVENTS</h1>
-      <div className="flex flex-row justify-center   image_container_home_live  mt-11">
+      <h1 className=" event_header_live my-14 ">EVENTS</h1>
+      <div className="flex flex-row justify-center   image_container_home_live  ">
        
       <Link href='EventsIndividual' className="  ">
         <div className="container_live ">
