@@ -66,8 +66,6 @@ const Popup = () => {
       class="popup-container_main w-[90%] flex flex-col gap-3"
     >
       <div className="flex justify-end  ">
-        {/* <button onClick={()=>{closePopup()}}  className='' id="close-popup_main" >X </button> */}
-
         <img
           onClick={() => {
             closePopup();
