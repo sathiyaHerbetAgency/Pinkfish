@@ -141,6 +141,13 @@
   background-repeat:no-repeat;
 }
 
+.ticket-body-bg-gray{
+  background-image:url("/PFA/Tickets/grey_ticket.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+
 .vip-banner{
   background-image:url("/PFA/bg_vip.png");
   background-size:cover;
@@ -164,6 +171,13 @@
     background-size:cover;
     background-repeat:no-repeat;
   }
+
+  .ticket-body-bg-gray{
+    background-image:url("/PFA/Tickets/grey_ticket_mob.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+  }
+  
   
 }
 

@@ -9,9 +9,9 @@ const TicketVip = () => {
      
     <TicketHeadingLabel text="premium ADMISSION (vip)" />
     <div className="flex flex-wrap justify-center  gap-3  min-w-[90vw] md:min-w-[60vw]">
-    <TicketContainer title="vip" type="Earlybird" price="RM 328" />
-    <TicketContainer title="vip" type="phase 1" price="RM 358" />
-    <TicketContainer title="vip" type="phase 2" price="RM 388" />
+    <TicketContainer color="gray" title="vip" type="Earlybird" price="RM 328" buttonText="coming soon" link="#" />
+    <TicketContainer color="gray" title="vip" type="phase 1" price="RM 358" buttonText="coming soon" link="" />
+    <TicketContainer color="gray" title="vip" type="phase 2" price="RM 388" buttonText="coming soon" link="" />
 
     </div>
 </div>
