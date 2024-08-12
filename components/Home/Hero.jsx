@@ -41,7 +41,7 @@ const Hero = () => {
             {/* <div className="">
                 <img src="./Home/pf_main_logo.png" alt="aa" />
             </div> */}
-            <div className=" mt-24 md:mt-0 flex flex-col">
+            <div className=" mt-48   md:mt-0 flex flex-col">
               <div className="self-center">  
             <img src="./Home/pf_main_logo.png" className="hidden md:block w-[90%] " alt="aa" />
             </div>

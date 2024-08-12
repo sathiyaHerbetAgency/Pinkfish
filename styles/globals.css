@@ -161,7 +161,7 @@
   } */
   .ticket-body-bg{
     background-image:url("/PFA/tick_mob.png");
-    background-size:contain;
+    background-size:cover;
     background-repeat:no-repeat;
   }
   
@@ -202,8 +202,8 @@
 
 @media screen and (max-width:768px){
   .bg-new-hero{
-    background-image:url("/Home/hero_bg_new_mob.png");
-    background-size:cover;
+    background-image:url("/Home/hero_bg_new_mob.svg");
+    background-size:contain;
     background-repeat:no-repeat;
     background-position:center;
   }
@@ -240,6 +240,67 @@
 
 }
 
+.lineup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lineup-header {
+  margin-bottom: 20px;
+}
+
+.lineup-title {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Integral', sans-serif;
+}
+
+.swiper-container {
+  width: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.5s ease;
+}
+
+.slide-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slide-image {
+  width: 200px;
+  height: 200px;
+  
+  transition: transform 0.5s ease;
+}
+
+.slide-title {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Integral', sans-serif;
+}
+
+/* Scaling effect for the active slide */
+.swiper-slide-active .slide-image {
+  transform: scale(1.2);
+}
+
+.swiper-slide-active .slide-title {
+  color: #ff0080; /* Highlight the text color for the active slide */
+}
 
 
 

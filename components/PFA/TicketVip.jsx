@@ -8,7 +8,7 @@ const TicketVip = () => {
     <div className="text-[#fff] self-center">
      
     <TicketHeadingLabel text="premium ADMISSION (vip)" />
-    <div className="grid grid-cols-3 gap-4">
+    <div className="flex flex-wrap justify-center  gap-3  min-w-[90vw] md:min-w-[60vw]">
     <TicketContainer title="vip" type="Earlybird" price="RM 328" />
     <TicketContainer title="vip" type="phase 1" price="RM 358" />
     <TicketContainer title="vip" type="phase 2" price="RM 388" />

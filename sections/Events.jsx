@@ -3,7 +3,7 @@ import "../styles/live.css"
 const Events = () => (
   <section id="Events" className="event_section   mb-24">
     <div className="w-[100%] flex flex-col   ">
-      <h1 className=" event_header_live my-14 ">EVENTS</h1>
+      <h1 className=" event_header_live my-14">EVENTS</h1>
       <div className="flex flex-row justify-center   image_container_home_live  ">
        
       <Link href='EventsIndividual' className="  ">

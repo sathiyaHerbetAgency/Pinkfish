@@ -5,14 +5,16 @@ import TicketContainer from './Components/TicketContainer';
 
 const TicketGa = () => {
   return (
-    <div className="text-[#fff] self-center">
+    <div className="text-[#fff] self-center  ">
      
         <TicketHeadingLabel text="GENERAL ADMISSION (GA)" />
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+       
+        <div className="flex flex-wrap justify-center  gap-3  min-w-[90vw] md:min-w-[60vw]">
         <TicketContainer title="GENERAL ADMISSION" type="Earlybird" price="RM 198" />
         <TicketContainer title="GENERAL ADMISSION" type="phase 1" price="RM 228" />
         <TicketContainer title="GENERAL ADMISSION" type="phase 2" price="RM 258" />
-
+        
+        
         </div>
     </div>
   )

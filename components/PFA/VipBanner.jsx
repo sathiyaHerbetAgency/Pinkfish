@@ -16,7 +16,7 @@ const VipBanner = () => {
     <>
     <div className=" hidden md:block">
       <div className="flex flex-col">
-        <div className="vip-banner flex flex-col justify-center min-h-[200px] min-w-[65vw] self-center">
+        <div className="vip-banner flex flex-col justify-center min-h-[200px]  self-center">
             <div className="flex gap-4 self-center w-[80%]">
               <div className="flex flex-col  h-full basis-1/3  border-r-2 border-[#fff]">
                 <h1 className="text-[20px] md:text-[24px] font-[Integral] text-[#9A9A9A]">{bannerContent.title}</h1>

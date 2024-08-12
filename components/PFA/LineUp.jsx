@@ -19,21 +19,41 @@ function importAll(r) {
 
 const LineUp = () => {
   return (
-    <div>
-        <div className="flex justify-center">
-            <h1 className="text-[40px] font-[700] tracking-[2px] font-[Integral] text-center  text-[#fff]  uppercase">The Lineup</h1>
-        </div>
-        <div className="flex justify-center gap-6 pt-11">
+    <div className="lineup-container ">
+    <div className="lineup-header">
+      <h1 className="lineup-title">The Lineup</h1>
+    </div>
+    <div className="swiper-container">
         <Swiper
-      spaceBetween={50}
-      slidesPerView={3}
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
+         centeredSlides={true} // Center the active slide
+         loop={true} // Enable looping
+         loopedSlides={images.length}
+        //  initialSlide={1} // Start with the center slide active
+         spaceBetween={50}
+         slidesPerView={3}
+         breakpoints={{
+          // When window width is >= 320px (mobile)
+          320: {
+            slidesPerView: 2, // Show 3 slides on mobile
+            spaceBetween: 30, // Less space between slides on mobile
+          },
+          // When window width is >= 768px (tablet)
+          768: {
+            slidesPerView: 3, // Show 4 slides on tablets
+            spaceBetween: 50,
+          },
+          // When window width is >= 1024px (desktop)
+          1024: {
+            slidesPerView: 4.5, // Show 5 slides on larger screens
+            spaceBetween: 30,
+          },
+        }}
+        //  slideToClickedSlide={true} // Allow clicking on a slide to make it active
     >
          {Object.keys(images).map((image, index) => (
-               <SwiperSlide>
-        <div key={index} className="" style={{ marginBottom: '20px' }}>
-          <img src={`./PFA/Lineup/${image}`} alt={image} style={{ width: '400px', height: 'auto' }} />
+              <SwiperSlide key={index} className="swiper-slide ">
+              <div className="slide-content mt-12 h-[250px]">
+          <img src={`./PFA/Lineup/${image}`} alt={image} className="slide-image"/>
           {/*<h1 className="text-[20px] font-[700] tracking-[2px] font-[Integral] text-center  text-[#fff]  uppercase">Billings</h1> */}
         </div>
        </SwiperSlide>
