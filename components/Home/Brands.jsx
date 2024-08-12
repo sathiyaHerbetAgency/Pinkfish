@@ -17,7 +17,7 @@ const Brands = () => {
                 <a href="Live" className={containerClass}>
                     <img src="./Home/pl_logo.png" alt="pinkfish logo"/>
                 </a>
-                <a href="#" className={containerClass}>
+                <a href="PFA" className={containerClass}>
                     <img src="./Home/pf_arena_logo.png" alt="pinkfish logo"/>
                 </a>
             </div>
