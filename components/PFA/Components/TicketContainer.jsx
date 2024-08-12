@@ -21,7 +21,7 @@ const TicketContainer = ({title,type,price}) => {
                 {/* <img src="./PFA/globe_ticket.png" className="w-full mr-2 h-[80px]" alt="globe" /> */}
             </div>
             </div>
-        <button type='button' className='uppercase contact_submit w-full bg-[#FF0086]'> <a href="" target="_blank" > Buy Now </a></button>
+        <button type='button' className='uppercase contact_submit min-w-[100%] bg-[#FF0086]'> <a href="" target="_blank" > Buy Now </a></button>
            
             
         </div>

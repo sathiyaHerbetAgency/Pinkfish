@@ -7,8 +7,8 @@ const CalendarContainer = ({text}) => {
     <div>
         
         <div className="bg-[#FF0086]   rounded-xl">
-            <img src="./PFA/breaker_calendar.png" className="relative top-[80px] md:top-[100px] min-w-[111%]  left-[-10px] " alt="breaker" />
-<h1 className="text-[#fff] text-[100px] md:text-[128px] font-[ShareTech-Regular] text-center tracking-[-10px] font-[700]"> {text} </h1>
+            <img src="./PFA/breaker_calendar.png" className="relative top-[74px] md:top-[93px] min-w-[111%]  left-[-10px] " alt="breaker" />
+<h1 className="text-[#fff] text-[90px] md:text-[118px] font-[ShareTech-Regular] text-center tracking-[-10px] font-[700]"> {text} </h1>
         </div>
     </div>
   )

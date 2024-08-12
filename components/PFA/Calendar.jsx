@@ -60,9 +60,9 @@ const Calendar = () => {
         }
       };
   return (
-    <div className="flex flex-col md:gap-11 justify-center  py-24 ">
+    <div className="flex flex-col md:gap-11 justify-center  md:py-24 ">
       <div className="flex flex-col md:flex-row gap-6 self-center ">
-        <div className="flex flex-col justify-center pb-11">
+        <div className="flex flex-col justify-center md:pb-11">
           <h1 className="text-[36px] font-[700] tracking-[2px] font-[Integral] text-center  text-[#fff]  uppercase">
             mark your
           </h1>

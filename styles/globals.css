@@ -303,6 +303,19 @@
 }
 
 
+.vip_banner_heading{
+  background: -webkit-linear-gradient(#3a3a3a, #9a9a9a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.vip_banner_text{
+  background: -webkit-linear-gradient(#CACACA  0%, #000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
 
 @font-face {
   font-family: 'Integral';

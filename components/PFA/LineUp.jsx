@@ -2,7 +2,7 @@
 'use client'
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import { Mousewheel } from 'swiper/modules'; 
 // Import Swiper styles
 import 'swiper/css';
 
@@ -26,11 +26,14 @@ const LineUp = () => {
     <div className="swiper-container">
         <Swiper
          centeredSlides={true} // Center the active slide
-         loop={true} // Enable looping
+         loop={false} // Enable looping
          loopedSlides={images.length}
+         initialSlide={1}
         //  initialSlide={1} // Start with the center slide active
          spaceBetween={50}
          slidesPerView={3}
+         mousewheel={true } // Enable mouse wheel control
+         modules={[Mousewheel]} // Include the Mousewheel module
          breakpoints={{
           // When window width is >= 320px (mobile)
           320: {
