@@ -11,7 +11,7 @@ const BookingLabel = () => {
       </div>
         <div className="self-center flex flex-col md:flex-row justify-center md:items-center md:gap-11 gap-6 min-w-[80%]">
             <div className="flex flex-col gap-0">
-              <h1 className="text-[30px] md:text-[48px] leading-[32px] md:leading-[50px] font-[Babas] font-[300] text-center md:text-left  text-[#fff]">Book Lava Lounge:</h1>
+              <h1 className="text-[30px] md:text-[48px] leading-[32px] md:leading-[50px] font-[Babas] font-[300] text-center md:text-left  text-[#fff]">Book VVIP Sofa:</h1>
               <h1 className="text-[30px] md:text-[48px] leading-[32px] md:leading-[50px]  font-[Babas] font-[300] text-center md:text-left  text-[#fff]">The VVIP Experience Now</h1>
             </div>
             <div className="flex flex-col md:justify-start gap-3">
