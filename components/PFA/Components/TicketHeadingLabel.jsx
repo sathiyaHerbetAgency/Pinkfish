@@ -3,7 +3,7 @@ import React from 'react'
 
 const TicketHeadingLabel = ({text}) => {
   return (
-    <div className="flex flex-col">
+    <div id="Tickets" className="flex flex-col">
     <div className="max-w-[60vw] md:max-w-[900px] md:w-[100%] self-center py-6 md:py-3 bg-[#393939] rounded-lg">
         <h1 className="text-[20px] md:text-[32px] font-[700] tracking-[1px] font-[Integral] text-center  text-[#fff]  uppercase">{text}</h1>
     </div>

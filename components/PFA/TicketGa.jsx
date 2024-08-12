@@ -5,7 +5,7 @@ import TicketContainer from './Components/TicketContainer';
 
 const TicketGa = () => {
   return (
-    <div className="text-[#fff] self-center  ">
+    <div  className="text-[#fff] self-center  ">
      
         <TicketHeadingLabel text="GENERAL ADMISSION (GA)" />
        
