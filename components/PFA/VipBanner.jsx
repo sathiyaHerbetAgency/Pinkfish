@@ -18,18 +18,19 @@ const VipBanner = () => {
     <>
     <div className=" hidden md:block self-center">
       <div className="flex justify-center">
-        <div className="vip-banner flex flex-col justify-center min-h-[200px]  self-center">
+        <div className="vip-banner flex flex-col justify-center min-h-[235px]  self-center">
             <div className="flex gap-4 self-center w-[80%]">
-              <div className="flex flex-col justify-around  gap-6 h-full basis-1/3  border-r-2 border-[#fff]">
+              <div className="flex flex-col justify-around  gap-6 h-full   border-r-2 border-[#fff]">
                 <h1 className="text-[20px] md:text-[32px] leading-[32px]  font-[Integral] font-[900] vip_banner_heading text-center">{bannerContent.title}</h1>
                 <h1 className={text}>x1 Complimentary  <span className=" text-[#4B4B4B] text-[20px] font-[900]"> Drink Coupon </span></h1>
 
               </div>
-              <div className="flex flex-col justify-around basis-1/3  border-r-2 border-[#fff]">
+              <div className="flex flex-col justify-around  border-r-2 border-[#fff]">
                 <h1 className={text}>'Exclusive  <span className="text-[#4B4B4B] text-[20px] font-[900]">Elevated Viewing VIP Deck  </span></h1>
                 <h1 className={text}>Exclusive Access To <span className="text-[#4B4B4B] text-[20px] font-[900]">   VIP & General Admissions Areas</span></h1>
 
-              </div> <div className="flex flex-col  h-full basis-1/3 ">
+              </div>
+               <div className="flex flex-col  h-full ">
                 <h1 className={text}>VIP Designated Express <span className="text-[#4B4B4B] text-[20px] font-[900]">Lanes</span></h1>
                 <h1 className={text}>Exclusive <span className="text-[#4B4B4B] text-[20px] font-[900]"> VIP Space </span> (Private Bar & Lounge)</h1>
 
