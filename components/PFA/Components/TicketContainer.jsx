@@ -21,7 +21,7 @@ const TicketContainer = ({color,title,type,price,buttonText, link}) => {
                 {/* <img src="./PFA/globe_ticket.png" className="w-full mr-2 h-[80px]" alt="globe" /> */}
             </div>
             </div>
-        <button type='button' className={`uppercase rounded py-2 font-[Integral] text-[16px]  min-w-[100%] ${color==="pink"?"bg-[#FF0086]":"bg-[#6C6066]"} `}> <a href={link}  > {buttonText} </a></button>
+        <button type='button' className={`uppercase rounded py-2 md:py-3 font-[Integral] text-[16px]  min-w-[100%] ${color==="pink"?"bg-[#FF0086]":"bg-[#6C6066]"} `}> <a href={link}  > {buttonText} </a></button>
            
             
         </div>

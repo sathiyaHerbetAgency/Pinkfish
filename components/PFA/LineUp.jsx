@@ -48,14 +48,14 @@ const LineUp = () => {
           // When window width is >= 1024px (desktop)
           1024: {
             slidesPerView: 4.5, // Show 5 slides on larger screens
-            spaceBetween: 30,
+            spaceBetween: 50,
           },
         }}
         //  slideToClickedSlide={true} // Allow clicking on a slide to make it active
     >
          {Object.keys(images).map((image, index) => (
-              <SwiperSlide key={index} className="swiper-slid ">
-              <div className="slide-content mt-12 ">
+              <SwiperSlide key={index} className="swiper-slider ">
+              <div className="slide-content mt-12 md:pb-12  ">
           <img src={`./PFA/Lineup/${image}`} alt={image} className="slide-image"/>
           {/*<h1 className="text-[20px] font-[700] tracking-[2px] font-[Integral] text-center  text-[#fff]  uppercase">Billings</h1> */}
         </div>
