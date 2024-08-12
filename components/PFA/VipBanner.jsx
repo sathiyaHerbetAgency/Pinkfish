@@ -26,7 +26,7 @@ const VipBanner = () => {
 
               </div>
               <div className="flex flex-col justify-around items-center max-w-fit gap-4  basis-1/3 border-r-2 border-[#fff]">
-                <h1 className={text}>'Exclusive  <span className="text-[#4B4B4B] text-[20px] font-[900]">Elevated Viewing VIP Deck  </span></h1>
+                <h1 className={text}>Exclusive  <span className="text-[#4B4B4B] text-[20px] font-[900]">Elevated Viewing VIP Deck  </span></h1>
                 <h1 className={text}>Exclusive Access To <span className="text-[#4B4B4B] text-[20px] font-[900]">   VIP & General Admissions Areas</span></h1>
 
               </div>
@@ -46,7 +46,7 @@ const VipBanner = () => {
             <div className="flex flex-col justify-around   h-full basis-1/2  border-r-2 border-[#fff]">
               <h1 className="text-[20px] md:text-[32px] leading-[32px]  font-[Integral] font-[900] vip_banner_heading text-center">{bannerContent.title}</h1>
               <h1 className={text}>x1 Complimentary  <span className=" text-[#4B4B4B] text-[14px] md:text-[20px] md:font-[900]"> Drink Coupon </span></h1>
-              <h1 className={text}>'Exclusive  <span className="text-[#4B4B4B] text-[14px] md:text-[20px] md:font-[900]">Elevated Viewing VIP Deck  </span></h1>
+              <h1 className={text}>Exclusive  <span className="text-[#4B4B4B] text-[14px] md:text-[20px] md:font-[900]">Elevated Viewing VIP Deck  </span></h1>
 
             </div>
             <div className="flex flex-col justify-around h-full basis-1/2  ">
