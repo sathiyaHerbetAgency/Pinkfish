@@ -55,7 +55,7 @@ const LineUp = () => {
     >
          {Object.keys(images).map((image, index) => (
               <SwiperSlide key={index} className="swiper-slider ">
-              <div className="slide-content mt-12 md:pb-12  ">
+              <div className="slide-content mt-12 pb-12  ">
           <img src={`./PFA/Lineup/${image}`} alt={image} className="slide-image"/>
           {/*<h1 className="text-[20px] font-[700] tracking-[2px] font-[Integral] text-center  text-[#fff]  uppercase">Billings</h1> */}
         </div>
