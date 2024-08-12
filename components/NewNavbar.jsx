@@ -80,9 +80,9 @@ return (
         <div className="text-white absolute top-[100px] bg-black min-h-[40vh] min-w-[100vw] ">
           <div className="flex flex-col">
             <div className="self-center grid md:grid-cols-2  grid-1  gap-6 pb-6">
-              <EventContainer link="PFA" title='#PFA' description="pinkfish Arena" />
-              <EventContainer link="PFC" title='#PFC' description="Pinkfish Countdown" />
-              <EventContainer link="PFF" title='#PFF' description="pinkfish music & ARTS festival" />
+              <EventContainer link="arena" title='#PFA' description="pinkfish Arena" />
+              <EventContainer link="countdown" title='#PFC' description="Pinkfish Countdown" />
+              <EventContainer link="music&artsfestival" title='#PFF' description="pinkfish music & ARTS festival" />
               <EventContainer link="Live" title='#PFL' description="Pinkfish Live" />
             </div>
           </div>
@@ -198,9 +198,9 @@ return (
               {/* <div className="basis-1/3">
 
               </div> */}
-              <EventContainer link="#" title='#PFA' description="pinkfish Arena" />
-              <EventContainer  link="PFC" title='#PFC' description="Pinkfish Countdown" />
-              <EventContainer link="PFF" title='#PFF' description="pinkfish music & ARTS festival" />
+              <EventContainer link="arena" title='#PFA' description="pinkfish Arena" />
+              <EventContainer  link="countdown" title='#PFC' description="Pinkfish Countdown" />
+              <EventContainer link="music&artsfestival" title='#PFF' description="pinkfish music & ARTS festival" />
               <EventContainer link="Live" title='#PFL' description="Pinkfish Live" />
             </div>
           </div>

@@ -15,7 +15,7 @@ import EventLayout from './../../components/PFA/EventLayout';
 import BookingLabel from './../../components/PFA/BookingLabel';
 import Bottom from './../../components/PFA/Bottom';
 import Contact from './../../components/PFA/Contact';
- const PFA = () => {
+ const Arena = () => {
   return (
     <div >
         <NewNavbar />
@@ -28,9 +28,9 @@ import Contact from './../../components/PFA/Contact';
             <InfoNote image="GA" text="Kindly note that all phases of General Admission (GA) grant equal access to the free-standing and seating area." />
             <TicketVip /> */}
             {/* <InfoNote image="VIP" text="Kindly note that all phases of Premium Admission (VIP) grant equal access to the free-standing and seating area." /> */}
-            <VipBanner />
+            {/* <VipBanner /> */}
           </div>
-          <EventLayout />
+          {/* <EventLayout /> */}
           <BookingLabel />
           <Bottom />
           <Contact />
@@ -40,4 +40,4 @@ import Contact from './../../components/PFA/Contact';
   )
 }
 
-export default PFA
+export default Arena
