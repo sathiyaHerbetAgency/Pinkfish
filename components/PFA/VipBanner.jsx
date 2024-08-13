@@ -61,8 +61,8 @@ const VipBanner = () => {
       </div>
     </div> */}
      <div className="self-center">
-        <img src="./PFA/frame.png" className="max-w-[80vw] hidden md:block  object-none" alt="layout" />
-        <img src="./PFA/frame_mob.png" className=" block md:hidden self-center object-contain min-w-[150px]" alt="layout" />
+        <img src="./PFA/frame.png" className="max-w-[80vw] hidden md:block  max-h-[300px] object-contain" alt="layout" />
+        <img src="./PFA/frame_mob.png" className=" block md:hidden self-center object-contain max-w-[80vw] max-h-[150px]" alt="layout" />
       </div>
     </div>
   )
