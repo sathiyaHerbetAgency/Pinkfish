@@ -19,7 +19,7 @@ const TicketVip = () => {
   const Ticket2={
     payLaterStatus:false,
     payLater:"",
-    title:"GENERAL ADMISSION",
+    title:"vip",
     type:"phase 2",
     price:"RM 358",
     TicketStatus:false,
@@ -32,7 +32,7 @@ const TicketVip = () => {
   const Ticket3={
     payLaterStatus:false,
     payLater:"",
-    title:"GENERAL ADMISSION",
+    title:"vip",
     type:"phase 2",
     price:"RM 388",
     TicketStatus:false,
