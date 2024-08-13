@@ -10,11 +10,12 @@ const Bottom = () => {
   return (
     <div className="bg-bottom-p_f_a md:min-h-[70vh] py-12 md:py-24  flex flex-col justify-center gap-6">
         <div className="flex flex-col gap-6 w-[70%] self-center">
+        <img src="./PFA/pf_arena_logo.png" alt="logo" className="self-center w-[150px]"/>
           <div className="flex flex-col gap-2">
             <h1 className="text-[24px] md:text-[34px]  font-[Integral] text-center  text-[#FF0086]">{heading}</h1>
             <h1 className="text-[14px] md:text-[18px]  font-[Sofia] text-center  text-[#fff]">{text}</h1>
           </div>
-          <img src="./PFA/pf_arena_logo.png" alt="logo" className="self-center w-[150px]"/>
+         
         </div>
         {/* <div className="  flex flex-col  md:mt-0  ">
             <h1 className="home_bottom_header_seen text-center mt-11 pt-6  self-center">a curated adventure by</h1>
