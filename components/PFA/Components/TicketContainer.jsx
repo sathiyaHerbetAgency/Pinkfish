@@ -1,7 +1,7 @@
 /* eslint-disable */
 import React from 'react'
 
-const TicketContainer = ({color,title,type,price,buttonText, link}) => {
+const TicketContainer = ({payLater,color,title,type,price,buttonText, link1,link2}) => {
   return (
     <div  className="flex flex-col pt-11">
         <div className="flex flex-col gap-6 w-[160px] md:w-[280px]">
@@ -21,8 +21,9 @@ const TicketContainer = ({color,title,type,price,buttonText, link}) => {
                 {/* <img src="./PFA/globe_ticket.png" className="w-full mr-2 h-[80px]" alt="globe" /> */}
             </div>
             </div>
-        <button type='button' className={`uppercase rounded py-2 md:py-3 font-[Integral] text-[16px]  min-w-[100%] ${color==="pink"?"bg-[#FF0086]":"bg-[#6C6066]"} `}> <a href={link}  > {buttonText} </a></button>
-           
+        <button type='button' className={`uppercase rounded py-2 md:py-3 font-[Integral] text-[16px]  min-w-[100%] ${color==="pink"?"bg-[#FF0086]":"bg-[#6C6066]"} `}> <a href={link1}  > {buttonText} </a></button>
+       {payLater&& <button type='button' className={`uppercase rounded py-2 md:py-3 font-[Integral] text-[16px]  min-w-[100%] ${color==="pink"?"bg-[#FF0086]":"bg-[#6C6066]"} `}> <a href={link2}  > {payLater} </a></button>
+}
             
         </div>
 
