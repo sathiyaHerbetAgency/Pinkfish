@@ -8,7 +8,7 @@ const Bottom = () => {
   const heading="Seize the moment."
   const description=""
   return (
-    <div className="bg-bottom-p_f_a md:min-h-[70vh] py-12 md:py-24  flex flex-col justify-center gap-6">
+    <div className="bg-bottom-p_f_a  py-12   flex flex-col justify-center gap-6">
         <div className="flex flex-col gap-6 w-[70%] self-center">
         <img src="./PFA/pf_arena_logo.png" alt="logo" className="self-center w-[150px]"/>
           <div className="flex flex-col gap-2">

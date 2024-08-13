@@ -15,8 +15,8 @@ const VipBanner = () => {
 
     const text="text-[14px] md:text-[20px] font-[Sofia] text-[#000] md:w-[70%] text-center "
   return (
-    <>
-    <div className=" hidden md:block self-center">
+    <div className="flex flex-col">
+    {/* <div className=" hidden md:block self-center">
       <div className="flex justify-center">
         <div className="vip-banner flex flex-col justify-center min-h-[245px] rounded-b-xl self-center">
             <div className="flex  gap-4 self-center w-[90%]">
@@ -59,8 +59,12 @@ const VipBanner = () => {
           </div>
 
       </div>
+    </div> */}
+     <div className="self-center">
+        <img src="./PFA/frame.png" className="max-w-[80vw] hidden md:block  object-none" alt="layout" />
+        <img src="./PFA/frame_mob.png" className=" block md:hidden self-center object-contain min-w-[150px]" alt="layout" />
+      </div>
     </div>
-    </>
   )
 }
 
