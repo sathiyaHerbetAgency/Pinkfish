@@ -30,7 +30,7 @@ import Contact from './../../components/PFA/Contact';
              <InfoNote image="VIP" text="Kindly note that all phases of Premium Admission (VIP) grant equal access to the free-standing and seating area." />
             <VipBanner />
           </div>
-          {/* <EventLayout /> */}
+          <EventLayout />
           <BookingLabel />
           <Bottom />
           <Contact />
