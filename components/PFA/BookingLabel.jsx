@@ -17,7 +17,7 @@ const BookingLabel = () => {
             <div className="flex flex-col md:justify-start gap-3">
               <h1 className="text-[16px]  md:text-[20px] leading-[16px] md:leading-[20px] font-[Babas] font-[300]   text-center md:text-left  text-[#fff]">email: info@pinkfishfestival.com</h1>
               <h1 className="text-[16px] md:text-[20px]  leading-[16px] md:leading-[20px] font-[Babas] font-[300]   text-center md:text-left text-[#fff]">contact: +6012-2655783</h1>
-              <a href="./PFA/PDF/PFA_PDF.pdf" download className="text-[16px] md:text-[20px] font-[Babas] font-[300] bg-[#FF0086] self-center md:self-start text-[#fff] w-fit rounded px-6 py-1" type='button'>More Info</a>
+              <a href="./PFA/PDF/PFA_PDF.pdf"  target="_blank"  className="text-[16px] md:text-[20px] font-[Babas] font-[300] bg-[#FF0086] self-center md:self-start text-[#fff] w-fit rounded px-6 py-1" type='button'>More Info</a>
             </div>
         </div>
 
