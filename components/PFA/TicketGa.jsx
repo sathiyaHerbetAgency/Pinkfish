@@ -9,7 +9,7 @@ const TicketGa = () => {
     payLater:"buy now pay later",
     title:"GENERAL ADMISSION",
     type:"Earlybird",
-    price:"RM 228",
+    price:"RM 198",
     TicketStatus:true,
     BuyButton:"Buy Now",
     BuyButtonStatus:true,
