@@ -1,5 +1,6 @@
 /* eslint-disable */
 import React from 'react'
+import  Link  from 'next/link';
 
 const TicketContainer = ({payLater,color,title,type,price,buttonText, link1,link2}) => {
   return (
@@ -21,8 +22,8 @@ const TicketContainer = ({payLater,color,title,type,price,buttonText, link1,link
                 {/* <img src="./PFA/globe_ticket.png" className="w-full mr-2 h-[80px]" alt="globe" /> */}
             </div>
             </div>
-        <button type='button' className={`uppercase rounded py-2 md:py-3 font-[Integral] text-[16px]  min-w-[100%] ${color==="pink"?"bg-[#FF0086]":"bg-[#6C6066]"} `}> <a href={link1}  > {buttonText} </a></button>
-       {payLater&& <button type='button' className={`uppercase rounded py-2 md:py-3 font-[Integral] text-[16px]  min-w-[100%] ${color==="pink"?"bg-[#FF0086]":"bg-[#6C6066]"} `}> <a href={link2}  > {payLater} </a></button>
+            {link1&& <Link  href={link1} target="_blank" className={`uppercase rounded py-2 md:py-3 font-[Integral] text-[16px] text-center min-w-[100%] ${color==="pink"?"bg-[#FF0086]":"bg-[#6C6066]"} `}>  {buttonText} </Link>}
+       {payLater&& <Link  href={link2} target="_blank" className={`uppercase rounded py-2 md:py-3 font-[Integral] text-[16px] text-center min-w-[100%] ${color==="pink"?"bg-[#FF0086]":"bg-[#6C6066]"} `}>  {payLater} </Link>
 }
             
         </div>
