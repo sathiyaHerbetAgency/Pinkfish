@@ -101,8 +101,8 @@ const LineUp = () => {
     //     </div>
     // </div>
 <>
-<div className="self-center hidden md:block">
-    <div className="flex w- gap-4 self-center">
+<div className="self-center w-[80%] hidden md:block">
+    <div className="flex  gap-4 self-center">
       <div className="p-6"> 
       <img src="./PFA/Lineup/tba_lineup.png" classsName="object-contain p-6" alt="img_1"/>
       </div>
