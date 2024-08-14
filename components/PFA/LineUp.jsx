@@ -127,10 +127,10 @@ const LineUp = () => {
       </div>
       <div className="max-w-[90%] self-center flex gap-3">
       <div className=""> 
-      <img src="./PFA/Lineup/tba_lineup.png" classsName="object-contain " alt="img_1"/>
+      <img src="./PFA/Lineup/tba_lineup_mob.png" classsName="object-contain " alt="img_1"/>
       </div>
       <div className=""> 
-      <img src="./PFA/Lineup/tba_lineup.png" classsName="object-contain " alt="img_1"/>
+      <img src="./PFA/Lineup/tba_lineup_mob.png" classsName="object-contain " alt="img_1"/>
       </div>
       </div>
       </div>
