@@ -117,9 +117,9 @@ const LineUp = () => {
       </div>
     </div>
     <div className="self-center  md:hidden">
-    <div className="flex flex-col  gap-4 self-center">
+    <div className="flex flex-col  gap-6 self-center">
       
-      <div className="flex flex-col gap-6"> 
+      <div className="flex flex-col gap-3"> 
         <div className=" max-w-[90%] self-center">
           <img src="./PFA/Lineup/group_lineup.png" className="" alt="img_1"/>
         </div>
