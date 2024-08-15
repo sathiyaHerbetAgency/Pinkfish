@@ -125,11 +125,11 @@ const LineUp = () => {
         </div>
       
       </div>
-      <div className="self-center flex items-center gap-16 pt-3">
+      <div className="self-center flex items-center gap-10  pt-3">
       <div className=""> 
       <img src="./PFA/Lineup/img_11_mob.png" classsName="object-contain  " alt="img_1"/>
       </div>
-      <div className=""> 
+      <div className="pr-6"> 
       <img src="./PFA/Lineup/tba_lineup_mob.png" classsName="object-contain " alt="img_1"/>
       </div>
       </div>
