@@ -35,12 +35,12 @@ import Banner from './../../components/PFF/Banner';
                {/* <Heading type="2" /> */}
                <Heading type="2" text={"#PFC2023 official aftermovie"} page={"PFC"}  />
                <Video  id={"rlJu8PURolU"}  />
-               <div className="">
+               <div className="md:hidden">
                 <GalleryMob check="true" />
               </div>
-              {/* <div className="md:block hidden">
+              <div className="md:block hidden">
                 <Gallery />
-              </div> */}
+              </div>
                {/* <News /> */}
                <Banner select="PFC" />
                

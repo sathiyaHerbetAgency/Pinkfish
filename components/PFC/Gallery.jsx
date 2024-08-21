@@ -49,15 +49,15 @@ const Gallery = ({check}) => {
     const count={xs: 1,s: 2,m: 3,l: 3,xl: 3, xxl:3}
     const customMediaStyle = {
       objectFit: 'cover',
-      width: '300px',
+      maxWidth: '300px',
       maxHeight:'300px'
       
     };
 
 
   return (
-    <div className=" flex flex-col gap-4" id="my-test-gallery" ref={galleryRef}>
-      <div className="md:columns-6 columns-2  gap-[4px]  md:gap-[16px] overflow-hidden self-center">
+    <div className=" flex flex-col gap-4 min-w-[100vw] py-12" id="my-test-gallery" ref={galleryRef}>
+      <div className="md:columns-3 columns-2 md:max-w-[60vw] gap-[4px]  md:gap-[8px]  self-center">
          
             
             {imageSets["pfc_mob"].map((file, index) => (
@@ -69,7 +69,7 @@ const Gallery = ({check}) => {
                 rel="noreferrer"
                 className="gap-1"
               >
-                <img src={`./PFC/Gallery/${file}`} className="w-[100%] h-[100%] pb-2" alt={`${index + 1}`} />
+                <img src={`./PFC/Gallery/${file}`} className="w-[100%] h-[100%] pb-2 " alt={`${index + 1}`} />
               </a>
              
             ))}
