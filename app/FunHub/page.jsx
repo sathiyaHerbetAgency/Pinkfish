@@ -90,7 +90,7 @@ const FanHub = () => {
 
                 {/* <p className='fish_bottom_text self-center text-center'>Stay tuned for the promising line-up and future announcements!</p> */}
 
-                <Link href="/countdown.html" className="fan_button self-center">
+                <Link href="/countdown" className="fan_button self-center">
                   <button className="" type="button">
                     You Only Live Once
                   </button>
@@ -120,7 +120,7 @@ const FanHub = () => {
                   to life on stage.
                 </p>
 
-                <Link href="/Live" className="fan_button self-center">
+                <Link href="/Live/EventsIndividual" className="fan_button self-center">
                   <button className="" type="button">
                     Start Living Your Life
                   </button>
@@ -146,7 +146,7 @@ const FanHub = () => {
                   turning them into epicentres of DJ brilliance. Get hyped for a live experience like never before — where bass comes to life.
                 </p>
 
-                <Link href="/PFA" className="fan_button self-center">
+                <Link href="/Arena" className="fan_button self-center">
                   <button className="" type="button">
                   Feel the Beat
                   </button>

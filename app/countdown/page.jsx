@@ -6,7 +6,7 @@ import NewNavbar from './../../components/NewNavbar';
 import Footer from './../../components/Footer';
 import Hero from './../../components/PFF/Hero';
 import Label1 from './../../components/PFF/Label1';
-import Heading from './../../components/PFF/Heading';
+import Heading from './../../components/PFC/Heading';
 import Video from './../../components/PFC/Video';
 import Gallery from './../../components/PFC/Gallery';
 import Banner1 from './../../components/PFC/Banner1';
@@ -33,7 +33,7 @@ import Banner from './../../components/PFF/Banner';
                 {/* <Ticket /> */}
                 {/* <img src="./PFC/dots.png" alt="decoration" className="self-center" /> */}
                {/* <Heading type="2" /> */}
-               <Heading text={"#PFC2023 official aftermovie"} page={"PFC"}  />
+               <Heading type="2" text={"#PFC2023 official aftermovie"} page={"PFC"}  />
                <Video  id={"rlJu8PURolU"}  />
                <div className="">
                 <GalleryMob check="true" />

@@ -163,7 +163,7 @@ const clearState = () => {
               <form
                 ref={form}
                 onSubmit={(e) => {formSubmit(e),setDisableBtn(true)}}
-                className="flex flex-col  w-[70vw] md:w-[100%] self-center   gap-8"
+                className="flex flex-col  w-[70vw] md:pr-6 md:w-[100%] self-center   gap-8"
               >
                 <div className="flex md:flex-row   flex-col gap-6">
                   <div className="flex flex-col  md:w-[50%] ">

@@ -104,7 +104,7 @@ return(
 
     <img className="md:block hidden" src='/hero_logo_2.png' />
     </a>
-    <a href='/Live'> 
+    <a href="/Live/EventsIndividual"> 
       <img className="md:block hidden" src='/hero_logo_1.png' />
     </a>
       </div>
@@ -115,7 +115,7 @@ return(
       <a   href='/PFC'> 
       <img className="md:hidden" src='/hero_logo_mob_2.png' />
       </a>
-    <a href="/Live">
+    <a href="/Live/EventsIndividual">
     <img className="md:hidden" src='/hero_logo_mob_1.png' />
     </a>
     </div>

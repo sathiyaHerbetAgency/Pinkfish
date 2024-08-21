@@ -201,7 +201,7 @@ return (
               <EventContainer link="arena" title='#PFA' description="pinkfish Arena" />
               <EventContainer  link="countdown" title='#PFC' description="Pinkfish Countdown" />
               <EventContainer link="music&artsfestival" title='#PFF' description="pinkfish music & ARTS festival" />
-              <EventContainer link="Live" title='#PFL' description="Pinkfish Live" />
+              <EventContainer link="Live/EventsIndividual" title='#PFL' description="Pinkfish Live" />
             </div>
           </div>
         </div>
