@@ -124,7 +124,7 @@ const Gallery = ({select}) => {
     </div>
     {toogle === "1" ? (
       <div
-        className="md:columns-3 columns-2 md:max-w-[60vw] gap-[4px]  self-center"
+        className="md:columns-3 columns-2 md:max-w-[60vw] gap-[8px]  self-center"
        
       >
        {imageSets["pff_mob"].map((file, index) => (
@@ -136,7 +136,7 @@ const Gallery = ({select}) => {
                   rel="noreferrer"
                   className=""
                 >
-                  <img src={`./PFF_1/2023Gallery/${file}`} className="w-[100%] h-[100%] pb-1" alt={`${index + 1}`} />
+                  <img src={`./PFF_1/2023Gallery/${file}`} className="w-[100%] h-[100%] pb-1 md:pb-2" alt={`${index + 1}`} />
                 </a>
                
               ))}

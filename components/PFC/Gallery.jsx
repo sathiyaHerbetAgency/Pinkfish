@@ -57,7 +57,7 @@ const Gallery = ({check}) => {
 
   return (
     <div className=" flex flex-col gap-4" id="my-test-gallery" ref={galleryRef}>
-      <div className="md:columns-6 columns-2  gap-[4px]  md:gap-[11px] overflow-hidden self-center">
+      <div className="md:columns-6 columns-2  gap-[4px]  md:gap-[16px] overflow-hidden self-center">
          
             
             {imageSets["pfc_mob"].map((file, index) => (
