@@ -38,7 +38,7 @@ const Gallery = ({check}) => {
     pf: ["pf_1.png", "pf_2.png", "pf_3.png", "pf_4.png", "pf_5.png", "pf_6.png"],
     pc: ["pc_1.png", "pc_2.png", "pc_3.png", "pc_4.png", "pc_5.png", "pc_6.png"],
     pl: ["pl_1.png", "pl_2.png", "pl_3.png", "pl_4.png", "pl_5.png", "pl_6.png"],
-    pfc_mob: ["pfc_gallery_1.png", "pfc_gallery_2.png", "pfc_gallery_3.png", "pfc_gallery_4.png", "pfc_gallery_5.png", "pfc_gallery_6.png", "pfc_gallery_7.png", "pfc_gallery_8.png", "pfc_gallery_9.png", "pfc_gallery_10.png", "pfc_gallery_11.png", "pfc_gallery_12.png"],
+    pfc_mob: ["pfc_gallery_1", "pfc_gallery_2", "pfc_gallery_3", "pfc_gallery_4", "pfc_gallery_5", "pfc_gallery_6", "pfc_gallery_7", "pfc_gallery_8", "pfc_gallery_9", "pfc_gallery_10", "pfc_gallery_11", "pfc_gallery_12"],
     pl_mob: ["pl_mob_1.png", "pl_mob_2.png", "pl_mob_3.png", "pl_mob_4.png", "pl_mob_5.png", "pl_mob_6.png"]
   };
 
@@ -63,13 +63,13 @@ const Gallery = ({check}) => {
             {imageSets["pfc_mob"].map((file, index) => (
                 
               <a
-                href={`./PFC/Gallery/${file}`}
+                href={`./PFC/Gallery/FullImage/${file}.webp`}
                 key={"my-test-gallery" + '-' + index}
                 target="_blank"
                 rel="noreferrer"
                 className="gap-1"
               >
-                <img src={`./PFC/Gallery/${file}`} className="w-[100%] h-[100%] pb-2 " alt={`${index + 1}`} />
+                <img src={`./PFC/Gallery/${file}.png`} className="w-[100%] h-[100%] pb-2 " alt={`${index + 1}`} />
               </a>
              
             ))}

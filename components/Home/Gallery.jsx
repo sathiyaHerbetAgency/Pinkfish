@@ -5,6 +5,7 @@ import { useState,useEffect } from 'react';
 import GalleryGrid from './Componets/GalleryGrid';
 import "../../styles/live.css"
 import "../../styles/contact.css"
+import GalleryPF from './Componets/GalleryPF';
 
 
 const Gallery = () => {
@@ -23,11 +24,11 @@ const Gallery = () => {
             <button className={toogle==='3'?'pink_btn':"gallery_btn_home" } onClick={()=>{setToogle('3')}}><img src='/gallery_logo_2.png'/> </button>
         </div>
        
-        <div className="hidden md:block">
-        <GalleryGrid check={toogle==='1'&&"pf"||toogle==="2"&&"pc"||toogle==="3"&&"pl"} />
-        </div> <div className="md:hidden">
-        <GalleryGrid check={toogle==='1'&&"pf_mob"||toogle==="2"&&"pc_mob"||toogle==="3"&&"pl_mob"} />
-        </div>
+        <div className="">
+        {toogle==="1"&& <GalleryPF select="pff" folder="PF"/> }
+        {toogle==="2"&& <GalleryPF select="pc" folder="PC"/> }
+        {toogle==="3"&& <GalleryPF select="pl" folder="PL"/> }
+        </div> 
         </div>
 
     </div>
