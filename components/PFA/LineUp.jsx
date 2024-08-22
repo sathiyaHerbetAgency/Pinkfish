@@ -128,7 +128,6 @@ const LineUp = () => {
         </div>
       
       </div>
-      {/* <img src="./PFA/Lineup/bottom_label.png" className="min-w-[100vw]" alt="img_1"/> */}
       <div className="self-center flex  items-center gap-10  pt-3">
       <div className="w-[45%] ml-5"> 
       <img src="./PFA/Lineup/img_11_mob_2.png" classsName="object-  " alt="img_1"/>
