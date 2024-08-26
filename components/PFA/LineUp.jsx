@@ -113,9 +113,10 @@ const LineUp = () => {
       <img src="./PFA/Lineup/group_lineup.png" alt="img_1"/>
       <img src="./PFA/Lineup/bottom_label.png" alt="img_1"/>
       </div>
-      <div className="p-6"> 
-      <img src="./PFA/Lineup/tba_lineup.png" classsName="object-contain pt-6 pb-6 pr-6" alt="img_1"/>
+      <div className=""> 
+      <img src="./PFA/Lineup/img_3.png" classsName="object-contain pb-6" alt="img_1"/>
       </div>
+    
 
       </div>
     </div>
@@ -128,12 +129,12 @@ const LineUp = () => {
         </div>
       
       </div>
-      <div className="self-center flex  items-center gap-10  pt-3">
-      <div className="w-[45%] ml-5"> 
+      <div className="self-center flex  items-center gap-4  pt-3">
+      <div className="w-[45%] pl-5"> 
       <img src="./PFA/Lineup/img_11_mob_2.png" classsName="object-  " alt="img_1"/>
       </div>
-      <div className=" w-1/2"> 
-      <img src="./PFA/Lineup/tba_lineup_mob.png" classsName="object-contain " alt="img_1"/>
+      <div className=" w-1/2 pr-3"> 
+      <img src="./PFA/Lineup/img_3_mob.png" classsName="object-contain " alt="img_1"/>
       </div>
       </div>
       <img src="./PFA/Lineup/bottom_label.png" className="min-w-[100vw]" alt="img_1"/>
