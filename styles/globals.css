@@ -419,3 +419,15 @@
   font-family: 'SofiaMedium';
   src: url("/fonts/SofiaProMedium.ttf");
 }
+
+
+
+
+@font-face {
+  font-family: 'Trim';
+  src: url("/fonts/Trim-Bold.otf");
+}
+@font-face {
+  font-family: 'Trim-Regular';
+  src: url("/fonts/trim.ttf");
+}
