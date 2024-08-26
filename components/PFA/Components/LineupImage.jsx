@@ -19,9 +19,9 @@ const LineupImage = () => {
   return (
     <>
     {imageDetails.map(each=>(
-    <div className="flex flex-col gap-2 items-center"> 
+    <div className="flex flex-col gap-4 items-center"> 
       <img src={each.img} classsName="object-contain self-center" alt="img_1"/>
-      <h1 className="text-[28px] font-[Trim] text-white uppercase text-center self-center">{each.name}</h1>
+      <h1 className="text-[24px] font-[Trim] text-white uppercase text-center self-center font-[700]">{each.name}</h1>
       </div>
       ))}
       </>
