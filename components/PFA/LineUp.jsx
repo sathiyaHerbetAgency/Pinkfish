@@ -13,6 +13,8 @@ import 'swiper/css';
   
 //   // Import all images from the 'public/images' directory
 //   const images = importAll(require.context('../../public/PFA/Lineup', false, /\.(png|jpe?g|svg)$/));
+import LineupImage from './Components/LineupImage';
+import LineupBanner from './Components/LineupBanner';
 
 
 
@@ -103,21 +105,22 @@ const LineUp = () => {
 <>
 <div className="self-center w-[80%] max-w-[1100px] hidden md:block">
     <div className="flex  gap-4 self-center">
-      <div className=""> 
+      {/* <div className=""> 
       <img src="./PFA/Lineup/img_111.png" classsName="object-contain " alt="img_1"/>
-      </div>
+      </div> */}
       {/* <div className="p-6"> 
       <img src="./PFA/Lineup/tba_lineup.png" classsName="object-contain pt-6 pb-6 pr-6" alt="img_1"/>
       </div> */}
-      <div className="flex flex-col ml-3 gap-3"> 
+      {/* <div className="flex flex-col mt-1 ml-3 gap-3"> 
       <img src="./PFA/Lineup/group_lineup.png" alt="img_1"/>
       <img src="./PFA/Lineup/bottom_label.png" alt="img_1"/>
-      </div>
-      <div className="p-6"> 
-      <img src="./PFA/Lineup/tba_lineup.png" classsName="object-contain pt-6 pb-6 pr-6" alt="img_1"/>
-      </div>
+      </div> */}
+     
+    
+     <LineupImage  />
 
       </div>
+     <LineupBanner />
     </div>
     <div className="self-center  md:hidden">
     <div className="flex flex-col  gap-3 self-center">
@@ -128,12 +131,12 @@ const LineUp = () => {
         </div>
       
       </div>
-      <div className="self-center flex  items-center gap-10  pt-3">
-      <div className="w-[45%] ml-5"> 
+      <div className="self-center flex  items-center gap-4  pt-3">
+      <div className="w-[45%] pl-5"> 
       <img src="./PFA/Lineup/img_11_mob_2.png" classsName="object-  " alt="img_1"/>
       </div>
-      <div className=" w-1/2"> 
-      <img src="./PFA/Lineup/tba_lineup_mob.png" classsName="object-contain " alt="img_1"/>
+      <div className=" w-1/2 pr-3"> 
+      <img src="./PFA/Lineup/img_3_mob.png" classsName="object-contain " alt="img_1"/>
       </div>
       </div>
       <img src="./PFA/Lineup/bottom_label.png" className="min-w-[100vw]" alt="img_1"/>
