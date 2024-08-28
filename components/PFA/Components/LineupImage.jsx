@@ -10,7 +10,7 @@ const LineupImage = () => {
             name:'Andrew Rayel'  
           },
           {img:"./PFA/Lineup/lineup_3.png",
-            name:'giusppe ottaviani'  
+            name:'giuseppe ottaviani'  
           },
           {img:"./PFA/Lineup/lineup_4.png",
             name:'chukiess & Whackboi'  
