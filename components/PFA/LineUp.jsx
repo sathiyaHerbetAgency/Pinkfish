@@ -103,8 +103,8 @@ const LineUp = () => {
     //     </div>
     // </div>
 <>
-<div className="self-center w-[80%] max-w-[1100px] hidden md:block">
-    <div className="flex  gap-4 self-center">
+<div className="self-center w-[80%] max-w-[1100px] ">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 self-center">
       {/* <div className=""> 
       <img src="./PFA/Lineup/img_111.png" classsName="object-contain " alt="img_1"/>
       </div> */}
@@ -120,9 +120,9 @@ const LineUp = () => {
      <LineupImage  />
 
       </div>
-     <LineupBanner />
+    
     </div>
-    <div className="self-center  md:hidden">
+    {/* <div className="self-center  md:hidden">
     <div className="flex flex-col  gap-3 self-center">
       
       <div className="flex flex-col gap-3"> 
@@ -141,7 +141,8 @@ const LineUp = () => {
       </div>
       <img src="./PFA/Lineup/bottom_label.png" className="min-w-[100vw]" alt="img_1"/>
       </div>
-    </div>
+    </div> */}
+     <LineupBanner />
     </>
 
   )
