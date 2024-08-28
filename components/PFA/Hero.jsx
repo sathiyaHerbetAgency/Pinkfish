@@ -49,7 +49,7 @@ const Hero = () => {
 
         </div>
         <img src="./PFA/Banner/banner.png" alt="banner" className="hidden md:block py-3" />
-        <img src="./PFA/Banner/banner_mob.png" alt="banner" className=" md:hidden py-3" />
+        <img src="./PFA/Banner/banner_mob.jpg" alt="banner" className=" md:hidden py-3" />
 
         <div className="  md:text-center flex justify-center w-[80%] md:w-[100%]  self-center gap-6">
             <button type='button' className='uppercase contact_submit text-[18px] px-4 py-4 font-[500] bg-[#FF0086]'> <a href="#Tickets"  > {PFA.button_text} </a></button>
