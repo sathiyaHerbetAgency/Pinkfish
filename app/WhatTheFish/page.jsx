@@ -28,14 +28,14 @@ const page = () => {
            </div>
            </div>
            <div className='flex flex-col gap-6 md:w-[50%] self-center'>
-                    <h1 className='contact_sub_text text-center'>Pinkfish celebrates the best of dance, urban pop, and live music acts, 
+                    <h2 className='contact_sub_text text-center'>Pinkfish celebrates the best of dance, urban pop, and live music acts, 
                     all in one place. With a lineup of top-notch performers and artists, Pinkfish promises to be an unforgettable
-                    experience for music and art lovers alike.</h1>
-                    <h1 className='contact_sub_text text-center'>Whether you're a die-hard fan of your favourite performers or simply looking for a night of non-stop fun and entertainment, Pinkfish has
+                    experience for music and art lovers alike.</h2>
+                    <h2 className='contact_sub_text text-center'>Whether you're a die-hard fan of your favourite performers or simply looking for a night of non-stop fun and entertainment, Pinkfish has
                     something for everyone. It's more than just a festival - it's a celebration of creativity,
                     expression, and community. Come and experience music, dance and art in new and exciting
-                    ways.</h1>
-                    <h1 className='contact_sub_text text-center'>  Let Pinkfish be your way of life!</h1>
+                    ways.</h2>
+                    <h2 className='contact_sub_text text-center'>  Let Pinkfish be your way of life!</h2>
                     </div>
          </div>
          </div>
@@ -45,13 +45,13 @@ const page = () => {
          <div className=' flex flex-col md:mt-11 mt-11'>
             <div className='flex flex-col  gap-6 md:w-[50%] w-[80%] self-center'>
               
-                {/* <motion.h1 
+                {/* <motion.h2 
                  variants={textVariant2}
                  initial="hidden"
                  whileInView="show"
                viewport={{ once: true }}
-                className='about_us_sub_header'>THE CURATORS</motion.h1> */}
-                <h1 className='about_us_sub_header'>THE CURATORS</h1>
+                className='about_us_sub_header'>THE CURATORS</motion.h2> */}
+                <h2 className='about_us_sub_header'>THE CURATORS</h2>
            
             <div className='flex flex-column   gap-6   mb-11  '>
            <div className='self-center flex md:flex-row gap-11 flex-col justify-center md:justify-between  '>
@@ -107,7 +107,7 @@ const page = () => {
                viewport={{ once: true }}
               src='/aboutus_logo_1.png' className=' ' alt="logo" />
               <div className='flex flex-col '>
-                <h1 className='fish_bottom_heading'>Happymoon</h1>
+                <h2 className='fish_bottom_heading'>Happymoon</h2>
                 <p className='fish_bottom_text'>From humble beginnings to organising events and festivals across Malaysia and Southeast 
                 Asia, we have years of extensive experience in bringing the best live music events under our belts.</p>
               </div>

@@ -20,14 +20,14 @@ return (
       </Link>
       <div className="flex gap-6 ">
       <Link href="/">
-          <h1 className="menu_text_live ">Home</h1>
+          <h3 className="menu_text_live ">Home</h3>
         </Link>
         <Link href="/Live/Events">
-          <h1 className="menu_text_live ">Events</h1>
+          <h3 className="menu_text_live ">Events</h3>
         </Link>
        
         <Link href="/Live/Contact">
-          <h1 className="menu_text_live ">Contact</h1>
+          <h3 className="menu_text_live ">Contact</h3>
         </Link>
       </div>
       <Link className='mt-3'  href="/Live/Contact">

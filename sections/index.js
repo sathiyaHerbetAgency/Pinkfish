@@ -4,7 +4,6 @@ import PinkText from './PinkTexrt';
 import Events from './Events';
 import Gallery from './Gallery';
 import Gallery2 from './Gallery2';
-import World from './World';
 import Banner from './Banner';
 import PartyBanner from './PartyBanner';
 
@@ -15,7 +14,6 @@ export {
   Events,
   Gallery,
   Gallery2,
-  World,
   Banner,
   PartyBanner,
 };

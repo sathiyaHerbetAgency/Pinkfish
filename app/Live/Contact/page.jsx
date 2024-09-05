@@ -2,8 +2,13 @@
 import '../../../styles/live.css';
 import Navbar from '../../../sections/Navbar';
 import FooterLive from '../../../sections/FooterLive';
-const Contact = () => (
+import Head from './../../../components/head';
+const Contact = () =>{
+  const description="Discover the best live music events in Malaysia & Southeast Asia with Pinkfish! Immerse yourself in the vibrant music scene and experience unforgettable performances."
+  const title="Live music event in Malaysia & Southeast Asia | Pinkfish  "
+  return (
   <>
+<Head title={title} description={description} />
   <Navbar />
   <div className="contact_main_container_live  min-h-screen flex justify-center text-white pt-11 mb-11  ">
     <div className="  flex flex-col md:flex-row w-[90%]  md:w-[80%] ">
@@ -14,9 +19,9 @@ const Contact = () => (
         </p>
         <div className="flex flex-col gap-1 hidden md:block">
 
-          <h1 className="contact_sub_header_live mt-6">email</h1>
+          <h2 className="contact_sub_header_live mt-6">email</h2>
           <p className="contact_text_live mt-3">info@pinkfishfestival.com</p>
-          <h1 className="contact_sub_header_live mt-3 mb-3">Socials</h1>
+          <h2 className="contact_sub_header_live mt-3 mb-3">Socials</h2>
           <div className='flex flex-col'>
           <a href='https://www.instagram.com/pinkfishfestival/' target="_blank" className="contact_text_live ">Instagram</a>
            <a href='https://www.youtube.com/@Pinkfishfestival' target="_blank" className="contact_text_live ">Youtube</a>
@@ -56,9 +61,9 @@ const Contact = () => (
       <div className='flex justify-center'>
       <div className="flex flex-col  gap-1  items-center md:hidden">
 
-<h1 className="contact_sub_header_live mt-6">email</h1>
+<h2 className="contact_sub_header_live mt-6">email</h2>
 <p className="contact_text_live mt-3">info@pinkfishfestival.com</p>
-<h1 className="contact_sub_header_live mt-3 mb-3">Socials</h1>
+<h2 className="contact_sub_header_live mt-3 mb-3">Socials</h2>
 <div className='flex flex-col gap-2'>
 <a href='https://www.instagram.com/pinkfishfestival/' target="_blank" className="contact_text_1_live underline text-center ">Instagram</a>
            <a href='https://www.youtube.com/@Pinkfishfestival' target="_blank" className="contact_text_1_live underline text-center ">Youtube</a>
@@ -74,5 +79,5 @@ const Contact = () => (
   </>
 
 );
-
+};
 export default Contact;

@@ -9,11 +9,11 @@ const TicketContainer = ({...Ticket}) => {
           <div className="flex flex-col">
             <div className={`${Ticket.TicketStatus===true?"ticket-body-bg":"ticket-body-bg-gray"}  flex flex-col justify-start h-[190px] md:h-[330px] gap-0 w-full`}  >
               <div className="flex flex-col justify-around min-h-[80%] md:min-h-[70%]">
-                <h1 className="text-[10px] w-[100%] text-center md:text-[14px] font-[100]  font-[Integral] text-[#fff]  uppercase"> {Ticket.title}</h1>
+                <h2 className="text-[10px] w-[100%] text-center md:text-[14px] font-[100]  font-[Integral] text-[#fff]  uppercase"> {Ticket.title}</h2>
 
                 <div className="">
-                  <h1 className="text-[16px] md:text-[20px]  tracking-[1px] font-[Integral] text-center  text-[#fff]  uppercase">{Ticket.type}</h1>
-                  <h1 className="text-[34px] md:text-[40px]  tracking-[1px] font-[Integral] text-center  text-[#fff]  uppercase">{Ticket.price}</h1>
+                  <h2 className="text-[16px] md:text-[20px]  tracking-[1px] font-[Integral] text-center  text-[#fff]  uppercase">{Ticket.type}</h2>
+                  <h2 className="text-[34px] md:text-[40px]  tracking-[1px] font-[Integral] text-center  text-[#fff]  uppercase">{Ticket.price}</h2>
                 </div>
                 </div>
             </div>

@@ -16,12 +16,13 @@ import Ticket from './../../components/PFC/Ticket';
 import News from './../../components/PFC/News';
 import GalleryMob from './../../components/PFC/GalleryMob';
 import Banner from './../../components/PFF/Banner';
-
-
-
+import Head from './../../components/head';
  const PFC = () => {
+  const description="Celebrate Countdown NYE 2024 with Pinkfish! Enjoy an exciting night filled with entertainment, drinks, and unforgettable memories as we welcome the new year together. "
+  const title="Celebrate Countdown NYE 2024 with Pinkfish | Unforgettable Events "
   return (
     <div>
+       <Head title={title} description={description} />
         <NewNavbar />
         <div className="bg-black">
             <Hero select={"PFC"}  />

@@ -4,10 +4,15 @@ import "../../styles/contact.css";
 import { motion } from "framer-motion";
 import { Footer, NewNavbar,Button } from "../../components";
 import Link from 'next/link';
+import Head from './../../components/head';
 
 const page = () => {
+  const description="Discover the vibrant Pinkfish Music & Arts Festival, featuring live acts and art installations from local and international artists. Join us for a unique creative experience! "
+  const title="Experience the Best Music Festival in Malaysia - Pinkfish "
+
   return (
     <>
+     <Head title={title} description={description} />
       <NewNavbar />
       <div className=" min-h-screen  text-white   ">
         <div className="contact_main_container_what-merchandise flex flex-col justify-center pd:mb-0 pb-6      ">
@@ -20,7 +25,7 @@ const page = () => {
                     <span className="sale-container"> Sale!</span>{" "}
                   </h1>
                 </div>
-                <h1 className="contact_sub_text_merchandise text-center"> View our collection now!</h1>
+                <h2 className="contact_sub_text_merchandise text-center"> View our collection now!</h2>
               </div>
             </div>
           </div>
@@ -39,9 +44,9 @@ const page = () => {
                 <div className="max-w-[80%]">
                   <div>
                   <div className="max-w-xl flex flex-col gap-1 pt-5">
-                    <h1 className="text-white font-family:Babas product-title font-bold uppercase">
+                    <h2 className="text-white font-family:Babas product-title font-bold uppercase">
                       cop the exclusive PFF2024 X chaigo the stray fit 
-                    </h1>
+                    </h2>
                     <p className="product-sub-title">
                       pinkfish X Chaigo T-shirt
                     </p>
@@ -78,9 +83,9 @@ const page = () => {
                 </div>
                 <div className="w-full">
                     <div className=" flex flex-col gap-1 pt-5">
-                      {/* <h1 className="text-white font-family:Babas product-title font-bold uppercase">
+                      {/* <h2 className="text-white font-family:Babas product-title font-bold uppercase">
                         cop the exclusive PFF2024 X chaigo the stray fit 
-                      </h1> */}
+                      </h2> */}
                       <p className="product-sub-title">
                         pinkfish X Chaigo T-shirt
                       </p>
@@ -114,9 +119,9 @@ const page = () => {
                 </div>
                 <div className="w-full">
                     <div className=" flex flex-col gap-1 pt-5">
-                      {/* <h1 className="text-white font-family:Babas product-title font-bold uppercase">
+                      {/* <h2 className="text-white font-family:Babas product-title font-bold uppercase">
                         cop the exclusive PFF2024 X chaigo the stray fit 
-                      </h1> */}
+                      </h2> */}
                       <p className="product-sub-title">
                         pinkfish X Chaigo T-shirt
                       </p>
@@ -152,9 +157,9 @@ const page = () => {
                 </div>
                 <div className="w-full">
                     <div className=" flex flex-col gap-1 pt-5">
-                      {/* <h1 className="text-white font-family:Babas product-title font-bold uppercase">
+                      {/* <h2 className="text-white font-family:Babas product-title font-bold uppercase">
                         cop the exclusive PFF2024 X chaigo the stray fit 
-                      </h1> */}
+                      </h2> */}
                       <p className="product-sub-title">
                       pinkfish bandana
                       </p>
@@ -185,9 +190,9 @@ const page = () => {
                 </div>
                 <div className="w-full">
                     <div className=" flex flex-col gap-1 pt-5">
-                      {/* <h1 className="text-white font-family:Babas product-title font-bold uppercase">
+                      {/* <h2 className="text-white font-family:Babas product-title font-bold uppercase">
                         cop the exclusive PFF2024 X chaigo the stray fit 
-                      </h1> */}
+                      </h2> */}
                       <p className="product-sub-title">
                       bucket hat
                       </p>
@@ -218,9 +223,9 @@ const page = () => {
                 </div>
                 <div className="w-full">
                     <div className=" flex flex-col gap-1 pt-5">
-                      {/* <h1 className="text-white font-family:Babas product-title font-bold uppercase">
+                      {/* <h2 className="text-white font-family:Babas product-title font-bold uppercase">
                         cop the exclusive PFF2024 X chaigo the stray fit 
-                      </h1> */}
+                      </h2> */}
                       <p className="product-sub-title">
                       wtf cap
                       </p>
@@ -242,7 +247,7 @@ const page = () => {
 </div>
 </div>
         </div>
-        <h1 className="contact_sub_text_merchandise text-[18px] text-center pt-8"> *Price excludes processing fee.</h1>
+        <h2 className="contact_sub_text_merchandise text-[18px] text-center pt-8"> *Price excludes processing fee.</h2>
 
       </div>
       <Footer />

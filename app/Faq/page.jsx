@@ -8,8 +8,10 @@ import Link from "next/link";
 // import AccordItem from './../../components/AccordItem';
 import {NewNavbar}  from "../../components";
 import AccordItem from "../../components/js/AccordItem";
-
+import Head from './../../components/head';
 const Faq = () => {
+  const description="Discover the vibrant Pinkfish Music & Arts Festival, featuring live acts and art installations from local and international artists. Join us for a unique creative experience! "
+  const title="Experience the Best Music Festival in Malaysia - Pinkfish "
   const data0=
   <div className="flex flex-col gap-2 py-3 ">
   <p className="world_text   leading-relaxed" >Pinkfish celebrates the best of dance, urban pop, and live music acts, all in one place. With a lineup of top-notch performers and artists, Pinkfish promises to be an unforgettable experience for music and art lovers alike. Whether you're a die-hard fan of your favourite performers or simply looking for a night of non-stop fun and entertainment, Pinkfish has something for everyone. It's more than just a festival - it's a celebration of creativity, expression, and community. Come and experience music, dance and art in new and exciting ways.</p>
@@ -28,6 +30,7 @@ const Faq = () => {
     
   return (
     <div>
+      <Head title={title} description={description} />
       <NewNavbar />
        <div className="faq_main_container-main min-h-screen flex flex-col  text-white   ">
         <div className="md:w-[60vw] w-[80vw] self-center">

@@ -5,7 +5,6 @@ import NewFeatures from './NewFeatures';
 import InsightCard from './InsightCard';
 import Footer from './Footer';
 import Button from './Button';
-import NewsTemplate from './NewsTemplate';
 import { Dropdown } from './Dropdown';
 export {
   NewNavbar,
@@ -15,5 +14,4 @@ export {
   InsightCard,
   Footer,
   Button,
-  NewsTemplate,
 };

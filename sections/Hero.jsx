@@ -140,7 +140,7 @@ firstRef.play()
           <div className='flex flex-col justify-center h-full absolute self-center gap-6 mb-24'>
         <img className=' w-2/3  self-center '  data-value="-30"    src='/main_logo.png'/>
         
-       <h1 className='hero_text_heading self-center'>more than just a festival</h1>
+       <h2 className='hero_text_heading self-center'>more than just a festival</h2>
        {/* <button className='hero_button border border-white w-fit self-center p-1 rounded text-white pl-2 pr-2'>Learn More</button> */}
         {/* <div className=''>
         <div className='movable element svg_hero svg_1' data-value="-10"  >
@@ -205,7 +205,7 @@ Pinkfish Live
           <div className='flex flex-col justify-center h-full absolute self-center gap-3 md:mb-3 mb-24  mt-24 '>
         <img className=' w-3/5  self-center '  data-value="-30"    src='/main_logo.png'/>
         
-       <h1 className='hero_text_heading self-center'>more than just a festival</h1>
+       <h2 className='hero_text_heading self-center'>more than just a festival</h2>
        {/* <button className='hero_button border border-white w-fit self-center p-1 rounded text-white pl-2 pr-2'>Learn More</button> */}
 </div>
   </section>

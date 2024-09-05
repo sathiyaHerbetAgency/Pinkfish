@@ -364,6 +364,82 @@
 }
 
 
+/* Start Slider  */
+
+
+/* .slider-container {
+  width: 600px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider-wrapper {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  flex-shrink: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-image {
+  width: 100%;
+}
+
+.combined-slide {
+  display: flex;
+  justify-content: space-between;
+  width: 200%; 
+}
+
+.combined-slide img {
+  width: 50%;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+button:first-of-type {
+  left: 0;
+}
+
+button:last-of-type {
+  right: 0;
+} */
+
+/* Ends Slider  */
+
+.swiper-slide-double {
+  flex: 0 0 200%; /* Double the width of a normal slide */
+  max-width: 200%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide {
+  flex: 0 0 100%; /* Standard slides take up normal width */
+  max-width: 100%;
+}
+
+
+
 
 @font-face {
   font-family: 'Integral';

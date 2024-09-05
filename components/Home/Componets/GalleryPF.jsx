@@ -66,7 +66,7 @@ const GalleryPF = ({select,folder}) => {
                 key={"my-test-gallery" + '-' + index}
                 target="_blank"
                 rel="noreferrer"
-                className="object-contain"
+                className="object-contain z-50"
               >
                 <img src={`./Home/Gallery/${folder}/${file}.png`} className="w-[100%] h-[100%] hidden md:block" alt={`${index + 1}`} />
                 <img src={`./Home/Gallery/${folder}/${file}.png`} className="w-[100%] h-[100%]  md:hidden" alt={`${index + 1}`} />
