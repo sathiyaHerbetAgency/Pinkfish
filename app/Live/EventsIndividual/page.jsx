@@ -6,13 +6,15 @@ import gsap from 'gsap';
 import FsLightbox from "fslightbox-react";
 import Navbar from '../../../sections/Navbar';
 import FooterLive from '../../../sections/FooterLive'
+import Head from './../../../components/head';
 const EventsIndividual = () => {
     const [active, setActive] = useState(false);
     const [url,setUrl]=useState('')
     const [toggler, setToggler] = useState(false);
     const [slide,setSlide]=useState()
     const [slideMob,setSlideMob]=useState()
-
+    const description="Discover the best live music events in Malaysia & Southeast Asia with Pinkfish! Immerse yourself in the vibrant music scene and experience unforgettable performances."
+    const title="Live music event in Malaysia & Southeast Asia | Pinkfish  "
     function sideScroll(direction,speed,distance,step){
         var element =   document.getElementById('container')
        
@@ -63,6 +65,7 @@ const EventsIndividual = () => {
 
   return (
     <>
+    <Head title={title} description={description} />
     <Navbar />
     <div className=' flex flex-col justify-center '>
         <div className='w-[80%] self-center flex flex-col gap-8 mt-11 '>

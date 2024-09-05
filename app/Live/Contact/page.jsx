@@ -2,8 +2,13 @@
 import '../../../styles/live.css';
 import Navbar from '../../../sections/Navbar';
 import FooterLive from '../../../sections/FooterLive';
-const Contact = () => (
+import Head from './../../../components/head';
+const Contact = () =>{
+  const description="Discover the best live music events in Malaysia & Southeast Asia with Pinkfish! Immerse yourself in the vibrant music scene and experience unforgettable performances."
+  const title="Live music event in Malaysia & Southeast Asia | Pinkfish  "
+  return (
   <>
+<Head title={title} description={description} />
   <Navbar />
   <div className="contact_main_container_live  min-h-screen flex justify-center text-white pt-11 mb-11  ">
     <div className="  flex flex-col md:flex-row w-[90%]  md:w-[80%] ">
@@ -74,5 +79,5 @@ const Contact = () => (
   </>
 
 );
-
+};
 export default Contact;

@@ -16,10 +16,14 @@ import BookingLabel from './../../components/PFA/BookingLabel';
 import Bottom from './../../components/PFA/Bottom';
 import Contact from './../../components/PFA/Contact';
 import SliderLineup from './../../components/PFA/Components/SliderLineup';
+import Head from './../../components/head';
  const Arena = () => {
+  const description="Discover the vibrant Pinkfish Music & Arts Festival, featuring live acts and art installations from local and international artists. Join us for a unique creative experience! "
+const title="Experience the Best Music Festival in Malaysia - Pinkfish "
   return (
     <div >
         <NewNavbar />
+        <Head title={title} description={description} />
         <div className="bg-black flex flex-col gap-11">
           <Hero select={"PFF"} />
           <LineUp />

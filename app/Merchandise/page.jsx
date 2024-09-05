@@ -4,10 +4,15 @@ import "../../styles/contact.css";
 import { motion } from "framer-motion";
 import { Footer, NewNavbar,Button } from "../../components";
 import Link from 'next/link';
+import Head from './../../components/head';
 
 const page = () => {
+  const description="Discover the vibrant Pinkfish Music & Arts Festival, featuring live acts and art installations from local and international artists. Join us for a unique creative experience! "
+  const title="Experience the Best Music Festival in Malaysia - Pinkfish "
+
   return (
     <>
+     <Head title={title} description={description} />
       <NewNavbar />
       <div className=" min-h-screen  text-white   ">
         <div className="contact_main_container_what-merchandise flex flex-col justify-center pd:mb-0 pb-6      ">

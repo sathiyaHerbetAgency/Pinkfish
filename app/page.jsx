@@ -1,6 +1,8 @@
 /* eslint-disable */
 "use client";
+
 import { Footer, NewNavbar } from "../components";
+
 // import { Hero, World } from "../sections";
 import "../styles/contact.css";
 import Hero from './../components/Home/Hero';
@@ -10,13 +12,16 @@ import Gallery from './../components/Home/Gallery';
 import News from './../components/Home/News';
 import Bottom from './../components/Home/Bottom';
 import Popup from './../components/Home/Popup';
+import Head from './../components/head';
 
-const Page = () => {
-
-
+export default function Page() {
+  const description="Discover the vibrant Pinkfish Music & Arts Festival, featuring live acts and art installations from local and international artists. Join us for a unique creative experience! "
+  const title="Experience the Best Music Festival in Malaysia - Pinkfish "
 
 
   return (
+    <>
+    <Head title={title} description={description} />
     <div className="bg-transparent min-h-[100vh] ">
       <Popup />
       <NewNavbar />
@@ -27,7 +32,6 @@ const Page = () => {
       <Label color="gray" direction="right" />
       <News  />
       <Bottom />
-      
       <img
         className=" md:block hidden right-[0] top-[70%]  fixed  "
         src="/fish.png"
@@ -35,6 +39,6 @@ const Page = () => {
      <Footer />
   
     </div>
+    </>
   );
 };
-export default Page;

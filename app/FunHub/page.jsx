@@ -13,10 +13,13 @@ import {
 import { Footer, NewNavbar } from "../../components";
 import Link from "next/link";
 import Container from "../../components/Funhub/Container"
-
+import Head from './../../components/head';
 const FanHub = () => {
+  const description="Discover the vibrant Pinkfish Music & Arts Festival, featuring live acts and art installations from local and international artists. Join us for a unique creative experience! "
+const title="Experience the Best Music Festival in Malaysia - Pinkfish "
   return (
     <>
+    <Head title={title} description={description} />
       <NewNavbar />
       <div className="fan_main_container min-h-screen  text-white   ">
         <div className="flex  flex-col gap-6 pt-11 pb-24">

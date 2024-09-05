@@ -26,17 +26,17 @@ return (
           <div className=" w-[110%]  flex justify-center   desktop_navbar  ">
             <div className="flex gap-6   pt-2 ">
               <a href="WhatTheFish" className=" flex flex-col justify-center ">
-                <h1 className="menu_text  items-end">What the fish!</h1>
+                <h2 className="menu_text  items-end">What the fish!</h2>
               </a>
               {/* <Dropdown /> */}
               <a href="FunHub" className=" flex flex-col justify-center ">
-                <h1 className="menu_text ">FUN HUB</h1>
+                <h2 className="menu_text ">FUN HUB</h2>
               </a>
               <a
                 onClick={() => setToogle(!toogle)}
                 className="cursor-pointer flex flex-col justify-center "
               >
-                <h1 className="menu_text ">Events</h1>
+                <h2 className="menu_text ">Events</h2>
               </a>
 
               <a href="/" className=" flex flex-col justify-center ">
@@ -46,17 +46,17 @@ return (
                 />
               </a>
               <a href="News" className=" flex flex-col justify-center ">
-                <h1 className="menu_text ">News</h1>
+                <h2 className="menu_text ">News</h2>
               </a>
               <a href="Contact" className=" flex flex-col justify-center ">
-                <h1 className="menu_text ">Contact us</h1>
+                <h2 className="menu_text ">Contact us</h2>
               </a>
               <a
                 className="bg-[#FF0086] rounded flex flex-col justify-center items-center"
                 href="Merchandise"
               >
                 <div className="flex self-center items-center px-2">
-                  <h1 className="menu_text ">Shop</h1>
+                  <h2 className="menu_text ">Shop</h2>
                   <svg
                     width="24"
                     height="13"

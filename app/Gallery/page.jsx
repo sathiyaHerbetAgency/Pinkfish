@@ -6,12 +6,15 @@ import { fadeIn, planetVariants, staggerContainer, textContainer, textVariant, t
 import { useState } from 'react';
 import { scrollTop } from '../../components/jsfile';
 import { Footer, NewNavbar } from '../../components';
-
-
+import Head from './../../components/head';
 const Gallery = () => {
   const [toogle,setToogle]=useState('1')
+  const description="Discover the vibrant Pinkfish Music & Arts Festival, featuring live acts and art installations from local and international artists. Join us for a unique creative experience! "
+  const title="Experience the Best Music Festival in Malaysia - Pinkfish "
+
   return (
     <>
+    <Head title={title} description={description} />
     <NewNavbar />
     <div className="bg-black min-h-screen flex flex-col gap-11  text-white   ">
     

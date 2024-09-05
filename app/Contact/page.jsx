@@ -5,6 +5,7 @@ import { Footer, NewNavbar } from "../../components";
 import { useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import emailjs from "@emailjs/browser";
+import Head from './../../components/head';
 const initialState = {
   firstName: "",
   lastName:'',
@@ -21,15 +22,11 @@ const Contact = () => {
   let closePopupButtonRef = useRef(null);
   const [disableBtn,setDisableBtn]=useState(false)
   const [check,setCheck]=useState(false)
-  // const [firstName, setFirstName] = useState("");
-  // const [lastName, setLastName] = useState("");
-  // const [email, setEmail] = useState("");
-  // const [phone, setPhone] = useState("");
-  // const [subject, setSubject] = useState("");
-  // const [message, setMessage] = useState("");
-  // const [otherText, setOtherText] = useState("");
   const form = useRef();
   const router = useRouter();
+  const description="Discover the vibrant Pinkfish Music & Arts Festival, featuring live acts and art installations from local and international artists. Join us for a unique creative experience! "
+  const title="Experience the Best Music Festival in Malaysia - Pinkfish "
+
 const clearState = () => {
     setState({ ...initialState });
   };
@@ -99,6 +96,7 @@ const clearState = () => {
   }
   return (
     <>
+    <Head title={title} description={description} />
       <NewNavbar />
       <div className="contact_main_container min-h-screen  text-white">
         <div className="hidden md:block">
@@ -303,9 +301,7 @@ const clearState = () => {
                 <div className="contact_submit self-center md:self-start items-center">
                   <button className="flex " type="submit" disabled={disableBtn}>
                     Send Message
-                    {/* <svg className="mt-2 ml-1 " width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M9.29806 5.73623L5.20055 1.63873L6.28069 0.558594L12.2222 6.50012L6.28069 12.4416L5.20055 11.3615L9.29806 7.26401H0V5.73623H9.29806Z" fill="white" />
-            </svg> */}
+                  
                   </button>
                 </div>
               </form>
