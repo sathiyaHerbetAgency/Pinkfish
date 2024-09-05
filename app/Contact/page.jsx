@@ -104,26 +104,26 @@ const clearState = () => {
         <div className="hidden md:block">
           <div className="flex flex-col gap-6 pt-11 pb-24 ">
             <h1 className="contact_text_header self-center">contact us</h1>
-            <h1 className="contact_sub_text self-center">
+            <p className="contact_sub_text self-center">
               Get in touch with us now for any inquiries and issues! Sit tight
               as we get back to you.
-            </h1>
+            </p>
           </div>
         </div>
         <div className="flex flex-col">
           <div className="  flex flex-col md:flex-row bg-contact pb-6 pt-11 md:w-[70%] min-w-[70vw]  self-center">
             <div className="md:basis-2/5  flex justify-center ">
               <div className="md:w-[60%] w-[70vw] gap-3 flex flex-col justify-center">
-                <h1 className="contact_header hidden md:block">
+                <h2 className="contact_header hidden md:block">
                   reach out to us
-                </h1>
+                </h2>
                 <h1 className="contact_text_header_mob md:hidden ">
                   contact us
                 </h1>
-                <h1 className="contact_sub_text_mob self-center md:hidden">
+                <p className="contact_sub_text_mob self-center md:hidden">
                   Get in touch with us now for any inquiries and issues! Sit
                   tight as we get back to you.
-                </h1>
+                </p>
                 <div className="flex flex-row  md:gap-3 gap-4 mt-6 ">
                   <a href="mailto:info@pinkfishfestival.com">
                     <img className=" md:w-8  " src="/email_contact.svg" />

@@ -11,7 +11,7 @@ const Footer = () => (
     <div className="flex flex-col  gap-5 md:items-start items-center ">
         
        <div className='flex flex-col gap-6'>
-        <h1 className="home_bottom_header ">as seen on</h1>
+        <h2 className="home_bottom_header ">as seen on</h2>
         <div className="flex w-[350px] gap-6 ">
           {/* <img  src='/home_bottom_logo_mob_1.svg'/> */}
           <img className="w-[15%]" src='/trb.png'/>
@@ -34,7 +34,7 @@ const Footer = () => (
       
         </div>
         <>
-        <h1 className="home_bottom_header">Follow us</h1> 
+        <h2 className="home_bottom_header">Follow us</h2> 
      <div className="flex items-center  gap-6 md:gap-3">
 
             <a href='https://www.facebook.com/pinkfishfestival/' target="_blank" className="icon_text order-2 md:order-1">
@@ -85,7 +85,7 @@ const Footer = () => (
     </div>
     <div className='flex flex-col  md:flex-row justify-between  w-[90%] md:w-[80%] self-center  gap-11'>
    
-  <h1 className="footer_bottom_text ">Copyright © 2024. All rights reserved</h1>
+  <p className="footer_bottom_text ">Copyright- Pinkfish lifestyle and Entertainment in Malaysia </p>
 
   <div className='flex gap-2 text-white items-center' >
   <Link href="PrivacyPolicy">
@@ -105,7 +105,7 @@ const Footer = () => (
   <div className='flex flex-col mt-11 '>
   <div className='w-[80%] self-center flex flex-col gap-6'>
 <div className='flex flex-col gap-6 self-center mb-6'>
-        <h1 className="home_bottom_header_seen text-center mt-6">as seen on</h1>
+        <h2 className="home_bottom_header_seen text-center mt-6">as seen on</h2>
         {/* <div className="flex gap-6">
 
           <img className="w-[15%]" src='/trb.png'/>
@@ -169,7 +169,7 @@ const Footer = () => (
        
       </div>
       <div className="flex flex-col gap-5 md:items-start items-center mb-11 ">
-        <h1 className="address_title icon_text">Follow us</h1>
+        <h2 className="address_title icon_text">Follow us</h2>
         <div className="flex items-center  gap-6 md:gap-3">
 
             <a href='https://www.facebook.com/pinkfishfestival/' target="_blank" className="icon_text order-2 md:order-1">
@@ -198,7 +198,7 @@ const Footer = () => (
       </div>
         <div className='flex flex-col md:flex-row justify-between  mb-11 self-center  gap-3'>
    
-   <h1 className="footer_bottom_text ">Copyright © 2023. All rights reserved</h1>
+   <p className="footer_bottom_text ">Copyright- Pinkfish lifestyle and Entertainment in Malaysia </p>
  
    <div className='flex gap-2 text-white items-center' >
    <Link href="PrivacyPolicy">

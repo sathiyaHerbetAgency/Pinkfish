@@ -15,6 +15,7 @@ import EventLayout from './../../components/PFA/EventLayout';
 import BookingLabel from './../../components/PFA/BookingLabel';
 import Bottom from './../../components/PFA/Bottom';
 import Contact from './../../components/PFA/Contact';
+import SliderLineup from './../../components/PFA/Components/SliderLineup';
  const Arena = () => {
   return (
     <div >
@@ -22,6 +23,7 @@ import Contact from './../../components/PFA/Contact';
         <div className="bg-black flex flex-col gap-11">
           <Hero select={"PFF"} />
           <LineUp />
+          {/* <SliderLineup /> */}
           <Calendar />
           <div className="flex flex-col min-w-[70vw]">
             <TicketGa />
