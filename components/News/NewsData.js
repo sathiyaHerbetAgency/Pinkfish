@@ -1,3 +1,4 @@
+/* eslint-disable */
 export const NewsData =[
     {
         "heading": "Pinkfish Does It Again - Elevates Music Festival",
