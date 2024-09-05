@@ -63,12 +63,12 @@ const Calendar = () => {
     <div className="flex flex-col md:gap-11 justify-center  md:py-24 ">
       <div className="flex flex-col md:flex-row gap-6 self-center ">
         <div className="flex flex-col justify-center md:pb-11">
-          <h1 className="text-[36px] font-[700] tracking-[2px] font-[Integral] text-center  text-[#fff]  uppercase">
+          <h3 className="text-[36px] font-[700] tracking-[2px] font-[Integral] text-center  text-[#fff]  uppercase">
             mark your
-          </h1>
-          <h1 className="text-[36px] font-[700] tracking-[2px] font-[Integral] text-center  text-[#fff]  uppercase">
+          </h3>
+          <h3 className="text-[36px] font-[700] tracking-[2px] font-[Integral] text-center  text-[#fff]  uppercase">
             calendars!
-          </h1>
+          </h3>
         </div>
         <div className="flex flex-col">
           {state.seconds < 0 ? (
@@ -78,31 +78,31 @@ const Calendar = () => {
               <div className="grid grid-cols-1 md:grid-cols-4 py-4 gap-4">
                 <div className="flex flex-col gap-3">
                   <CalendarContainer text={state.days || "00"} />
-                  <h1 className="text-[#fff] text-[24px] font-[ShareTech-Regular] text-center  uppercase">
+                  <h3 className="text-[#fff] text-[24px] font-[ShareTech-Regular] text-center  uppercase">
                     {" "}
                     Days{" "}
-                  </h1>
+                  </h3>
                 </div>
                 <div className="flex flex-col gap-3">
                   <CalendarContainer text={state.hours || "00"} />
-                  <h1 className="text-[#fff] text-[24px] font-[ShareTech-Regular] text-center  uppercase">
+                  <h3 className="text-[#fff] text-[24px] font-[ShareTech-Regular] text-center  uppercase">
                     {" "}
                     Hours{" "}
-                  </h1>
+                  </h3>
                 </div>{" "}
                 <div className="flex flex-col gap-3">
                   <CalendarContainer text={state.minutes || "00"} />
-                  <h1 className="text-[#fff] text-[24px] font-[ShareTech-Regular] text-center  uppercase">
+                  <h3 className="text-[#fff] text-[24px] font-[ShareTech-Regular] text-center  uppercase">
                     {" "}
                     Minutes{" "}
-                  </h1>
+                  </h3>
                 </div>{" "}
                 <div className="flex flex-col gap-3">
                   <CalendarContainer text={state.seconds || "00"} />
-                  <h1 className="text-[#fff] text-[24px] font-[ShareTech-Regular] text-center  uppercase">
+                  <h3 className="text-[#fff] text-[24px] font-[ShareTech-Regular] text-center  uppercase">
                     {" "}
                     Seconds{" "}
-                  </h1>
+                  </h3>
                 </div>
               </div>
             </div>

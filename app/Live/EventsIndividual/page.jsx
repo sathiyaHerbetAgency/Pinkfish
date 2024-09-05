@@ -74,7 +74,7 @@ const EventsIndividual = () => {
     <div className='md:basis-2/3 order-2 md:order-1 flex flex-col gap-6'>
         
         <p className='date_event_main_text_live'>9 august 2023</p>
-        <h1 className='event_section_header_live cursour-pointer'>TYGA live in kl</h1>
+        <h2 className='event_section_header_live cursour-pointer'>TYGA live in kl</h2>
         <p className='event_section_text_live'>Compton-born Tyga is coming to Malaysia for the first time and he's ready to make 
         it “Bedrock”! Tyga, which stands for Thank You God Always brings his arsenal of hits, from ‘Rack City’, to 
         ‘Ice Cream Man’ to ‘Taste’ from the blast from the radio to his live shows. You know you’re in for a party with him taking 
@@ -140,7 +140,7 @@ const EventsIndividual = () => {
     </div>
 
     <div className='flex flex-col gap-4 text-white mb-11'>
-    <h1 className='gallery_event_live text-center'>Gallery</h1>
+    <h2 className='gallery_event_live text-center'>Gallery</h2>
     <div className='flex gap-4 self-center '>
         <img  onClick={() => {setToggler(!toggler), setSlide(1)}}  onMouseOver={(e)=>mouseDowns(".image_112")} onMouseLeave={(e)=>mouseOut(".image_112")} src='/Live/Gallery/gallery_event_1.png' className='image_112 object-none hidden md:block'/>
         <img  onClick={() => {setToggler(!toggler), setSlide(2)}} onMouseOver={(e)=>mouseDowns(".image_113")} onMouseLeave={(e)=>mouseOut(".image_113")} src='/Live/Gallery/gallery_event_2.png' className='object-none image_113 hidden md:block'/>

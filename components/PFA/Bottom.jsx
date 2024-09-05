@@ -12,13 +12,13 @@ const Bottom = () => {
         <div className="flex flex-col gap-6 w-[70%] self-center">
         <img src="./PFA/pf_arena_logo.png" alt="logo" className="self-center w-[150px]"/>
           <div className="flex flex-col gap-2">
-            <h1 className="text-[24px] md:text-[34px]  font-[Integral] text-center  text-[#FF0086]">{heading}</h1>
-            <h1 className="text-[14px] md:text-[18px]  font-[Sofia] text-center  text-[#fff]">{text}</h1>
+            <h3 className="text-[24px] md:text-[34px]  font-[Integral] text-center  text-[#FF0086]">{heading}</h3>
+            <h3 className="text-[14px] md:text-[18px]  font-[Sofia] text-center  text-[#fff]">{text}</h3>
           </div>
          
         </div>
         {/* <div className="  flex flex-col  md:mt-0  ">
-            <h1 className="home_bottom_header_seen text-center mt-11 pt-6  self-center">a curated adventure by</h1>
+            <h3 className="home_bottom_header_seen text-center mt-11 pt-6  self-center">a curated adventure by</h3>
                 <div className="flex flex-col md:flex-row justify-center gap-6 self-center mb-11 mt-6 w-1/2">
                   <img className="w-[250px] " src='/home_bottom_logo_1.svg'/>
                   <img className="" src='/home_bottom_logo_2.svg'/>

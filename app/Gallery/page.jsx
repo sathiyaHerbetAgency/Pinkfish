@@ -20,7 +20,7 @@ const Gallery = () => {
     
     <div className='flex flex-col gap-6 pt-11 '>
       <h1 className='contact_text_header  self-center'>festival oasis</h1>
-      <h1 className='contact_sub_text text-center w-[60%] self-center'>Catch a glimpse of yourself and other LAVAs in stills at Pinkfish events!</h1>
+      <p className='contact_sub_text text-center w-[60%] self-center'>Catch a glimpse of yourself and other LAVAs in stills at Pinkfish events!</p>
     </div>
 
     <div className= ' flex gap-3 self-center'>

@@ -49,7 +49,7 @@ const Hero = () => {
         
 
             <div className="flex justify-center items-center gap-3 py-3  md:py-6  ">
-                <h1 className="text-[20px] md:text-[24px] font-[Sofia] drop-shadow-2xl  text-[#fff]">Scroll Down</h1>
+                <h3 className="text-[20px] md:text-[24px] font-[Sofia] drop-shadow-2xl  text-[#fff]">Scroll Down</h3>
                 <a href="#brand">
                     <img src="./Home/svg/arrow_down.svg" className="w-[25px] md:w-[30px] " alt="hero svg star" />
                 </a>

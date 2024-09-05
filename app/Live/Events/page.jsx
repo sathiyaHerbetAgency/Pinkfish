@@ -21,7 +21,7 @@ const title="Live music event in Malaysia & Southeast Asia | Pinkfish  "
                 <div className='basis-2/3 flex flex-col order-2 md:order-1 gap-6'>
                     <hr  className='hr_line_footer_live'/>
                     <p className='date_event_main_text_live'>9 august 2023</p>
-                    <h1 className='event_section_header_live'>TYGA LIVE IN KL</h1>
+                    <h2 className='event_section_header_live'>TYGA LIVE IN KL</h2>
                     <p className='event_section_text_live'>Compton-born Tyga is coming to Malaysia for the first time and he's ready to make it “Bedrock”! Tyga, which stands for 
                     Thank You God Always brings his arsenal of hits, from ‘Rack City’, to ‘Ice Cream Man’ to ‘Taste’ from the blast from the radio to his live shows. You know you’re in for 
                     a party with him taking the stage this Wednesday, the 8th of August 2023 in Zepp KL!
@@ -51,9 +51,9 @@ const title="Live music event in Malaysia & Southeast Asia | Pinkfish  "
       </button>
       </div>
       <div className='flex flex-col event_bottom_container_live p-6 gap-5 pl-8'>
-        <h1 className='event_bottom_header_live mt-11'>pinkfish live</h1>
-        <h1 className='event_bottom_main_hearder_live'>we bring the music,
-you bring the hype</h1>
+        <h2 className='event_bottom_header_live mt-11'>pinkfish live</h2>
+        <h2 className='event_bottom_main_hearder_live'>we bring the music,
+you bring the hype</h2>
 <Link href='Contact' className=' black_btn_live mb-11'>
 <button className=' flex p-3 md:p-2 ' type="button">have a question?  talk to us 
 <svg className="mt-0 md:mt-2 ml-2 " width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
