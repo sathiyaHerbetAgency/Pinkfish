@@ -226,7 +226,7 @@
 
 .contact_main_container_live{
     /* background-image: url("/contact_page_bg.png"); */
-    background: url('/Live/blackGradient.png')  bottom no-repeat, url("/Live/contact_page_bg.png")  top no-repeat ;
+    background: url('/Live/blackGradient.webp')  bottom no-repeat, url("/Live/contact_page_bg.webp")  top no-repeat ;
     background-size: cover;
 }
 
@@ -251,7 +251,7 @@
 }
 
 .event_container_live{
-    background: url('/blackGradient.png')  bottom no-repeat, url("/event_bg.png")  top no-repeat  ;
+    background: url('/blackGradient.png')  bottom no-repeat, url("/event_bg.webp")  top no-repeat  ;
     background-size: cover;
    min-width: 100vw;
   
@@ -384,12 +384,10 @@
 /* HOME CSS */
 
 .hero_container_live {
-    /* background-image: url('/HEROIMG.png'); */
-    background: url('/Live/hero_blackGradient.png')  bottom no-repeat, url("/Live/HEROIMG.png")  top ;
+    background: url('/Live/hero_blackGradient.png')  bottom no-repeat, url("/Live/HEROIMG.webp")  top ;
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: center; */
     min-height: 100vh;
     @apply flex flex-col justify-end;
     margin-top: 0px;

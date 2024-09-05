@@ -3,7 +3,7 @@ const PinkText = () => (
   <div className="horizantal_pink_container_live">
     <div class="relative marquee-container ">
       <div class="marquee flex justify-around text-white">
-        <a className="horizantal_text_1_live  ">what the fish?</a>
+        <h2 className="horizantal_text_1_live  ">what the fish?</h2>
         <svg
           className="svg_text_live"
           viewBox="0 0 49 37"
@@ -19,7 +19,7 @@ const PinkText = () => (
             fill="white"
           />
         </svg>
-        <a className="horizantal_text_2">PinkFishLive</a>
+        <h2 className="horizantal_text_2">PinkFishLive</h2>
         <svg
           className="svg_text_live"
           viewBox="0 0 49 37"
@@ -35,7 +35,7 @@ const PinkText = () => (
             fill="white"
           />
         </svg>
-        <a className="horizantal_text_1_live  ">what the fish?</a>
+        <h2 className="horizantal_text_1_live  ">what the fish?</h2>
         <svg
           className="svg_text_live"
           viewBox="0 0 49 37"
@@ -53,7 +53,7 @@ const PinkText = () => (
         </svg>
       </div>
       <div class="marquee marquee2 flex justify-around text-white ">
-        <a className="horizantal_text_2">PinkFishLive</a>
+        <h2 className="horizantal_text_2">PinkFishLive</h2>
         <svg
           className="svg_text_live"
           viewBox="0 0 49 37"
@@ -69,7 +69,7 @@ const PinkText = () => (
             fill="white"
           />
         </svg>
-        <a className="horizantal_text_1_live  ">what the fish?</a>
+        <h2 className="horizantal_text_1_live  ">what the fish?</h2>
         <svg
           className="svg_text_live"
           viewBox="0 0 49 37"
@@ -85,7 +85,7 @@ const PinkText = () => (
             fill="white"
           />
         </svg>
-        <a className="horizantal_text_2">PinkFishLive</a>
+        <h2 className="horizantal_text_2">PinkFishLive</h2>
         <svg
           className="svg_text_live"
           viewBox="0 0 49 37"

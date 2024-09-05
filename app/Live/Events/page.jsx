@@ -37,7 +37,7 @@ const title="Live music event in Malaysia & Southeast Asia | Pinkfish  "
       </Link>
                 </div>
                 <div className='basis-1/3 order-1 md:order-2'>
-                    <img src="/Live/event_main_2.png"/>
+                    <img src="/Live/event_main_2.png" alt="event image"/>
                 </div>
                 </div>
             </div>

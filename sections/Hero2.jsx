@@ -2,7 +2,7 @@ import Link from 'next/link';
 import '../styles/live.css'
 const Hero2 = () => (
   <section className="hero_container_live flex mb-2 md:mb-11 ">
-      <img src='Live/HEROIMG_Mob.png' className='md:hidden mt-0 mb-12 object-fill ' />
+      <img src='Live/HEROIMG_Mob.webp' className='md:hidden mt-0 mb-12 object-fill ' alt='hero banner' />
     <div className='  header_container flex justify-center'>
     
       <div className='flex flex-col md:flex-row items-center md:justify-between md: p-4 md:w-[90%]'>
@@ -10,18 +10,8 @@ const Hero2 = () => (
         Zepp KL
         </h1> */}
         <div className='md:basis-3/4 flex justify-center mb-11'>
-        <h1 className='hero_heading_live pt-3 mb-11 md:mb-24 max-w-[90%] text-center   '>pinkfish live
-        
-        </h1>
+        <h1 className='hero_heading_live pt-3 mb-11 md:mb-24 max-w-[90%] text-center'>pinkfish live </h1>
         </div>
-        {/* <Link className="md:hidden mb-4" href="/Contact">
-        <button className="buy_ticket_live flex " type="button">Reach Out 
-          <svg className=" mt-2 ml-1 " width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M9.29806 5.73623L5.20055 1.63873L6.28069 0.558594L12.2222 6.50012L6.28069 12.4416L5.20055 11.3615L9.29806 7.26401H0V5.73623H9.29806Z" fill="white" />
-          </svg>
-        </button>
-      </Link> */}
-        
         <div className='flex justify-center mb-11 md:basis-1/4'>
         <a href='#Events' >
           <svg className='cursor-pointer pb-5 w-[84px] md:w-[131.14px] h-[84px] md:h-[131.14px] mt-6 md:mt-[-45px]'  viewBox="0 0 157 157" fill="none" xmlns="http://www.w3.org/2000/svg">

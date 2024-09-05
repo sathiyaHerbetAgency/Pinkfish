@@ -16,7 +16,7 @@ return (
     <div className="navbar_container_live  ">
       <div className='flex justify-center desktop_navbar_live '>
       <Link href="/Live">
-        <img src="/Live/Logo.png" className="logo_img " />
+        <img src="/Live/Logo.png" className="logo_img " alt="pinkfish live logo" />
       </Link>
       <div className="flex gap-6 ">
       <Link href="/">

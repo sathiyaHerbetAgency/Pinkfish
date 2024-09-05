@@ -1,4 +1,3 @@
-import Hero from './Hero';
 import Hero2 from './Hero2';
 import PinkText from './PinkTexrt';
 import Events from './Events';
@@ -8,7 +7,6 @@ import Banner from './Banner';
 import PartyBanner from './PartyBanner';
 
 export {
-  Hero,
   Hero2,
   PinkText,
   Events,
