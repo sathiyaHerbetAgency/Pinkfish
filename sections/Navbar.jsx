@@ -16,7 +16,7 @@ return (
     <div className="navbar_container_live  ">
       <div className='flex justify-center desktop_navbar_live '>
       <Link href="/Live"arial-label="Live"  >
-        <img src="/Live/Logo.png" className="logo_img " alt="pinkfish live logo" />
+        <img src="/Live/Logo.png" className="logo_img w-[120px]" alt="pinkfish live logo" />
       </Link>
       <div className="flex gap-6 ">
       <Link href="/" arial-label="Home">
@@ -43,7 +43,7 @@ return (
     <div className='navbar_container_mob_live  '>
       <div className='w-[70%] self-center flex justify-between'>
     <Link className='self-center' href="/" arial-label="Home">
-        <img src="/Live/Logo.png" className="logo_img mb-3" alt="pinkfish logo" />
+        <img src="/Live/Logo.png" className="logo_img w-[120px] mb-3" alt="pinkfish logo" />
       </Link>
       <button type='button' aria-label="Menu" onClick={()=>{  setToggleDropdown(((prev)=>!prev)); changeToggle()}}>
       <svg clipPath='pt-6' width="26" height="17" viewBox="0 0 26 17" fill="none" xmlns="http://www.w3.org/2000/svg">
