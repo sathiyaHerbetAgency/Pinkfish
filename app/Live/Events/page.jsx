@@ -30,7 +30,7 @@ const title="Live music event in Malaysia & Southeast Asia | Pinkfish  "
                     <Link href='/Live/EventsIndividual' className='soldout_ticket_event_main_live w-fit'>
                     <button className="  flex  p-1 " type="button">Sold Out
                     <svg className="mt-1 md:mt-1 ml-2 mr-2 " width="6" height="12" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M1 9.46351L4.67453 5.78896C5.10849 5.35501 5.10849 4.64489 4.67453 4.21094L1 0.536377" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1 9.46351L4.67453 5.78896C5.10849 5.35501 5.10849 4.64489 4.67453 4.21094L1 0.536377" stroke="black" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
 
       </button>

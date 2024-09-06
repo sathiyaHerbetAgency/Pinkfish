@@ -71,7 +71,7 @@ const page = () => {
             </div>
           </div>
           <div className="flex flex-col ">
-          <div class="grid grid-cols-1 md:grid-cols-3 place-content-center self-center gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 place-content-center self-center gap-4">
             <div classsName=" flex self-center max-w-full  ">
               <div className="flex  flex-col  min-w-full md:py-16 py-6 ">
                 <div classname=" ">

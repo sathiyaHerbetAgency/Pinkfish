@@ -40,10 +40,7 @@ return (
               </a>
 
               <a href="/" className=" flex flex-col justify-center ">
-                <img
-                  src="/new_menu_logo_2.svg"
-                  className=" items-center w-[150px] "
-                />
+                <img src="/new_menu_logo_2.svg" className=" items-center w-[150px] "/>
               </a>
               <a href="News" className=" flex flex-col justify-center ">
                 <h2 className="menu_text ">News</h2>

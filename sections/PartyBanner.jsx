@@ -23,8 +23,8 @@ return(
    <div className="flex ">
    <h3 className="pat_banner_text text-white ">Reach out to us now </h3>
    <svg width="57" height="29" className="mt-1 ml-3" viewBox="0 0 57 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M1 14.5L54 14.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M43 1.5L56 14.5L43 27.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1 14.5L54 14.5" stroke="white" stroke-width="2" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M43 1.5L56 14.5L43 27.5" stroke="white" stroke-width="2" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
 </div>
 </div>

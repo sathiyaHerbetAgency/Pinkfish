@@ -5,8 +5,8 @@ import {NewsData}  from './NewsData';
 const NewsTemplate = ({header,paragraph,link,img}) => { 
   return (
    <>
-    {NewsData.map(each=>
-        <div className='basis-1/3 border rounded border-white flex flex-col gap-4'>
+    {NewsData.map((each,index)=>
+        <div key={index+1} className='basis-1/3 border rounded border-white flex flex-col gap-4'>
         <img src={each.img} alt='news image' />
         <div className='flex flex-col gap-4 self-center pb-4 w-[90%]'>
         <h1 className='news_card_header '>{each.heading}</h1>

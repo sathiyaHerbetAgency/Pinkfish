@@ -11,7 +11,7 @@ const Events = () => (
               <div className="text-block_live  text-white flex flex-col gap-2 md:gap-4">
                 <button className="event_tickets2_live" alt="button">Sold Out
                   <svg className="self-center ml-2 mt-1" width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1 9.46357L4.67453 5.78903C5.10849 5.35507 5.10849 4.64496 4.67453 4.211L1 0.536438" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M1 9.46357L4.67453 5.78903C5.10849 5.35507 5.10849 4.64496 4.67453 4.211L1 0.536438" stroke="black" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                   </button>           
               </div>    

@@ -6,8 +6,8 @@ import Marquee from "react-fast-marquee";
 const Label = ({text}) => (
   <>
   {/* <div className="horizantal_pink_container_live_pff hidden md:block">
-    <div class="relative marquee-container ">
-      <div class="marquee flex justify-around text-white gap-6">
+    <div className="relative marquee-container ">
+      <div className="marquee flex justify-around text-white gap-6">
         <div className="svg-gap 6">
           <svg
           className="svg-mob"
@@ -243,7 +243,7 @@ const Label = ({text}) => (
           </svg>
         </div>
         </div>
-        <div class="marquee marquee2 min-w-[100vw] flex justify-around text-white ">
+        <div className="marquee marquee2 min-w-[100vw] flex justify-around text-white ">
         <a className="horizantal_text_2_pff">{text}</a>
         <div className="svg-gap">
           <svg
@@ -367,8 +367,8 @@ const Label = ({text}) => (
     </div>
   </div>
   <div className="horizantal_pink_container_live_pff md:hidden">
-    <div class="relative marquee-container ">
-      <div class="marquee flex justify-around text-white gap-6">
+    <div className="relative marquee-container ">
+      <div className="marquee flex justify-around text-white gap-6">
         <div className="svg-gap 6">
           <svg
           className="svg-mob"
@@ -489,7 +489,7 @@ const Label = ({text}) => (
         <a className="horizantal_text_2_pff">{text}</a>
         
         </div>
-        <div class="marquee marquee2 min-w-[100vw] flex justify-around text-white ">
+        <div className="marquee marquee2 min-w-[100vw] flex justify-around text-white ">
         
         <div className="svg-gap">
           <svg

@@ -15,22 +15,22 @@ return (
     <div className='hidden md:block'>
     <div className="navbar_container_live  ">
       <div className='flex justify-center desktop_navbar_live '>
-      <Link href="/Live">
+      <Link href="/Live"arial-label="Live"  >
         <img src="/Live/Logo.png" className="logo_img " alt="pinkfish live logo" />
       </Link>
       <div className="flex gap-6 ">
-      <Link href="/">
+      <Link href="/" arial-label="Home">
           <h3 className="menu_text_live ">Home</h3>
         </Link>
-        <Link href="/Live/Events">
+        <Link href="/Live/Events" arial-label="Events Page">
           <h3 className="menu_text_live ">Events</h3>
         </Link>
        
-        <Link href="/Live/Contact">
+        <Link href="/Live/Contact" arial-label="Contact Page">
           <h3 className="menu_text_live ">Contact</h3>
         </Link>
       </div>
-      <Link className='mt-3'  href="/Live/Contact">
+      <Link className='mt-3'  href="/Live/Contact" arial-label="Contact Page">
         <button className="buy_ticket_live flex " type="button">Reach out
           <svg className="mt-2 ml-1 " width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M9.29806 5.73623L5.20055 1.63873L6.28069 0.558594L12.2222 6.50012L6.28069 12.4416L5.20055 11.3615L9.29806 7.26401H0V5.73623H9.29806Z" fill="white" />
@@ -42,8 +42,8 @@ return (
     </div>
     <div className='navbar_container_mob_live  '>
       <div className='w-[70%] self-center flex justify-between'>
-    <Link className='self-center' href="/">
-        <img src="/Live/Logo.png" className="logo_img mb-3" />
+    <Link className='self-center' href="/" arial-label="Home">
+        <img src="/Live/Logo.png" className="logo_img mb-3" alt="pinkfish logo" />
       </Link>
       <button type='button' onClick={()=>{  setToggleDropdown(((prev)=>!prev)); changeToggle()}}>
       <svg clipPath='pt-6' width="26" height="17" viewBox="0 0 26 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -54,11 +54,11 @@ return (
 </button>
 {toggleDropdown &&
 <div className="dropdown_live">
-<Link href="/" className="menu_text_mob_live" onClick={()=>setToggleDropdown(false)}>Home </Link>
-     <Link href="Live/Events" className="menu_text_mob_live" onClick={()=>setToggleDropdown(false)}>Events</Link>
+<Link href="/" className="menu_text_mob_live" arial-label="Home" onClick={()=>setToggleDropdown(false)}>Home </Link>
+     <Link href="Live/Events" className="menu_text_mob_live" arial-label="Event page" onClick={()=>setToggleDropdown(false)}>Events</Link>
    
-    <Link href="/Live/Contact" className="menu_text_mob_live mb-4" onClick={()=>setToggleDropdown(false)}>Contact</Link>
-    <Link href="/Live/Contact" className='w-[40%]'  onClick={()=>setToggleDropdown(false)}>
+    <Link href="/Live/Contact" className="menu_text_mob_live mb-4" arial-label="Contact Page" onClick={()=>setToggleDropdown(false)}>Contact</Link>
+    <Link href="/Live/Contact" className='w-[40%]' arial-label="Contact Page"  onClick={()=>setToggleDropdown(false)}>
         <button className="buy_ticket_live   p-5 mb-6 flex " type="button">Reach out
           <svg className="mt-2 md:mt-2  ml-1 " width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M9.29806 5.73623L5.20055 1.63873L6.28069 0.558594L12.2222 6.50012L6.28069 12.4416L5.20055 11.3615L9.29806 7.26401H0V5.73623H9.29806Z" fill="white" />
