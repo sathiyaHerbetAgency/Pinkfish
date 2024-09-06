@@ -10,10 +10,10 @@ const Banner = () => (
       <h2 className="banner_header_live self-center mb-4 mt-4">stay updated</h2>
       <p className="banner_text_live text-center self-center">Follow us on our social media pages</p>
       <div className="flex gap-4 pt-4 self-center items-center">
-      <Link href='https://www.facebook.com/pinkfishfestival/' target="_blank"> <img src="Live/Banner/fb.png" /></Link>
-      <Link href='https://www.youtube.com/@Pinkfishfestival' target="_blank"> <img src="Live/Banner/youTube.png" /></Link>
-      <Link href='https://www.instagram.com/pinkfishfestival/' target="_blank"> <img src="Live/Banner/instagram 1.png" /></Link>
-      <Link href='https://www.tiktok.com/@pinkfishfestival' target="_blank"> <img src="Live/Banner/tikTok.png" /></Link>
+      <Link href='https://www.facebook.com/pinkfishfestival/' target="_blank" arial-label="Facebook" > <img src="Live/Banner/fb.png" alt="fb icon" /></Link>
+      <Link href='https://www.youtube.com/@Pinkfishfestival' target="_blank" arial-label="Youtube" > <img src="Live/Banner/youTube.png" alt="youtube icon" /></Link>
+      <Link href='https://www.instagram.com/pinkfishfestival/' target="_blank" arial-label="Instagram"> <img src="Live/Banner/instagram 1.png" alt="instagram icon" /></Link>
+      <Link href='https://www.tiktok.com/@pinkfishfestival' target="_blank" arial-label="Tiktok" > <img src="Live/Banner/tikTok.png" alt="tiktok icon" /></Link>
 
       </div>
     </div>

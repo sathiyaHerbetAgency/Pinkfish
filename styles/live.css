@@ -420,7 +420,7 @@ font-family: "Integral";
 }
 
 .horizantal_pink_container_live {
-    @apply bg-[#F33288] py-0 md:py-4;
+    @apply bg-[#F33288] py-0 md:py-4  ;
     transform: rotate(-1.5deg);
     z-index: -99;
     overflow: hidden;
@@ -687,41 +687,6 @@ background-size: cover;
     @apply left-[65%]
 }
 }
-
-
-.marquee-container {
-  height: 50px;
-  overflow: hidden;
-  line-height: 30px;
-
-  .marquee {
-    top: 0;
-    left: 100%;
-    width: 100%;
-    overflow: hidden;
-    position: absolute;
-    white-space: nowrap;
-    animation: marquee 30s linear infinite;
-  }
-
-  .marquee2 {
-    animation-delay: 15s;
-  }
-  b {
-    padding-left: 10px;
-  }
-}
-
-@keyframes marquee {
-  0% {
-    left: -100%;
-  }
-  100% {
-    left: 100%
-  }
-}
-
-
 .image_11_live {
     overflow: hidden;
 }
