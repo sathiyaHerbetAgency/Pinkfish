@@ -28,7 +28,7 @@ const title="Live music event in Malaysia & Southeast Asia | Pinkfish  "
 
                     </p>
                     <Link href='/Live/EventsIndividual' className='soldout_ticket_event_main_live w-fit'>
-                    <button className="  flex  p-1 " type="button">Sold Out
+                    <button className="  flex  p-1 " type="button" aria-label="Sold Out">Sold Out
                     <svg className="mt-1 md:mt-1 ml-2 mr-2 " width="6" height="12" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M1 9.46351L4.67453 5.78896C5.10849 5.35501 5.10849 4.64489 4.67453 4.21094L1 0.536377" stroke="black" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
@@ -44,7 +44,7 @@ const title="Live music event in Malaysia & Southeast Asia | Pinkfish  "
         </div>
         </div>
         <div className='flex justify-center'>
-        <button onClick={()=>{scrollTop()}} className='top_btn_live flex  self-center mt-11 mb-11 '>
+        <button onClick={()=>{scrollTop()}} aria-label="back to top" className='top_btn_live flex  self-center mt-11 mb-11 '>
       back to top 
      <img className='mt-0 md:mt-1 ml-2' src='/Live/uparrow.png'/>
 
@@ -55,7 +55,7 @@ const title="Live music event in Malaysia & Southeast Asia | Pinkfish  "
         <h2 className='event_bottom_main_hearder_live'>we bring the music,
 you bring the hype</h2>
 <Link href='Contact' className=' black_btn_live mb-11'>
-<button className=' flex p-3 md:p-2 ' type="button">have a question?  talk to us 
+<button className=' flex p-3 md:p-2 ' type="button" aria-label="Question reach us">have a question?  talk to us 
 <svg className="mt-0 md:mt-2 ml-2 " width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M9.29806 5.73623L5.20055 1.63873L6.28069 0.558594L12.2222 6.50012L6.28069 12.4416L5.20055 11.3615L9.29806 7.26401H0V5.73623H9.29806Z" fill="white" />
 </svg>

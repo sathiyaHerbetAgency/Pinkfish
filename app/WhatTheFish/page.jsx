@@ -96,26 +96,7 @@ const page = () => {
                lives — from witnessing their idols perform to enjoying music with passion and everything else in between
             </p>
             <p className='fish_bottom_text'>Happymoon turns moments into movements and memories.</p>
-              
               </div>
-              
-              {/* <div className=' flex flex-col gap-3 self-center md:self-start'>
-              <motion.img
-                variants={fadeIn("up", "tween",.1,1)}
-                initial="hidden"
-                whileInView="show" 
-               viewport={{ once: true }}
-              src='/aboutus_logo_1.png' className=' ' alt="logo" />
-              <div className='flex flex-col '>
-                <h2 className='fish_bottom_heading'>Happymoon</h2>
-                <p className='fish_bottom_text'>From humble beginnings to organising events and festivals across Malaysia and Southeast 
-                Asia, we have years of extensive experience in bringing the best live music events under our belts.</p>
-              </div>
-              <p className='fish_bottom_text'>Our mission is to continuously provide experiences that people will carry throughout their 
-              lives — from witnessing their idols perform to enjoying music with passion and everything else in between.
-            </p>
-            <p className='fish_bottom_text'>Happymoon turns moments into movements and memories.</p>
-              </div> */}
                </div>
               </div>
               </div>
