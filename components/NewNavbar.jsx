@@ -29,34 +29,28 @@ return (
                 <h2 className="menu_text  items-end">What the fish!</h2>
               </a>
               {/* <Dropdown /> */}
-              <a href="FunHub" className=" flex flex-col justify-center ">
+              <a href="FunHub" arial-label="Fun Hub Page" className=" flex flex-col justify-center ">
                 <h2 className="menu_text ">FUN HUB</h2>
               </a>
-              <a
+              <button
                 onClick={() => setToogle(!toogle)}
                 className="cursor-pointer flex flex-col justify-center "
               >
                 <h2 className="menu_text ">Events</h2>
-              </a>
+              </button>
 
               <a href="/" className=" flex flex-col justify-center ">
-                <img
-                  src="/new_menu_logo_2.svg"
-                  className=" items-center w-[150px] "
-                />
+                <img src="/new_menu_logo_2.svg" alt="Pinkfish Logo" className=" items-center w-[150px] "/>
               </a>
-              <a href="News" className=" flex flex-col justify-center ">
+              <a href="News" arial-label="News Page" className=" flex flex-col justify-center ">
                 <h2 className="menu_text ">News</h2>
               </a>
-              <a href="Contact" className=" flex flex-col justify-center ">
+              <a href="Contact" arial-label="Contact Page" className=" flex flex-col justify-center ">
                 <h2 className="menu_text ">Contact us</h2>
               </a>
-              <a
-                className="bg-[#FF0086] rounded flex flex-col justify-center items-center"
-                href="Merchandise"
-              >
-                <div className="flex self-center items-center px-2">
-                  <h2 className="menu_text ">Shop</h2>
+              <a className="bg-[#FF0086] rounded flex flex-col justify-center items-center" href="Merchandise">
+                <button className="flex self-center items-center px-2">
+                  <p className="menu_text ">Shop</p>
                   <svg
                     width="24"
                     height="13"
@@ -69,7 +63,7 @@ return (
                       fill="white"
                     />
                   </svg>
-                </div>
+                </button>
               </a>
             </div>
           </div>
@@ -92,18 +86,19 @@ return (
     <div className="navbar_container_mob  flex flex-col md:hidden">
       <div className="flex">
         <div className="w-[90%] self-center flex justify-between">
-          <a className="self-end" href="/">
+          <a className="self-end" href="/" arial-label="Home Page">
             <img
               src="/new_menu_logo_2.svg"
               className="ml-6  w-[80px] items-center"
+              alt="Menu Logo"
             />
           </a>
           <button
-            type="button"
             onClick={() => {
               setToggleDropdown((prev) => !prev);
               changeToggle(); setToogle(false)
             }}
+            arial-label="Menu Button"
           >
             <svg
               clipPath="pt-6"
@@ -133,6 +128,7 @@ return (
         <div className="dropdown items-center mt-6 ">
           <a
             href="WhatTheFish"
+            arial-label="What The Fish Page"
             className="menu_text_mob"
             onClick={() => setToggleDropdown(false)}
           >
@@ -140,6 +136,7 @@ return (
           </a>
           <a
             href="FunHub"
+            arial-label="Fun Hub Page"
             className="menu_text_mob"
             onClick={() => setToggleDropdown(false)}
           >
@@ -147,15 +144,17 @@ return (
           </a>
           <a
             href="News"
+            arial-label="News Page"
             className="menu_text_mob"
             onClick={() => setToggleDropdown(false)}
           >
             News{" "}
           </a>
-          <a className="menu_text_mob" onClick={() => {setToggleDropdown(false); setToogle(!toogle)}}>Events</a>
+          <button className="menu_text_mob" onClick={() => {setToggleDropdown(false); setToogle(!toogle)}}>Events</button>
 
           <Link
             href="Contact"
+            arial-label="Contact Page"
             className="menu_text_mob mb-4"
             onClick={() => setToggleDropdown(false)}
           >
@@ -164,6 +163,7 @@ return (
           <button className="bg-[#FF0086] rounded flex  items-center p-2 gap-2 px-4">
             <Link
               href="Merchandise"
+              arial-label="Merchandise Page"
               className="menu_text_mob  "
               onClick={() => setToggleDropdown(false)}
             >
@@ -182,13 +182,6 @@ return (
               />
             </svg>
           </button>
-          {/* <Link href="/Contact" className='w-[100%] flex flex-col'  onClick={()=>setToggleDropdown(false)}>
-        <button className="buy_ticket  self-center items-center p-5 mb-6 flex " type="button">Tickets
-          <svg className=" " width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M9.29806 5.73623L5.20055 1.63873L6.28069 0.558594L12.2222 6.50012L6.28069 12.4416L5.20055 11.3615L9.29806 7.26401H0V5.73623H9.29806Z" fill="white" />
-          </svg>
-        </button>
-      </Link> */}
         </div>
       )}
       {toogle&&

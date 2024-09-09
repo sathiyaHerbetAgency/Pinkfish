@@ -214,8 +214,8 @@ const clearState = () => {
                 </div>
                 <div className="flex flex-col  gap-2">
                   <label className="contact_label">Select Subject?</label>
-                  <div class="flex md:flex-row flex-col gap-3">
-                    <div class="flex items-center  ">
+                  <div className="flex md:flex-row flex-col gap-3">
+                    <div className="flex items-center  ">
                       <input
                         id="inline-checked-radio"
                         type="radio"
@@ -223,16 +223,16 @@ const clearState = () => {
                         checked={subject==="General Inquiry"}
                         name="subject"
                         onChange={onChangeRadio}
-                        class="w-4 h-4 text-[#F33288] bg-[#f8cbdf]"
+                        className="w-4 h-4 text-[#F33288] bg-[#f8cbdf]"
                       />
                       <label
                         for="inline-checked-radio"
-                        class="ml-2  text-[12px] font-[Sofia] font-[400] text-[#F33288] "
+                        className="ml-2  text-[12px] font-[Sofia] font-[400] text-[#F33288] "
                       >
                         General Inquiry
                       </label>
                     </div>
-                    <div class="flex items-center  ">
+                    <div className="flex items-center  ">
                       <input
                         id="inline-2-radio"
                         type="radio"
@@ -240,16 +240,16 @@ const clearState = () => {
                         checked={subject==="Carrer"}
                         name="subject"
                         onClick={onChangeRadio}
-                        class="w-4 h-4 text-[#F33288] bg-[#f8cbdf]"
+                        className="w-4 h-4 text-[#F33288] bg-[#f8cbdf]"
                       />
                       <label
                         for="inline-2-radio"
-                        class="ml-2 text-[12px] font-[Sofia] font-[400] text-[#F33288] "
+                        className="ml-2 text-[12px] font-[Sofia] font-[400] text-[#F33288] "
                       >
                         Career
                       </label>
                     </div>
-                    <div class="flex items-center  ">
+                    <div className="flex items-center  ">
                       <input
                         id="inline-2-radio"
                         type="radio"
@@ -257,11 +257,11 @@ const clearState = () => {
                         name="subject"
                         checked={subject==="Other"}
                         onClick={onChangeRadio}
-                        class="w-4 h-4 text-[#F33288] bg-[#f8cbdf]"
+                        className="w-4 h-4 text-[#F33288] bg-[#f8cbdf]"
                       />
                       <label
                         for="inline-2-radio"
-                        class="ml-2 text-[12px] font-[Sofia] font-[400] text-[#F33288] "
+                        className="ml-2 text-[12px] font-[Sofia] font-[400] text-[#F33288] "
                       >
                         Other
                       </label>
@@ -308,9 +308,9 @@ const clearState = () => {
             </div>
           </div>
         </div>
-        <div ref={popupOverlayRef} class="popup-overlay">
-          <div ref={popupContainerRef} class="popup-container">
-            <div class="popup-card mt-6">
+        <div ref={popupOverlayRef} className="popup-overlay">
+          <div ref={popupContainerRef} className="popup-container">
+            <div className="popup-card mt-6">
               <p className="thanks_text mb-6">
                 Thank you for reaching out. We will contact you soon
               </p>

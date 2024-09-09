@@ -1,88 +1,88 @@
-<div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar-logo-left w-nav">
-    <div class="navbarcontainer desktop w-container">
-      <a href="#" class="nav-home-left w-inline-block">
-        <div class="logo"><img src="images/PFF-Fish-Logo.svg" loading="lazy" width="100" height="30" alt="" class="pf-logo-white-glow"></div>
+<div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" className="navbar-logo-left w-nav">
+    <div className="navbarcontainer desktop w-container">
+      <a href="#" className="nav-home-left w-inline-block">
+        <div className="logo"><img src="images/PFF-Fish-Logo.svg" loading="lazy" width="100" height="30" alt="" className="pf-logo-white-glow"></div>
       </a>
-      <div class="navbar-content desktop">
-        <nav role="navigation" class="navbar-menu w-nav-menu">
-          <a href="#" class="navbar-link hide w-nav-link">
-            <div class="text">what’s new</div>
+      <div className="navbar-content desktop">
+        <nav role="navigation" className="navbar-menu w-nav-menu">
+          <a href="#" className="navbar-link hide w-nav-link">
+            <div className="text">what’s new</div>
           </a>
-          <a href="#" class="navbar-link w-nav-link">
-            <div class="text">HOME</div>
+          <a href="#" className="navbar-link w-nav-link">
+            <div className="text">HOME</div>
           </a>
-          <a href="music&artsfestival/faq" class="navbar-link w-nav-link">
-            <div class="text">FAQ</div>
+          <a href="music&artsfestival/faq" className="navbar-link w-nav-link">
+            <div className="text">FAQ</div>
           </a>
-          <a href="#" class="navbar-link disable-menu-link w-nav-link">
-            <div class="text">fun hub</div>
+          <a href="#" className="navbar-link disable-menu-link w-nav-link">
+            <div className="text">fun hub</div>
           </a>
-          <a href="../" class="nav-home mobile w-inline-block">
-            <div class="logo"><img src="images/Pinkfish-SVGArtboard-1.svg" loading="lazy" width="120" alt="" class="pf-logo-white-glow"></div>
+          <a href="../" className="nav-home mobile w-inline-block">
+            <div className="logo"><img src="images/Pinkfish-SVGArtboard-1.svg" loading="lazy" width="120" alt="" className="pf-logo-white-glow"></div>
           </a>
-          <a href="#gallery" class="navbar-link hide w-nav-link">
-            <div class="text">gallery</div>
+          <a href="#gallery" className="navbar-link hide w-nav-link">
+            <div className="text">gallery</div>
           </a>
-          <a href="#" class="navbar-link disable-menu-link w-nav-link">
-            <div class="text">news</div>
+          <a href="#" className="navbar-link disable-menu-link w-nav-link">
+            <div className="text">news</div>
           </a>
-          <a href="../Contact" class="navbar-link w-nav-link">
-            <div class="text">contact us</div>
+          <a href="../Contact" className="navbar-link w-nav-link">
+            <div className="text">contact us</div>
           </a>
-          <a href="#tickets" class="buy-tix-menu-btn w-inline-block">
-            <div class="frame-155 smaller">
-              <div class="frame-156">
-                <div class="text-3 buy-tix-text">BUY TICKETS</div>
+          <a href="#tickets" className="buy-tix-menu-btn w-inline-block">
+            <div className="frame-155 smaller">
+              <div className="frame-156">
+                <div className="text-3 buy-tix-text">BUY TICKETS</div>
               </div>
             </div>
           </a>
         </nav>
       </div>
-      <div class="menu-button w-nav-button">
-        <div class="div-block-2"><img src="images/menu.svg" loading="lazy" alt=""></div>
+      <div className="menu-button w-nav-button">
+        <div className="div-block-2"><img src="images/menu.svg" loading="lazy" alt=""></div>
       </div>
     </div>
-    <div class="navbarcontainer mobile w-container">
-      <a href="../" class="nav-home-left w-inline-block">
-        <div class="logo"><img src="images/Pinkfish-SVGArtboard-1.svg" loading="lazy" width="100" height="30" alt="" class="pf-logo-white-glow"></div>
+    <div className="navbarcontainer mobile w-container">
+      <a href="../" className="nav-home-left w-inline-block">
+        <div className="logo"><img src="images/Pinkfish-SVGArtboard-1.svg" loading="lazy" width="100" height="30" alt="" className="pf-logo-white-glow"></div>
       </a>
-      <div class="navbar-content">
-        <nav role="navigation" class="navbar-menu mobile w-nav-menu">
-          <a href="#" class="navbar-link hide w-nav-link">
-            <div class="text">what’s new</div>
+      <div className="navbar-content">
+        <nav role="navigation" className="navbar-menu mobile w-nav-menu">
+          <a href="#" className="navbar-link hide w-nav-link">
+            <div className="text">what’s new</div>
           </a>
-          <a href="#" aria-current="page" class="navbar-link w-nav-link w--current">
-            <div class="text">HOME</div>
+          <a href="#" aria-current="page" className="navbar-link w-nav-link w--current">
+            <div className="text">HOME</div>
           </a>
-          <a href="music&artsfestival/faq" class="navbar-link w-nav-link">
-            <div class="text">FAQ</div>
+          <a href="music&artsfestival/faq" className="navbar-link w-nav-link">
+            <div className="text">FAQ</div>
           </a>
-          <a href="#" class="navbar-link disable-menu-link w-nav-link">
-            <div class="text">fun hub</div>
+          <a href="#" className="navbar-link disable-menu-link w-nav-link">
+            <div className="text">fun hub</div>
           </a>
-          <a href="old-home.html" class="nav-home mobile w-inline-block">
-            <div class="logo"><img src="images/PFF-Fish-Logo.svg" loading="lazy" width="120" alt="" class="pf-logo-white-glow"></div>
+          <a href="old-home.html" className="nav-home mobile w-inline-block">
+            <div className="logo"><img src="images/PFF-Fish-Logo.svg" loading="lazy" width="120" alt="" className="pf-logo-white-glow"></div>
           </a>
-          <a href="#gallery" class="navbar-link hide w-nav-link">
-            <div class="text">gallery</div>
+          <a href="#gallery" className="navbar-link hide w-nav-link">
+            <div className="text">gallery</div>
           </a>
-          <a href="#" class="navbar-link disable-menu-link w-nav-link">
-            <div class="text">news</div>
+          <a href="#" className="navbar-link disable-menu-link w-nav-link">
+            <div className="text">news</div>
           </a>
-          <a href="../contact" class="navbar-link w-nav-link">
-            <div class="text">contact us</div>
+          <a href="../contact" className="navbar-link w-nav-link">
+            <div className="text">contact us</div>
           </a>
-          <a href="#tickets" class="buy-tix-menu-btn w-inline-block">
-            <div class="frame-155 smaller mobile-btn">
-              <div class="frame-156">
-                <div class="text-3 buy-tix-text">BUY TICKETS</div>
+          <a href="#tickets" className="buy-tix-menu-btn w-inline-block">
+            <div className="frame-155 smaller mobile-btn">
+              <div className="frame-156">
+                <div className="text-3 buy-tix-text">BUY TICKETS</div>
               </div>
             </div>
           </a>
         </nav>
       </div>
-      <div class="menu-button w-nav-button">
-        <div class="div-block-2"><img src="images/menu.svg" loading="lazy" alt=""></div>
+      <div className="menu-button w-nav-button">
+        <div className="div-block-2"><img src="images/menu.svg" loading="lazy" alt=""></div>
       </div>
     </div>
   </div>
@@ -92,55 +92,55 @@
 
 
     footer-block
-    <div class="column-7">
-        <div class="w-layout-grid grid">
-          <div id="w-node-c8533ac0-6b66-4e22-6157-872a6fa21cad-79de2dbf" class="card-item">
-            <a href="../gallery" target="_blank" class="card-link w-inline-block">
-              <div class="card-background"><img src="images/PFM-15-min.jpg" loading="lazy" sizes="(max-width: 479px) 75vw, (max-width: 991px) 200px, 320px" srcset="images/PFM-15-min-p-500.jpg 500w, images/PFM-15-min-p-800.jpg 800w, images/PFM-15-min-p-1080.jpg 1080w, images/PFM-15-min-p-1600.jpg 1600w, images/PFM-15-min-p-2000.jpg 2000w, images/PFM-15-min-p-2600.jpg 2600w, images/PFM-15-min.jpg 3000w" alt="" class="card-image">
-                <div class="grid-item-overlay"></div>
+    <div className="column-7">
+        <div className="w-layout-grid grid">
+          <div id="w-node-c8533ac0-6b66-4e22-6157-872a6fa21cad-79de2dbf" className="card-item">
+            <a href="../gallery" target="_blank" className="card-link w-inline-block">
+              <div className="card-background"><img src="images/PFM-15-min.jpg" loading="lazy" sizes="(max-width: 479px) 75vw, (max-width: 991px) 200px, 320px" srcset="images/PFM-15-min-p-500.jpg 500w, images/PFM-15-min-p-800.jpg 800w, images/PFM-15-min-p-1080.jpg 1080w, images/PFM-15-min-p-1600.jpg 1600w, images/PFM-15-min-p-2000.jpg 2000w, images/PFM-15-min-p-2600.jpg 2600w, images/PFM-15-min.jpg 3000w" alt="" className="card-image">
+                <div className="grid-item-overlay"></div>
               </div>
-              <div class="card-content-2">
-                <div class="card-heading-holder">
-                  <div class="card-heading-wrapper">
-                    <div class="card-heading-background"></div>
-                    <h3 class="card-heading">PINKFISH countdown 2023</h3>
+              <div className="card-content-2">
+                <div className="card-heading-holder">
+                  <div className="card-heading-wrapper">
+                    <div className="card-heading-background"></div>
+                    <h3 className="card-heading">PINKFISH countdown 2023</h3>
                   </div>
                 </div>
               </div>
             </a>
           </div>
-          <div id="w-node-c8533ac0-6b66-4e22-6157-872a6fa21ca2-79de2dbf" class="card-item">
-            <a href="../gallery" target="_blank" class="card-link w-inline-block">
-              <div class="card-background"><img src="images/TF-303a-min.jpg" loading="lazy" sizes="(max-width: 479px) 75vw, (max-width: 991px) 200px, 320px" srcset="images/TF-303a-min-p-500.jpg 500w, images/TF-303a-min-p-800.jpg 800w, images/TF-303a-min-p-1080.jpg 1080w, images/TF-303a-min-p-1600.jpg 1600w, images/TF-303a-min-p-2000.jpg 2000w, images/TF-303a-min-p-2600.jpg 2600w, images/TF-303a-min-p-3200.jpg 3200w, images/TF-303a-min.jpg 4891w" alt="" class="card-image">
-                <div class="grid-item-overlay"></div>
+          <div id="w-node-c8533ac0-6b66-4e22-6157-872a6fa21ca2-79de2dbf" className="card-item">
+            <a href="../gallery" target="_blank" className="card-link w-inline-block">
+              <div className="card-background"><img src="images/TF-303a-min.jpg" loading="lazy" sizes="(max-width: 479px) 75vw, (max-width: 991px) 200px, 320px" srcset="images/TF-303a-min-p-500.jpg 500w, images/TF-303a-min-p-800.jpg 800w, images/TF-303a-min-p-1080.jpg 1080w, images/TF-303a-min-p-1600.jpg 1600w, images/TF-303a-min-p-2000.jpg 2000w, images/TF-303a-min-p-2600.jpg 2600w, images/TF-303a-min-p-3200.jpg 3200w, images/TF-303a-min.jpg 4891w" alt="" className="card-image">
+                <div className="grid-item-overlay"></div>
               </div>
-              <div class="card-content-2">
-                <div class="card-heading-holder">
-                  <div class="card-heading-wrapper">
-                    <div class="card-heading-background"></div>
-                    <h3 class="card-heading">PINKFISH LIVE: TYGA LIVE IN KL</h3>
+              <div className="card-content-2">
+                <div className="card-heading-holder">
+                  <div className="card-heading-wrapper">
+                    <div className="card-heading-background"></div>
+                    <h3 className="card-heading">PINKFISH LIVE: TYGA LIVE IN KL</h3>
                   </div>
                 </div>
               </div>
             </a>
           </div>
-          <div id="w-node-c8533ac0-6b66-4e22-6157-872a6fa21c97-79de2dbf" class="card-item">
-            <a href="../gallery" target="_blank" class="card-link w-inline-block">
-              <div class="card-background"><img src="images/PFE-1114-min.jpg" loading="lazy" sizes="(max-width: 479px) 75vw, (max-width: 991px) 200px, 320px" srcset="images/PFE-1114-min-p-500.jpg 500w, images/PFE-1114-min-p-800.jpg 800w, images/PFE-1114-min-p-1080.jpg 1080w, images/PFE-1114-min-p-1600.jpg 1600w, images/PFE-1114-min-p-2000.jpg 2000w, images/PFE-1114-min-p-2600.jpg 2600w, images/PFE-1114-min.jpg 3000w" alt="" class="card-image">
-                <div class="grid-item-overlay"></div>
+          <div id="w-node-c8533ac0-6b66-4e22-6157-872a6fa21c97-79de2dbf" className="card-item">
+            <a href="../gallery" target="_blank" className="card-link w-inline-block">
+              <div className="card-background"><img src="images/PFE-1114-min.jpg" loading="lazy" sizes="(max-width: 479px) 75vw, (max-width: 991px) 200px, 320px" srcset="images/PFE-1114-min-p-500.jpg 500w, images/PFE-1114-min-p-800.jpg 800w, images/PFE-1114-min-p-1080.jpg 1080w, images/PFE-1114-min-p-1600.jpg 1600w, images/PFE-1114-min-p-2000.jpg 2000w, images/PFE-1114-min-p-2600.jpg 2600w, images/PFE-1114-min.jpg 3000w" alt="" className="card-image">
+                <div className="grid-item-overlay"></div>
               </div>
-              <div class="card-content-2">
-                <div class="card-heading-holder">
-                  <div class="card-heading-wrapper">
-                    <div class="card-heading-background"></div>
-                    <h3 class="card-heading">PINKFISH music &amp; arts FESTIVAL 2023 </h3>
+              <div className="card-content-2">
+                <div className="card-heading-holder">
+                  <div className="card-heading-wrapper">
+                    <div className="card-heading-background"></div>
+                    <h3 className="card-heading">PINKFISH music &amp; arts FESTIVAL 2023 </h3>
                   </div>
                 </div>
               </div>
             </a>
           </div>
         </div>
-        <div class="custom-styles w-embed">
+        <div className="custom-styles w-embed">
           <style>
 .card-item {
 box-shadow: 0px 12px 16px -4px rgba(281, 92, 58, 0.08), 0px 4px 6px -2px rgba(281, 92, 58, 0.03);
@@ -151,50 +151,50 @@ box-shadow: 0px 12px 16px -4px rgba(281, 92, 58, 0.08), 0px 4px 6px -2px rgba(28
     </div>
   </div>
 </div>
-<div class="container-13 display">
-  <div class="owl-carousel">
-    <div class="card-australia"><img src="images/Artboard-10.jpg" width="Auto" alt="" loading="lazy" class="image-card"></div>
-    <div class="card-australia"><img src="images/2.png" alt="" loading="lazy" class="image-card"></div>
-    <div class="card-australia"><img src="images/Artboard-7.jpg" alt="" loading="lazy" class="image-card"></div>
-    <div class="card-australia"><img src="images/Artboard-6.jpg" alt="" loading="lazy" class="image-card"></div>
-    <div class="card-australia"><img src="images/Artboard-10_1.jpg" alt="" loading="lazy" class="image-card"></div>
-    <div class="card-australia"><img src="images/Artboard-9.jpg" alt="" loading="lazy" class="image-card"></div>
-    <div class="card-australia"><img src="images/7.png" alt="" loading="lazy" class="image-card"></div>
-    <div class="card-australia"><img src="images/Artboard-5.jpg" alt="" loading="lazy" class="image-card"></div>
-    <div class="card-australia"><img src="images/Artboard-3.jpg" alt="" loading="lazy" class="image-card"></div>
-    <div class="card-australia"><img src="images/Artboard-4.jpg" alt="" loading="lazy" class="image-card"></div>
+<div className="container-13 display">
+  <div className="owl-carousel">
+    <div className="card-australia"><img src="images/Artboard-10.jpg" width="Auto" alt="" loading="lazy" className="image-card"></div>
+    <div className="card-australia"><img src="images/2.png" alt="" loading="lazy" className="image-card"></div>
+    <div className="card-australia"><img src="images/Artboard-7.jpg" alt="" loading="lazy" className="image-card"></div>
+    <div className="card-australia"><img src="images/Artboard-6.jpg" alt="" loading="lazy" className="image-card"></div>
+    <div className="card-australia"><img src="images/Artboard-10_1.jpg" alt="" loading="lazy" className="image-card"></div>
+    <div className="card-australia"><img src="images/Artboard-9.jpg" alt="" loading="lazy" className="image-card"></div>
+    <div className="card-australia"><img src="images/7.png" alt="" loading="lazy" className="image-card"></div>
+    <div className="card-australia"><img src="images/Artboard-5.jpg" alt="" loading="lazy" className="image-card"></div>
+    <div className="card-australia"><img src="images/Artboard-3.jpg" alt="" loading="lazy" className="image-card"></div>
+    <div className="card-australia"><img src="images/Artboard-4.jpg" alt="" loading="lazy" className="image-card"></div>
   </div>
 </div>
-<div class="div-block-23">
-  <div class="follow-us home">
-    <div class="container-5">
-      <div class="_2-columns-4 desktop">
-        <div class="column-8">
-          <div class="frame-23 mobile">
-            <div class="text-5">
-              <div class="text-5 text-5"><span class="the-pinkfish-countdown-1">FOllow us on our social media</span></div>
+<div className="div-block-23">
+  <div className="follow-us home">
+    <div className="container-5">
+      <div className="_2-columns-4 desktop">
+        <div className="column-8">
+          <div className="frame-23 mobile">
+            <div className="text-5">
+              <div className="text-5 text-5"><span className="the-pinkfish-countdown-1">FOllow us on our social media</span></div>
             </div>
           </div>
-          <div class="frame-23 hide-mobile">
-            <div class="text-5">
-              <div class="text-5 text-5"><span class="the-pinkfish-countdown-1">FOllow us on our <br>social media</span></div>
+          <div className="frame-23 hide-mobile">
+            <div className="text-5">
+              <div className="text-5 text-5"><span className="the-pinkfish-countdown-1">FOllow us on our <br>social media</span></div>
             </div>
           </div>
         </div>
-        <div class="column-8">
-          <div class="_2-columns-5">
-            <div class="column-8 social-media-mobile">
-              <div class="_301 ig">
-                <a href="https://www.instagram.com/pinkfishfestival/" target="_blank" class="link-block-2 ig-link w-inline-block"><img src="images/instagram-1.svg" loading="lazy" alt="" class="image"></a>
+        <div className="column-8">
+          <div className="_2-columns-5">
+            <div className="column-8 social-media-mobile">
+              <div className="_301 ig">
+                <a href="https://www.instagram.com/pinkfishfestival/" target="_blank" className="link-block-2 ig-link w-inline-block"><img src="images/instagram-1.svg" loading="lazy" alt="" className="image"></a>
               </div>
-              <div class="_301 fb">
-                <a href="https://www.facebook.com/pinkfishfestival" target="_blank" class="link-block-2 fb-link w-inline-block"><img src="images/facebook.svg" loading="lazy" alt="" class="image"></a>
+              <div className="_301 fb">
+                <a href="https://www.facebook.com/pinkfishfestival" target="_blank" className="link-block-2 fb-link w-inline-block"><img src="images/facebook.svg" loading="lazy" alt="" className="image"></a>
               </div>
-              <div class="_301 fb">
-                <a href="https://www.youtube.com/@Pinkfishfestival" target="_blank" class="link-block-2 fb-link w-inline-block"><img src="images/youtube.svg" loading="lazy" alt="" class="image"></a>
+              <div className="_301 fb">
+                <a href="https://www.youtube.com/@Pinkfishfestival" target="_blank" className="link-block-2 fb-link w-inline-block"><img src="images/youtube.svg" loading="lazy" alt="" className="image"></a>
               </div>
-              <div class="_301 fb">
-                <a href="https://www.tiktok.com/@pinkfishfestival" target="_blank" class="link-block-2 fb-link w-inline-block"><img src="images/Tiktok.svg" loading="lazy" alt="" class="image"></a>
+              <div className="_301 fb">
+                <a href="https://www.tiktok.com/@pinkfishfestival" target="_blank" className="link-block-2 fb-link w-inline-block"><img src="images/Tiktok.svg" loading="lazy" alt="" className="image"></a>
               </div>
             </div>
           </div>
@@ -202,87 +202,87 @@ box-shadow: 0px 12px 16px -4px rgba(281, 92, 58, 0.08), 0px 4px 6px -2px rgba(28
       </div>
     </div>
   </div>
-  <section class="footer-dark">
-    <div class="columns desktop w-row">
-      <div class="w-col w-col-4">
-        <div id="w-node-_3bd10c62-5986-7013-befa-0332b74b8489-b74b8472" class="footer-block left">
-          <a href="#" class="footer-link hide">Privacy policy</a>
-          <div class="text-block-3">AS SEEN ON</div><img src="images/Pinkfish-Footer-Logos.svg" loading="lazy" alt="" class="image-12">
+  <section className="footer-dark">
+    <div className="columns desktop w-row">
+      <div className="w-col w-col-4">
+        <div id="w-node-_3bd10c62-5986-7013-befa-0332b74b8489-b74b8472" className="footer-block left">
+          <a href="#" className="footer-link hide">Privacy policy</a>
+          <div className="text-block-3">AS SEEN ON</div><img src="images/Pinkfish-Footer-Logos.svg" loading="lazy" alt="" className="image-12">
         </div>
-        <div class="footer-block left _2">
-          <div class="text-block-3">FOLLOW US</div>
-          <div class="w-layout-grid grid-2">
-            <a id="w-node-f821a20f-eb1a-bc10-2222-d7f73106abf9-b74b8472" href="#" class="w-inline-block"><img src="images/facebook.svg" loading="lazy" id="w-node-_7ea95438-3d42-3b33-c526-88a1cfa70c37-b74b8472" alt="" class="image-19"></a>
-            <a id="w-node-_2ea2e92c-f269-cd62-738f-1dc94358f9bd-b74b8472" href="#" class="w-inline-block"><img src="images/instagram-1.svg" loading="lazy" id="w-node-_1c135512-b9d8-221d-0b35-5fc154245233-b74b8472" alt="" class="image-20"></a>
-            <a id="w-node-_7cac04e6-2c1b-0951-76fc-6d2ba9bb1971-b74b8472" href="https://www.youtube.com/@Pinkfishfestival" class="w-inline-block"><img src="images/youtube.svg" loading="lazy" id="w-node-_7caa599a-479f-5dff-85d5-baef63a8360e-b74b8472" alt="" class="image-21"></a>
-            <a id="w-node-_9a9c81cb-f07a-3864-7b65-503a8022250e-b74b8472" href="https://www.tiktok.com/@pinkfishfestival" class="w-inline-block"><img src="images/Tiktok.svg" loading="lazy" id="w-node-_961ee558-2219-158a-8917-187a3c1eefa3-b74b8472" alt="" class="image-22"></a>
+        <div className="footer-block left _2">
+          <div className="text-block-3">FOLLOW US</div>
+          <div className="w-layout-grid grid-2">
+            <a id="w-node-f821a20f-eb1a-bc10-2222-d7f73106abf9-b74b8472" href="#" className="w-inline-block"><img src="images/facebook.svg" loading="lazy" id="w-node-_7ea95438-3d42-3b33-c526-88a1cfa70c37-b74b8472" alt="" className="image-19"></a>
+            <a id="w-node-_2ea2e92c-f269-cd62-738f-1dc94358f9bd-b74b8472" href="#" className="w-inline-block"><img src="images/instagram-1.svg" loading="lazy" id="w-node-_1c135512-b9d8-221d-0b35-5fc154245233-b74b8472" alt="" className="image-20"></a>
+            <a id="w-node-_7cac04e6-2c1b-0951-76fc-6d2ba9bb1971-b74b8472" href="https://www.youtube.com/@Pinkfishfestival" className="w-inline-block"><img src="images/youtube.svg" loading="lazy" id="w-node-_7caa599a-479f-5dff-85d5-baef63a8360e-b74b8472" alt="" className="image-21"></a>
+            <a id="w-node-_9a9c81cb-f07a-3864-7b65-503a8022250e-b74b8472" href="https://www.tiktok.com/@pinkfishfestival" className="w-inline-block"><img src="images/Tiktok.svg" loading="lazy" id="w-node-_961ee558-2219-158a-8917-187a3c1eefa3-b74b8472" alt="" className="image-22"></a>
           </div>
         </div>
       </div>
-      <div class="column-11 w-col w-col-4">
-        <a href="#" class="footer-brand w-inline-block"><img src="images/Pinkfish.svg" loading="lazy" alt="" class="image-2"></a>
+      <div className="column-11 w-col w-col-4">
+        <a href="#" className="footer-brand w-inline-block"><img src="images/Pinkfish.svg" loading="lazy" alt="" className="image-2"></a>
       </div>
-      <div class="column-12 w-col w-col-4">
-        <div class="footer-content">
-          <div id="w-node-_3bd10c62-5986-7013-befa-0332b74b8478-b74b8472" class="footer-block">
-            <a href="../whatthefish" class="footer-link top">What The Fish</a>
-            <a href="../funhub" class="footer-link">Fun Hub</a>
-            <a href="../gallery" class="footer-link">Festival Oasis</a>
-            <a href="../news" class="footer-link">News</a>
-            <a href="../contact" class="footer-link">Contact Us</a>
+      <div className="column-12 w-col w-col-4">
+        <div className="footer-content">
+          <div id="w-node-_3bd10c62-5986-7013-befa-0332b74b8478-b74b8472" className="footer-block">
+            <a href="../whatthefish" className="footer-link top">What The Fish</a>
+            <a href="../funhub" className="footer-link">Fun Hub</a>
+            <a href="../gallery" className="footer-link">Festival Oasis</a>
+            <a href="../news" className="footer-link">News</a>
+            <a href="../contact" className="footer-link">Contact Us</a>
           </div>
         </div>
       </div>
     </div>
-    <div class="columns mobile w-row">
-      <div class="w-col w-col-4">
-        <div id="w-node-cd6aab13-4934-6872-4e1e-6d412ea62071-b74b8472" class="footer-block left mobile">
-          <a href="#" class="footer-link hide">Privacy policy</a>
-          <div class="text-block-3">AS SEEN ON</div><img src="images/Pinkfish-Footer-Logos.svg" loading="lazy" alt="" class="image-12">
+    <div className="columns mobile w-row">
+      <div className="w-col w-col-4">
+        <div id="w-node-cd6aab13-4934-6872-4e1e-6d412ea62071-b74b8472" className="footer-block left mobile">
+          <a href="#" className="footer-link hide">Privacy policy</a>
+          <div className="text-block-3">AS SEEN ON</div><img src="images/Pinkfish-Footer-Logos.svg" loading="lazy" alt="" className="image-12">
         </div>
-        <div class="footer-block left _2 mobile">
-          <div class="text-block-3">FOLLOW US</div>
-          <div class="w-layout-grid grid-2">
-            <a id="w-node-_73e3f77d-6b68-c054-c729-bc0530049b54-b74b8472" href="https://www.facebook.com/pinkfishfestival/" class="w-inline-block"><img src="images/facebook.svg" loading="lazy" id="w-node-_73e3f77d-6b68-c054-c729-bc0530049b55-b74b8472" alt="" class="image-19"></a>
-            <a id="w-node-_73e3f77d-6b68-c054-c729-bc0530049b56-b74b8472" href="#" class="w-inline-block"><img src="images/instagram-1.svg" loading="lazy" id="w-node-_73e3f77d-6b68-c054-c729-bc0530049b57-b74b8472" alt="" class="image-20"></a>
-            <a id="w-node-_73e3f77d-6b68-c054-c729-bc0530049b58-b74b8472" href="#" class="w-inline-block"><img src="images/youtube.svg" loading="lazy" id="w-node-_73e3f77d-6b68-c054-c729-bc0530049b59-b74b8472" alt="" class="image-21"></a>
-            <a id="w-node-_73e3f77d-6b68-c054-c729-bc0530049b5a-b74b8472" href="#" class="w-inline-block"><img src="images/Tiktok.svg" loading="lazy" id="w-node-_73e3f77d-6b68-c054-c729-bc0530049b5b-b74b8472" alt="" class="image-22"></a>
+        <div className="footer-block left _2 mobile">
+          <div className="text-block-3">FOLLOW US</div>
+          <div className="w-layout-grid grid-2">
+            <a id="w-node-_73e3f77d-6b68-c054-c729-bc0530049b54-b74b8472" href="https://www.facebook.com/pinkfishfestival/" className="w-inline-block"><img src="images/facebook.svg" loading="lazy" id="w-node-_73e3f77d-6b68-c054-c729-bc0530049b55-b74b8472" alt="" className="image-19"></a>
+            <a id="w-node-_73e3f77d-6b68-c054-c729-bc0530049b56-b74b8472" href="#" className="w-inline-block"><img src="images/instagram-1.svg" loading="lazy" id="w-node-_73e3f77d-6b68-c054-c729-bc0530049b57-b74b8472" alt="" className="image-20"></a>
+            <a id="w-node-_73e3f77d-6b68-c054-c729-bc0530049b58-b74b8472" href="#" className="w-inline-block"><img src="images/youtube.svg" loading="lazy" id="w-node-_73e3f77d-6b68-c054-c729-bc0530049b59-b74b8472" alt="" className="image-21"></a>
+            <a id="w-node-_73e3f77d-6b68-c054-c729-bc0530049b5a-b74b8472" href="#" className="w-inline-block"><img src="images/Tiktok.svg" loading="lazy" id="w-node-_73e3f77d-6b68-c054-c729-bc0530049b5b-b74b8472" alt="" className="image-22"></a>
           </div>
         </div>
       </div>
-      <div class="column-11 mobile w-col w-col-4">
-        <div class="footer-content mobile">
-          <div id="w-node-cd6aab13-4934-6872-4e1e-6d412ea62085-b74b8472" class="footer-block">
-            <a href="../whatthefish" class="footer-link top mobile menu">What The Fish</a>
-            <a href="#" class="footer-link mobile menuje">Fun Hub</a>
-            <a href="../gallery" class="footer-link mobile menuje">Festival Oasis</a>
-            <a href="../news" class="footer-link menuje">News</a>
-            <a href="../contact" class="footer-link menuje">Contact Us</a>
+      <div className="column-11 mobile w-col w-col-4">
+        <div className="footer-content mobile">
+          <div id="w-node-cd6aab13-4934-6872-4e1e-6d412ea62085-b74b8472" className="footer-block">
+            <a href="../whatthefish" className="footer-link top mobile menu">What The Fish</a>
+            <a href="#" className="footer-link mobile menuje">Fun Hub</a>
+            <a href="../gallery" className="footer-link mobile menuje">Festival Oasis</a>
+            <a href="../news" className="footer-link menuje">News</a>
+            <a href="../contact" className="footer-link menuje">Contact Us</a>
           </div>
         </div>
       </div>
-      <div class="column-12 mobile w-col w-col-4">
-        <a href="#" class="footer-brand mobile w-inline-block"><img src="images/Pinkfish.svg" loading="lazy" alt="" class="image-2"></a>
-        <div class="container-6 mobile">
-          <div class="div-block-10">
-            <a href="../PrivacyPolicy" class="footer-link mobile">Privacy Policy</a>
-            <div class="div-block-11"></div>
-            <a href="../terms&amp;condition" class="footer-link">Terms &amp; Conditions</a>
+      <div className="column-12 mobile w-col w-col-4">
+        <a href="#" className="footer-brand mobile w-inline-block"><img src="images/Pinkfish.svg" loading="lazy" alt="" className="image-2"></a>
+        <div className="container-6 mobile">
+          <div className="div-block-10">
+            <a href="../PrivacyPolicy" className="footer-link mobile">Privacy Policy</a>
+            <div className="div-block-11"></div>
+            <a href="../terms&amp;condition" className="footer-link">Terms &amp; Conditions</a>
           </div>
-          <div class="footer-link mobile">Copyright © 2024 Pinkfish. All rights reserved</div>
+          <div className="footer-link mobile">Copyright © 2024 Pinkfish. All rights reserved</div>
         </div>
       </div>
     </div>
-    <div class="div-block-21">
+    <div className="div-block-21">
       <div>
-        <a href="../privacypolicy" class="w-inline-block">
-          <div class="text-block-10 privacypolicy">Privacy Policy | </div>
+        <a href="../privacypolicy" className="w-inline-block">
+          <div className="text-block-10 privacypolicy">Privacy Policy | </div>
         </a>
-        <a href="../terms&amp;condition" class="w-inline-block">
-          <div class="text-block-10 tnc"> Terms &amp; Conditions</div>
+        <a href="../terms&amp;condition" className="w-inline-block">
+          <div className="text-block-10 tnc"> Terms &amp; Conditions</div>
         </a>
       </div>
-      <div class="text-block-10 privacypolicy">Copyright © 2024. All rights reserved</div>
+      <div className="text-block-10 privacypolicy">Copyright © 2024. All rights reserved</div>
     </div>
   </section>
 </div>

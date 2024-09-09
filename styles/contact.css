@@ -396,7 +396,7 @@ contact_input:focus{
 
 }
 .faq_main_container{
-    background: url('/hero_blackGradient.png')  bottom no-repeat, url("/faq_bg.png")  top no-repeat  ;
+    background: url('/hero_blackGradient.webp')  bottom no-repeat, url("/faq_bg.png")  top no-repeat  ;
     min-width: 100vw;
     background-size: cover;
    

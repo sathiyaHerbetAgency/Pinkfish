@@ -36,12 +36,12 @@ const Popup = () => {
   return (
     <div>
         <div className="hidden md:block">
-   <div ref={popupOverlayRef} class="popup-overlay ">
+   <div ref={popupOverlayRef} className="popup-overlay ">
          <div
       ref={popupContainerRef}
-      class="popup-container_main flex flex-col"
+      className="popup-container_main flex flex-col"
     >
-      <div class="popup-card_main flex flex-col self-center w-[40%]  mt-6">
+      <div className="popup-card_main flex flex-col self-center w-[40%]  mt-6">
         <img
           onClick={() => {
             closePopup();
@@ -52,7 +52,7 @@ const Popup = () => {
         />
         <a href="/Arena">
           {" "}
-          <img src="./Home/Popup/popup_home.jpg" className="" alt="img" />
+          <img src="./Home/Popup/popup_home.webp" className="" alt="img" />
         </a>
       </div>
     </div>
@@ -60,10 +60,10 @@ const Popup = () => {
 </div>
 
 <div className=" md:hidden">
-  <div ref={popupOverlayRefMob} class="popup-overlay ">
+  <div ref={popupOverlayRefMob} className="popup-overlay ">
     <div
       ref={popupContainerRefMob}
-      class="popup-container_main w-[90%] flex flex-col gap-3"
+      className="popup-container_main w-[90%] flex flex-col gap-3"
     >
       <div className="flex justify-end  ">
         <img
@@ -75,11 +75,11 @@ const Popup = () => {
           alt="close"
         />
       </div>
-      <div class="popup-card_main  ">
+      <div className="popup-card_main  ">
         <a href="/Arena">
           {" "}
           <img
-            src="./Home/Popup/popup_home.jpg"
+            src="./Home/Popup/popup_home.webp"
             className="object-cover"
             alt="img"
           />

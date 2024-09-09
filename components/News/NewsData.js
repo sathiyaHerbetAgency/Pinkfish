@@ -45,7 +45,7 @@ export const NewsData =[
         "img": "News/news_img_3_1.webp"
     },
     {
-        "heading": "https://www.nst.com.my/lifestyle/groove/2024/01/996229/showbiz-malaysians%C2%A0welcome-new-year-electrifying-edm-spectacle",
+        "heading": "Tyga gives Malaysian fans a taste on August 9",
         "description": "The Compton rapper will turn Zepp Kuala Lumpur in Rack City.",
         "link": "https://liftedasia.com/article/tyga",
         "img": "News/news_img_4_1.webp"

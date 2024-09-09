@@ -22,23 +22,23 @@ const News = () => {
                 <div className="bg-[#F20D86] flex flex-col py-3 ">
                     <div className="w-[95%] flex gap-5 self-center items-center justify-center md:justify-start">
                         <div className={toogle==='1'?animationBorderActive:animationBorder}>
-                            <a onClick={()=>{setToogle('1')}} className="cursor-pointer text-[16px] md:text-[24px] font-[Poppins-Regular] text-left font-[400]  text-[#fff]  uppercase">ALL</a>
+                            <button onClick={()=>{setToogle('1')}} className="cursor-pointer text-[16px] md:text-[24px] font-[Poppins-Regular] text-left font-[400]  text-[#fff]  uppercase">ALL</button>
                         </div>
                         <div className={toogle==='2'?animationBorderActive:animationBorder}>
-                            <a onClick={()=>{setToogle('2')}} className="cursor-pointer text-[16px] md:text-[24px] font-[Poppins-Regular] text-left  text-[#fff]  font-[400] uppercase">#PFF2024</a>
+                            <button onClick={()=>{setToogle('2')}} className="cursor-pointer text-[16px] md:text-[24px] font-[Poppins-Regular] text-left  text-[#fff]  font-[400] uppercase">#PFF2024</button>
                         </div>
                         <div className={toogle==='3'?animationBorderActive:animationBorder}>
-                            <a onClick={()=>{setToogle('3')}} className="cursor-pointer text-[16px] md:text-[24px] font-[Poppins-Regular] text-left  text-[#fff]  uppercase">#PFC2023</a>
+                            <button onClick={()=>{setToogle('3')}} className="cursor-pointer text-[16px] md:text-[24px] font-[Poppins-Regular] text-left  text-[#fff]  uppercase">#PFC2023</button>
                         </div>
                         <div className={toogle==='4'?animationBorderActive:animationBorder}>
-                            <a onClick={()=>{setToogle('4')}} className="cursor-pointer text-[16px] md:text-[24px] font-[Poppins-Regular] text-left  text-[#fff]  uppercase">#PFL2023</a>
+                            <button onClick={()=>{setToogle('4')}} className="cursor-pointer text-[16px] md:text-[24px] font-[Poppins-Regular] text-left  text-[#fff]  uppercase">#PFL2023</button>
                         </div>
                     </div>
                 </div>
             </div>    
             <div className="flex flex-col gap-6 px-3 md:px-0">
         <NewsBody check={toogle==='1'&&"ALL"||toogle==="2"&&"PFF"||toogle==="3"&&"PFC"||toogle==="4"&&"PL"} />
-        <a href="/News" className="self-center">
+        <a href="/News" arial-label="News Page" className="self-center">
         <button className="bg-[#828282] text-[14px] font-[Poppins-Regular] text-center self-center  text-[#fff]  uppercase py-3 px-8 rounded"type="button"> view more</button>
         </a>
 

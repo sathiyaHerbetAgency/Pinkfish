@@ -68,8 +68,8 @@ const GalleryPF = ({select,folder}) => {
                 rel="noreferrer"
                 className="object-contain z-50"
               >
-                <img src={`./Home/Gallery/${folder}/${file}.png`} className="w-[100%] h-[100%] hidden md:block" alt={`${index + 1}`} />
-                <img src={`./Home/Gallery/${folder}/${file}.png`} className="w-[100%] h-[100%]  md:hidden" alt={`${index + 1}`} />
+                <img src={`./Home/Gallery/${folder}/${file}.webp`} className="w-[100%] h-[100%] hidden md:block" alt={`${index + 1}`} />
+                <img src={`./Home/Gallery/${folder}/${file}.webp`} className="w-[100%] h-[100%]  md:hidden" alt={`${index + 1}`} />
 
               </a>
              
@@ -84,8 +84,8 @@ const GalleryPF = ({select,folder}) => {
                 rel="noreferrer"
                 className="object-contain"
               >
-                <img src={`./Home/Gallery/${folder}/${file}.png`} className="w-[100%] h-[100%] hidden md:block" alt={`${index + 1}`} />
-                <img src={`./Home/Gallery/${folder}/${file}.png`} className="w-[100%] h-[100%]  md:hidden" alt={`${index + 1}`} />
+                <img src={`./Home/Gallery/${folder}/${file}.webp`} className="w-[100%] h-[100%] hidden md:block" alt={`${index + 1}`} />
+                <img src={`./Home/Gallery/${folder}/${file}.webp`} className="w-[100%] h-[100%]  md:hidden" alt={`${index + 1}`} />
 
               </a>
              

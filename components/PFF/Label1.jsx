@@ -4,8 +4,8 @@ import "../../styles/home.css";
 import Marquee from "react-fast-marquee";
 const Label1 = ({text}) => (
   // <div className="horizantal_pink_container_live_pff">
-  //   <div class="relative marquee-container-pfc ">
-  //     <div class="marquee-pfc flex justify-end   text-white gap-6">
+  //   <div className="relative marquee-container-pfc ">
+  //     <div className="marquee-pfc flex justify-end   text-white gap-6">
   //       <div className="svg-gap">
   //         <svg className="svg-mob"
   //           width="68"
@@ -236,7 +236,7 @@ const Label1 = ({text}) => (
         
   //       </div>
         
-  //       {/* <div class="marquee-pfc marquee2-pfc flex justify-end  min-w-[100vw] text-white ">
+  //       {/* <div className="marquee-pfc marquee2-pfc flex justify-end  min-w-[100vw] text-white ">
   //       <a className="horizantal_text_2_pff">{text}</a>
   //       <div className="flex gap-6">
   //         <svg className="svg-mob"

@@ -20,11 +20,11 @@ const Label = ({color,direction}) => {
         <path d="M10.1959 10.828C9.43315 10.8523 8.83015 11.6588 8.84932 12.6288C8.86929 13.5988 9.50343 14.3656 10.2662 14.3412C11.0289 14.3168 11.6319 13.5104 11.6127 12.5404C11.5935 11.5704 10.9594 10.8036 10.1959 10.828Z" fill="white"/>
         <path d="M26.1236 9.25338C24.527 8.00916 22.9393 7.91877 22.135 7.97565L22.1973 9.39558C22.8714 9.34784 24.2028 9.42401 25.5405 10.4661C26.6707 11.3467 27.3136 12.5381 27.641 13.3263C27.2848 14.1266 26.586 15.3272 25.3672 16.1438C24.0215 17.0457 22.73 17.0132 22.0799 16.9147L21.9465 18.3265C22.1566 18.359 22.4225 18.3854 22.7308 18.3854C23.5654 18.3854 24.7091 18.1924 25.8888 17.4022C27.5524 16.287 28.4086 14.5766 28.7704 13.6554L28.891 13.3486L28.7775 13.0378C28.4493 12.14 27.6682 10.4549 26.126 9.25338H26.1236Z" fill="white"/>
       </svg>
-    <a className="text-[16px] md:text-[20px] font-[Integral] text-center drop-shadow-2xl  text-[#fff]  uppercase">{text1}</a>
-    <a className="" href="WhatTheFish" >
+    <p className="text-[16px] md:text-[20px] font-[Integral] text-center drop-shadow-2xl  text-[#fff]  uppercase">{text1}</p>
+    <a className="" arial-label="What The Fish Page" href="WhatTheFish" >
           <button className="text-[12px] md:p-2 p-1 font-[Sofia] text-center  text-[#fff] border-2 border-solid border-[#fff]  rounded-md">Find Out More</button>
     </a>
-    <a className="text-[16px] md:text-[20px] font-[200] font-[Integral] text-center  text-[#fff]  uppercase">{text2}</a>
+    <p className="text-[16px] md:text-[20px] font-[200] font-[Integral] text-center  text-[#fff]  uppercase">{text2}</p>
   </div>
 
   </Marquee>

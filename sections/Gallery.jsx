@@ -70,10 +70,10 @@ return(
       <div className="flex gap-8 ">
       <div className="flex flex-col gap-8 ">
         <div className="image_11_live">
-        <img onClick={() => {setToggler(!toggler), setSlide(1)}} draggable="false" className="min-w-[400px] h-[260px] image_1" src="Live/Gallery/gallery_1.png" />
+        <img onClick={() => {setToggler(!toggler), setSlide(1)}} draggable="false"   alt="gallery-image" className="min-w-[400px] h-[260px] image_1" src="Live/Gallery/gallery_1.webp" />
         </div>
         <div className="image_11_live">
-        <img  onClick={() => {setToggler(!toggler), setSlide(2)}} draggable="false" className="w-[400px] h-[400px] image_2" src="Live/Gallery/gallery_2.png" />
+        <img  onClick={() => {setToggler(!toggler), setSlide(2)}} draggable="false"  alt="gallery-image" className="w-[400px] h-[400px] image_2" src="Live/Gallery/gallery_2.webp" />
         </div>
       </div>
       <div className="flex flex-col gap-8  ">
@@ -87,33 +87,33 @@ return(
         </div>
        
         <div className="image_11_live">
-        <img onClick={() => {setToggler(!toggler), setSlide(3)}} draggable="false" className="w-[440px] h-[354px] image_3" src="/Live/Gallery/gallery_3.png" />
+        <img onClick={() => {setToggler(!toggler), setSlide(3)}} draggable="false"  alt="gallery-image" className="w-[440px] h-[354px] image_3" src="/Live/Gallery/gallery_3.webp" />
       </div>
       </div>
      
     <div className="flex flex-col gap-8 ">
         <div className="flex gap-8">
         <div className="image_11_live">
-        <img  onClick={() => {setToggler(!toggler), setSlide(4)}} draggable="false"  src="/Live/Gallery/gallery_5.png" />
+        <img  onClick={() => {setToggler(!toggler), setSlide(4)}} draggable="false"  alt="gallery-image"  src="/Live/Gallery/gallery_5.webp" />
         </div>
         <div className="image_11_live">
-        <img onClick={() => {setToggler(!toggler), setSlide(5)}} draggable="false" src="/Live/Gallery/gallery_6.png" />
+        <img onClick={() => {setToggler(!toggler), setSlide(5)}} draggable="false"  alt="gallery-image" src="/Live/Gallery/gallery_6.webp" />
         </div>
         </div>
         <div className="w-[840px] h-[308px] ">
         <div className="image_11_live">
-        <img onClick={() => {setToggler(!toggler), setSlide(6)}} draggable="false" className="object-contain " src="/Live/Gallery/gallery_7.png"/>
+        <img onClick={() => {setToggler(!toggler), setSlide(6)}} draggable="false"  alt="gallery-image" className="object-contain " src="/Live/Gallery/gallery_7.webp"/>
         </div>
         </div>
       </div> 
       <div className="flex flex-col gap-8 ">
       <div className="image_11_live">
       
-        <img onClick={() => {setToggler(!toggler), setSlide(7)}}  className="image_8" draggable="false" src="/Live/Gallery/gallery_8.png" />
+        <img onClick={() => {setToggler(!toggler), setSlide(7)}}  className="image_8" draggable="false"  alt="gallery-image" src="/Live/Gallery/gallery_8.webp" />
         </div>
         <div className="w-[400px] h-[400px] image_11_live">
 
-        <img  onClick={() => {setToggler(!toggler), setSlide(8)}} draggable="false" className="image_9 object-contain" src="/Live/Gallery/gallery_9.png"/>
+        <img  onClick={() => {setToggler(!toggler), setSlide(8)}} draggable="false"  alt="gallery-image" className="image_9 object-contain" src="/Live/Gallery/gallery_9.webp"/>
         </div>
       </div> 
       <div className="flex flex-col gap-8 ">
@@ -122,21 +122,21 @@ return(
    
       <div className="w-[400px] image_11_live">
 
-      <img onClick={() => {setToggler(!toggler), setSlide(9)}} draggable="false" className=" h-[690px] image_10" src="/Live/Gallery/gallery_10.png"/>
+      <img onClick={() => {setToggler(!toggler), setSlide(9)}} draggable="false"  alt="gallery-image" className=" h-[690px] image_10" src="/Live/Gallery/gallery_10.webp"/>
       </div>
     </div> 
     <div className="flex flex-col gap-8 ">
        
         <div className="w-[840px] image_11_live">
 
-        <img onClick={() => {setToggler(!toggler), setSlide(10)}} draggable="false" className="object-contain " src="/Live/Gallery/gallery_11.png"/>
+        <img onClick={() => {setToggler(!toggler), setSlide(10)}} draggable="false"  alt="gallery-image" className="object-contain " src="/Live/Gallery/gallery_11.webp"/>
         </div>
         <div className="flex gap-8  ">
         <div className="image_11_live">
-        <img onClick={() => {setToggler(!toggler), setSlide(11)}} draggable="false" className="image_12" src="/Live/Gallery/gallery_12.png" />
+        <img onClick={() => {setToggler(!toggler), setSlide(11)}} draggable="false"  alt="gallery-image" className="image_12" src="/Live/Gallery/gallery_12.webp" />
         </div>
         <div className="image_11_live">
-        <img  onClick={() => {setToggler(!toggler), setSlide(12)}} draggable="false" className="image_13" src="/Live/Gallery/gallery_13.png" />
+        <img  onClick={() => {setToggler(!toggler), setSlide(12)}} draggable="false"  alt="gallery-image" className="image_13" src="/Live/Gallery/gallery_13.webp" />
         </div>
         </div>
       </div> 
@@ -155,32 +155,32 @@ return(
         <div className="flex gap-4 mx-2">
           <div className="flex flex-col gap-4 basis-1/2">
           <div className="image_11_live">
-          <img onClick={() => {setActive(!active), setSlideMob(1)}} className=" w-full h-full image_14" src="/Live/Gallery/gallery_1_mob.png" />
+          <img onClick={() => {setActive(!active), setSlideMob(1)}} className=" w-full h-full image_14" alt="gallery-image" src="/Live/Gallery/gallery_1_mob.webp" />
           </div>
           <div className="image_11_live">
-          <img onClick={() => {setActive(!active), setSlideMob(2)}} className=" w-full h-full" src="/Live/Gallery/gallery_3_mob.png" />
+          <img onClick={() => {setActive(!active), setSlideMob(2)}} className=" w-full h-full" alt="gallery-image" src="/Live/Gallery/gallery_3_mob.webp" />
           </div>
           </div>
           <div className="flex flex-col gap-4 basis-1/2">
           <div className="image_11_live">
-          <img  onClick={() => {setActive(!active), setSlideMob(3)}} className="  w-full h-full" src="/Live/Gallery/gallery_2_mob.png" />
+          <img  onClick={() => {setActive(!active), setSlideMob(3)}} className="  w-full h-full" alt="gallery-image" src="/Live/Gallery/gallery_2_mob.webp" />
           </div>
           <div className="image_11_live">
-          <img onClick={() => {setActive(!active), setSlideMob(4)}} className="  w-full h-full " src="/Live/Gallery/gallery_4_mob.png" />
+          <img onClick={() => {setActive(!active), setSlideMob(4)}} className="  w-full h-full " alt="gallery-image" src="/Live/Gallery/gallery_4_mob.webp" />
           </div>
           </div>
          
         </div>
         
         <div className="image_11_live">
-        <img onClick={() => {setActive(!active), setSlideMob(5)}} className=" w-full h-full mx-2 my-4 pr-3  mt-4 mb-4" src="/Live/Gallery/gallery_5_mob.png"/>
+        <img onClick={() => {setActive(!active), setSlideMob(5)}} className=" w-full h-full mx-2 my-4 pr-3  mt-4 mb-4" alt="gallery-image" src="/Live/Gallery/gallery_5_mob.webp"/>
         </div>
         <div className="flex gap-4 mx-2 w-full ">
           <div className="basis-1/2 image_11_live">
-        <img onClick={() => {setActive(!active), setSlideMob(6)}} className="object-cover w-full h-full rounded" src="/Live/Gallery/gallery_6_mob.png" />
+        <img onClick={() => {setActive(!active), setSlideMob(6)}} className="object-cover w-full h-full rounded" alt="gallery-image" src="/Live/Gallery/gallery_6_mob.webp" />
         </div>
         <div className="basis-1/2 mr-3 image_11_live ">
-          <img onClick={() => {setActive(!active), setSlideMob(7)}} className="w-full h-full " src="/Live/Gallery/gallery_7_mob.png" />
+          <img onClick={() => {setActive(!active), setSlideMob(7)}} className="w-full h-full " alt="gallery-image" src="/Live/Gallery/gallery_7_mob.webp" />
         </div>
         </div>
        
@@ -190,18 +190,18 @@ return(
     <FsLightbox
      toggler={toggler}
      sources={[
-       '/Live/Gallery/gallery_1.png',
-       '/Live/Gallery/gallery_2.png',
-       '/Live/Gallery/gallery_3.png',
-       '/Live/Gallery/gallery_5.png',
-       '/Live/Gallery/gallery_6.png',
-       '/Live/Gallery/gallery_7.png',
-       '/Live/Gallery/gallery_8.png',
-       '/Live/Gallery/gallery_9.png',
-       '/Live/Gallery/gallery_10.png',
-       '/Live/Gallery/gallery_11.png',
-       '/Live/Gallery/gallery_12.png',
-       '/Live/Gallery/gallery_13.png',
+       '/Live/Gallery/gallery_1.webp',
+       '/Live/Gallery/gallery_2.webp',
+       '/Live/Gallery/gallery_3.webp',
+       '/Live/Gallery/gallery_5.webp',
+       '/Live/Gallery/gallery_6.webp',
+       '/Live/Gallery/gallery_7.webp',
+       '/Live/Gallery/gallery_8.webp',
+       '/Live/Gallery/gallery_9.webp',
+       '/Live/Gallery/gallery_10.webp',
+       '/Live/Gallery/gallery_11.webp',
+       '/Live/Gallery/gallery_12.webp',
+       '/Live/Gallery/gallery_13.webp',
      ]}
      slide={slide}
    />
@@ -211,13 +211,13 @@ return(
  <FsLightbox
   toggler={active}
   sources={[
-    '/Live/Gallery/gallery_1_mob_full.jpg',
-       '/Live/Gallery/gallery_3_mob_full.jpg',
-       '/Live/Gallery/gallery_2_mob_full.jpg',
-       '/Live/Gallery/gallery_4_mob_full.jpg',
-       '/Live/Gallery/gallery_5_mob_full.jpg',
-       '/Live/Gallery/gallery_6_mob_full.jpg',
-       '/Live/Gallery/gallery_7_mob_full.jpg',
+    '/Live/Gallery/gallery_1_mob_full.webp',
+       '/Live/Gallery/gallery_3_mob_full.webp',
+       '/Live/Gallery/gallery_2_mob_full.webp',
+       '/Live/Gallery/gallery_4_mob_full.webp',
+       '/Live/Gallery/gallery_5_mob_full.webp',
+       '/Live/Gallery/gallery_6_mob_full.webp',
+       '/Live/Gallery/gallery_7_mob_full.webp',
   ]}
   slide={slideMob}
 />

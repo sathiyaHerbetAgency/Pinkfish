@@ -334,7 +334,7 @@ div::-webkit-scrollbar {
     /* background: rgb(0,0,0);
 background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 1%, rgba(244,0,134,1) 1%, rgba(246,6,129,1) 2%, rgba(246,137,175,1) 98%, rgba(239,128,175,1) 99%, rgba(0,0,0,1) 99%);
 } */
-background-image: url('/Gradient_pink_big.png');
+background-image: url('/Gradient_pink_big.webp');
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -342,7 +342,7 @@ background-size: cover;
 @media screen and (max-width:768px) {
     .banner_container{
        
-    background-image: url('/Gradient_pink.png');
+    background-image: url('/Gradient_pink.webp');
     
     }
 
@@ -391,73 +391,7 @@ background-size: cover;
 }
 
 
-.marquee-container {
-  min-height: 60px;
-  overflow: hidden;
-  line-height: 50px;
 
-  .marquee {
-    top: 0;
-    left: 100%;
-    width: 100%;
-    overflow: hidden;
-    position: absolute;
-    white-space: nowrap;
-    animation: marquee 30s linear infinite;
-  }
-
-  .marquee2 {
-    animation-delay: 15s;
-  }
-  b {
-    padding-left: 10px;
-  }
-}
-
-@keyframes marquee {
-  0% {
-    left: -100%;
-  }
-  100% {
-    left: 100%
-  }
-}
-
-
-
-
-
-.marquee-container-pfc {
-    min-height: 60px;
-    overflow: hidden;
-    line-height: 50px;
-  
-    .marquee-pfc {
-      top: 0;
-      left: 100%;
-      width: 100%;
-      overflow: hidden;
-      position: absolute;
-      white-space: nowrap;
-      animation: marquee 34s linear infinite;
-    }
-  
-    .marquee2-pfc {
-      animation-delay: 17s;
-    }
-    b {
-      padding-left: 10px;
-    }
-  }
-  
-  @keyframes marquee-pfc {
-    0% {
-      left: -100%;
-    }
-    100% {
-      left: 100%
-    }
-  }
   
 
 .svg_hero{

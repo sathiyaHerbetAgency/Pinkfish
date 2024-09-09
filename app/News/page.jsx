@@ -14,7 +14,7 @@ const Event = () => {
     <>
       <Head title={title} description={description} />
       <NewNavbar />
-      <div className="news_main_container min-h-screen flex flex-col  text-white   ">
+      <div className="news_main_container min-h-screen min-w-[100vw] flex flex-col  text-white   ">
         <div className="flex flex-col gap-6 pt-11 pb-24">
           <h1 className="contact_text_header  self-center">What’s bubblin’?</h1>
           <h3 className="contact_sub_text text-center w-[60%] self-center">
