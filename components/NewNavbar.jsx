@@ -98,6 +98,7 @@ return (
               setToggleDropdown((prev) => !prev);
               changeToggle(); setToogle(false)
             }}
+            arial-label="Menu Button"
           >
             <svg
               clipPath="pt-6"

@@ -14,22 +14,22 @@ const Footer = () => (
         <h2 className="home_bottom_header ">as seen on</h2>
         <div className="flex w-[350px] gap-6 ">
           {/* <img  src='/home_bottom_logo_mob_1.svg'/> */}
-          <img className="w-[15%]" src='/trb.png'/>
-          <img className='w-[15%]' src='/home_bottom_logo_mob_3.svg'/>
-          <img className="w-[15%]" src='/home_bottom_logo_mob_4.svg'/>
+          <img className="w-[15%]" src='/trb.png' alt="TRP Brand Logo" />
+          <img className='w-[15%]' src='/home_bottom_logo_mob_3.svg' alt="WOB Brand Logo" />
+          <img className="w-[15%]" src='/home_bottom_logo_mob_4.svg' alt="SAYS Brand Logo" />
 
         </div>
         <div className="flex gap-6 ">
-          <img src='/logo_gf_media.png'/>
-          <img className="object-none" src='/home_bottom_logo_mob_6.svg'/>
-          <img src='/home_bottom_logo_mob_7.svg'/>
+          <img src='/logo_gf_media.png' alt="GF Media Brand Logo"/>
+          <img className="object-none" src='/home_bottom_logo_mob_6.svg' alt="NST Brand Logo" />
+          <img src='/home_bottom_logo_mob_7.svg' alt="Hype Brand Logo" />
 
         </div>
         <div className="flex gap-6 ">
-          <img src='/logo_yl.png'/>
-          <img className="object-none" src='/logo_mm.png'/>
+          <img src='/logo_yl.png' alt="Yahoo Life Brand Logo"  />
+          <img className="object-none" src='/logo_mm.png' alt="Malaymail Brand Logo" />
           
-          <img src='/logo_juice.png'/>
+          <img src='/logo_juice.png' alt="JUICE Brand Logo" />
         </div>
       
         </div>
@@ -42,8 +42,8 @@ const Footer = () => (
             <a href='https://www.youtube.com/@Pinkfishfestival' target="_blank" arial-label='Pinkfish Official Youtube Channel' className="icon_text order-2 md:order-1 ">
               <img src='/yt.svg' alt="Youtube Icon" />
             </a>
-            <a href='https://www.instagram.com/pinkfishfestival/' target="_blank" className="icon_text order-2 md:order-1">
-            <img src='/insta.svg'/>
+            <a href='https://www.instagram.com/pinkfishfestival/' target="_blank" arial-label='Pinkfish Official Instagram Page'  className="icon_text order-2 md:order-1">
+            <img src='/insta.svg'  alt="Instagram Icon" />
             </a>
             <a href='https://www.instagram.com/pinkfishfestival/' target="_blank" arial-label='Pinkfish Official Instagram Page' className="icon_text order-2 md:order-1">
               <img src='/insta.svg' alt="Instagram Icon" />
