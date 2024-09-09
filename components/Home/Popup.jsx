@@ -52,7 +52,7 @@ const Popup = () => {
         />
         <a href="/Arena">
           {" "}
-          <img src="./Home/Popup/popup_home.jpg" className="" alt="img" />
+          <img src="./Home/Popup/popup_home.webp" className="" alt="img" />
         </a>
       </div>
     </div>
@@ -79,7 +79,7 @@ const Popup = () => {
         <a href="/Arena">
           {" "}
           <img
-            src="./Home/Popup/popup_home.jpg"
+            src="./Home/Popup/popup_home.webp"
             className="object-cover"
             alt="img"
           />
