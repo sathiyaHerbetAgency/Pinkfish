@@ -86,7 +86,7 @@ return (
     <div className="navbar_container_mob  flex flex-col md:hidden">
       <div className="flex">
         <div className="w-[90%] self-center flex justify-between">
-          <a className="self-end" href="/">
+          <a className="self-end" href="/" arial-label="Home Page">
             <img
               src="/new_menu_logo_2.svg"
               className="ml-6  w-[80px] items-center"
@@ -95,6 +95,7 @@ return (
           </a>
           <button
             type="button"
+            arial-label="Menu Button"
             onClick={() => {
               setToggleDropdown((prev) => !prev);
               changeToggle(); setToogle(false)
