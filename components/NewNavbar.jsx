@@ -94,8 +94,6 @@ return (
             />
           </a>
           <button
-            type="button"
-            arial-label="Menu Button"
             onClick={() => {
               setToggleDropdown((prev) => !prev);
               changeToggle(); setToogle(false)

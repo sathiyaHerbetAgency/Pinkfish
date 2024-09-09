@@ -34,7 +34,7 @@ export default function Page() {
       <Bottom />
       <img
         className=" md:block hidden right-[0] top-[70%]  fixed  "
-        src="/fish.png"
+        src="/fish.png" alt="Pinkfish"
       />
      <Footer />
   
