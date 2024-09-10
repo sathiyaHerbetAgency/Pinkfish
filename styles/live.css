@@ -721,7 +721,7 @@ background-size: cover;
 
   .bg-pff{
     background: rgb(1,147,227);
-    background-image:url("/pff-bg-gradient.jpg");
+    background-image:url("/PFF_1/pff-bg-gradient.webp");
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
@@ -743,19 +743,10 @@ background-size: cover;
       background-size:cover;
       @apply min-h-[92vh] md:min-h-[85vh];
     }
-    
-      
 
-/* .bg-pfc{
-  background-image:url("/PFC/HeroBG/pfc_hero_bg_mob.png");
-  background-size:cover;
-  @apply min-h-[92vh] md:min-h-[85vh];
-} */
-
-  
 .bg-pff{
   background: rgb(1,147,227);
-  background-image:url("/pff-bg-gradient-mob.jpg");
+  background-image:url("/PFF_1/pff-bg-gradient-mob.webp");
   background-size:cover;
   background-position:center;
   background-repeat:no-repeat;
@@ -786,7 +777,7 @@ width: 100%;
 
 
   .banner-container-pff{
-    background-image:url("/palm-pff.png");
+    background :url("/PFF_1/palm-pff.webp") repeat 0 0;
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
@@ -800,7 +791,7 @@ width: 100%;
     background-repeat:no-repeat;
   } */
   .banner-container-pfc{
-    background-image:url("/mountainf-pfc.png");
+    background-image:url("/PFF_1/mountainf-pfc.webp");
     background-size:contain;
     background-position:bottom;
     background-repeat:no-repeat;

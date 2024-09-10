@@ -53,16 +53,16 @@ const Hero = ({select}) => {
                 <p className="text-white">Be in the loop!</p>
                 <div className="flex items-center gap-3">
                     <a href='https://www.facebook.com/pinkfishfestival/' arial-label="Facebook Page" target="_blank" className=" ">
-                        <img src="/facebook-pfc.png" alt="Facebook Logo" />
+                        <img src="/PFF_1/SocailMediaIcons/facebook-pfc.png" alt="Facebook Logo" />
                     </a>
                     <a href='https://www.youtube.com/@Pinkfishfestival' arial-label="Youtube Channel" target="_blank" className=" ">
-                    <img src="/pff-youtube.png" alt="Youtube Logo" />
+                    <img src="/PFF_1/SocailMediaIcons//pff-youtube.png" alt="Youtube Logo" />
                     </a>
                     <a href='https://www.instagram.com/pinkfishfestival/' arial-label="Instagram Page" target="_blank" className=" ">
-                    <img src="/pff-insta.png" alt="Instagram Logo" />
+                    <img src="/PFF_1/SocailMediaIcons//pff-insta.png" alt="Instagram Logo" />
                     </a>
                     <a href='https://www.tiktok.com/@pinkfishfestival' arial-label="Tiktok Page" target="_blank" className="">
-                    <img src="/pff-tiktok.png" alt="Tiktok Logo" />
+                    <img src="/PFF_1/SocailMediaIcons//pff-tiktok.png" alt="Tiktok Logo" />
                     </a>
                 </div>
             </div>
@@ -74,16 +74,16 @@ const Hero = ({select}) => {
         <p className="text-white">Be in the loop!</p>
         <div className="flex items-center gap-3">
         <a href='https://www.facebook.com/pinkfishfestival/' arial-label="Facebook Page" target="_blank" className=" ">
-                        <img src="/facebook-pfc.png" alt="Facebook Logo" />
+                        <img src="/PFF_1/SocailMediaIcons//facebook-pfc.png" alt="Facebook Logo" />
                     </a>
                     <a href='https://www.youtube.com/@Pinkfishfestival' arial-label="Youtube Channel" target="_blank" className=" ">
-                    <img src="/pff-youtube.png" alt="Youtube Logo" />
+                    <img src="/PFF_1/SocailMediaIcons//pff-youtube.png" alt="Youtube Logo" />
                     </a>
                     <a href='https://www.instagram.com/pinkfishfestival/' arial-label="Instagram Page" target="_blank" className=" ">
-                    <img src="/pff-insta.png" alt="Instagram Logo" />
+                    <img src="/PFF_1/SocailMediaIcons//pff-insta.png" alt="Instagram Logo" />
                     </a>
                     <a href='https://www.tiktok.com/@pinkfishfestival' arial-label="Tiktok Page" target="_blank" className="">
-                    <img src="/pff-tiktok.png" alt="Tiktok Logo" />
+                    <img src="/PFF_1/SocailMediaIcons//pff-tiktok.png" alt="Tiktok Logo" />
                     </a>
                 </div>
     </div>
