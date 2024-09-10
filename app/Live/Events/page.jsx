@@ -46,7 +46,7 @@ const title="Live music event in Malaysia & Southeast Asia | Pinkfish  "
         <div className='flex justify-center'>
         <button onClick={()=>{scrollTop()}} aria-label="back to top" className='top_btn_live flex  self-center mt-11 mb-11 '>
       back to top 
-     <img className='mt-0 md:mt-1 ml-2' src='/Live/uparrow.png'/>
+     <img className='mt-0 md:mt-1 ml-2' src='/Live/uparrow.png' alt="Up Arrow Icon" />
 
       </button>
       </div>

@@ -52,17 +52,17 @@ const Hero = ({select}) => {
             <div className="flex gap-3 items-center pt-11 k">
                 <p className="text-white">Be in the loop!</p>
                 <div className="flex items-center gap-3">
-                    <a href='https://www.facebook.com/pinkfishfestival/' target="_blank" className=" ">
-                        <img src="/facebook-pfc.png" />
+                    <a href='https://www.facebook.com/pinkfishfestival/' arial-label="Facebook Page" target="_blank" className=" ">
+                        <img src="/facebook-pfc.png" alt="Facebook Logo" />
                     </a>
-                    <a href='https://www.youtube.com/@Pinkfishfestival' target="_blank" className=" ">
-                    <img src="/pff-youtube.png" />
+                    <a href='https://www.youtube.com/@Pinkfishfestival' arial-label="Youtube Channel" target="_blank" className=" ">
+                    <img src="/pff-youtube.png" alt="Youtube Logo" />
                     </a>
-                    <a href='https://www.instagram.com/pinkfishfestival/' target="_blank" className=" ">
-                    <img src="/pff-insta.png" />
+                    <a href='https://www.instagram.com/pinkfishfestival/' arial-label="Instagram Page" target="_blank" className=" ">
+                    <img src="/pff-insta.png" alt="Instagram Logo" />
                     </a>
-                    <a href='https://www.tiktok.com/@pinkfishfestival' target="_blank" className="">
-                    <img src="/pff-tiktok.png" />
+                    <a href='https://www.tiktok.com/@pinkfishfestival' arial-label="Tiktok Page" target="_blank" className="">
+                    <img src="/pff-tiktok.png" alt="Tiktok Logo" />
                     </a>
                 </div>
             </div>
@@ -73,18 +73,17 @@ const Hero = ({select}) => {
     <div className="flex justify-center items-center gap-3  mt-6 md:hidden bg-black bg-opacity-50 py-8">
         <p className="text-white">Be in the loop!</p>
         <div className="flex items-center gap-3">
-                    <a href='https://www.facebook.com/pinkfishfestival/' target="_blank" className=" ">
-       
-                        <img src="/facebook-pfc.png" />
+        <a href='https://www.facebook.com/pinkfishfestival/' arial-label="Facebook Page" target="_blank" className=" ">
+                        <img src="/facebook-pfc.png" alt="Facebook Logo" />
                     </a>
-                    <a href='https://www.youtube.com/@Pinkfishfestival' target="_blank" className=" ">
-                    <img src="/pff-youtube.png" />
+                    <a href='https://www.youtube.com/@Pinkfishfestival' arial-label="Youtube Channel" target="_blank" className=" ">
+                    <img src="/pff-youtube.png" alt="Youtube Logo" />
                     </a>
-                    <a href='https://www.instagram.com/pinkfishfestival/' target="_blank" className=" ">
-                    <img src="/pff-insta.png" />
+                    <a href='https://www.instagram.com/pinkfishfestival/' arial-label="Instagram Page" target="_blank" className=" ">
+                    <img src="/pff-insta.png" alt="Instagram Logo" />
                     </a>
-                    <a href='https://www.tiktok.com/@pinkfishfestival' target="_blank" className="">
-                    <img src="/pff-tiktok.png" />
+                    <a href='https://www.tiktok.com/@pinkfishfestival' arial-label="Tiktok Page" target="_blank" className="">
+                    <img src="/pff-tiktok.png" alt="Tiktok Logo" />
                     </a>
                 </div>
     </div>
