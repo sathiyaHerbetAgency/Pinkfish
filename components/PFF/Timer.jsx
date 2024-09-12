@@ -6,7 +6,7 @@ import Heading from '../PFC/Heading';
 
 const Timer = () => {
     // stop it when needed
-    const countdownDate = new Date('12/31/2024');
+    const countdownDate = new Date('01/01/2025');
     //end date
     const [state, setState] = useState({
       days: 0,

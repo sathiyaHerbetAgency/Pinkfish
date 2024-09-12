@@ -21,8 +21,8 @@ const Hero = () => {
         second_heading:"pinkfish countdown",
         span_text:"Pinkfish Countdown ",
         text:"is a curated experience of tight-knit celebration that features both international and local live acts upon the ushering into the new year. This event brings together the creative and music-loving community, as we count down to the new year.",
-        button_text:'Join the 2024 waitlist',
-        link:"https://forms.gle/UHnTfnZcNNfkXtk37"
+        button_text:'Be Part of PFC2024',
+        link:"https://pinkfishfestival.com/countdown2024"
     }
 
 

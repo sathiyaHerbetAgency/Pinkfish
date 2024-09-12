@@ -137,7 +137,7 @@ const Gallery = ({select}) => {
                   rel="noreferrer"
                   className=""
                 >
-                  <img src={`./PFF_1/2023Gallery/${file}.png`} className="w-[100%] h-[100%] pb-1 md:pb-2" alt={`Arts festival ${index + 1} `} />
+                  <img src={`./PFF_1/2023Gallery/${file}.webp`} className="w-[100%] h-[100%] pb-1 md:pb-2" alt={`Arts festival ${index + 1} `} />
                 </a>
                
               ))}

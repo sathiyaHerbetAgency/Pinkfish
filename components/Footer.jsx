@@ -6,7 +6,7 @@ const Footer = () => (
   <div className="pb-11 md:block hidden pt-11 ">
   <hr className="hr_line_footer " />
   <div className="flex flex-col gap-11 mt-11 ">
-    <div className=" flex flex-col md:flex-row justify-between  w-[90%] md:w-[80%] self-center  gap-11 ">
+    <div className=" flex flex-col md:flex-row justify-between  w-[90%] md:w-[90%] max-w-[1500px] self-center  gap-11 ">
       <div className='flex justify-between basis-3/5'>
     <div className="flex flex-col  gap-5 md:items-start items-center ">
         
@@ -25,10 +25,9 @@ const Footer = () => (
           <img src='/home_bottom_logo_mob_7.svg' alt="Hype Brand Logo" />
 
         </div>
-        <div className="flex gap-6 ">
+        <div className="flex gap-3 ">
           <img src='/logo_yl.png' alt="Yahoo Life Brand Logo"  />
           <img className="object-none" src='/logo_mm.png' alt="Malaymail Brand Logo" />
-          
           <img src='/logo_juice.png' alt="JUICE Brand Logo" />
         </div>
       
@@ -42,20 +41,16 @@ const Footer = () => (
             <a href='https://www.youtube.com/@Pinkfishfestival' target="_blank" arial-label='Pinkfish Official Youtube Channel' className="icon_text order-2 md:order-1 ">
               <img src='/yt.svg' alt="Youtube Icon" />
             </a>
-            <a href='https://www.instagram.com/pinkfishfestival/' target="_blank" arial-label='Pinkfish Official Instagram Page'  className="icon_text order-2 md:order-1">
-            <img src='/insta.svg'  alt="Instagram Icon" />
-            </a>
             <a href='https://www.instagram.com/pinkfishfestival/' target="_blank" arial-label='Pinkfish Official Instagram Page' className="icon_text order-2 md:order-1">
               <img src='/insta.svg' alt="Instagram Icon" />
             </a>
             <a href='https://www.tiktok.com/@pinkfishfestival' target="_blank" arial-label='Pinkfish Official Tiktok Page' className="icon_text text-center order-2 md:order-1">
               <img src='/tiktok.svg' alt="Tiktok Icon"   />
             </a>
-        
         </div>
         </>
       </div>
-      <div className="flex flex-col   justify-center mt-11 gap-5 ">
+      <div className="flex flex-col   justify-center  mt-11 gap-5 ">
       <img src='/logo_footer.png' alt='logo'/>
       </div>
       </div>
@@ -80,7 +75,7 @@ const Footer = () => (
       </div>
      
     </div>
-    <div className='flex flex-col  md:flex-row justify-between  w-[90%] md:w-[80%] self-center  gap-11'>
+    <div className='flex flex-col  md:flex-row justify-between  w-[90%] md:w-[90%] max-w-[1500px] self-center  gap-11'>
    
         <p className="footer_bottom_text ">Copyright- Pinkfish lifestyle and Entertainment in Malaysia </p>
 

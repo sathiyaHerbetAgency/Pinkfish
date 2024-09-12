@@ -7,7 +7,7 @@ return(
     <div className="flex md:gap-8 justify-center items-center    gap-3 ">
         {page==="PFF"?
         <svg  width="49" height="49" className="w-[30px] md:w-auto" viewBox="0 0 63 49" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <g clip-path="url(#clip0_39_317)">
+        <g clipPath="url(#clip0_39_317)">
         <path d="M46.9653 48.0064L19.4256 6.25122L6.48499e-05 49L46.9653 48.0064Z" fill="white"/>
         <path d="M63 26.4995L45.5237 0L33.1954 27.1288L63 26.4995Z" fill="white"/>
         </g>
@@ -27,7 +27,7 @@ return(
         </div>
         {page==="PFF"?
         <svg width="63" height="49"  className="w-[30px] md:w-auto" viewBox="0 0 63 49" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <g clip-path="url(#clip0_39_322)">
+        <g clipPath="url(#clip0_39_322)">
         <path d="M16.0347 48.0064L43.5744 6.25122L62.9999 49L16.0347 48.0064Z" fill="white"/>
         <path d="M0 26.4995L17.4763 0L29.8046 27.1288L0 26.4995Z" fill="white"/>
         </g>
