@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React from 'react'
 
 const BuyButton = ({text,link,check}) => {
