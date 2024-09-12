@@ -3296,6 +3296,7 @@ strong {
 
 .image-11 {
   z-index: 100;
+  display: block;
   position: fixed;
   inset: auto 0% 25% auto;
 }
@@ -6966,11 +6967,13 @@ strong {
 
   .clock-number-2 {
     font-family: Montserrat, sans-serif;
+    font-size: 3.6rem;
+    line-height: 65px;
   }
 
   .clock-label {
     font-family: Montserrat, sans-serif;
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .div-block-3 {
@@ -7685,12 +7688,8 @@ strong {
     min-height: 600px;
   }
 
-  .text-f-13, .text-f-13.all-caps.light-grey-font {
+  .text-f-13, .text-f-13.all-caps.light-grey-font, .heading-2 {
     font-size: 1.2em;
-  }
-
-  .heading-2 {
-    font-size: 1.3em;
   }
 
   .heading-2.swiper-slide-active {
@@ -8104,8 +8103,8 @@ strong {
 
   .pff-logo {
     min-width: 0%;
-    max-width: 250px;
-    min-height: 4em;
+    max-width: 210px;
+    min-height: 2em;
     line-height: 10px;
     overflow: clip;
   }
@@ -8115,7 +8114,7 @@ strong {
   }
 
   .heading-1 {
-    font-size: 2.3em;
+    font-size: 2.1em;
   }
 
   .heading-1.pink-text.hide {
@@ -8244,7 +8243,8 @@ strong {
   }
 
   .image-32 {
-    max-width: 120%;
+    max-width: 80%;
+    max-height: 450px;
   }
 }
 
