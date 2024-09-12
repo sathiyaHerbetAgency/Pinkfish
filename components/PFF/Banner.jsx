@@ -13,10 +13,10 @@ const Banner = ({select}) => {
          link:"/countdown"
     }
     const PFC={
-        first_heading:"Catch the news before it drops",
-        text:"Hop on the waitlist to get first dibs on news, tickets, and exclusive updates for the upcoming event.",
-        button_text:'Join the waitlist',
-         link:"https://forms.gle/UHnTfnZcNNfkXtk37"
+        first_heading:"YOUR FOMO IS ABOUT TO GET REAL",
+        text:"Get first access to lineup reveals and festival updates.",
+        button_text:'Be Part of PFC2024',
+         link:"/countdown2024"
     }
     function checkContents(){
         if(select==="PFF"){

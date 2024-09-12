@@ -188,7 +188,12 @@
 
 }
 
-
+.bg-countdown-new{
+  background-image:url("/CountdownNew/main-bg.jpg");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}
 
 /* //Hero// */
 .bg-new-hero{
