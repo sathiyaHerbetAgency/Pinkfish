@@ -3342,7 +3342,7 @@ strong {
   padding-top: 0;
   padding-bottom: 14px;
   font-family: Montserrat, sans-serif;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 400;
   line-height: 1.6em;
 }
@@ -3352,7 +3352,7 @@ strong {
   letter-spacing: 0;
   margin-right: 10px;
   font-family: Montserrat, sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 400;
 }
 
@@ -3363,10 +3363,10 @@ strong {
   border-radius: 100%;
   justify-content: center;
   align-items: center;
-  width: 55px;
-  min-width: 55px;
-  height: 55px;
-  min-height: 55px;
+  width: 50px;
+  min-width: 50px;
+  height: 50px;
+  min-height: 50px;
   display: flex;
 }
 
@@ -3458,7 +3458,7 @@ strong {
   margin-top: 0;
   margin-bottom: 0;
   font-family: Montserrat, sans-serif;
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-weight: 400;
   line-height: 1;
 }
@@ -4755,7 +4755,7 @@ strong {
   white-space: nowrap;
   overflow-wrap: normal;
   font-family: Montserrat, sans-serif;
-  font-size: 4em;
+  font-size: 3.6em;
   font-weight: 700;
   line-height: 1em;
 }
@@ -7651,6 +7651,10 @@ strong {
     flex-direction: column;
     justify-content: center;
     display: flex;
+  }
+
+  .plus-icon {
+    max-width: 90%;
   }
 
   .faq-wrapper.t-c-wrapper {
