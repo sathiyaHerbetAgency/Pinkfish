@@ -13,7 +13,7 @@ import 'swiper/css/pagination';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 import SlideImage from './Component/SlideImage';
 
-const Slider = () => {
+const Slider = ({select}) => {
   const BannerRef = useRef(null);
   const handlePrev = useCallback(() => {
     if (BannerRef.current && BannerRef.current.swiper) {
@@ -27,6 +27,25 @@ const Slider = () => {
     }
   }, []);
 
+const PFFImages1=["./PFF_1/pff_slider_21.webp","./PFF_1/pff_slider_mob_111.webp", "EventsIndividual"];
+const PFFImages2=["../PFF_1/pff_slider_1.webp","./PFF_1/pff_slider_1.webp","EventsIndividual"]
+const PFCImages1=["./PFC/Banner/pfc_banner.webp","./PFC/Banner/pfc_banner_mob.webp","countdown2024"];
+const PFCImages2=["./PFC/Banner/pfc_banner_old.png","./PFC/Banner/pfc_banner_mob_old.png","#"]
+
+function checkContents1(){
+  if(select==="PFF"){
+      return PFFImages1
+  }else if(select==="PFC"){
+      return PFCImages1
+  }
+}
+function checkContents2(){
+  if(select==="PFF"){
+      return PFFImages2
+  }else if(select==="PFC"){
+      return PFCImages2
+  }
+}
   return (
     <div className="flex flex-col min-w-[100vw]">
         <div className="md:max-w-[900px] max-w-[400px] px-6 md:px-0   self-center flex gap-3  py-2 pt-10">
@@ -55,10 +74,10 @@ const Slider = () => {
             className="mySwiper"
           >
             <SwiperSlide>
-              <SlideImage url="./PFF_1/pff_slider_21.webp" urlMob="./PFF_1/pff_slider_mob_111.webp" year="2024" />
+              <SlideImage url={checkContents1()[0]} urlMob={checkContents1()[1]} year="2024" link={checkContents1()[2]}  />
             </SwiperSlide>
             <SwiperSlide>
-                <SlideImage url="./PFF_1/pff_slider_1.webp" urlMob="./PFF_1/pff_slider_1.webp" year="2023" />
+                <SlideImage  url={checkContents2()[0]} urlMob={checkContents2()[1]} year="2023" link={checkContents2()[2]} />
             </SwiperSlide>
           </Swiper>
           

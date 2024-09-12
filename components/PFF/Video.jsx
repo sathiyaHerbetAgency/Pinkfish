@@ -28,7 +28,6 @@ const button2=`transition-all text-[16px] md:text-[20px] font-[Sofia] ${toogle==
         {toogle==="1"?
         <YoutubeEmbed 
         embedId={id}
-        title="What’s new in Material Design for the web (Chrome Dev Summit 2019)"
     />:
     <YoutubeEmbed 
         embedId={id}

@@ -25,10 +25,10 @@ import Head from './../../components/head';
            
             <div className="gradient-container-pff flex flex-col ">
               <div className=" flex flex-col self-center md:max-w-[100vw]">
-                <Slider />
+                <Slider select="PFF" />
                
                <Heading text={"#PFF2023 official aftermovie"} page={"PFF"} />
-               <Video />
+               <Video id={"F8k-yI4zWLg"} />
                </div>
                <Heading text={"Music & Arts Celebration "} page={"PFC"} description={"Join us for a weekend of music, art, and self-expression at the Pinkfish Festival. This vibrant celebration brings together talented artists and musicians from around the world to share their unique styles and inspire others. From acoustic jams to drum circles, and from local legends to international stars, our lineup is designed to delight and energize. With a relaxed and welcoming atmosphere, Pinkfish Festival is the perfect place to let your creativity shine and connect with like-minded individuals. "} />
                <Gallery select={"PFF"} />
