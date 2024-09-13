@@ -6,7 +6,7 @@ const Brands = () => {
   return (
     <div className="flex flex-col">
         <div  className="flex flex-col self-center w-[80%] pt-11 pb-11 gap-6">
-            <h1 className="text-[36px] font-[700] font-[Integral] text-center  text-[#fff]  uppercase">Our brands</h1>
+            <h2 className="text-[36px] font-[700] font-[Integral] text-center  text-[#fff]  uppercase">Our brands</h2>
             <div className="grid md:grid-cols-4 gap-4 grid-cols-2 self-center ">
                 <a href="music&artsfestival" className={containerClass}>
                     <img src="./Home/pf_logo.png" clasName="self-center" alt="Pinkfish Music & Arts Festival Logo"/>

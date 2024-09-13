@@ -17,7 +17,7 @@ const News = () => {
         <div className="max-w-[1100px] min-w-[80%] self-center flex flex-col">
             <div className="self-center flex flex-col gap-6 w-full">
                 <div className="  border-solid border-b-[1px] pb-3">
-                    <h1 className="text-[24px] font-[Integral] text-center md:text-left  text-[#fff]  uppercase">News</h1>
+                    <h2 className="text-[24px] font-[Integral] text-center md:text-left  text-[#fff]  uppercase">News</h2>
                 </div>
                 <div className="bg-[#F20D86] flex flex-col py-3 ">
                     <div className="w-[95%] flex gap-5 self-center items-center justify-center md:justify-start">

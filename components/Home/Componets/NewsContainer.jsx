@@ -15,7 +15,7 @@ const NewsContainer = ({link,title,description,image,btn,author,date}) => {
         <div className="flex flex-col gap-2 md:gap-4  self-center pb-4 md:w-[90%] ">
           <button className="bg-[#F20D86]  md:hidden w-fit px-3 py-1  rounded-md   text-white text-[12px] font-[Sofia] font-[700] leading-[16px]">{btn}</button>
           <a href={link} arial-label="blog page" target="_blank">
-            <h1 className="text-[16px] md:text-[24px] font-[Sofia] font-[700] leading-[18px] md:leading-[28px] text-left  text-[#000]">{title}</h1>
+            <h2 className="text-[16px] md:text-[24px] font-[Sofia] font-[700] leading-[18px] md:leading-[28px] text-left  text-[#000]">{title}</h2>
           </a>
           <p className=" text-[12px] md:text-[15px]  leading-[12px] md:leading-[18px] font-[Nunito] font-[400]  text-left  text-[#2A2A2A]">{description}</p>
           <div className="flex gap-4">
