@@ -17,6 +17,7 @@ import News from './../../components/PFC/News';
 import GalleryMob from './../../components/PFC/GalleryMob';
 import Banner from './../../components/PFF/Banner';
 import Head from './../../components/head';
+import Slider from './../../components/PFF/Slider';
  const PFC = () => {
   const description="Celebrate Countdown NYE 2024 with Pinkfish! Enjoy an exciting night filled with entertainment, drinks, and unforgettable memories as we welcome the new year together. "
   const title="Celebrate Countdown NYE 2024 with Pinkfish | Unforgettable Events "
@@ -28,8 +29,8 @@ import Head from './../../components/head';
             <Hero select={"PFC"}  />
             <Label1 text={"are you ready, lavas?"} />
             <div className="gradient-container-pfc flex flex-col">
-                <Banner1 />
-
+                {/* <Banner1 /> */}
+                <Slider select="PFC" />
                 <Timer />
                 {/* <Ticket /> */}
                 {/* <img src="./PFC/dots.png" alt="decoration" className="self-center" /> */}

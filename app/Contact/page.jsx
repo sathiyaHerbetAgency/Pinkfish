@@ -115,9 +115,9 @@ const clearState = () => {
                 <h2 className="contact_header hidden md:block">
                   reach out to us
                 </h2>
-                <h1 className="contact_text_header_mob md:hidden ">
+                <h3 className="contact_text_header_mob md:hidden ">
                   contact us
-                </h1>
+                </h3>
                 <p className="contact_sub_text_mob self-center md:hidden">
                   Get in touch with us now for any inquiries and issues! Sit
                   tight as we get back to you.

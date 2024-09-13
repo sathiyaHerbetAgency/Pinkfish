@@ -35,7 +35,7 @@ const Hero = () => {
                 <div className="self-center">  
                     <img src="./Home/pf_main_logo.png" className="hidden md:block w-[90%] " alt="Pinkfish Main Logo" />
                 </div>
-            <h1 className="text-[18px] md:text-[24px]  font-[Integral] text-center drop-shadow-2xl  text-[#fff]  uppercase">more than just a festival</h1>
+            <h2 className="text-[18px] md:text-[24px]  font-[Integral] text-center drop-shadow-2xl  text-[#fff]  uppercase">more than just a festival</h2>
             <div className="flex justify-center items-center gap-3 py-3  md:py-6  ">
                 <h2 className="text-[20px] md:text-[24px] font-[Sofia] drop-shadow-2xl  text-[#fff]">Scroll Down</h2>
                 <a href="#brand">

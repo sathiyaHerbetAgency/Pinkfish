@@ -32,48 +32,79 @@ const Faq = () => {
     <div>
       <Head title={title} description={description} />
       <NewNavbar />
-       <div className="faq_main_container-main min-h-screen flex flex-col  text-white   ">
+      <div className="faq_main_container-main min-h-screen flex flex-col  text-white   ">
         <div className="md:w-[60vw] w-[80vw] self-center">
           <div className="flex  flex-col gap-6 pt-11 md:pb-24 pb-11">
-            <h1 className="contact_text_header  self-center max-w-[90%] text-center">Frequently asked questions</h1>
-          
+            <h1 className="contact_text_header  self-center max-w-[90%] text-center">
+              Frequently asked questions
+            </h1>
           </div>
           <div className=" self-center">
-          <AccordItem header="What is Pinkfish?" text={data0} no={"0"} />
-              <hr className="hr_line_question " />
-              <AccordItem header="What types of events does Pinkfish offers?" text={data1} no={"1"} />
-              <hr className="hr_line_question " />
-              <AccordItem header="Where are Pinkfish events held?" no={"2"} text={data2}  />
-              <hr className="hr_line_question " />
+            <AccordItem header="What is Pinkfish?" text={data0} no={"0"} />
+            <hr className="hr_line_question " />
+            <AccordItem
+              header="What types of events does Pinkfish offers?"
+              text={data1}
+              no={"1"}
+            />
+            <hr className="hr_line_question " />
+            <AccordItem
+              header="Where are Pinkfish events held?"
+              no={"2"}
+              text={data2}
+            />
+            <hr className="hr_line_question " />
 
-              <AccordItem header="How can I stay updated on upcoming festivals?" no={"3"} text={data3} />
+            <AccordItem
+              header="How can I stay updated on upcoming festivals?"
+              no={"3"}
+              text={data3}
+            />
 
-              <hr className="hr_line_question " />
-              <AccordItem header="How can I become a vendor or sponsor?" no={"4"} text={data4} />
+            <hr className="hr_line_question " />
+            <AccordItem
+              header="How can I become a vendor or sponsor?"
+              no={"4"}
+              text={data4}
+            />
 
-              <hr className="hr_line_question " />
-              <AccordItem header="How can I purchase Pinkfish merchandise?" no={"5"} text={data5} />
+            <hr className="hr_line_question " />
+            <AccordItem
+              header="How can I purchase Pinkfish merchandise?"
+              no={"5"}
+              text={data5}
+            />
 
-              <hr className="hr_line_question " /> 
-              <AccordItem header="How can I provide feedback or suggestions?" no={"6"} text={data6} />
+            <hr className="hr_line_question " />
+            <AccordItem
+              header="How can I provide feedback or suggestions?"
+              no={"6"}
+              text={data6}
+            />
 
-              <hr className="hr_line_question " />
-              <AccordItem header="Are there career opportunities with Pinkfish?" no={"7"} text={data7} />
+            <hr className="hr_line_question " />
+            <AccordItem
+              header="Are there career opportunities with Pinkfish?"
+              no={"7"}
+              text={data7}
+            />
 
-              <hr className="hr_line_question " />
-              <AccordItem header="Who can I contact for more information about Pinkfish?" no={"8"} text={data8} />
+            <hr className="hr_line_question " />
+            <AccordItem
+              header="Who can I contact for more information about Pinkfish?"
+              no={"8"}
+              text={data8}
+            />
 
-              <hr className="hr_line_question " />
+            <hr className="hr_line_question " />
           </div>
-
         </div>
       </div>
       <Footer />
       <img
         className=" md:block hidden right-[0] top-[70%]  fixed  "
         src="/fish.png"
-      />  
-      
+      />
     </div>
   );
 };

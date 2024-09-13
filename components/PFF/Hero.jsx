@@ -35,61 +35,150 @@ const Hero = ({select}) => {
 
 
   return (
-    <div className={` flex flex-col justify-between pt-24  md:pt-24 md:pb-11  ${select==="PFF"?"bg-pff":"bg-pfc"}`}>
-    <div className="flex flex-col gap-4 md:pt-16 pt:36 self-center md:w-[80%]">
+    <div
+      className={` flex flex-col justify-between pt-24  md:pt-24 md:pb-11  ${
+        select === "PFF" ? "bg-pff" : "bg-pfc"
+      }`}
+    >
+      <div className="flex flex-col gap-4 md:pt-16 pt:36 self-center md:w-[80%]">
         <div className="md:w-[65%] w-[78%] flex flex-col self-center md:self-start gap-4">
-            <h2 className="text-[22px] font-[Integral]  text-[#FF0086] text-start uppercase">{checkContents().first_heading}</h2>
-            <h1 className="text-[36px] md:text-[44px] font-[Integral] md:leading-[50px] leading-[38px] font-bold tracking-[1px] er text-[#fff] uppercase">{checkContents().second_heading}</h1>
-            <p className="world_text w-[90%]  "><span className="font-bold">{checkContents().span_text} </span>{checkContents().text}</p>
+          <h2 className="text-[22px] font-[Integral]  text-[#FF0086] text-start uppercase">
+            {checkContents().first_heading}
+          </h2>
+          <h1 className="text-[36px] md:text-[44px] font-[Integral] md:leading-[50px] leading-[38px] font-bold tracking-[1px] er text-[#fff] uppercase">
+            {checkContents().second_heading}
+          </h1>
+          <p className="world_text w-[90%]  ">
+            <span className="font-bold">{checkContents().span_text} </span>
+            {checkContents().text}
+          </p>
         </div>
         <div className=" text-left md:text-center flex justify-center w-[80%] md:w-[100%] self-center md:justify-start gap-6">
-            <button type='button' className='uppercase contact_submit bg-[#FF0086]'> <a href={checkContents().link}  target={select==="PFF"&&"_blank" }> {checkContents().button_text} </a></button>
-            <button type='button' href="/faq" className=' uppercase text-[16px] leading-[24px] font-[Sofia] text-white font-[500] px-3 outline outline-2 outline-[#fff] rounded-md '>
-            <a href="/Faq" >FAQ</a></button>
-
+          <button
+            type="button"
+            className="uppercase contact_submit bg-[#FF0086]"
+          >
+            {" "}
+            <a
+              href={checkContents().link}
+              target={select === "PFF" && "_blank"}
+            >
+              {" "}
+              {checkContents().button_text}{" "}
+            </a>
+          </button>
+          <button
+            type="button"
+            href="/faq"
+            className=" uppercase text-[16px] leading-[24px] font-[Sofia] text-white font-[500] px-3 outline outline-2 outline-[#fff] rounded-md "
+          >
+            <a href="/Faq">FAQ</a>
+          </button>
         </div>
         <div className="hidden md:block ">
-            <div className="flex gap-3 items-center pt-11 k">
-                <p className="text-white">Be in the loop!</p>
-                <div className="flex items-center gap-3">
-                    <a href='https://www.facebook.com/pinkfishfestival/' arial-label="Facebook Page" target="_blank" className=" ">
-                        <img src="/PFF_1/SocailMediaIcons/facebook-pfc.png" alt="Facebook Logo" />
-                    </a>
-                    <a href='https://www.youtube.com/@Pinkfishfestival' arial-label="Youtube Channel" target="_blank" className=" ">
-                    <img src="/PFF_1/SocailMediaIcons//pff-youtube.png" alt="Youtube Logo" />
-                    </a>
-                    <a href='https://www.instagram.com/pinkfishfestival/' arial-label="Instagram Page" target="_blank" className=" ">
-                    <img src="/PFF_1/SocailMediaIcons//pff-insta.png" alt="Instagram Logo" />
-                    </a>
-                    <a href='https://www.tiktok.com/@pinkfishfestival' arial-label="Tiktok Page" target="_blank" className="">
-                    <img src="/PFF_1/SocailMediaIcons//pff-tiktok.png" alt="Tiktok Logo" />
-                    </a>
-                </div>
+          <div className="flex gap-3 items-center pt-11 k">
+            <p className="text-white">Be in the loop!</p>
+            <div className="flex items-center gap-3">
+              <a
+                href="https://www.facebook.com/pinkfishfestival/"
+                arial-label="Facebook Page"
+                target="_blank"
+                className=" "
+              >
+                <img
+                  src="/PFF_1/SocailMediaIcons/facebook-pfc.png"
+                  alt="Facebook Logo"
+                />
+              </a>
+              <a
+                href="https://www.youtube.com/@Pinkfishfestival"
+                arial-label="Youtube Channel"
+                target="_blank"
+                className=" "
+              >
+                <img
+                  src="/PFF_1/SocailMediaIcons//pff-youtube.png"
+                  alt="Youtube Logo"
+                />
+              </a>
+              <a
+                href="https://www.instagram.com/pinkfishfestival/"
+                arial-label="Instagram Page"
+                target="_blank"
+                className=" "
+              >
+                <img
+                  src="/PFF_1/SocailMediaIcons//pff-insta.png"
+                  alt="Instagram Logo"
+                />
+              </a>
+              <a
+                href="https://www.tiktok.com/@pinkfishfestival"
+                arial-label="Tiktok Page"
+                target="_blank"
+                className=""
+              >
+                <img
+                  src="/PFF_1/SocailMediaIcons//pff-tiktok.png"
+                  alt="Tiktok Logo"
+                />
+              </a>
             </div>
+          </div>
         </div>
+      </div>
 
-    </div>
- 
-    <div className="flex justify-center items-center gap-3  mt-6 md:hidden bg-black bg-opacity-50 py-8">
+      <div className="flex justify-center items-center gap-3  mt-6 md:hidden bg-black bg-opacity-50 py-8">
         <p className="text-white">Be in the loop!</p>
         <div className="flex items-center gap-3">
-        <a href='https://www.facebook.com/pinkfishfestival/' arial-label="Facebook Page" target="_blank" className=" ">
-                        <img src="/PFF_1/SocailMediaIcons//facebook-pfc.png" alt="Facebook Logo" />
-                    </a>
-                    <a href='https://www.youtube.com/@Pinkfishfestival' arial-label="Youtube Channel" target="_blank" className=" ">
-                    <img src="/PFF_1/SocailMediaIcons//pff-youtube.png" alt="Youtube Logo" />
-                    </a>
-                    <a href='https://www.instagram.com/pinkfishfestival/' arial-label="Instagram Page" target="_blank" className=" ">
-                    <img src="/PFF_1/SocailMediaIcons//pff-insta.png" alt="Instagram Logo" />
-                    </a>
-                    <a href='https://www.tiktok.com/@pinkfishfestival' arial-label="Tiktok Page" target="_blank" className="">
-                    <img src="/PFF_1/SocailMediaIcons//pff-tiktok.png" alt="Tiktok Logo" />
-                    </a>
-                </div>
+          <a
+            href="https://www.facebook.com/pinkfishfestival/"
+            arial-label="Facebook Page"
+            target="_blank"
+            className=" "
+          >
+            <img
+              src="/PFF_1/SocailMediaIcons//facebook-pfc.png"
+              alt="Facebook Logo"
+            />
+          </a>
+          <a
+            href="https://www.youtube.com/@Pinkfishfestival"
+            arial-label="Youtube Channel"
+            target="_blank"
+            className=" "
+          >
+            <img
+              src="/PFF_1/SocailMediaIcons//pff-youtube.png"
+              alt="Youtube Logo"
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/pinkfishfestival/"
+            arial-label="Instagram Page"
+            target="_blank"
+            className=" "
+          >
+            <img
+              src="/PFF_1/SocailMediaIcons//pff-insta.png"
+              alt="Instagram Logo"
+            />
+          </a>
+          <a
+            href="https://www.tiktok.com/@pinkfishfestival"
+            arial-label="Tiktok Page"
+            target="_blank"
+            className=""
+          >
+            <img
+              src="/PFF_1/SocailMediaIcons//pff-tiktok.png"
+              alt="Tiktok Logo"
+            />
+          </a>
+        </div>
+      </div>
     </div>
-         
-</div>
-  )
+  );
 }
 
 export default Hero

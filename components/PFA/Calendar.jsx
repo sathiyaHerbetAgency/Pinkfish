@@ -63,12 +63,12 @@ const Calendar = () => {
     <div className="flex flex-col md:gap-11 justify-center  md:py-24 ">
       <div className="flex flex-col md:flex-row gap-6 self-center ">
         <div className="flex flex-col justify-center md:pb-11">
-          <h3 className="text-[36px] font-[700] tracking-[2px] font-[Integral] text-center  text-[#fff]  uppercase">
+          <h2 className="text-[36px] font-[700] tracking-[2px] font-[Integral] text-center  text-[#fff]  uppercase">
             mark your
-          </h3>
-          <h3 className="text-[36px] font-[700] tracking-[2px] font-[Integral] text-center  text-[#fff]  uppercase">
+          </h2>
+          <h2 className="text-[36px] font-[700] tracking-[2px] font-[Integral] text-center  text-[#fff]  uppercase">
             calendars!
-          </h3>
+          </h2>
         </div>
         <div className="flex flex-col">
           {state.seconds < 0 ? (

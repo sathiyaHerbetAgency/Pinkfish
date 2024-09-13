@@ -28,7 +28,6 @@ return (
               <a href="WhatTheFish" className=" flex flex-col justify-center ">
                 <h2 className="menu_text  items-end">What the fish!</h2>
               </a>
-              {/* <Dropdown /> */}
               <a href="FunHub" arial-label="Fun Hub Page" className=" flex flex-col justify-center ">
                 <h2 className="menu_text ">FUN HUB</h2>
               </a>
@@ -50,7 +49,7 @@ return (
               </a>
               <a className="bg-[#FF0086] rounded flex flex-col justify-center items-center" href="Merchandise">
                 <button className="flex self-center items-center px-2">
-                  <p className="menu_text ">Shop</p>
+                  <h2 className="menu_text ">Shop</h2>
                   <svg
                     width="24"
                     height="13"
@@ -75,7 +74,7 @@ return (
           <div className="flex flex-col">
             <div className="self-center grid md:grid-cols-2  grid-1  gap-6 pb-6">
               <EventContainer link="arena" title='#PFA' description="pinkfish Arena" />
-              <EventContainer link="countdown" title='#PFC' description="Pinkfish Countdown" />
+              <EventContainer link="pfc-countdown-nye-2024" title='#PFC' description="Pinkfish Countdown" />
               <EventContainer link="music&artsfestival" title='#PFF' description="pinkfish music & ARTS festival" />
               <EventContainer link="Live" title='#PFL' description="Pinkfish Live" />
             </div>
@@ -192,7 +191,7 @@ return (
 
               </div> */}
               <EventContainer link="arena" title='#PFA' description="pinkfish Arena" />
-              <EventContainer  link="countdown" title='#PFC' description="Pinkfish Countdown" />
+              <EventContainer  link="pfc-countdown-nye-2024" title='#PFC' description="Pinkfish Countdown" />
               <EventContainer link="music&artsfestival" title='#PFF' description="pinkfish music & ARTS festival" />
               <EventContainer link="Live/EventsIndividual" title='#PFL' description="Pinkfish Live" />
             </div>

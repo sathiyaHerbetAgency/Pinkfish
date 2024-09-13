@@ -33,7 +33,7 @@ const AccordItem = ({header,text,no}) => {
   return (
     <div className='flex flex-col pt-6'>
       <div className=" flex justify-between pb-6">
-      <h1 className="question_text">{header}</h1>
+      <h4 className="question_text">{header}</h4>
     <button className='md:self-end ' onClick={(e)=>{handleToggle(e,no)}} type="button">
     <img className={`icon${no}`} src="/chevron-down.png" />
 
@@ -46,7 +46,7 @@ const AccordItem = ({header,text,no}) => {
         }`}
       >
 
-      <> {text} </>
+      <p> {text} </p>
         
       </div>
   </div>

@@ -11,18 +11,18 @@ const Banner1 = () => {
         
           <div className="hidden md:block">
           <div className="text-block_liv relative top-[50px] pr-4 text-white flex flex-col gap-2 md:gap-4">
-              <a className="self-end" > 
-                <button className="banner_tag" alt="button">2023</button>
+              <a href="/countdown2024" className="self-end" > 
+                <button className="banner_tag" alt="button">2024</button>
               </a>
           </div>
-            <img src="./PFC/Banner/pfc_banner.png" alt="banner" className="" />
+            <img src="./PFC/Banner/pfc_banner.webp" alt="banner" className="" />
             
             </div>
             <div className="md:hidden">
-              <img src="./PFC/Banner/pfc_banner_mob_1.png" alt="banner" className="max-w-[90vw] " />
+              <img src="./PFC/Banner/pfc_banner_mob_1.webp" alt="banner" className="max-w-[90vw] " />
               <div className="text-block_live  text-white flex flex-col gap-2 md:gap-4">
-              <a > 
-                <button className="banner_tag" alt="button">2023</button>
+              <a href="/countdown2024"> 
+                <button className="banner_tag" alt="button">2024</button>
               </a>
           </div>
             </div>

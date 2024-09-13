@@ -10,9 +10,9 @@ const Bottom = () => {
           <div className=" md:basis-1/2 self-center  ">
             <div className="flex flex-col gap-6 justify-between">
               <div className="  ">
-                <h1 className="world_header_home md:text-[40px] text-center md:text-left leading-[50px] ">
-                Join the best music festival in Malaysia & Southeast Asia 
-                </h1>
+                <h3 className="world_header_home md:text-[40px] text-center md:text-left leading-[50px] ">
+                  Join the best music festival in Malaysia & Southeast Asia
+                </h3>
               </div>
               <div className=" items-center self-center gap-6 text-center md:text-left md:gap-11">
                 <p className="world_text mb-5">
@@ -27,13 +27,21 @@ const Bottom = () => {
             </div>
           </div>
           <div className=" md:basis-1/2 flex flex-col logo_container md:mt-0  ">
-            <h2 className="home_bottom_header_seen text-center mt-11 pt-6  self-center">a curated adventure by</h2>
-                <div className="flex  md:flex-row justify-center gap-6 self-center mb-11 mt-6 w-1/2">
-                  <img className="" alt="Logo Hitmansolutions" src='/home_bottom_logo_1.svg'/>
-                  <img className="" alt="Logo Happymoon" src='/home_bottom_logo_2.svg'/>
-                
-                  </div>
-
+            <h5 className="home_bottom_header_seen text-center mt-11 pt-6  self-center">
+              a curated adventure by
+            </h5>
+            <div className="flex  md:flex-row justify-center gap-6 self-center mb-11 mt-6 w-1/2">
+              <img
+                className=""
+                alt="Logo Hitmansolutions"
+                src="/home_bottom_logo_1.svg"
+              />
+              <img
+                className=""
+                alt="Logo Happymoon"
+                src="/home_bottom_logo_2.svg"
+              />
+            </div>
           </div>
         </div>
       </div>
