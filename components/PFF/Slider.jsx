@@ -29,7 +29,7 @@ const Slider = ({select}) => {
 
 const PFFImages1=["./PFF_1/pff_slider_21.webp","./PFF_1/pff_slider_mob_111.webp", "EventsIndividual"];
 const PFFImages2=["../PFF_1/pff_slider_1.webp","./PFF_1/pff_slider_1.webp","EventsIndividual"]
-const PFCImages1=["./PFC/Banner/pfc_banner.webp","./PFC/Banner/pfc_banner_mob_1.webp","countdown2024"];
+const PFCImages1=["./PFC/Banner/pfc_banner_new.webp","./PFC/Banner/pfc_banner_mob_1_new.webp","countdown2024"];
 const PFCImages2=["./PFC/Banner/pfc_banner_old.png","./PFC/Banner/pfc_banner_mob_1_old.png","#"]
 
 function checkContents1(){
