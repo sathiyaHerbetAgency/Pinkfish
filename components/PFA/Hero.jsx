@@ -40,8 +40,8 @@ const Hero = () => {
                 <h2 className="text-[36px] md:text-[70px] font-[Integral] md:leading-[85px]  self-center leading-[38px] font-bold tracking-[1px] text-center text-[#fff] uppercase">{PFA.second_heading_year}</h2>
             </div>
             <div className="min-w-[100vw] flex md:flex-row flex-col justify-center bg-[#FF0086] py-3">
-                <p className="text-[16px] md:text-[24px] font-[Integral] pb-2 font-[700] text-[#fff] text-start uppercase hidden md:block">{PFA.text}</h3>
-                <p className="text-[14px] md:text-[24px] leading-[16px] font-[Integral] pb-2  font-[700] text-[#fff] text-center uppercase md:hidden">{PFA.text_mob1}</h3>
+                <p className="text-[16px] md:text-[24px] font-[Integral] pb-2 font-[700] text-[#fff] text-start uppercase hidden md:block">{PFA.text}</p>
+                <p className="text-[14px] md:text-[24px] leading-[16px] font-[Integral] pb-2  font-[700] text-[#fff] text-center uppercase md:hidden">{PFA.text_mob1}</p>
                 <p className="text-[14px] md:text-[24px] leading-[16px] font-[Integral] pb-2 font-[700] text-[#fff] text-center uppercase md:hidden">{PFA.text_mob2}</p>
             </div>
             <img src="./PFA/Banner/banner.png" alt="banner" className="hidden md:block py-3" />
