@@ -68,20 +68,3 @@ export default Hero
 
 
 
- //   <div className="flex justify-center items-center gap-3  mt-6 md:hidden  py-8">
-// <p className="text-[#D9D9D9] font-[Sofia] text-[18px]">Be in the loop!</p>
-// <div className="flex items-center gap-3">
-//     <a href='https://www.facebook.com/pinkfishfestival/' target="_blank" className=" ">
-//         <img src="./PFC/Social/pfc_fb.png"  className="object-contain w-[30px] md:w-[40px]" />
-//     </a>
-//     <a href='https://www.youtube.com/@Pinkfishfestival' target="_blank" className=" ">
-//     <img src="./PFC/Social/pfc_yt.png"  className="object-contain w-[30px] md:w-[40px]" />
-//     </a>
-//     <a href='https://www.instagram.com/pinkfishfestival/'  target="_blank" className=" ">
-//     <img src="./PFC/Social/pfc_insta.png"  className="object-contain w-[30px] md:w-[40px]" />
-//     </a>
-//     <a href='https://www.tiktok.com/@pinkfishfestival' target="_blank" className="">
-//     <img src="./PFC/Social/pfc_tiktok.png" className="object-contain w-[40px]" />
-//     </a>
-// </div>
-// </div>

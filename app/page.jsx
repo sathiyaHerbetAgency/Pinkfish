@@ -15,7 +15,7 @@ import Popup from './../components/Home/Popup';
 import Head from './../components/head';
 
 export default function Page() {
-  const description="Discover the vibrant Pinkfish Music & Arts Festival, featuring live acts and art installations from local and international artists. Join us for a unique creative experience! "
+  const description="Discover the ultimate music festival experience in Malaysia with PinkFish. Join us for an unforgettable event filled with music, fun, and memories."
   const title="Experience the Best Music Festival in Malaysia - Pinkfish "
 
 

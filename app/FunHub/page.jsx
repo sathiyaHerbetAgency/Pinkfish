@@ -19,7 +19,7 @@ const FanHub = () => {
 const title="Experience the Best Music Festival in Malaysia - Pinkfish "
   return (
     <>
-    <Head title={title} description={description} />
+      <Head title={title} description={description} />
       <NewNavbar />
       <div className="fan_main_container min-h-screen  text-white   ">
         <div className="flex  flex-col gap-6 pt-11 pb-24">
@@ -31,7 +31,7 @@ const title="Experience the Best Music Festival in Malaysia - Pinkfish "
           </h3>
         </div>
         <div className="flex flex-col gap-6 ">
-        <Container />
+          <Container />
         </div>
       </div>
       <Footer />

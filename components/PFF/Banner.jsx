@@ -10,12 +10,12 @@ const Banner = ({select}) => {
         first_heading:"what’s next in store?",
         text:"Scope out the other events we have lining up for you this year. Get hyped!",
         button_text:'Check out Pinkfish Countdown',
-         link:"/countdown"
+        link:"/pfc-countdown-nye-2024"
     }
     const PFC={
         first_heading:"YOUR FOMO IS ABOUT TO GET REAL",
         text:"Get first access to lineup reveals and festival updates.",
-        button_text:'Be Part of PFC2024',
+        button_text:'Be Part of PFC2024',
          link:"/countdown2024"
     }
     function checkContents(){
@@ -27,16 +27,57 @@ const Banner = ({select}) => {
     }
 
   return (
-    <div className={`${select==="PFF"?"banner-container-pff": "banner-container-pfc"} md:min-h-screen min-h-[50vh] flex flex-col justify-start gap-6 items-center`}>
-        <div className="md:w-[30vw] w-[85vw] flex flex-col gap-6 pt-11">
-            <h2 className={` ${select==="PFC"?"text-[#000]":"text-[#000]"} font-bold  font-[Integral] text-[34px] leading-[40px] text-center uppercase`}>{checkContents().first_heading}</h2>
-            <p className={`  font-[Sofia] text-[18px] leading-[22px] text-[#000]  text-center`}>{checkContents().text}</p>
-           {select==="PFF"?  <a href={checkContents().link} arial-label="Countdown Page" className="self-center" > <button type='button' className='uppercase text-white p-3 px-4 self-center bg-[#FF0086] rounded-md font-[SofiaMedium] text-[16px] md:text-[18px] w-fit'>{checkContents().button_text}</button></a>
-           :<a href={checkContents().link} arial-label="Form" className="self-center" > <button type='button' className='uppercase text-white p-3 px-4 self-center bg-[#FF0086] rounded-md font-[SofiaMedium] text-[16px] md:text-[18px] w-fit'> {checkContents().button_text}</button></a>
-  }
-        </div>
+    <div
+      className={`${
+        select === "PFF" ? "banner-container-pff" : "banner-container-pfc"
+      } md:min-h-screen min-h-[50vh] flex flex-col justify-start gap-6 items-center`}
+    >
+      <div className="md:w-[30vw] w-[85vw] flex flex-col gap-6 pt-11">
+        <h2
+          className={` ${
+            select === "PFC" ? "text-[#000]" : "text-[#000]"
+          } font-bold  font-[Integral] text-[34px] leading-[40px] text-center uppercase`}
+        >
+          {checkContents().first_heading}
+        </h2>
+        <p
+          className={`  font-[Sofia] text-[18px] leading-[22px] text-[#000]  text-center`}
+        >
+          {checkContents().text}
+        </p>
+        {select === "PFF" ? (
+          <a
+            href={checkContents().link}
+            arial-label="Countdown Page"
+            className="self-center"
+          >
+            {" "}
+            <button
+              type="button"
+              className="uppercase text-white p-3 px-4 self-center bg-[#FF0086] rounded-md font-[SofiaMedium] text-[16px] md:text-[18px] w-fit"
+            >
+              {checkContents().button_text}
+            </button>
+          </a>
+        ) : (
+          <a
+            href={checkContents().link}
+            arial-label="Form"
+            className="self-center"
+          >
+            {" "}
+            <button
+              type="button"
+              className="uppercase text-white p-3 px-4 self-center bg-[#FF0086] rounded-md font-[SofiaMedium] text-[16px] md:text-[18px] w-fit"
+            >
+              {" "}
+              {checkContents().button_text}
+            </button>
+          </a>
+        )}
+      </div>
     </div>
-  )
+  );
 }
 
 export default Banner
