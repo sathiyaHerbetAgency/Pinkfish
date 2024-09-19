@@ -1,33 +1,27 @@
 /* eslint-disable */
 import React from 'react'
+import { artistData } from './LandingPageData';
 
 const FollowUs = () => {
-    const imgList=["./Landing-Page/Socials/insta.png",
-        "./Landing-Page/Socials/yt.png",
-        "./Landing-Page/Socials/tiktok.png",
-        "./Landing-Page/Socials/fb.png",
-     ] 
-     const links=[
-        "https://www.instagram.com/pinkfishfestival/",
-        "https://www.youtube.com/@Pinkfishfestival",
-        "https://www.tiktok.com/@pinkfishfestival",
-        "https://www.instagram.com/pinkfishfestival/",
+     const titleClass="text-[#90FF7E] self-center text-center text-[36px] leading-[42px]  font-[Montserrat-Bold] uppercase"
+     const descriptionClass="text-white self-center text-center text-[16px] leading-[19.5px]  font-[Montserrat-Regular]"
 
-     ]
-     const titleClass="text-white self-center text-center text-[28px] leading-[32px]  font-[Babas] uppercase"
   return (
     <div className="flex flex-col my-12">
-        <div className="flex gap-6 items-center self-center ">
-            <div className="flex flex-col gap-0">
-                <h3 className={titleClass}>Follow Us On</h3>
-                <h3 className={titleClass}>Our Socials</h3>
-            </div>
-            <div className="flex gap-3">
-                {imgList.map((each,index)=>(
-                    <a href={links[index]} target="_blank">
-                        <img src={each} className="w-[100px]" alt={"img"+index} />
-                    </a>
-                ))}
+        <div className="bg-[#2c2c2c] min-w-[1093px] min-h-[392px] self-center flex flex-col items-center justify-center rounded-[43px]">
+            <div className="flex flex-col gap-6 items-center self-center ">
+                <div className="flex flex-col gap-0 w-[802px]">
+                    <h3 className={titleClass}>{artistData.followPageHeading}</h3>
+                    <p className={descriptionClass}>{artistData.followPageText1Part1} <span className="font-[Montserrat-Bold] ">{artistData.followPageText1SpanText} </span> {artistData.followPageText1Part2}  </p>
+                    <p className={descriptionClass}>{artistData.followPageText2}</p>
+                </div>
+                <div className="flex gap-3">
+                    {artistData.imgList.map((each,index)=>(
+                        <a href={artistData.links[index]} target="_blank">
+                            <img src={each} className="w-[78px] h-[77px]" alt={"img"+index} />
+                        </a>
+                    ))}
+                </div>
             </div>
         </div>
     </div>

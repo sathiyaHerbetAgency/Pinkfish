@@ -1,7 +1,8 @@
 /* eslint-disable */
-export const HeroHeading=({artistData})=>{
-    const HeadingClass="text-white self-center text-center text-[48px]  font-[Montserrat-Bold] uppercase";
-    const DescriptionClass="text-white self-center text-center text-[16px]  font-[Montserrat-Regular] w-[500px]";
+import { artistData } from './LandingPageData';
+export const HeroHeading=()=>{
+    const HeadingClass="text-white self-center text-center text-[48px] leading-[58.51px] font-[Montserrat-Bold] uppercase";
+    const DescriptionClass="text-white self-center text-center text-[18px] leading-[21.94px] font-[Montserrat-Regular] w-[530px]";
     return(
         <div className="flex flex-col mt-3">
             <div className="flex flex-col">
