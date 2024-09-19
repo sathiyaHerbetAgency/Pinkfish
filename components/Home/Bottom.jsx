@@ -10,9 +10,9 @@ const Bottom = () => {
           <div className=" md:basis-1/2 self-center  ">
             <div className="flex flex-col gap-6 justify-between">
               <div className="  ">
-                <h3 className="world_header_home md:text-[40px] text-center md:text-left leading-[50px] ">
+                <h1 className="world_header_home md:text-[40px] text-center md:text-left leading-[50px] ">
                   Join the best music festival in Malaysia & Southeast Asia
-                </h3>
+                </h1>
               </div>
               <div className=" items-center self-center gap-6 text-center md:text-left md:gap-11">
                 <p className="world_text mb-5">

@@ -259,6 +259,16 @@
 
 }
 
+
+/* Landing Page */
+.bg-hero-landing-page{
+  background-image:url("/Landing-Page/bg_landingpage.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+
+
 .lineup-container {
   display: flex;
   flex-direction: column;
@@ -488,6 +498,17 @@ button:last-of-type {
   font-family: 'Poppins-Regular';
   src: url("/fonts/Poppins-Regular.ttf");
 }
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url("/fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url("/fonts/Montserrat-Regular.ttf");
+}
+
 
 
 
