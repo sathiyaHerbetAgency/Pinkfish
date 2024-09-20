@@ -8,7 +8,7 @@ const FollowUs = () => {
 
   return (
     <div className="flex flex-col my-12 md:mt-24 lg:mt24 xl:mt-24">
-        <div className="bg-follow-social rounded-[43px] w-[90%]  h-[609px] md::min-h-[392px] md:w-[700px] lg:w-[900px] xl:min-w-[1093px]  self-center flex flex-col items-center justify-center ">
+        <div className="bg-follow-social rounded-[43px] w-[90%]  h-[609px] md:h-[392px] md:w-[700px] lg:w-[900px] xl:min-w-[1093px]  self-center flex flex-col items-center justify-center ">
             <div className="flex flex-col gap-6 items-center self-center ">
                 <div className="flex flex-col gap-3 md:gap-2 xl:gap-0 w-[308px] md:w-[700px] lg:w-[900px] ">
                     <h3 className={titleClass}>{artistData.followPageHeading}</h3>
