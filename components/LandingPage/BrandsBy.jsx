@@ -1,22 +1,23 @@
 /* eslint-disable */
 import React from 'react'
+import { artistData } from './LandingPageData';
 
 const BrandsBy = () => {
   return (
     <div className=" md:basis-1/2 flex flex-col logo_container md:mt-0  ">
-    <h5 className="home_bottom_header_seen text-center mt-11 pt-6  self-center">
+    <h5 className="home_bottom_header_seen text-center md:mt-6 pt-6  self-center">
       a curated adventure by
     </h5>
-    <div className="flex  md:flex-row justify-center gap-6 self-center mb-11 mt-6 w-1/2">
+    <div className="flex  md:flex-row justify-center items-center gap-6 self-center md:mb-11 mt-6 w-1/2">
       <img
-        className="w-[200px]"
+        className="w-[172px] h-[64px] md:w-[200px]"
         alt="Logo Hitmansolutions"
-        src="/home_bottom_logo_1.svg"
+        src={artistData.brandImg1}
       />
       <img
-        className=""
+        className="w-[159px] h-[29.11px]"
         alt="Logo Happymoon"
-        src="/home_bottom_logo_2.svg"
+        src={artistData.brandImg2}
       />
     </div>
   </div>

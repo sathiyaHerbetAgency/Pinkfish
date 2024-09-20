@@ -20,7 +20,7 @@ import OfferSection from './../../components/LandingPage/OfferSection';
         <NewNavbar />
         <Hero />
         <Banner />
-        <OfferSection />
+        {/* <OfferSection /> */}
         <FollowUs />
         <BrandsBy />
         <Footer />

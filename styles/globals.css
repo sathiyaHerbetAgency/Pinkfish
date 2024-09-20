@@ -262,10 +262,36 @@
 
 /* Landing Page */
 .bg-hero-landing-page{
-  background-image:url("/Landing-Page/bg_landingpage.png");
+  background-image:url("/Landing-Page/bg_landingpage.webp");
   background-size:cover;
   background-repeat:no-repeat;
 }
+
+.bg-follow-social{
+  background-image:url("/Landing-Page/SocialS/bg_social.webp");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+
+
+
+@media screen and (max-width:768px){
+  .bg-hero-landing-page{
+    background-image:url("/Landing-Page/bg_landingpage_mob.webp");
+    background-size:contain;
+
+    background-repeat:no-repeat;
+  }
+  
+  .bg-follow-social{
+    background-image:url("/Landing-Page/SocialS/bg_social_mob.webp");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+  }
+}
+
 
 
 

@@ -318,7 +318,7 @@ div::-webkit-scrollbar {
 
 }
 .home_bottom_header_seen{
-    @apply text-[16px] md:text-[16px] leading-[20px] md:leading-[20px] font-[Integral] text-white  font-[500]
+    @apply text-[13px] md:text-[16px] leading-[16.88px]  md:leading-[20px] font-[Integral] text-white  font-[500]
 
 }
 .banner_header{
