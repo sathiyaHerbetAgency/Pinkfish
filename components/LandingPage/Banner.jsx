@@ -2,7 +2,7 @@
 "use client"
 import { artistData } from './LandingPageData';
 export const Banner=()=>{
-    const HeadingClass="text-white self-center text-center lg:text-left xl:text-center text-[28px] md:text-[40px] leading-[34.13px] md:leading-[48px]  font-[Montserrat-Bold] uppercase";
+    const HeadingClass="text-white self-center text-center lg:text-left xl:text-center text-[28px] md:text-[32px] leading-[34.13px] md:leading-[40px]  font-[Montserrat-Bold] uppercase";
     const DescriptionClass="text-white self-center text-center text-[16px] leading-[19.5px]  font-[Montserrat-Regular] md:w-[70%]";
     const BuyBtnClass="bg-white text-[#710CF6] flex justify-center items-center  rounded text-[20px] w-[192px]   md:w-[195px] h-[45px] leading-[24px] font-[Babas] uppercase";
     const LearnBtnClass="bg-[#8d3df8] text-[#fff] flex justify-center  items-center   rounded text-[20px] leading-[24px ]  w-[195px] font-[Babas] h-[45px] uppercase";
