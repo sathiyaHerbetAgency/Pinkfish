@@ -17,10 +17,10 @@ const OfferSection = () => {
                   <h1 className={HeadingClass2}>{artistData.offerSectionHeading2 }</h1>
                 </div>
                 <div className="">
-                <p className={DescriptionClass}>{artistData.offerSectionTextPart1}<span className="font-[Montserrat-Bold]">{artistData.offerSectionText1Span}</span>{artistData.offerSectionTextPart2}</p>
+                <p className={DescriptionClass}>{artistData.offerSectionTextPart1}</p>
                 </div>
                 <a className={BuyBtnClass} href={artistData.BannerBtn1Link}>
-                    <img src={artistData.BlackTicketIconUrl} alt="Ticket" /> {artistData.bannerBtn1Text}
+                    {artistData.offerBtnText}
                 </a>
             </div>
             <div className="md:w-1/2 flex justify-end order-1 md:order-2">

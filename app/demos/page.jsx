@@ -10,6 +10,7 @@ import BrandsBy from './../../components/LandingPage/BrandsBy';
 import FollowUs from './../../components/LandingPage/FollowUs';
 import {Banner} from './../../components/LandingPage/Banner';
 import OfferSection from './../../components/LandingPage/OfferSection';
+import TicketSection from './../../components/LandingPage/TicketSection';
 
  const page = () => {
   const description="Celebrate Countdown NYE 2024 with Pinkfish! Enjoy an exciting night filled with entertainment, drinks, and unforgettable memories as we welcome the new year together. "
@@ -18,11 +19,11 @@ import OfferSection from './../../components/LandingPage/OfferSection';
     <div>
        <Head title={title} description={description} />
         <NewNavbar />
-        <Hero />
-        <Banner />
-        {/* <OfferSection /> */}
+        {/* <Hero />
+        <TicketSection />
+        <OfferSection />
         <FollowUs />
-        <BrandsBy />
+        <BrandsBy /> */}
         <Footer />
     </div>
   )
