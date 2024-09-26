@@ -46,7 +46,7 @@ const Festivals = () => {
             title:'Pinkfish LIVE: TYGA '
         },
      ]
-      const heading="text-[16px] md:text-[24px] leading-[19.2px] md:leading-[28.8px] font-[Integral] font-[700] uppercase text-white" 
+      const heading="self-center text-[16px] md:text-[24px] leading-[19.2px] md:leading-[28.8px] font-[Integral] font-[700] uppercase text-white" 
   return (
     <div className="py-11">
         <div className="hidden md:block">
@@ -77,7 +77,7 @@ const Festivals = () => {
             <div className="flex flex-col gap-3 self-center">
                 <h3 className={heading}>Our Festivals</h3>
                 {slideData.map((each)=>(
-                        <div className="text-white max-w-[370px] h-[394px]">
+                        <div className="flex flex-col text-white max-w-[370px] h-[394px] self-center">
                             <FestivalContainer data={each}  />
                         </div>
                         ))}
