@@ -13,6 +13,8 @@ import News from './../components/Home/News';
 import Bottom from './../components/Home/Bottom';
 import Popup from './../components/Home/Popup';
 import Head from './../components/head';
+import GalleryContainer from './../components/Home/GalleryContainer';
+import Festivals from './../components/Home/Festivals';
 
 export default function Page() {
   const description="Discover the ultimate music festival experience in Malaysia with PinkFish. Join us for an unforgettable event filled with music, fun, and memories."
@@ -23,17 +25,19 @@ export default function Page() {
     <>
     <Head title={title} description={description} />
     <div className="bg-transparent min-h-[100vh] ">
-      <Popup />
+      {/* <Popup /> */}
       <NewNavbar />
       <Hero/>
-      <Label color="pink" direction="left" />
+      <Festivals />
+      {/* <Label color="pink" direction="left" /> */}
       <Brands />
-      <Gallery />
-      <Label color="gray" direction="right" />
+      {/* <Gallery /> */}
+      <GalleryContainer />
+      <Label color="gray" direction="left" />
       <News  />
       <Bottom />
       <img
-        className=" md:block hidden right-[0] top-[70%]  fixed  "
+        className=" md:block hidden right-[0] top-[70%] z-[10] fixed  "
         src="/fish.png" alt="Pinkfish"
       />
      <Footer />

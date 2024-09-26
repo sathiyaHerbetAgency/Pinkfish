@@ -250,7 +250,7 @@ contact_input:focus{
           }
 
           .home_bottom_header_seen{
-            @apply text-[13px] md:text-[16px] leading-[16.88px] md:leading-[20px] font-[Integral] text-white  font-[500]
+            @apply text-[6.97px] md:text-[13.63px] leading-[8.63px]  md:leading-[16.88px] font-[Integral] text-white  font-[400]
         
         }
 

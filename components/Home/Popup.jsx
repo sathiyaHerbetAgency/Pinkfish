@@ -63,7 +63,7 @@ const Popup = () => {
   <div ref={popupOverlayRefMob} className="popup-overlay ">
     <div
       ref={popupContainerRefMob}
-      className="popup-container_main w-[90%] flex flex-col gap-3"
+      className="popup-container_main flex flex-col gap-3"
     >
       <div className="flex justify-end  ">
         <img
@@ -80,7 +80,7 @@ const Popup = () => {
           {" "}
           <img
             src="./Home/Popup/popup_home.webp"
-            className="object-cover"
+            className="object-cover "
             alt="img"
           />
         </a>
