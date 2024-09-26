@@ -50,7 +50,7 @@ const Popup = () => {
           src="close.png"
           alt="close"
         />
-        <a href="/Arena">
+        <a href="/countdown2024">
           {" "}
           <img src="./Home/Popup/popup_home.webp" className="" alt="img" />
         </a>
@@ -76,7 +76,7 @@ const Popup = () => {
         />
       </div>
       <div className="popup-card_main  ">
-        <a href="/Arena">
+        <a href="/countdown2024">
           {" "}
           <img
             src="./Home/Popup/popup_home.webp"
