@@ -1,16 +1,18 @@
 /* eslint-disable */
-'use client'
-import '../../styles/contact.css';
-import {  motion } from "framer-motion";
-import { fadeIn, planetVariants, staggerContainer, textContainer, textVariant, textVariant2 } from "../../utils/motion";
-import { Footer, NewNavbar } from '../../components';
+import React from 'react'
+import "../../styles/contact.css";
+import NewNavbar from './../../components/NewNavbar';
+import Footer from './../../components/Footer';
 import Container from './../../components/Funhub/Container';
-
-const page = () => {
+import Head from './../../components/head';
+ const PFF = () => {
+  const description="Discover the vibrant Pinkfish Music & Arts Festival, featuring live acts and art installations from local and international artists. Join us for a unique creative experience! "
+  const title="Discover the Best Arts & Music Festival Events - Dates & Locations | Pinkfish "
   return (
-    <>
-    <NewNavbar />
-    <div className=" min-h-screen  text-white   ">
+    <div >
+      <Head title={title} description={description} />
+        <NewNavbar />
+        <div className=" min-h-screen  text-white   ">
     <div className="contact_main_container_what flex flex-col justify-center pd:mb-0 pb-6      ">
    
          <div className='flex flex-col gap-6    '>
@@ -45,10 +47,11 @@ const page = () => {
           <Container />
         </div>
  </div>
- <Footer />
- <img className=' md:block hidden right-[0] top-[70%]  fixed  ' src='/fish.png' />
- </>
+        <Footer />
+        <img className=' md:block hidden right-[0] top-[70%]  fixed  ' src='/fish.png' />
+
+    </div>
   )
 }
 
-export default page
+export default PFF
