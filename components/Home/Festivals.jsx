@@ -56,14 +56,14 @@ const Festivals = () => {
      ]
       const heading="self-center text-[16px] md:text-[24px] leading-[19.2px] md:leading-[28.8px] font-[Integral] font-[700] uppercase text-white" 
   return (
-    <div className="py-11">
+    <div className="pb-11">
         <div className="hidden md:block">
-            <div className="flex flex-col min-w-[100vw] overflow-hidden py-11">
-                <div className="max-w-[1230px]  self-center">
+            <div className="flex flex-col min-w-[100vw] overflow-hidden py-11 ">
+                <div className="min-w-[1300px]   md:self-start self-center z-10  md:pl-24">
 
                     <h3 className={heading}>Our Festivals</h3>
                     <div className="hidden md:block pt-4">
-                    <div className="flex  bg-white ">
+                    <div className="flex  z-10 ">
                     <Swiper
                         slidesPerView={3}
                         spaceBetween={-10}

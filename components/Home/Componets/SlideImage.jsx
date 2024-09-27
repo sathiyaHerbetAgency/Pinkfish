@@ -50,7 +50,7 @@ const SlideImage = ({url,urlMob,year,link,slide}) => {
       <div className="md:hidden">
       <img
         src={urlMob}
-        className=" min-h-[100vh]"
+        className=" object-cover min-h-screen"
         alt="slider"
       />
       <div className="text-block_live  z-[999]  text-white flex flex-col justify-center h-[75vh] w-full ">

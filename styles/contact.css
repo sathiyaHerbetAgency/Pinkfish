@@ -37,7 +37,7 @@ contact_input:focus{
 }
 
 .contact_text_header{
-    @apply text-[28px] md:text-[48px] leading-[32px] md:leading-[52px] font-[900] font-[Integral] text-[#fff]
+    @apply text-[36px] md:text-[48px] leading-[43.2px] md:leading-[52px] font-[900] font-[Integral] text-[#fff]
 
 }
 

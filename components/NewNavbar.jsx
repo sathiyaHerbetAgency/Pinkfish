@@ -40,7 +40,7 @@ return (
               </a>
 
               <a href="/" className=" flex flex-col justify-center ">
-                <img src="/new_menu_logo_2.svg" alt="Pinkfish Logo" className=" items-center w-[150px] "/>
+                <img src="/new_menu_logo_2.svg" alt="Pinkfish Logo" className=" items-center w-[120px] "/>
               </a>
               <a href="News" arial-label="News Page" className=" flex flex-col justify-center ">
                 <h2 className="menu_text ">News</h2>
@@ -134,6 +134,7 @@ return (
           >
             What the fish!{" "}
           </a>
+          <button className="menu_text_mob" onClick={() => {setToggleDropdown(false); setToogle(!toogle)}}>Events</button>
           <a
             href="Gallery"
             arial-label="Fun Hub Page"
@@ -150,8 +151,6 @@ return (
           >
             News{" "}
           </a>
-          <button className="menu_text_mob" onClick={() => {setToggleDropdown(false); setToogle(!toogle)}}>Events</button>
-
           <Link
             href="Contact"
             arial-label="Contact Page"

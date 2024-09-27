@@ -8,9 +8,8 @@ import 'photoswipe/style.css';
 import NewNavbar from './../../components/NewNavbar';
 import Footer from './../../components/Footer';
 import Head from './../../components/head';
-import Gallery2024 from './../../components/Gallery/Gallery2024';
 import  Link  from 'next/link';
-
+import PinkfishLiveGallery from './../../components/Gallery/PinkfishLiveGallery';
  const page = () => {
   const description="Celebrate Countdown NYE 2024 with Pinkfish! Enjoy an exciting night filled with entertainment, drinks, and unforgettable memories as we welcome the new year together. "
   const title="Celebrate Countdown NYE 2024 with Pinkfish | Unforgettable Events "
@@ -59,6 +58,7 @@ useEffect(()=>{
     pswpModule: () => import('photoswipe'),
   });
 
+
   lightbox.init();
 
   return () => {
@@ -85,7 +85,7 @@ useEffect(()=>{
             </div>
          
         <div className="flex flex-col self-center" id="my-test-gallery" ref={galleryRef}>
-            <Gallery2024 />
+            <PinkfishLiveGallery />
             </div>
         </div>
         <Footer />

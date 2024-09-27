@@ -29,8 +29,8 @@ const Hero = () => {
     }, []);
 
   return (
-    <div className="flex flex-col max-w-[100vw]">
-        <div className="max-w-[100vw] h-[75vh]  md:px-0   self-center flex gap-3  ">
+    <div className="flex flex-col max-w-[100vw]  md:h-[55vh] ">
+        <div className="max-w-[100vw] h-[100vh] md:h-[75vh] md:absolute md:px-0   self-center flex gap-3  ">
             <div className="  flex flex-col justify-end md:justify-center items-center justify-items-center  w-[100vw] h-[75vh] absolute  ">
                 <div className="flex gap-3 md:justify-between md:w-[100vw]  self-center pb-11 md:pb-0">
                     <button onClick={handlePrev} className="  z-[2] md:ml-20">
@@ -71,7 +71,7 @@ const Hero = () => {
               <SlideImage url={"./Home/Hero/slide1-home.webp"} urlMob={"./Home/Hero/slide1-home-mob.webp"} year="2024" link="/countdown2024" slide={0} />
             </SwiperSlide>
             <SwiperSlide>
-            <SlideImage url={"./Home/Hero/slide2-home.webp"} urlMob={"./Home/Hero/slide1-home-mob.webp"} year="2024" link="/arena"  slide={1}  />
+            <SlideImage url={"./Home/Hero/slide2-home.webp"} urlMob={"./Home/Hero/slide2-home-mob.webp"} year="2024" link="/arena"  slide={1}  />
             </SwiperSlide>
           </Swiper>
           

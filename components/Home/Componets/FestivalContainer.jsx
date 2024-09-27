@@ -7,9 +7,9 @@ const text1="text-white text-[16px] leading-[22.66px] font-[Sofia] font-[400]";
 const button="bg-[#2A2A2A] text-[12.31px] leading-[24.63px] font-[Sofia] font-[800] p-2 px-3 mt-3 rounded-md uppercase"
 const FestivalContainer = ({data}) => {
   return (
-    <div className="w-[90%] md:max-w-[370px] h-[324px] gap-0 md:h-[394px] border bg-clip-padding self-center">
+    <div className="w-[90%] md:max-w-[370px] h-[324px] gap-0 md:h-[394px]  bg-clip-padding self-center">
     <Link href={data.link} className={overlayContainer}>
-    <div className="flex justify-end mt-2 mr-6 md:mr-2 ">
+    <div className="flex justify-end  mr-8 md:mr-2 ">
         {data.sale&&<button className={button} type="button"> Tickets on sale </button>}
     </div>
     <div className="flex flex-col items-start gap-3 md:gap-5">
