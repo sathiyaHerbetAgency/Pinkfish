@@ -10,6 +10,7 @@ import Footer from './../../components/Footer';
 import Head from './../../components/head';
 import Gallery2024 from './../../components/Gallery/Gallery2024';
 import PinkfishCountdownGallery from './../../components/Gallery/PinkfishCountdownGallery';
+import  Link  from 'next/link';
  const page = () => {
   const description="Celebrate Countdown NYE 2024 with Pinkfish! Enjoy an exciting night filled with entertainment, drinks, and unforgettable memories as we welcome the new year together. "
   const title="Celebrate Countdown NYE 2024 with Pinkfish | Unforgettable Events "
@@ -27,7 +28,7 @@ const data=[
   },
   {
     title:'Pinkfish Countdown 2023',
-    link:'',
+    link:'https://www.facebook.com/media/set/?set=a.331163143240998&type=3',
     section:'',
   },
   {
@@ -56,7 +57,8 @@ useEffect(()=>{
     gallery: '#my-test-gallery',
     children: 'a',
     pswpModule: () => import('photoswipe'),
-  });
+  }); 
+
 
 
   lightbox.init();
@@ -70,18 +72,21 @@ useEffect(()=>{
 
 
   return (
-    <div>
+    <div className="flex flex-col">
        <Head title={title} description={description} />
         <NewNavbar />
-        <div className="flex flex-col" id="my-test-gallery" ref={galleryRef}>
-          <div className="self-center flex flex-col gap-3 ">
-            <a href="/gallery" className={text1}> &lt; Back to Gallery</a>
-            <div className="flex flex-col md:flex-row gap-3 w-full md:justify-between self-center md:self-start">
-            <h1 className={heading}>{data[1].title}</h1>
-            <a href='#' className="cursour-pointer "> 
-                <button className={button} alt="button">View Full Album</button>
-              </a>
+        <div className=" flex flex-col self-center ">
+            <div className="self-center flex flex-col gap-3 pb-3 ">
+              <a href="/gallery" className={text1}> &lt; Back to Gallery</a>
+              <div className="flex flex-col md:flex-row gap-3  w-full md:w-[60vw] md:max-w-[1600px] md:justify-between self-center md:self-start">
+                <h1 className={heading}>{data[1].title}</h1>
+                <Link href={data[1].link}  target='_blank' className="cursour-pointer self-center"> 
+                    <button className={button} alt="button">View Full Album</button>
+                  </Link>
             </div>
+          </div>
+        <div className="flex flex-col self-center" id="my-test-gallery" ref={galleryRef}>
+         
             <PinkfishCountdownGallery />
           </div>
         </div>

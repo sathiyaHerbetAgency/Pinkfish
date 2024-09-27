@@ -8,8 +8,8 @@ const button="bg-[#2A2A2A] text-[12.31px] leading-[24.63px] font-[Sofia] font-[8
 const FestivalContainer = ({data}) => {
   return (
     <div className="w-[90%] md:max-w-[370px] h-[324px] gap-0 md:h-[394px] border bg-clip-padding self-center">
-    <Link href="#" className={overlayContainer}>
-    <div className="flex justify-end mt-2 mr-2">
+    <Link href={data.link} className={overlayContainer}>
+    <div className="flex justify-end mt-2 mr-6 md:mr-2 ">
         {data.sale&&<button className={button} type="button"> Tickets on sale </button>}
     </div>
     <div className="flex flex-col items-start gap-3 md:gap-5">
@@ -26,7 +26,7 @@ const FestivalContainer = ({data}) => {
         </div>
     </div>
     </Link>
-    <img src="./Home/Festival/festival-img.png" alt="slider-1" />
+    <img src={data.imgUrl} alt="slider-1" />
 </div>
   )
 }

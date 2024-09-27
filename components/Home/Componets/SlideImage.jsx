@@ -12,14 +12,14 @@ const SlideImage = ({url,urlMob,year,link,slide}) => {
       dateText:'31 December 2024 • Surf Beach Sunway Lagoon',
       heading:'pinkfish countdown 2024',
       text:'Get ready for more sick beats and a dope night at our Pinkfish Countdown 2024 this December 31st',
-      link:'#',
+      link:'/countdown2024',
       ticketText:'Buy Tickets'
     },
     {
       dateText:'1 November 2024 • Mega Star Arena, Kuala Lumpur',
       heading:'pinkfish arena: FIND YOUR HARMONY',
       text:'Get hyped for a live experience like never before — where bass comes to life.',
-      link:'#',
+      link:'/arena',
       ticketText:'Buy Tickets'
     }
   ]

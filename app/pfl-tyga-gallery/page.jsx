@@ -9,6 +9,7 @@ import NewNavbar from './../../components/NewNavbar';
 import Footer from './../../components/Footer';
 import Head from './../../components/head';
 import Gallery2024 from './../../components/Gallery/Gallery2024';
+import  Link  from 'next/link';
 
  const page = () => {
   const description="Celebrate Countdown NYE 2024 with Pinkfish! Enjoy an exciting night filled with entertainment, drinks, and unforgettable memories as we welcome the new year together. "
@@ -32,7 +33,7 @@ const data=[
   },
   {
     title:'Pinkfish Live: Tyga',
-    link:'',
+    link:'https://www.facebook.com/media/set/?set=a.240062065684440&type=3',
     section:'',
   },
   {
@@ -69,20 +70,23 @@ useEffect(()=>{
 
 
   return (
-    <div>
+    <div className="flex flex-col">
        <Head title={title} description={description} />
         <NewNavbar />
-        <div className="flex flex-col" id="my-test-gallery" ref={galleryRef}>
-          <div className="self-center flex flex-col gap-3 ">
-            <a href="/gallery" className={text1}> &lt; Back to Gallery</a>
-            <div className="flex flex-col md:flex-row gap-3 w-full md:justify-between self-center md:self-start">
-            <h1 className={heading}>{data[2].title}</h1>
-            <a href='#' className="cursour-pointer "> 
-                <button className={button} alt="button">View Full Album</button>
-              </a>
+        <div className=" flex flex-col self-center ">
+            <div className="self-center flex flex-col gap-3 pb-3 ">
+              <a href="/gallery" className={text1}> &lt; Back to Gallery</a>
+              <div className="flex flex-col md:flex-row gap-3 w-full md:w-[60vw] max-w-[1600px] md:justify-between self-center md:self-start">
+                <h1 className={heading}>{data[2].title}</h1>
+                <Link href={data[2].link}  target='_blank' className="cursour-pointer self-center"> 
+                    <button className={button} alt="button">View Full Album</button>
+                  </Link>
+              </div>
             </div>
+         
+        <div className="flex flex-col self-center" id="my-test-gallery" ref={galleryRef}>
             <Gallery2024 />
-          </div>
+            </div>
         </div>
         <Footer />
     </div>

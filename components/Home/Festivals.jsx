@@ -10,40 +10,48 @@ const Festivals = () => {
      const slideData=[
         {
             date:"31 December 2024",
-            imgUrl:"",
+            imgUrl:"./Home/Festival/festival-img-1.webp",
             location:"Surf Beach Sunway Lagoon",
-            link:"#",
+            link:"/countdown2024",
             sale:true,
             title:'Pinkfish Countdown 2024'
         },
         {
             date:"1 November 2024",
-            imgUrl:"",
+            imgUrl:"./Home/Festival/festival-img-2.webp",
             location:"Megastar Arena, Kuala Lumpur     ",
-            link:"#",
+            link:"/arena",
             sale:true,
             title:'Pinkfish Arena: Find Your Harmony 2024'
         }, {
             date:"8 June 2024",
-            imgUrl:"",
+            imgUrl:"./Home/Festival/festival-img-3.webp",
             location:"Surf Beach Sunway Lagoon",
-            link:"#",
+            link:"/pff2024-gallery",
             sale:false,
             title:'Pinkfish Music & Arts Festival 2024'
         }, {
             date:"31 December 2023",
-            imgUrl:"",
+            imgUrl:"./Home/Festival/festival-img-4.webp",
             location:"Surf Beach Sunway Lagoon",
-            link:"#",
+            link:"/pfc2023-gallery",
             sale:false,
-            title:'Pinkfish Countdown 20234'
+            title:'Pinkfish Countdown 2023'
         }, {
             date:"9 August 2023",
-            imgUrl:"",
+            imgUrl:"./Home/Festival/festival-img-5.webp",
             location:"ZEPP Kuala Lumpur",
-            link:"#",
+            link:"/pfl-tyga-gallery",
             sale:false,
             title:'Pinkfish LIVE: TYGA '
+        },
+        , {
+            date:"30 April 2023",
+            imgUrl:"./Home/Festival/festival-img-6.webp",
+            location:"Surf Beach Sunway Lagoon",
+            link:"/pff2023-gallery",
+            sale:false,
+            title:'Pinkfish Music & Arts Festival 2023'
         },
      ]
       const heading="self-center text-[16px] md:text-[24px] leading-[19.2px] md:leading-[28.8px] font-[Integral] font-[700] uppercase text-white" 

@@ -133,7 +133,7 @@ const NewsBody = ({check}) => {
     }
 
   return (
-    <div className="grid md:grid-cols-3 gap-4 grid-1 self-center py-11">
+    <div className="grid md:grid-cols-3 gap-4 grid-1 self-center py-0 pt-5 md:pt-0 md:py-3">
         {checkContents().map(each=>(
             <NewsContainer link={each.link} title={each.title} description={each.description} image={each.image} btn={each.btn} author={each.author} date={each.date} />
         ))
