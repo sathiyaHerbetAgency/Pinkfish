@@ -114,15 +114,13 @@ const Footer = () => (
       <a className='flex justify-center' arial-label="What The Fish Page" href="WhatTheFish">
         <p className="cursor-pointer icon_text  ">What The Fish</p>
         </a>
-        <a className='flex justify-center w-full' href="FunHub" arial-label="Fun Hub Page" >
-        <p className="cursor-pointer icon_text  ">Fun Hub</p>
+        <a className='flex justify-center w-full' href="Gallery" arial-label="Gallery Page" >
+        <p className="cursor-pointer icon_text  ">Gallery</p>
         </a>
         <a className='flex justify-center w-full' href="News" arial-label="News Page" >
         <p className="cursor-pointer icon_text  ">News</p>
         </a>
-        <a className='flex justify-center w-full' href="Gallery" arial-label="Gallery Page" >
-        <p className="cursor-pointer icon_text  ">Festival Oasis</p>
-        </a>
+      
         <Link className='flex justify-center w-full' href="Contact" arial-label="Contact Page" >
         <p className="cursor-pointer icon_text  ">Contact Us </p>
         </Link>

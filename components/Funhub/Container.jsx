@@ -12,7 +12,7 @@ const Container = () => {
             link:'/music&artsfestival',
             linkText:'Make Memories',
             img:'/FunHub/fun-hub-1.png',
-            imgMob:'/FunHub/Mob/fun-hub-1.png',
+            imgMob:'/FunHub/Mob/fun-hub-1.webp',
         },
         {
             logoImg:'/fan_box_logo_3.png',
@@ -22,7 +22,7 @@ const Container = () => {
             link:'/pfc-countdown-nye',
             linkText:'You Only Live Once',
            img:'/FunHub/fun-hub-2.png',
-           imgMob:'/FunHub/Mob/fun-hub-2.png',
+           imgMob:'/FunHub/Mob/fun-hub-2.webp',
         },
         {
           logoImg:'/fan_box_logo_1.png',
@@ -32,7 +32,7 @@ const Container = () => {
           link:'/Live/EventsIndividual',
           linkText:'Start Living Your Life',
           img:'/FunHub/fun-hub-3.png',
-          imgMob:'/FunHub/Mob/fun-hub-3.png',
+          imgMob:'/FunHub/Mob/fun-hub-3.webp',
         },
         {
           logoImg:'/fun-box-logo-4.png',
@@ -42,7 +42,7 @@ const Container = () => {
           link:'/Arena',
           linkText:'Feel the Beat',
           img:'/FunHub/fun-hub-4.png',
-          imgMob:'/FunHub/Mob/fun-hub-4.png',
+          imgMob:'/FunHub/Mob/fun-hub-4.webp',
         }
 
     ]
