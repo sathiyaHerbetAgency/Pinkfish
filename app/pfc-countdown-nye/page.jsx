@@ -4,7 +4,7 @@ import React from 'react'
 import "../../styles/contact.css";
 import NewNavbar from './../../components/NewNavbar';
 import Footer from './../../components/Footer';
-import Hero from './../../components/PFF/Hero';
+import Hero from './../../components/PFC/Hero';
 import Label1 from './../../components/PFF/Label1';
 import Heading from './../../components/PFC/Heading';
 import Video from './../../components/PFC/Video';

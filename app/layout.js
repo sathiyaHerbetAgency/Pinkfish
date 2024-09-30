@@ -10,6 +10,7 @@ const RootLayout = ({ children }) => {
   return(
   <html lang="en">
     <head>
+      
 {/* 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-HSJLQGS3FG"></script>
 <script>

@@ -30,7 +30,7 @@ const Banner = ({select}) => {
     <div
       className={`${
         select === "PFF" ? "banner-container-pff" : "banner-container-pfc"
-      } md:min-h-screen min-h-[50vh] flex flex-col justify-start gap-6 items-center`}
+      } md:min-h-screen min-h-[50vh] flex flex-col justify-start gap-6 items-center `}
     >
       <div className="md:w-[30vw] w-[85vw] flex flex-col gap-6 pt-11">
         <h2

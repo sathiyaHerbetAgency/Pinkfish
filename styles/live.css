@@ -733,7 +733,7 @@ background-size: cover;
     background: rgb(1,147,227);
     background-image:url("/pfc-bg-gradient.jpg");
     background-size:cover;
-    background-position:center;
+    background-position:top;
     background-repeat:no-repeat;
     @apply min-h-[92vh] md:min-h-[85vh];
   }
@@ -795,6 +795,15 @@ width: 100%;
     background-size:contain;
     background-position:bottom;
     background-repeat:no-repeat;
+  }
+  @media screen and (max-width: 767px) {
+    .banner-container-pfc{
+      background-image:url("/PFF_1/mountainf-pfc-mob.webp");
+      background-size:contain;
+      background-position:bottom;
+      background-repeat:no-repeat;
+      @apply min-h-[90vh];
+    }
   }
 
   .counter-timer-wrapper{

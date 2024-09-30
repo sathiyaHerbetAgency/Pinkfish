@@ -78,17 +78,19 @@ useEffect(()=>{
           <div className="  self-center ">
             <div className="self-center flex flex-col gap-3 pb-3 ">
               <a href="/gallery" className={text1}> &lt; Back to Gallery</a>
-              <div className="flex flex-col md:flex-row gap-3  w-full md:w-[60vw] max-w-[1600px] md:justify-between self-center md:self-start">
+              <div className="flex flex-col md:flex-row gap-3  w-full md:w-[60vw] max-w-[1600px] mb-3 md:justify-between self-center md:self-start">
                 <h1 className={heading}>{data[3].title}</h1>
-                <Link href={data[3].link}  target='_blank' className="cursour-pointer self-center"> 
-                    <button className={button} alt="button">View Full Album</button>
-                  </Link>
               </div>
            
           </div>
         <div className="flex flex-col" id="my-test-gallery" ref={galleryRef}>
             <PinkfishFestival2023Gallery />
           </div>
+              <div className="flex flex-col md:flex-row gap-3  w-full md:w-[60vw] max-w-[1600px] md:justify-center self-center  mt-3">
+                <Link href={data[3].link}  target='_blank' className="cursour-pointer self-center"> 
+                    <button className={button} alt="button">View Full Album</button>
+                  </Link>
+              </div>
           </div>
         <Footer />
     </div>
