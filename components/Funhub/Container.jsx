@@ -22,7 +22,7 @@ const Container = () => {
           link:'/Live/EventsIndividual',
           linkText:'Start Living Your Life',
           img:'/FunHub/fun-hub-2.png',
-          imgMob:'/FunHub/Mob/fun-hub-3.webp',
+          imgMob:'/FunHub/Mob/fun-hub-2.webp',
         },
         {
             logoImg:'/fan_box_logo_3.png',
@@ -32,7 +32,7 @@ const Container = () => {
             link:'/pfc-countdown-nye',
             linkText:'You Only Live Once',
            img:'/FunHub/fun-hub-3.png',
-           imgMob:'/FunHub/Mob/fun-hub-2.webp',
+           imgMob:'/FunHub/Mob/fun-hub-3.webp',
         },
        
         {

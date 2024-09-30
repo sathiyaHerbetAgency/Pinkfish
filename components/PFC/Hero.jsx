@@ -67,7 +67,7 @@ const textHeadingBtn="text-[16px] md:text-[16px] font-[Sofia] md:leading-[20.83p
                 <div className=" text-left md:text-center flex justify-center w-[80%] md:w-[100%] self-center gap-6 ">
                 <button
                     type="button"
-                    className="uppercase hero-submit-pfc11111 w-[179px] h-[48px] items-center  self-center font-bold hidden md:block"
+                    className="bg-[#F33288]  uppercase hero-submit-pfc11111 w-[179px] h-[48px] items-center  self-center font-bold hidden md:block"
                 >
                     {" "}
                     <a
