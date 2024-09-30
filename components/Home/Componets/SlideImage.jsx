@@ -35,7 +35,7 @@ const SlideImage = ({url,urlMob,year,link,slide}) => {
           className="object-cover min-w-[100vw]"
           alt="slider"
         />
-        <div className="text-block_live  z-[999]  text-white flex flex-col justify-center h-[75vh] w-full ">
+        <div className="text-block_live_hero  z-[999] bg-gradinet-gray text-white flex flex-col justify-center h-[75vh] w-full ">
           <div className="flex flex-col self-center w-[621px] max-h-[300px]">
           <p className={text}>{data[slide].dateText}</p>
               <h1 className={heading}>{data[slide].heading}</h1>
