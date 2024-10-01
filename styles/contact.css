@@ -724,8 +724,10 @@ contact_input:focus{
     } */
 
   .bg-gallery-home{
-    background: url("/Home/Gallery/gallery_bg.png");
-    /* background-size:cover; */
+    background: url("/Home/Gallery/gallery_bg_1.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+
   }
 
   @media screen and (max-width:768px) {

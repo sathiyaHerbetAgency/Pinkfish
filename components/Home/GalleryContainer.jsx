@@ -45,8 +45,15 @@ const GalleryContainer = () => {
 
   return (
     <div className="">
-    <div className="hidden md:block mt-11">
+    <div className="hidden md:block ">
+        <div className=" flex justify-center">
+           <div className="flex flex-col max-w-1176px"> 
+                <h2 className="text-[28px] md:text-[32px] leading-[32px] md:leading-[36px] self-start font-[700] font-[Integral] text-left drop-shadow-2xl text- text-[#fff] py-4 pb-6 uppercase">Gallery</h2>
+            </div>
+        </div>
         <div className="flex justify-center max-w-1176px ">
+        {/* <h2 className="text-[40px] font-[700] font-[Integral] text-left drop-shadow-2xl  text-[#000] self-center uppercase">Gallery</h2> */}
+
             <div className="self-center ">
                 <Link href="/pfc2023-gallery" className="absolute z-1 w-[482px] h-[613px] flex flex-col justify-center">
                     <p className={textGallery}>Pinkfish Countdown 2023</p>

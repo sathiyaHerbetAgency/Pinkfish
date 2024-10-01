@@ -32,7 +32,7 @@ const SlideImage = ({url,urlMob,year,link,slide}) => {
       <div className="hidden md:block">
         <img
           src={url}
-          className="object-cover min-w-[100vw]"
+          className="object-scale-down"
           alt="slider"
         />
         <div className="text-block_live_hero  z-[999] bg-gradinet-gray text-white flex flex-col justify-center h-[75vh] w-full ">
