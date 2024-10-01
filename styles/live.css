@@ -511,11 +511,19 @@ font-family: "Integral";
     @apply   overflow-hidden max-w-[90%] ;
 
 }
+.bg-gradinet-gray-festival{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), linear-gradient(180deg, rgba(0, 0, 0, 0) 25.86%, #000000 96.79%);
 
+}
 .bg-gradinet-gray{
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), linear-gradient(180deg, rgba(0, 0, 0, 0) 25.86%, #000000 96.79%);
 }
-
+.bg-gradinet-gray-mob{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), linear-gradient(180deg, rgba(0, 0, 0, 0) 25.86%, #000000 96.79%);
+  background-size: cover;
+  background-repeat:repeat;
+  @apply  mt-[-5px] mr-[-5px];
+}
 .text-block_live_hero {
   position: absolute;
   top: 0px;

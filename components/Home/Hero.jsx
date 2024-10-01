@@ -75,7 +75,7 @@ const Hero = () => {
             </SwiperSlide>
           </Swiper>
           
-          
+         
         </div>
       </div>
   )
