@@ -40,7 +40,7 @@ const SlideImage = ({url,urlMob,year,link,slide}) => {
           <p className={text}>{data[slide].dateText}</p>
               <h1 className={heading}>{data[slide].heading}</h1>
               <p className={text}>{data[slide].text}</p>
-              <a href={data[slide].link} className="cursour-pointer "> 
+              <a href={data[slide].link} className="w-fit self-center flex justify-start mt-3"> 
                 <button className={button} alt="button">{data[slide].ticketText}</button>
               </a>
               </div>
@@ -50,15 +50,15 @@ const SlideImage = ({url,urlMob,year,link,slide}) => {
       <div className="md:hidden">
       <img
         src={urlMob}
-        className=" object-cover min-h-screen"
+        className=" object-cover min-h-[90vh]"
         alt="slider"
       />
-      <div className="text-block_live  z-[999]  text-white flex flex-col justify-center h-[75vh] w-full ">
+      <div className="text-block_live  z-[999]   text-white flex flex-col justify-center bg-gradinet-gray h-[90vh] w-full ">
           <div className="flex flex-col self-center w-[90%] max-h-[164px]">
           <p className={text}>{data[slide].dateText}</p>
               <h1 className={heading}>{data[slide].heading}</h1>
               <p className={text}>{data[slide].text}</p>
-              <a href={data[slide].link} className="cursour-pointer "> 
+              <a href={data[slide].link} className="w-fit self-center flex justify-start mt-3"> 
                 <button className={button} alt="button">{data[slide].ticketText}</button>
               </a>
               </div>

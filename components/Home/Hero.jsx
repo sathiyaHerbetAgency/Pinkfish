@@ -31,9 +31,9 @@ const Hero = () => {
   return (
     <div className="flex flex-col max-w-[100vw]  md:h-[55vh] ">
         <div className="max-w-[100vw] h-[100vh] md:h-[75vh] md:absolute md:px-0   self-center flex gap-3  ">
-            <div className="  flex flex-col justify-end md:justify-center items-center justify-items-center  w-[100vw] h-[75vh] absolute  ">
-                <div className="flex gap-3 md:justify-between md:w-[100vw]  self-center pb-11 md:pb-0">
-                    <button onClick={handlePrev} className="  z-[2] md:ml-20">
+            <div className="  flex flex-col justify-end md:justify-center items-center justify-items-center  w-[100vw] h-[85vh] md:h-[75vh] absolute  ">
+                <div className="flex gap-3 md:justify-between md:w-[100vw] self-center pb-11 md:pb-0">
+                    <button onClick={handlePrev} className="  z-[2] md:ml-20 ">
                         <svg width="47" height="46" className="" viewBox="0 0 47 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clipPath="url(#clip0_1325_1317)">
                             <path fillRule="evenodd" clipRule="evenodd" d="M23.75 2.875C18.4125 2.875 13.2936 4.99531 9.51947 8.76948C5.7453 12.5436 3.625 17.6625 3.625 23C3.625 28.3375 5.7453 33.4564 9.51947 37.2305C13.2936 41.0047 18.4125 43.125 23.75 43.125C29.0875 43.125 34.2064 41.0047 37.9805 37.2305C41.7547 33.4564 43.875 28.3375 43.875 23C43.875 17.6625 41.7547 12.5436 37.9805 8.76948C34.2064 4.99531 29.0875 2.875 23.75 2.875ZM23.75 46C17.65 46 11.7999 43.5768 7.48654 39.2635C3.1732 34.9501 0.749996 29.1 0.749996 23C0.749996 16.9 3.1732 11.0499 7.48654 6.73654C11.7999 2.42321 17.65 0 23.75 0C29.85 0 35.7001 2.42321 40.0135 6.73654C44.3268 11.0499 46.75 16.9 46.75 23C46.75 29.1 44.3268 34.9501 40.0135 39.2635C35.7001 43.5768 29.85 46 23.75 46ZM33.8125 24.4375C34.1937 24.4375 34.5594 24.2861 34.829 24.0165C35.0985 23.7469 35.25 23.3813 35.25 23C35.25 22.6188 35.0985 22.2531 34.829 21.9835C34.5594 21.714 34.1937 21.5625 33.8125 21.5625L17.1576 21.5625L23.3302 15.3928C23.6002 15.1228 23.7518 14.7567 23.7518 14.375C23.7518 13.9933 23.6002 13.6272 23.3302 13.3573C23.0603 13.0873 22.6942 12.9357 22.3125 12.9357C21.9308 12.9357 21.5647 13.0873 21.2947 13.3573L12.6697 21.9823C12.5359 22.1158 12.4297 22.2744 12.3572 22.4491C12.2847 22.6237 12.2474 22.8109 12.2474 23C12.2474 23.1891 12.2847 23.3763 12.3572 23.5509C12.4297 23.7256 12.5359 23.8842 12.6697 24.0178L21.2947 32.6428C21.5647 32.9127 21.9308 33.0643 22.3125 33.0643C22.6942 33.0643 23.0603 32.9127 23.3302 32.6428C23.6002 32.3728 23.7518 32.0067 23.7518 31.625C23.7518 31.2433 23.6002 30.8772 23.3302 30.6073L17.1576 24.4375L33.8125 24.4375Z" fill="white"/>
@@ -68,7 +68,7 @@ const Hero = () => {
             className="mySwiper"
           >
             <SwiperSlide>
-              <SlideImage url={"./Home/Hero/slide1-home.jpg   "} urlMob={"./Home/Hero/slide1-home-mob.webp"} year="2024" link="/countdown2024" slide={0} />
+              <SlideImage url={"./Home/Hero/slide1-home.jpg"} urlMob={"./Home/Hero/slide1-home-mob.webp"} year="2024" link="/countdown2024" slide={0} />
             </SwiperSlide>
             <SwiperSlide>
             <SlideImage url={"./Home/Hero/slide2-home.jpg"} urlMob={"./Home/Hero/slide2-home-mob.webp"} year="2024" link="/arena"  slide={1}  />

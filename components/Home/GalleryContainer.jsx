@@ -87,6 +87,9 @@ const GalleryContainer = () => {
         </div>
     </div>
     <div className="md:hidden flex flex-col">
+    <div className="flex flex-col  max-w-1176px"> 
+                <h2 className="text-[24px] md:text-[32px] leading-[28px] md:leading-[36px] self-center font-[700] font-[Integral] text-left drop-shadow-2xl text- text-[#fff] py-4 pb-6 uppercase">Gallery</h2>
+            </div>
         <div className="flex flex-col self-center ">
             {mobData.map((each)=>(
                 <div className="">

@@ -4,7 +4,7 @@ import "../../../styles/live.css"
 
 import  Link  from 'next/link';
 const textGallery1= "text-[24px] leading-[32.06px] font-[Sofia] font-[800] text-white text-left w-[90%] ";
-const overlayContainer="absolute z-1 w-[90%] md:max-w-[370px] h-[324px] md:h-[394px] pl-4 pb-4 flex flex-col justify-between bg-gradinet-gray";
+const overlayContainer="absolute z-1 w-[90%] md:max-w-[370px] h-[355px] md:h-[394px] pl-4 pb-4 flex flex-col justify-between bg-gradinet-gray";
 const text1="text-white text-[16px] leading-[22.66px] font-[Sofia] font-[400]";
 const button="bg-[#2A2A2A] text-[12.31px] leading-[24.63px] font-[Sofia] font-[800] p-2 px-3 mt-3 rounded-md uppercase"
 const FestivalContainer = ({data}) => {

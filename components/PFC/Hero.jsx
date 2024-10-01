@@ -196,25 +196,25 @@ const textHeadingBtn="text-[16px] md:text-[16px] font-[Sofia] md:leading-[20.83p
             <p className={textHeadingBtn}>
                 {checkContents().ticketHeading}
             </p>
-          <button
-            type="button"
-            href="/faq"
-            className=" bg-[#F33288]  text-[12px] leading-[14px] font-[Sofia] font-bold text-white w-[92px] h-[32px] rounded-md  self-center"
+          <a
+           
+            href="/countdown2024"
+            className=" bg-[#F33288]  text-[12px] leading-[14px] font-[Sofia] font-bold text-white w-[92px] h-[32px] flex justify-center items-center rounded-md  self-center"
           >
-            <a href="/Faq">Buy Now</a>
-          </button>
+           Buy Now
+          </a>
         </div>
-        <div className="w-[90%] h-[103px] bg-[#FFFFFF1A] flex flex-col self-center justify-center gap-2  text-white ">
+        <div className="w-[90%] h-[103px] bg-[#FFFFFF1A] flex flex-col self-center justify-center gap-2  text-white  ">
             <p className={textHeadingBtn}>
                 {checkContents().faqHeading}
             </p>
-          <button
+          <a
             type="button"
             href="/faq"
-            className=" bg-[#F33288]  text-[12px] leading-[14px] font-[Sofia] font-bold text-white w-[92px] h-[32px] rounded-md  self-center"
+            className=" bg-[#F33288]  text-[12px] leading-[14px] font-[Sofia] font-bold text-white w-[92px] h-[32px] rounded-md  self-center flex justify-center items-center"
           >
-            <a href="/Faq">Faq</a>
-          </button>
+           Faq
+           </a>
         </div>
       </div>
       </div>
