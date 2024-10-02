@@ -1291,7 +1291,7 @@ strong {
   grid-row-gap: 0px;
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
-  background-image: url('../images/Lava-Lounge-PFC24-1.webp');
+  background-image: url('../images/Lava-Lounge-PFC24-New.webp');
   background-position: 50%;
   background-size: cover;
   border: 2px solid #9292924f;
@@ -7832,7 +7832,7 @@ strong {
   }
 
   .container-3 {
-    background-image: url('../images/Lava-Lounge-PFC24-2.webp');
+    background-image: url('../images/Lava-Lounge-PFC24-New.webp');
     background-position: 50%;
     width: 90%;
     height: 140px;
