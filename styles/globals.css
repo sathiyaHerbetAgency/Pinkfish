@@ -235,25 +235,25 @@
 }
 
 .bg-pfc-event{
-  background-image:url("/Home/Events/pfc_event.png");
+  background-image:url("/Home/Events/pfc_event.webp");
   background-size:cover;
   background-repeat:no-repeat;
 
 }
 .bg-pff-event{
-  background-image:url("/Home/Events/pff_event.png");
+  background-image:url("/Home/Events/pff_event.webp");
   background-size:cover;
   background-repeat:no-repeat;
 
 }
 .bg-pfl-event{
-  background-image:url("/Home/Events/pfl_event.png");
+  background-image:url("/Home/Events/pfl_event.webp");
   background-size:cover;
   background-repeat:no-repeat;
 
 }
 .bg-pfa-event{
-  background-image:url("/Home/Events/pfa_event.png");
+  background-image:url("/Home/Events/pfa_event.webp");
   background-size:cover;
   background-repeat:no-repeat;
 
@@ -479,7 +479,10 @@ button:last-of-type {
   max-width: 100%;
 }
 
-
+@font-face {
+  font-family: 'DmSansLight';
+  src: url("/fonts/DmSansLight.ttf");
+}
 
 
 @font-face {

@@ -31,13 +31,18 @@ contact_input:focus{
     @apply bg-[#F33288] rounded  text-center w-fit    p-2 flex justify-center text-[16px] leading-[24px] font-[Sofia] text-white font-[500] ;
 
 }
+.hero-submit-pfc11111{
+    background: linear-gradient(0deg, #EA2181, #EA2181),linear-gradient(90deg, #7500D0 0%, #FE0886 100%);
+    @apply  rounded  text-center flex justify-center text-[16px] leading-[24px] font-[Sofia] text-white font-bold ;
+  }
+  
 .contact_text_header_mob{
     @apply text-[32px] md:text-[48px] leading-[38px] md:leading-[52px] font-[900] font-[Integral] text-[#F33288]
 
 }
 
 .contact_text_header{
-    @apply text-[28px] md:text-[48px] leading-[32px] md:leading-[52px] font-[900] font-[Integral] text-[#fff]
+    @apply text-[36px] md:text-[48px] leading-[43.2px] md:leading-[52px] font-[900] font-[Integral] text-[#fff]
 
 }
 
@@ -250,7 +255,7 @@ contact_input:focus{
           }
 
           .home_bottom_header_seen{
-            @apply text-[13px] md:text-[16px] leading-[16.88px] md:leading-[20px] font-[Integral] text-white  font-[500]
+            @apply text-[6.97px] md:text-[13.63px] leading-[8.63px]  md:leading-[16.88px] font-[Integral] text-white  font-[400]
         
         }
 
@@ -719,8 +724,10 @@ contact_input:focus{
     } */
 
   .bg-gallery-home{
-    background: url("/Home/Gallery/gallery_bg.png");
-    /* background-size:cover; */
+    background: url("/Home/Gallery/gallery_bg_1.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+
   }
 
   @media screen and (max-width:768px) {

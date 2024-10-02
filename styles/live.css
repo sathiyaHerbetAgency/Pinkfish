@@ -511,6 +511,24 @@ font-family: "Integral";
     @apply   overflow-hidden max-w-[90%] ;
 
 }
+.bg-gradinet-gray-festival{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), linear-gradient(180deg, rgba(0, 0, 0, 0) 25.86%, #000000 96.79%);
+
+}
+.bg-gradinet-gray{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), linear-gradient(180deg, rgba(0, 0, 0, 0) 25.86%, #000000 96.79%);
+}
+.bg-gradinet-gray-mob{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), linear-gradient(180deg, rgba(0, 0, 0, 0) 25.86%, #000000 96.79%);
+  background-size: cover;
+  background-repeat:repeat;
+  @apply  mt-[-5px] mr-[-5px];
+}
+.text-block_live_hero {
+  position: absolute;
+  top: 0px;
+  right:0px;
+}
 
 .text-block_live {
     position: absolute;
@@ -520,6 +538,8 @@ font-family: "Integral";
     padding-left: 24px;
     padding-right: 20px;
 }
+
+
 
 @media screen and (max-width:768px){
   .text-block_live {
@@ -733,7 +753,7 @@ background-size: cover;
     background: rgb(1,147,227);
     background-image:url("/pfc-bg-gradient.jpg");
     background-size:cover;
-    background-position:center;
+    background-position:top;
     background-repeat:no-repeat;
     @apply min-h-[92vh] md:min-h-[85vh];
   }
@@ -795,6 +815,15 @@ width: 100%;
     background-size:contain;
     background-position:bottom;
     background-repeat:no-repeat;
+  }
+  @media screen and (max-width: 767px) {
+    .banner-container-pfc{
+      background-image:url("/PFF_1/mountainf-pfc-mob.webp");
+      background-size:contain;
+      background-position:bottom;
+      background-repeat:no-repeat;
+      @apply min-h-[90vh];
+    }
   }
 
   .counter-timer-wrapper{

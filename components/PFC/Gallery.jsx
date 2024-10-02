@@ -51,7 +51,6 @@ const Gallery = ({check}) => {
       objectFit: 'cover',
       maxWidth: '300px',
       maxHeight:'300px'
-      
     };
 
 

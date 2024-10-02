@@ -12,7 +12,7 @@ const Hero = ({select}) => {
         first_heading:"thank you lavas!",
         second_heading:"pinkfish music & arts festival",
         span_text:"Pinkfish Music & Arts Festival ",
-        text:"is a curated creative music & arts experience that featured live acts, both local & international, as well as art installations from various artists gifted in multiple mediums to celebrate the best in music & art in one big event.",
+        text:" is a curated creative music & arts experience that featured live acts, both local & international, as well as art installations from various artists gifted in multiple mediums to celebrate the best in music & art in one big event.",
         button_text:'Follow for more updates',
         link:"https://www.instagram.com/pinkfishfestival/"
     }
@@ -20,7 +20,7 @@ const Hero = ({select}) => {
         first_heading:"coming soon in 2024",
         second_heading:"pinkfish countdown",
         span_text:"Pinkfish Countdown ",
-        text:"is a curated experience of tight-knit celebration that features both international and local live acts upon the ushering into the new year. This event brings together the creative and music-loving community, as we count down to the new year.",
+        text:" is a curated experience of tight-knit celebration that features both international and local live acts upon the ushering into the new year. This event brings together the creative and music-loving community, as we count down to the new year.",
         button_text:' Be Part of PFC2024',
         link:"/countdown2024 "
     }

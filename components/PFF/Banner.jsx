@@ -10,7 +10,7 @@ const Banner = ({select}) => {
         first_heading:"what’s next in store?",
         text:"Scope out the other events we have lining up for you this year. Get hyped!",
         button_text:'Check out Pinkfish Countdown',
-        link:"/pfc-countdown-nye-2024"
+        link:"/pfc-countdown-nye"
     }
     const PFC={
         first_heading:"YOUR FOMO IS ABOUT TO GET REAL",
@@ -30,7 +30,7 @@ const Banner = ({select}) => {
     <div
       className={`${
         select === "PFF" ? "banner-container-pff" : "banner-container-pfc"
-      } md:min-h-screen min-h-[50vh] flex flex-col justify-start gap-6 items-center`}
+      } md:min-h-screen min-h-[50vh] flex flex-col justify-start gap-6 items-center `}
     >
       <div className="md:w-[30vw] w-[85vw] flex flex-col gap-6 pt-11">
         <h2

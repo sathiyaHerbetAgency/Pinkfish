@@ -28,18 +28,19 @@ return (
               <a href="WhatTheFish" className=" flex flex-col justify-center ">
                 <h2 className="menu_text  items-end">What the fish!</h2>
               </a>
-              <a href="FunHub" arial-label="Fun Hub Page" className=" flex flex-col justify-center ">
-                <h2 className="menu_text ">FUN HUB</h2>
-              </a>
+             
               <button
                 onClick={() => setToogle(!toogle)}
                 className="cursor-pointer flex flex-col justify-center "
               >
                 <h2 className="menu_text ">Events</h2>
               </button>
+              <a href="Gallery" arial-label="Gallery Page" className=" flex flex-col justify-center ">
+                <h2 className="menu_text ">Gallery</h2>
+              </a>
 
               <a href="/" className=" flex flex-col justify-center ">
-                <img src="/new_menu_logo_2.svg" alt="Pinkfish Logo" className=" items-center w-[150px] "/>
+                <img src="/new_menu_logo_2.svg" alt="Pinkfish Logo" className=" items-center w-[120px] "/>
               </a>
               <a href="News" arial-label="News Page" className=" flex flex-col justify-center ">
                 <h2 className="menu_text ">News</h2>
@@ -74,7 +75,7 @@ return (
           <div className="flex flex-col">
             <div className="self-center grid md:grid-cols-2  grid-1  gap-6 pb-6">
               <EventContainer link="arena" title='#PFA' description="pinkfish Arena" />
-              <EventContainer link="pfc-countdown-nye-2024" title='#PFC' description="Pinkfish Countdown" />
+              <EventContainer link="pfc-countdown-nye" title='#PFC' description="Pinkfish Countdown" />
               <EventContainer link="music&artsfestival" title='#PFF' description="pinkfish music & ARTS festival" />
               <EventContainer link="Live" title='#PFL' description="Pinkfish Live" />
             </div>
@@ -133,13 +134,14 @@ return (
           >
             What the fish!{" "}
           </a>
+          <button className="menu_text_mob" onClick={() => {setToggleDropdown(false); setToogle(!toogle)}}>Events</button>
           <a
-            href="FunHub"
+            href="Gallery"
             arial-label="Fun Hub Page"
             className="menu_text_mob"
             onClick={() => setToggleDropdown(false)}
           >
-            Fun Hub
+           Gallery
           </a>
           <a
             href="News"
@@ -149,8 +151,6 @@ return (
           >
             News{" "}
           </a>
-          <button className="menu_text_mob" onClick={() => {setToggleDropdown(false); setToogle(!toogle)}}>Events</button>
-
           <Link
             href="Contact"
             arial-label="Contact Page"
@@ -191,7 +191,7 @@ return (
 
               </div> */}
               <EventContainer link="arena" title='#PFA' description="pinkfish Arena" />
-              <EventContainer  link="pfc-countdown-nye-2024" title='#PFC' description="Pinkfish Countdown" />
+              <EventContainer  link="pfc-countdown-nye" title='#PFC' description="Pinkfish Countdown" />
               <EventContainer link="music&artsfestival" title='#PFF' description="pinkfish music & ARTS festival" />
               <EventContainer link="Live/EventsIndividual" title='#PFL' description="Pinkfish Live" />
             </div>

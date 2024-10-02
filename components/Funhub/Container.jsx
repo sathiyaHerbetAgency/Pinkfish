@@ -8,37 +8,42 @@ const Container = () => {
             logoImg:'/fan_box_logo_2.png',
             altText:'Pinkfish Music & Arts Festival Logo',
             spanText:'Pinkfish Music & Arts Festival',
-            text:'is a curated creative music & arts experience that features live acts, both local & international, as well as art installations from various artists gifted in multiple mediums. This event was to celebrate the best in music & art in one big event. Over 13,000 people from Malaysia and neighboring countries attended this large-scale outdoor festival at Sunway Lagoon Surf Beach.',
+            text:' is a curated creative music & arts experience that features live acts, both local & international, as well as art installations from various artists gifted in multiple mediums. This event was to celebrate the best in music & art in one big event. Over 13,000 people from Malaysia and neighboring countries attended this large-scale outdoor festival at Sunway Lagoon Surf Beach.',
             link:'/music&artsfestival',
             linkText:'Make Memories',
-            img:'/fan_box_2.png'
-        },
-        {
-            logoImg:'/fan_box_logo_3.png',
-            altText:'Pinkfish Countdown Logo',
-            spanText:'Pinkfish Countdown',
-            text:"is a groundbreaking sub-brand designed to take your New Year's Eve celebration to new heights. Pinkfish Countdown is set to deliver an unparalleled experience that pushes boundaries and sets the stage for an unforgettable countdown party to midnight",
-            link:'/countdown',
-            linkText:'You Only Live Once',
-            img:'/fan_box_3.png'
+            img:'/FunHub/fun-hub-1.png',
+            imgMob:'/FunHub/Mob/fun-hub-1.webp',
         },
         {
           logoImg:'/fan_box_logo_1.png',
           altText:'pinkfish live Logo',
           spanText:'Pinkfish Live,',
-          text:"a sub-division of Pinkfish, provides revolutionary and international-level live shows, electrifying stage setup and show production, mind-bending LED and sound setup. We elevate and celebrate the artistry of rap and hip-hop through the power of live performances, bringing this cultural force to life on stage.",
+          text:" a sub-division of Pinkfish, provides revolutionary and international-level live shows, electrifying stage setup and show production, mind-bending LED and sound setup. We elevate and celebrate the artistry of rap and hip-hop through the power of live performances, bringing this cultural force to life on stage.",
           link:'/Live/EventsIndividual',
           linkText:'Start Living Your Life',
-          img:'/fan_box_1.png'
+          img:'/FunHub/fun-hub-2.png',
+          imgMob:'/FunHub/Mob/fun-hub-2.webp',
         },
+        {
+            logoImg:'/fan_box_logo_3.png',
+            altText:'Pinkfish Countdown Logo',
+            spanText:'Pinkfish Countdown',
+            text:" is a groundbreaking sub-brand designed to take your New Year's Eve celebration to new heights. Pinkfish Countdown is set to deliver an unparalleled experience that pushes boundaries and sets the stage for an unforgettable countdown party to midnight",
+            link:'/pfc-countdown-nye',
+            linkText:'You Only Live Once',
+           img:'/FunHub/fun-hub-3.png',
+           imgMob:'/FunHub/Mob/fun-hub-3.webp',
+        },
+       
         {
           logoImg:'/fun-box-logo-4.png',
           altText:'Pinkfish live Logo',
           spanText:'Pinkfish Arena,',
-          text:"the latest sub-brand in the Pinkfish family, ready to set a new standard  for arena shows with an electrifying focus on electronic dance music at iconic local venues, turning them into epicentres of DJ brilliance. Get hyped for a live experience like never before — where bass comes to life.",
+          text:" the latest sub-brand in the Pinkfish family, ready to set a new standard  for arena shows with an electrifying focus on electronic dance music at iconic local venues, turning them into epicentres of DJ brilliance. Get hyped for a live experience like never before — where bass comes to life.",
           link:'/Arena',
           linkText:'Feel the Beat',
-          img:'/fan_box_3.png'
+          img:'/FunHub/fun-hub-4.png',
+          imgMob:'/FunHub/Mob/fun-hub-4.webp',
         }
 
     ]
@@ -61,7 +66,9 @@ const Container = () => {
         </div>
       </div>
       <div className="basis-1/2 order-1 md:order-2 flex justify-end">
-        <img src={each.img} alt={"fanbox image "+index} />
+        <img src={each.img} className=" hidden md:block" alt={"fanbox image "+index} />
+        <img src={each.imgMob} className="  md:hidden" alt={"fanbox image "+index} />
+
       </div>
     </div>
     ))}

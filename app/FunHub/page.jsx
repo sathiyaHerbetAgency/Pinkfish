@@ -21,7 +21,7 @@ const title="Experience the Best Music Festival in Malaysia - Pinkfish "
     <>
       <Head title={title} description={description} />
       <NewNavbar />
-      <div className="fan_main_container min-h-screen  text-white   ">
+      {/* <div className="fan_main_container min-h-screen  text-white   ">
         <div className="flex  flex-col gap-6 pt-11 pb-24">
           <h1 className="contact_text_header  self-center">FUN HUB</h1>
           <h3 className="contact_sub_text text-center w-[80%] md:w-[60%] self-center">
@@ -33,7 +33,8 @@ const title="Experience the Best Music Festival in Malaysia - Pinkfish "
         <div className="flex flex-col gap-6 ">
           <Container />
         </div>
-      </div>
+      </div> */}
+      <h1 className="text-white font-[800] font-[Integral] text-center">This Page No Longer Available</h1>
       <Footer />
       <img
         className=" md:block hidden right-[0] top-[70%]  fixed  "

@@ -5,6 +5,7 @@ import "../../styles/live.css"
 import "../../styles/contact.css"
 import PhotoSwipeLightbox from 'photoswipe/lightbox';
 import 'photoswipe/style.css';
+
 const GalleryMob = ({check}) => {
 
 

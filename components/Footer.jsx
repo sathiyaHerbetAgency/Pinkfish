@@ -58,11 +58,9 @@ const Footer = () => (
       <a className='flex justify-end w-full' href="/WhatTheFish">
         <p className="cursor-pointer icon_text  " arial-label="What The Fish Page" >What The Fish</p>
         </a>
-        <a className='flex justify-end w-full' href="/FunHub"  arial-label="Fun Hub Page">
-        <p className="cursor-pointer icon_text  ">Fun Hub</p>
-        </a>
+        
         <a className='flex justify-end w-full' href="Gallery">
-        <p className="cursor-pointer icon_text  ">Festival Oasis</p>
+        <p className="cursor-pointer icon_text  ">Gallery</p>
         </a>
         <a className='flex justify-end w-full' href="/News">
         <p className="cursor-pointer icon_text  ">News</p>
@@ -116,15 +114,13 @@ const Footer = () => (
       <a className='flex justify-center' arial-label="What The Fish Page" href="WhatTheFish">
         <p className="cursor-pointer icon_text  ">What The Fish</p>
         </a>
-        <a className='flex justify-center w-full' href="FunHub" arial-label="Fun Hub Page" >
-        <p className="cursor-pointer icon_text  ">Fun Hub</p>
+        <a className='flex justify-center w-full' href="Gallery" arial-label="Gallery Page" >
+        <p className="cursor-pointer icon_text  ">Gallery</p>
         </a>
         <a className='flex justify-center w-full' href="News" arial-label="News Page" >
         <p className="cursor-pointer icon_text  ">News</p>
         </a>
-        <a className='flex justify-center w-full' href="Gallery" arial-label="Gallery Page" >
-        <p className="cursor-pointer icon_text  ">Festival Oasis</p>
-        </a>
+      
         <Link className='flex justify-center w-full' href="Contact" arial-label="Contact Page" >
         <p className="cursor-pointer icon_text  ">Contact Us </p>
         </Link>
@@ -156,7 +152,7 @@ const Footer = () => (
    
    <p className="footer_bottom_text ">Copyright- Pinkfish lifestyle and Entertainment in Malaysia </p>
  
-   <div className='flex gap-2 text-white items-center' >
+   <div className='flex gap-2 text-white items-center ' >
    <Link href="PrivacyPolicy" arial-label="Privacy Policy Page" >
          <p className="cursor-pointer footer_bottom_text  ">Privacy Policy</p>
          </Link>
