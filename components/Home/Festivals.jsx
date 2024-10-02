@@ -64,7 +64,7 @@ const Festivals = () => {
                     <h3 className={heading}>Our Festivals</h3>
                     <div className="hidden md:block pt-4">
                     <div className="flex  z-10 ">
-                    {/* <Swiper
+                    <Swiper
                         slidesPerView={3}
                         spaceBetween={-10}
                         className="mySwiper pt-3 bg-black"
@@ -74,7 +74,7 @@ const Festivals = () => {
                             <FestivalContainer data={each}  />
                         </SwiperSlide>
                         ))}
-                    </Swiper> */}
+                    </Swiper>
 
                     </div>
                     </div>
@@ -84,11 +84,11 @@ const Festivals = () => {
         <div className="md:hidden flex flex-col">
             <div className="flex flex-col gap-3 self-center">
                 <h3 className={heading}>Our Festivals</h3>
-                {/* {slideData.map((each)=>(
+                {slideData.map((each)=>(
                         <div className="flex flex-col text-white max-w-[370px] h-[394px] self-center">
                             <FestivalContainer data={each}  />
                         </div>
-                        ))} */}
+                        ))}
             </div>
         </div>
 
