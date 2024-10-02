@@ -36,10 +36,10 @@ const RootLayout = ({ children }) => {
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     </head>
-    <body>
+    <body className="bg-black max-w-[100vw] m-0 p-0 mr-[-16px]">
 
 
-      <div className="min-h-screen bg-black ">
+      <div className="min-h-screen max-w-[100vw] bg-black ">
       {/* <NewNavbar /> */}
     
     
