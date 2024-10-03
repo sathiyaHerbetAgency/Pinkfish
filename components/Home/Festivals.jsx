@@ -6,7 +6,9 @@ import  Link  from 'next/link';
 // Import Swiper styles
 import 'swiper/css';
 import FestivalContainer from './Componets/FestivalContainer';
-const Festivals = () => {
+const Festivals = () => {3
+    const [activeCard, setActiveCard] = useState(null);  
+
      const slideData=[
         {
             date:"31 December 2024",
@@ -84,9 +86,10 @@ const Festivals = () => {
         <div className="md:hidden flex flex-col">
             <div className="flex flex-col gap-3 self-center">
                 <h3 className={heading}>Our Festivals</h3>
-                {slideData.map((each)=>(
-                        <div className="flex flex-col text-white max-w-[370px] h-[394px] self-center">
-                            <FestivalContainer data={each}  />
+              
+                {slideData.map((each,index)=>(
+                        <div onClick={()=>{setActiveCard(index)}} className="flex flex-col text-white max-w-[370px] h-[464px] self-center mb-3">
+                            <FestivalContainer data={each} index={index} active={activeCard} />
                         </div>
                         ))}
             </div>
