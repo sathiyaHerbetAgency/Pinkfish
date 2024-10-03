@@ -95,9 +95,10 @@ const Festivals = () => {
     <div className="pb-11">
         <div className="hidden md:block">
             <div className="flex flex-col min-w-[100vw] overflow-hidden py-11 ">
-                <div className="  w-[100vw] self-center z-10  ml-24">
-
-                    <h3 className={heading}>Our Festivals</h3>
+                <div className="  w-[100vw] self-center z-10  ">
+                    <div className="pl-24">
+                        <h3 className={heading}>Our Festivals</h3>
+                    </div>
                       <div className="  flex flex-col justify-end md:justify-center items-center justify-items-center h-[500px]   absolute  ">
                             <div className="flex justify-between w-[90vw]">
                                     <button onClick={handlePrev} className=" bg-[#000000] rounded-[100%] w-[80px] h-[80px] flex justify-center items-center  z-[2] ml-10 ">
@@ -123,9 +124,12 @@ const Festivals = () => {
                     </Slider> */}
                      <Swiper
                      ref={BannerRef}
-                        slidesPerView={3}
+                        slidesPerView={3.5}
                         spaceBetween={-10}
-                        className="mySwiper pt-3 bg-black max-w-[100vw]"
+                        centeredSlides={true}
+                        initialSlide={1}
+                        watchOverflow={true}
+                        className="mySwiper pt-3 bg-black w-[100vw]"
                         >
                         {slideData.map((each)=>(
                         <SwiperSlide className="text-white max-w-[370px] h-[394px]">
