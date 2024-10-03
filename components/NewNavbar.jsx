@@ -22,11 +22,11 @@ return (
   <nav className="navbar_main_container oveflow-hiden">
     <div className="hidden md:block">
       <div className=" flex justify-center  ">
-        <div className="  flex justify-end  pb-2  w-[90%] ">
-          <div className=" w-[110%]  flex justify-center   desktop_navbar  ">
-            <div className="flex gap-6   pt-2 ">
+        <div className="  flex ">
+          <div className=" w-[100%]  flex justify-center items-center    ">
+            <div className="flex gap-6    ">
               <a href="WhatTheFish" className=" flex flex-col justify-center ">
-                <h2 className="menu_text  items-end">What the fish!</h2>
+                <h2 className="menu_text w-[100px] items-end">What the fish</h2>
               </a>
              
               <button
@@ -39,8 +39,8 @@ return (
                 <h2 className="menu_text ">Gallery</h2>
               </a>
 
-              <a href="/" className=" flex flex-col justify-center ">
-                <img src="/new_menu_logo_2.svg" alt="Pinkfish Logo" className=" items-center w-[120px] "/>
+              <a href="/" className=" flex flex-col justify-center max-h-[100px] ">
+                <img src="/new_menu_logo_2.svg" alt="Pinkfish Logo" className=" items-center max-w-[100px] h-[50px] "/>
               </a>
               <a href="News" arial-label="News Page" className=" flex flex-col justify-center ">
                 <h2 className="menu_text ">News</h2>
@@ -48,7 +48,7 @@ return (
               <a href="Contact" arial-label="Contact Page" className=" flex flex-col justify-center ">
                 <h2 className="menu_text ">Contact us</h2>
               </a>
-              <a className="bg-[#FF0086] rounded flex flex-col justify-center items-center" href="Merchandise">
+              <a className="bg-[#FF0086] rounded flex flex-col justify-center items-center h-[44px]" href="Merchandise">
                 <button className="flex self-center items-center px-2">
                   <h2 className="menu_text ">Shop</h2>
                   <svg

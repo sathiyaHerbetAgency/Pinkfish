@@ -72,10 +72,6 @@
   @apply  flex flex-col  self-center ;
 }
 
-.desktop_navbar{
-
-/* @apply flex justify-between     ; */
-}
 
 .navbar_container_mob{
   @apply    w-[100%]  md:hidden ;
@@ -95,7 +91,7 @@
 } 
 .menu_text{
 
-  @apply w-[100%] text-center uppercase text-[white]    font-[Integral] font-[700] text-[12px] md:text-[14px] leading-[14px] md:leading-[18px] tracking-[5px];
+  @apply w-[100%] text-center uppercase text-[white]    font-[Integral] font-[700] text-[12px] md:text-[14px] leading-[14px] md:leading-[18px] tracking-[3px];
   /* display: inline-block;
   text-decoration: none; */
 }
@@ -503,6 +499,10 @@ button:last-of-type {
   src: url("/fonts/Nunito.ttf");
 }
 
+.swiper {
+  width: 100%;
+  height: 100%;
+}
 
 
 

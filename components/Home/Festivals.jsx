@@ -1,12 +1,46 @@
 /* eslint-disable */
-import React, { useRef, useState } from 'react';
+import { useEffect, useRef, useState ,useCallback} from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import  Link  from 'next/link';
-
+import React from "react";
+import { register } from "swiper/element/bundle";
+register();
 // Import Swiper styles
 import 'swiper/css';
 import FestivalContainer from './Componets/FestivalContainer';
-const Festivals = () => {3
+import { Navigation} from 'swiper/modules';
+
+const Festivals = () => {
+    const BannerRef = useRef(null);
+    const BannerRef1 = useRef(null);
+
+    const handlePrev = useCallback(() => {
+      if (BannerRef.current && BannerRef.current.swiper) {
+        BannerRef.current.swiper.slidePrev();
+      }
+    }, []);
+  
+    const handleNext = useCallback(() => {
+      if (BannerRef.current && BannerRef.current.swiper) {
+        BannerRef.current.swiper.slideNext();
+      }
+      
+    }, []);
+
+
+    const handlePrev1 = useCallback(() => {
+        if (BannerRef1.current && BannerRef1.current.swiper) {
+          BannerRef1.current.swiper.slidePrev();
+        }
+      }, []);
+    
+      const handleNext1 = useCallback(() => {
+        if (BannerRef1.current && BannerRef1.current.swiper) {
+          BannerRef1.current.swiper.slideNext();
+        }
+        
+      }, []);
+
     const [activeCard, setActiveCard] = useState(null);  
 
      const slideData=[
@@ -61,15 +95,37 @@ const Festivals = () => {3
     <div className="pb-11">
         <div className="hidden md:block">
             <div className="flex flex-col min-w-[100vw] overflow-hidden py-11 ">
-                <div className="min-w-[1300px]   md:self-start self-center z-10  md:pl-24">
+                <div className="  w-[100vw] self-center z-10  ml-24">
 
                     <h3 className={heading}>Our Festivals</h3>
+                      <div className="  flex flex-col justify-end md:justify-center items-center justify-items-center h-[500px]   absolute  ">
+                            <div className="flex justify-between w-[90vw]">
+                                    <button onClick={handlePrev} className=" bg-[#000000] rounded-[100%] w-[80px] h-[80px] flex justify-center items-center  z-[2] ml-10 ">
+                                        <img src="./Home/Festival/Icons/left-arrow.png" className="w-[64px]" alt="arrow" />
+                                    </button>
+                                    <button onClick={handleNext} className=" bg-[#000000] rounded-[100%] w-[80px] h-[80px] flex justify-center items-center  z-[2] ">
+                                        <img src="./Home/Festival/Icons/right-arrow.png" className="w-[64px]" alt="arrow" />
+                                    </button>
+                                </div> 
+                        </div>
                     <div className="hidden md:block pt-4">
-                    <div className="flex  z-10 ">
-                    <Swiper
+                    <div className="">
+                    {/* <Slider {...settings} className="z-20">
+                        {slideData.map((each)=>(
+                        
+                            <FestivalContainer data={each}  />
+                       
+                        ))}
+                      
+                      
+
+
+                    </Slider> */}
+                     <Swiper
+                     ref={BannerRef}
                         slidesPerView={3}
                         spaceBetween={-10}
-                        className="mySwiper pt-3 bg-black"
+                        className="mySwiper pt-3 bg-black max-w-[100vw]"
                         >
                         {slideData.map((each)=>(
                         <SwiperSlide className="text-white max-w-[370px] h-[394px]">
@@ -77,7 +133,6 @@ const Festivals = () => {3
                         </SwiperSlide>
                         ))}
                     </Swiper>
-
                     </div>
                     </div>
                 </div>
@@ -86,15 +141,33 @@ const Festivals = () => {3
         <div className="md:hidden flex flex-col">
             <div className="flex flex-col gap-3 self-center">
                 <h3 className={heading}>Our Festivals</h3>
-              
-                {slideData.map((each,index)=>(
-                        <div onClick={()=>{setActiveCard(index)}} className="flex flex-col text-white max-w-[370px] h-[464px] self-center mb-3">
-                            <FestivalContainer data={each} index={index} active={activeCard} />
+                <div className="  flex flex-col justify-center items-center justify-items-center h-[464px] min-w-[100vw]   absolute  ">
+                            <div className="flex justify-between self-center w-[90vw]">
+                                    <button onClick={handlePrev1} className=" bg-[#000000] rounded-[100%] w-[60px] h-[60px] flex justify-center items-center  z-[2] ">
+                                        <img src="./Home/Festival/Icons/left-arrow.png" className="w-[44px]" alt="arrow" />
+                                    </button>
+                                    <button onClick={handleNext1} className=" bg-[#000000] rounded-[100%] w-[60px] h-[60px] flex justify-center items-center  z-[2] ">
+                                        <img src="./Home/Festival/Icons/right-arrow.png" className="w-[44px]" alt="arrow" />
+                                    </button>
+                                </div> 
                         </div>
+                <Swiper
+                     ref={BannerRef1}
+                        slidesPerView={2}
+                        centeredSlides={true}
+                        spaceBetween={10}
+                        className="mySwiper pt-3 bg-black max-w-[100vw] "
+                        >
+                {slideData.map((each,index)=>(
+                        <SwiperSlide onClick={()=>{setActiveCard(index)}} className="flex flex-col  text-white max-w-[48vw] h-[324px] justify-items-center self-center mb-3">
+                            <FestivalContainer data={each} index={index} active={activeCard} />
+                        </SwiperSlide>
+                        
                         ))}
+                        </Swiper>
             </div>
+            
         </div>
-
     </div>
   )
 }
