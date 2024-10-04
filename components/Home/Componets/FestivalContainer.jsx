@@ -13,7 +13,7 @@ const button="bg-[#2A2A2A] text-[8px] md:text-[12.31px] leading-[10px] md:leadin
 const FestivalContainer = ({data,index,active}) => {
     const [activeCard, setActiveCard] = useState(null);  
       const overlayContainerMob=' hidden   w-[90vw] h-[394px] flex flex-col justify-between bg-gradinet-gray pb-5';
-    const overlayContainerMobOpacity='  absolute z-1 w-[68vw] min-h-[324px] flex flex-col justify-between pb-5 bg-gradinet-gray';
+    const overlayContainerMobOpacity='  absolute z-1 w-[60vw] min-h-[324px] flex flex-col justify-between pb-5 bg-gradinet-gray';
     function checkFunction(a){
 
         setActiveCard(activeCard === a ? null : a);
