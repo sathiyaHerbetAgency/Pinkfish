@@ -102,11 +102,11 @@ const Festivals = () => {
                         <h3 className={heading}>Our Festivals</h3>
                     </div>
                       <div className="  flex flex-col justify-end md:justify-center items-center justify-items-center h-[500px]   absolute  ">
-                            <div className="flex justify-between w-[90vw]">
-                                    <button onClick={handlePrev} className=" bg-[#000000] rounded-[100%] w-[80px] h-[80px] flex justify-center items-center  z-[2] ml-10 ">
+                            <div className="flex justify-between w-[95vw]">
+                                    <button onClick={handlePrev} className=" bg-[#000000A0] rounded-[100%] w-[80px] h-[80px] flex justify-center items-center  z-[2] ml-10 ">
                                         <img src="./Home/Festival/Icons/left-arrow.png" className="w-[64px]" alt="arrow" />
                                     </button>
-                                    <button onClick={handleNext} className=" bg-[#000000] rounded-[100%] w-[80px] h-[80px] flex justify-center items-center  z-[2] ">
+                                    <button onClick={handleNext} className=" bg-[#000000A0] rounded-[100%] w-[80px] h-[80px] flex justify-center items-center  z-[2] ">
                                         <img src="./Home/Festival/Icons/right-arrow.png" className="w-[64px]" alt="arrow" />
                                     </button>
                                 </div> 
@@ -147,13 +147,13 @@ const Festivals = () => {
         <div className="md:hidden flex flex-col">
             <div className="flex flex-col gap-3 self-center">
                 <h3 className={heading}>Our Festivals</h3>
-                <div className="  flex flex-col justify-center items-center justify-items-center h-[464px] min-w-[100vw]   absolute  ">
+                <div className="  flex flex-col justify-center items-center justify-items-center h-[390px] min-w-[100vw]   absolute  ">
                             <div className="flex justify-between self-center w-[90vw]">
-                                    <button onClick={handlePrev1} className=" bg-[#000000] rounded-[100%] w-[60px] h-[60px] flex justify-center items-center  z-[2] ">
-                                        <img src="./Home/Festival/Icons/left-arrow.png" className="w-[44px]" alt="arrow" />
+                                    <button onClick={handlePrev1} className=" bg-[#000000A0] rounded-[100%] w-[40px] h-[40px] flex justify-center items-center  z-[2] ">
+                                        <img src="./Home/Festival/Icons/left-arrow.png" className="w-[34px]" alt="arrow" />
                                     </button>
-                                    <button onClick={handleNext1} className=" bg-[#000000] rounded-[100%] w-[60px] h-[60px] flex justify-center items-center  z-[2] ">
-                                        <img src="./Home/Festival/Icons/right-arrow.png" className="w-[44px]" alt="arrow" />
+                                    <button onClick={handleNext1} className=" bg-[#0000000A] rounded-[100%] w-[40px] h-[40px] flex justify-center items-center  z-[2] ">
+                                        <img src="./Home/Festival/Icons/right-arrow.png" className="w-[34px]" alt="arrow" />
                                     </button>
                                 </div> 
                         </div>
