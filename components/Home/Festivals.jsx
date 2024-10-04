@@ -152,7 +152,7 @@ const Festivals = () => {
                                     <button onClick={handlePrev1} className=" bg-[#000000A0] rounded-[100%] w-[40px] h-[40px] flex justify-center items-center  z-[2] ">
                                         <img src="./Home/Festival/Icons/left-arrow.png" className="w-[34px]" alt="arrow" />
                                     </button>
-                                    <button onClick={handleNext1} className=" bg-[#0000000A] rounded-[100%] w-[40px] h-[40px] flex justify-center items-center  z-[2] ">
+                                    <button onClick={handleNext1} className=" bg-[#000000A0] rounded-[100%] w-[40px] h-[40px] flex justify-center items-center  z-[2] ">
                                         <img src="./Home/Festival/Icons/right-arrow.png" className="w-[34px]" alt="arrow" />
                                     </button>
                                 </div> 
