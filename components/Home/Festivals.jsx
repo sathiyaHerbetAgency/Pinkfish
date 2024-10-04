@@ -91,6 +91,8 @@ const Festivals = () => {
         },
      ]
       const heading="self-center text-[16px] md:text-[24px] leading-[19.2px] md:leading-[28.8px] font-[Integral] font-[700] uppercase text-white" 
+
+
   return (
     <div className="pb-11">
         <div className="hidden md:block">
@@ -157,13 +159,13 @@ const Festivals = () => {
                         </div>
                 <Swiper
                      ref={BannerRef1}
-                        slidesPerView={2}
+                        slidesPerView={1.64}
                         centeredSlides={true}
                         spaceBetween={10}
                         className="mySwiper pt-3 bg-black max-w-[100vw] "
                         >
                 {slideData.map((each,index)=>(
-                        <SwiperSlide onClick={()=>{setActiveCard(index)}} className="flex flex-col  text-white max-w-[48vw] h-[324px] justify-items-center self-center mb-3">
+                        <SwiperSlide onClick={()=>{setActiveCard(index)}} className="flex flex-col  text-white max-w-[60vw] h-[300px] justify-items-center self-center mb-3">
                             <FestivalContainer data={each} index={index} active={activeCard} />
                         </SwiperSlide>
                         

@@ -13,7 +13,7 @@ const button="bg-[#2A2A2A] text-[8px] md:text-[12.31px] leading-[10px] md:leadin
 const FestivalContainer = ({data,index,active}) => {
     const [activeCard, setActiveCard] = useState(null);  
       const overlayContainerMob=' hidden   w-[90vw] h-[394px] flex flex-col justify-between bg-gradinet-gray pb-5';
-    const overlayContainerMobOpacity='  absolute z-1 w-[48vw] min-h-[324px] flex flex-col justify-between pb-5 bg-gradinet-gray';
+    const overlayContainerMobOpacity='  absolute z-1 w-[68vw] min-h-[324px] flex flex-col justify-between pb-5 bg-gradinet-gray';
     function checkFunction(a){
 
         setActiveCard(activeCard === a ? null : a);
@@ -44,8 +44,8 @@ const FestivalContainer = ({data,index,active}) => {
             <img src={data.imgUrl} alt="slider-1" />
         </div>
     </div>
-    <div className="md:hidden flex flex-col self-cente max-w-[48vw] bg-white">
-        <div  className="max-w-[48vw] h-[324px]    self-center">
+    <div className="md:hidden flex flex-col self-cente max-w-[60vw] bg-white">
+        <div  className="max-w-[60vw] h-[300px]    self-center">
             {active===index&&(
                 <Link href={data.link} className={overlayContainerMobOpacity}>
                     <div className="flex justify-end w-[100%] mr-3 md:w-[95%] ">
@@ -66,7 +66,7 @@ const FestivalContainer = ({data,index,active}) => {
                     </div>
                 </Link>
             )}
-                <img src={data.imgUrl} className="max-w-[48vw] h-[324px] object-cover" alt="slider-1" />
+                <img src={data.imgUrl} className="min-w-[60vw] h-[300px] object-cover" alt="slider-1" />
             </div>
             </div>
     </>
