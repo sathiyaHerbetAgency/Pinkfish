@@ -97,12 +97,12 @@ const Festivals = () => {
     <div className="pb-11">
         <div className="hidden md:block">
             <div className="flex flex-col min-w-[100vw] overflow-hidden py-11 ">
-                <div className="  w-[100vw] self-center z-10  ">
-                    <div className="pl-24">
+                <div className="  w-[100vw] self-center z-10 pl-24">
+                    <div className="">
                         <h3 className={heading}>Our Festivals</h3>
                     </div>
                       <div className="  flex flex-col justify-end md:justify-center items-center justify-items-center h-[500px]   absolute  ">
-                            <div className="flex justify-between w-[95vw]">
+                            <div className="flex justify-between w-[88vw]">
                                     <button onClick={handlePrev} className=" bg-[#000000A0] rounded-[100%] w-[80px] h-[80px] flex justify-center items-center  z-[2] ml-10 ">
                                         <img src="./Home/Festival/Icons/left-arrow.png" className="w-[64px]" alt="arrow" />
                                     </button>
@@ -128,14 +128,14 @@ const Festivals = () => {
                      ref={BannerRef}
                         slidesPerView={3.5}
                         spaceBetween={-10}
-                        centeredSlides={true}
-                        initialSlide={1}
-                        watchOverflow={true}
+                        // centeredSlides={true}
+                        initialSlide={0}
+                        // watchOverflow={true}
                         className="mySwiper pt-3 bg-black w-[100vw]"
                         >
-                        {slideData.map((each)=>(
-                        <SwiperSlide className="text-white max-w-[370px] h-[394px]">
-                            <FestivalContainer data={each}  />
+                        {slideData.map((each,index)=>(
+                        <SwiperSlide className={`${index===0&&"ml-20"}text-white max-w-[370px] h-[394px]`}>
+                            <FestivalContainer data={each} index={index} />
                         </SwiperSlide>
                         ))}
                     </Swiper>

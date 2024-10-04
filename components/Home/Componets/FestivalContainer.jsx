@@ -22,7 +22,7 @@ const FestivalContainer = ({data,index,active}) => {
   return (
     <>
     <div className="hidden md:block">
-        <div className="w-[90%] md:max-w-[370px] h-[324px] gap-0 md:h-[394px]    self-center">
+        <div className={`${index===0&&""} w-[90%] md:max-w-[370px] h-[324px] gap-0 md:h-[394px]    self-center`}>
             <Link href={data.link} className={overlayContainer}>
             <div className="flex justify-end w-[90%]  md:w-[95%] ">
                 {data.sale&&<button className={button} type="button"> Tickets on sale </button>}
