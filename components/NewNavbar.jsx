@@ -40,7 +40,7 @@ return (
               </a>
 
               <a href="/" className=" flex flex-col justify-center max-h-[100px] ">
-                <img src="/new_menu_logo_2.svg" alt="Pinkfish Logo" className=" items-center max-w-[100px] h-[50px] "/>
+                <img src="/new_menu_logo_2.svg" alt="Pinkfish Logo" className=" items-center max-w-[80px] h-[40px] "/>
               </a>
               <a href="News" arial-label="News Page" className=" flex flex-col justify-center ">
                 <h2 className="menu_text ">News</h2>
