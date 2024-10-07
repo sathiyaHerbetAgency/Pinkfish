@@ -745,7 +745,7 @@ background-size: cover;
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
-    @apply min-h-[92vh] md:min-h-[85vh];
+    @apply min-h-[92vh] md:min-h-[87vh];
 
   }
 
@@ -755,7 +755,7 @@ background-size: cover;
     background-size:cover;
     background-position:top;
     background-repeat:no-repeat;
-    @apply min-h-[92vh] md:min-h-[85vh];
+    @apply min-h-[92vh] md:min-h-[87vh];
   }
   @media screen and (max-width:768px){
     .bg-pfc{
