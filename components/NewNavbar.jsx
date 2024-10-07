@@ -21,7 +21,7 @@ const NewNavbar = () => {
 return (
   <nav className="navbar_main_container oveflow-hiden">
     <div className="hidden md:block">
-      <div className=" flex justify-center  ">
+      <div className=" flex justify-center ">
         <div className="  flex ">
           <div className=" w-[100%]  flex justify-center items-center    ">
             <div className="flex gap-6    ">
@@ -48,7 +48,7 @@ return (
               <a href="Contact" arial-label="Contact Page" className=" flex flex-col justify-center ">
                 <h2 className="menu_text ">Contact us</h2>
               </a>
-              <a className="bg-[#FF0086] rounded flex flex-col justify-center items-center h-[44px]" href="Merchandise">
+              <a className="bg-[#FF0086] rounded flex flex-col justify-center self-center py-3 items-center max-h-[34px]" href="Merchandise">
                 <button className="flex self-center items-center px-2">
                   <h2 className="menu_text ">Shop</h2>
                   <svg

@@ -90,20 +90,18 @@ const Festivals = () => {
             title:'Pinkfish Music & Arts Festival 2023'
         },
      ]
-      const heading="self-center text-[16px] md:text-[24px] leading-[19.2px] md:leading-[28.8px] font-[Integral] font-[700] uppercase text-white" 
-
-
+      const heading="self-center text-[16px] md:text-[24px] leading-[19.2px] md:leading-[28.8px] tracking-[1px] font-[Integral] font-[700] uppercase text-white" 
   return (
     <div className="pb-11">
         <div className="hidden md:block">
             <div className="flex flex-col min-w-[100vw] overflow-hidden py-11 ">
                 <div className="  w-[100vw] self-center z-10 pl-24">
                     <div className="">
-                        <h3 className={heading}>Our Festivals</h3>
+                        <h3 className={heading}>Making Memories</h3>
                     </div>
                       <div className="  flex flex-col justify-end md:justify-center items-center justify-items-center h-[500px]   absolute  ">
                             <div className="flex justify-between w-[88vw]">
-                                    <button onClick={handlePrev} className=" bg-[#000000A0] rounded-[100%] w-[80px] h-[80px] flex justify-center items-center  z-[2] ml-10 ">
+                                    <button onClick={handlePrev} className=" bg-[#000000A0] rounded-[100%] w-[80px] h-[80px] flex justify-center items-center  z-[2] ml-10 md:-ml-8">
                                         <img src="./Home/Festival/Icons/left-arrow.png" className="w-[64px]" alt="arrow" />
                                     </button>
                                     <button onClick={handleNext} className=" bg-[#000000A0] rounded-[100%] w-[80px] h-[80px] flex justify-center items-center  z-[2] ">
@@ -147,7 +145,7 @@ const Festivals = () => {
         <div className="md:hidden flex flex-col">
             <div className="flex flex-col gap-3 self-center">
                 <h3 className={heading}>Our Festivals</h3>
-                <div className="  flex flex-col justify-center items-center justify-items-center h-[390px] min-w-[100vw]   absolute  ">
+                <div className="  flex flex-col justify-center items-center justify-items-center h-[350px] min-w-[100vw]   absolute  ">
                             <div className="flex justify-between self-center w-[90vw]">
                                     <button onClick={handlePrev1} className=" bg-[#000000A0] rounded-[100%] w-[40px] h-[40px] flex justify-center items-center  z-[2] ">
                                         <img src="./Home/Festival/Icons/left-arrow.png" className="w-[34px]" alt="arrow" />

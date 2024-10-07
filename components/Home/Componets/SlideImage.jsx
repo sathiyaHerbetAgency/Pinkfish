@@ -39,7 +39,7 @@ const SlideImage = ({url,urlMob,year,link,slide}) => {
           <div className="flex flex-col self-center w-[621px] max-h-[300px]">
           <p className={text}>{data[slide].dateText}</p>
               <h1 className={heading}>{data[slide].heading}</h1>
-              <p className={text}>{data[slide].text}</p>
+              <p className={`${text} pt-[7px]`}>{data[slide].text}</p>
               <a href={data[slide].link} className="w-fit self-center flex justify-start mt-3"> 
                 <button className={button} alt="button">{data[slide].ticketText}</button>
               </a>
