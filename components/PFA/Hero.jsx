@@ -20,11 +20,6 @@ const Hero = () => {
         button_text:'BUY TICKETS',
         link:"#Tickets"
     }
-   
-
-
-
-
   return (
     <div className={` flex flex-col justify-between  pt-16 bg-black }`}>
         <div className="flex flex-col gap-4  self-center">

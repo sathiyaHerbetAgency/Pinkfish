@@ -99,7 +99,7 @@ const Festivals = () => {
                     <div className="">
                         <h3 className={heading}>Making Memories</h3>
                     </div>
-                      <div className="  flex flex-col justify-end md:justify-center items-center justify-items-center h-[500px]   absolute  ">
+                      <div className="  flex flex-col justify-end md:justify-center items-center justify-items-center h-[420px]   absolute  ">
                             <div className="flex justify-between w-[88vw]">
                                     <button onClick={handlePrev} className=" bg-[#000000A0] rounded-[100%] w-[80px] h-[80px] flex justify-center items-center  z-[2] ml-10 md:-ml-8">
                                         <img src="./Home/Festival/Icons/left-arrow.png" className="w-[64px]" alt="arrow" />

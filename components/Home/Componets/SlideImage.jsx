@@ -53,7 +53,8 @@ const SlideImage = ({url,urlMob,year,link,slide}) => {
         className=" object-cover min-h-[90vh] max-w-[100vw]"
         alt="slider"
       />
-      <div className="text-block_live  z-[999]   bg-gradinet-gray-mob text-white flex flex-col justify-center h-[90vh]  ">
+      <div className="text-block_live  z-[999]   bg-gradinet-gray-mob text-white  h-[90vh]  ">
+        <div className="min-h-[80vh] flex flex-col justify-center">
           <div className="flex flex-col self-center w-[90%] max-h-[164px]">
           <p className={text}>{data[slide].dateText}</p>
               <h1 className={heading}>{data[slide].heading}</h1>
@@ -61,6 +62,7 @@ const SlideImage = ({url,urlMob,year,link,slide}) => {
               <a href={data[slide].link} className="w-fit self-center flex justify-start mt-3"> 
                 <button className={button} alt="button">{data[slide].ticketText}</button>
               </a>
+              </div>
               </div>
           </div>
     </div>
