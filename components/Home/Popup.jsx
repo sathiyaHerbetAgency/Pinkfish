@@ -116,7 +116,7 @@ const Popup = () => {
         />
       </div>
       <div className="popup-card_main  ">
-        <div style={{ height: containerHeight }} className="flex flex-col h-[380px]  pb-4 justify-end absolute">
+        <div style={{ height: containerHeight }} className="flex flex-col h-[380px]  pb-8 justify-end absolute">
           <div className="flex self-center w-[300px] gap-3 justify-center">
           <a href="#" className="w-fit self-center flex justify-start mt-3"> 
                 <button className={button} alt="button">Buy Now</button>
