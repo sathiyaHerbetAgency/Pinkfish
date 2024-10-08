@@ -84,8 +84,11 @@ const Popup = () => {
           alt="close"
         />
         <div>
-        <div className="flex flex-col h-[360px] justify-end absolute">
-          <div className="flex self-center w-[300px] gap-3 justify-center">
+       
+          {" "}
+          <img src="./Home/Popup/popup_home.webp" className="" alt="img" />
+          <div className="flex flex-col justify-end ">
+          <div className="flex self-center  gap-3 justify-center">
           <a href="#" className="w-fit self-center flex justify-start mt-3"> 
                 <button className={button} alt="button">Buy Now</button>
               </a>
@@ -94,9 +97,6 @@ const Popup = () => {
               </a>
         </div>
           </div>
-          {" "}
-          <img src="./Home/Popup/popup_home.webp" className="" alt="img" />
-          
         </div>
       </div>
     </div>
@@ -121,16 +121,7 @@ const Popup = () => {
         />
       </div>
       <div className="popup-card_main  ">
-        <div style={{ height: containerHeight, width:containerWidth }} className="flex flex-col h-[380px]  pb-4 justify-end absolute">
-          <div style={{ width:containerWidth }} className="flex self-center w-[300px] gap-3 justify-center">
-          <a href="#" className="w-fit self-center flex justify-start mt-3"> 
-                <button className={button} alt="button">Buy Now</button>
-              </a>
-              <a href="#" className="w-fit self-center flex justify-start mt-3"> 
-                <button className={button} alt="button">BNPL</button>
-              </a>
-        </div>
-          </div>
+       
           {" "}
           <img
            ref={imgRef}
@@ -139,8 +130,18 @@ const Popup = () => {
             alt="img"
           />
          
-          
+        
       </div>
+      <div  className="flex flex-col   pb-4 justify-end ">
+          <div className="flex self-center gap-3 justify-center w-[100vw]">
+          <a href="#" className="w-fit self-center flex justify-start "> 
+                <button className={button} alt="button">Buy Now</button>
+              </a>
+              <a href="#" className="w-fit self-center flex justify-start"> 
+                <button className={button} alt="button">BNPL</button>
+              </a>
+        </div>
+          </div>
     </div>
   </div>
 </div>
