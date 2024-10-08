@@ -814,7 +814,7 @@ strong {
   font-family: Montserrat, sans-serif;
   font-size: 14px;
   font-weight: 700;
-  line-height: 17.07px;
+  line-height: 18px;
   display: flex;
 }
 
@@ -5934,6 +5934,8 @@ strong {
     justify-content: center;
     align-items: center;
     height: 600px;
+    font-size: 18px;
+    line-height: 22px;
   }
 
   .column.hero-logo.pff-hero-logo {
@@ -5975,7 +5977,8 @@ strong {
 
   .hero-desc.black-font {
     width: auto;
-    font-size: 2em;
+    font-size: 18px;
+    line-height: 24px;
   }
 
   .nav-home-left {

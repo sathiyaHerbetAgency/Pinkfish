@@ -87,7 +87,7 @@ const page = () => {
                         cop the exclusive PFF2024 X chaigo the stray fit 
                       </h2> */}
                       <p className="product-sub-title">
-                        pinkfish X Chaigo T-shirt
+                        pinkfish Elemental T-shirt
                       </p>
                       <div className="flex gap-3">
                         <p className="product-price">RM84.00</p>
