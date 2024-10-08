@@ -1,15 +1,40 @@
 /* eslint-disable */
 "use client";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef,useState } from "react";
 
 const Popup = () => {
     let popupOverlayRef = useRef(null);
     let popupContainerRef = useRef(null);
     let popupOverlayRefMob = useRef(null);
     let popupContainerRefMob = useRef(null);
-    useEffect(()=>{
-    openPopup()
-    },[])
+
+    const imgRef = useRef(null); // Reference for the image
+    const [containerHeight, setContainerHeight] = useState(0); // State for container height
+  
+    useEffect(() => {
+      const updateHeight = () => {
+        openPopup()
+
+        if (imgRef.current) {
+          // Set the container height based on the image's height
+          setContainerHeight(imgRef.current.clientHeight);
+        }
+      };
+  
+      // Update height after image loads
+      if (imgRef.current.complete) {
+        updateHeight();
+      } else {
+        imgRef.current.onload = updateHeight;
+      }
+      
+      // Optional: Handle window resize to adjust the height dynamically
+      window.addEventListener('resize', updateHeight);
+  
+      return () => {
+        window.removeEventListener('resize', updateHeight);
+      };
+    }, []);
   
     function openPopup() {
         popupOverlayRef.current.style.display = "flex";
@@ -91,7 +116,7 @@ const Popup = () => {
         />
       </div>
       <div className="popup-card_main  ">
-        <div className="flex flex-col h-[400px] justify-end absolute">
+        <div style={{ height: containerHeight }} className="flex flex-col h-[380px]  pb-4 justify-end absolute">
           <div className="flex self-center w-[300px] gap-3 justify-center">
           <a href="#" className="w-fit self-center flex justify-start mt-3"> 
                 <button className={button} alt="button">Buy Now</button>
@@ -103,6 +128,7 @@ const Popup = () => {
           </div>
           {" "}
           <img
+           ref={imgRef}
             src="./Home/Popup/popup_home.webp"
             className="object-cover "
             alt="img"
