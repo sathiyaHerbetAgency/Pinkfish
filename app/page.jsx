@@ -25,7 +25,7 @@ export default function Page() {
     <>
     <Head title={title} description={description} />
     <div className="bg-transparent min-h-[100vh] ">
-      {/* <Popup /> */}
+      <Popup />
       <NewNavbar />
       <Hero/>
       <Festivals />

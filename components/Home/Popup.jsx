@@ -33,6 +33,9 @@ const Popup = () => {
           popupOverlayRefMob.current.style.display = "none";
         }, 1000);
       }
+
+      const button="text-[12px] text-white md:text-[16px] leading-[22.66px] md:leading-[22.66px] font-[Sofia] font-[400] p-2 px-4  bg-[#FF0086] rounded"
+
   return (
     <div>
         <div className="hidden md:block">
@@ -50,10 +53,21 @@ const Popup = () => {
           src="close.png"
           alt="close"
         />
-        <a href="/countdown2024">
+        <div>
+        <div className="flex flex-col h-[360px] justify-end absolute">
+          <div className="flex self-center w-[300px] gap-3 justify-center">
+          <a href="#" className="w-fit self-center flex justify-start mt-3"> 
+                <button className={button} alt="button">Buy Now</button>
+              </a>
+              <a href="#" className="w-fit self-center flex justify-start mt-3"> 
+                <button className={button} alt="button">BNPL</button>
+              </a>
+        </div>
+          </div>
           {" "}
           <img src="./Home/Popup/popup_home.webp" className="" alt="img" />
-        </a>
+          
+        </div>
       </div>
     </div>
   </div>
@@ -66,6 +80,7 @@ const Popup = () => {
       className="popup-container_main flex flex-col gap-3"
     >
       <div className="flex justify-end  ">
+
         <img
           onClick={() => {
             closePopup();
@@ -76,14 +91,24 @@ const Popup = () => {
         />
       </div>
       <div className="popup-card_main  ">
-        <a href="/countdown2024">
+        <div className="flex flex-col h-[400px] justify-end absolute">
+          <div className="flex self-center w-[300px] gap-3 justify-center">
+          <a href="#" className="w-fit self-center flex justify-start mt-3"> 
+                <button className={button} alt="button">Buy Now</button>
+              </a>
+              <a href="#" className="w-fit self-center flex justify-start mt-3"> 
+                <button className={button} alt="button">BNPL</button>
+              </a>
+        </div>
+          </div>
           {" "}
           <img
             src="./Home/Popup/popup_home.webp"
             className="object-cover "
             alt="img"
           />
-        </a>
+         
+          
       </div>
     </div>
   </div>
