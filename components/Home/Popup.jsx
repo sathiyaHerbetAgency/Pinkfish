@@ -12,8 +12,9 @@ const Popup = () => {
     const [containerHeight, setContainerHeight] = useState(0); // State for container height
   
     useEffect(() => {
+      openPopup()
       const updateHeight = () => {
-        openPopup()
+       
 
         if (imgRef.current) {
           // Set the container height based on the image's height
