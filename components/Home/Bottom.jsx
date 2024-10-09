@@ -4,9 +4,9 @@ import "../../styles/home.css";
 
 const Bottom = () => {
   return (
-    <div className="flex flex-col bg-gallery-home py-24 pt-32">
-      <div className="bg-black flex flex-col gap-6 self-center md:max-w-[1100px] max-w-[90%] pt-12 md:py-24 rounded-2xl">
-        <div className="w-[80%] flex flex-col  md:flex-row md:gap-6 self-center">
+    <div className="flex flex-col bg-gallery-home md:py-12 md:pt-16  py-12 pt-14">
+      <div className="bg-black flex flex-col gap-6 self-center md:max-w-[1100px] max-w-[90%] pt-12 md:py-6 rounded-2xl">
+        <div className="w-[80%] md:w-[90%] flex flex-col  md:flex-row md:gap-6 self-center">
           <div className="w-[202px] md:w-auto md:basis-1/2 self-center  ">
             <div className="flex flex-col gap-6 ">
               <div className="  ">

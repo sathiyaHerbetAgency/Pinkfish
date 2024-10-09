@@ -15,30 +15,7 @@ const Popup = () => {
   
     useEffect(() => {
       openPopup()
-      const updateHeight = () => {
-       
 
-        if (imgRef.current) {
-          // Set the container height based on the image's height
-          setContainerHeight(imgRef.current.clientHeight);
-          setContainerWidth(imgRef.current.clientWidth);
-
-        }
-      };
-  
-      // Update height after image loads
-      if (imgRef.current.complete) {
-        updateHeight();
-      } else {
-        imgRef.current.onload = updateHeight;
-      }
-      
-      // Optional: Handle window resize to adjust the height dynamically
-      window.addEventListener('resize', updateHeight);
-  
-      return () => {
-        window.removeEventListener('resize', updateHeight);
-      };
     }, []);
   
     function openPopup() {

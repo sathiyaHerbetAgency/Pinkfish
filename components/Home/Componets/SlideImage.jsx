@@ -30,13 +30,15 @@ const SlideImage = ({url,urlMob,year,link,slide}) => {
     <div className="self-center ">
 
       <div className="hidden md:block">
+        <div className="pt-">
         <img
           src={url}
-          className=" max-w-[100vw]"
+          className="  object-cover "
           alt="slider"
         />
+        </div>
         <div className="text-block_live_hero  max-w-[100vw] z-[999] bg-gradinet-gray text-white flex flex-col justify-center h-[75vh] w-full ">
-          <div className="flex flex-col self-center w-[621px] max-h-[300px]">
+          <div className="flex flex-col self-center w-[621px] max-h-[300px] ">
           <p className={text}>{data[slide].dateText}</p>
               <h1 className={heading}>{data[slide].heading}</h1>
               <p className={`${text} pt-[7px]`}>{data[slide].text}</p>
@@ -50,7 +52,7 @@ const SlideImage = ({url,urlMob,year,link,slide}) => {
       <div className="md:hidden">
       <img
         src={urlMob}
-        className=" object-cover min-h-[90vh] max-w-[100vw]"
+        className=" object-cover  min-h-[90vh] max-w-[100vw]"
         alt="slider"
       />
       <div className="text-block_live  z-[999]   bg-gradinet-gray-mob text-white  h-[90vh]  ">

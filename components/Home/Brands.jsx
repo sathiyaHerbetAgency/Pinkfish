@@ -4,8 +4,8 @@ import React from 'react'
 const Brands = () => {
     const containerClass="flex flex-col items-center "
   return (
-    <div className="flex flex-col bg-gallery-home">
-        <div  className="flex flex-col self-center w-[347px] md:w-[700px] lg:w-[900px] xl:w-[1235px] pt-8 md:pt-24 pb-11 gap-6">
+    <div className="flex flex-col bg-gallery-home md:mb-5 mb-1 ">
+        <div  className="flex flex-col self-center w-[347px] md:w-[700px] lg:w-[900px] xl:w-[1235px] pt-8 md:pt-16 pb-3 md:pb-1 gap-6">
             <h2 className="text-[16px] md:text-[24px] leading-[19.2px] md:leading-[28.8px] font-[700] font-[Integral] text-center  text-[#fff]  uppercase">Our brands</h2>
             <div className="grid md:grid-cols-4 gap-4 grid-cols-2 self-center ">
                 <a href="music&artsfestival" className={containerClass}>

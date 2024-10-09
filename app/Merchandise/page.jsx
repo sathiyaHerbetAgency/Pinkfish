@@ -123,7 +123,7 @@ const page = () => {
                         cop the exclusive PFF2024 X chaigo the stray fit 
                       </h2> */}
                       <p className="product-sub-title">
-                        pinkfish X Chaigo T-shirt
+                      Pinkfish WTF T-Shirt
                       </p>
                       <div className="flex gap-3">
                         <p className="product-price">RM72.00</p>
