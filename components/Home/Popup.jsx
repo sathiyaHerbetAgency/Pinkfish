@@ -64,7 +64,7 @@ const Popup = () => {
         }, 1000);
       }
 
-      const button="text-[12px] text-white md:text-[16px] leading-[22.66px] md:leading-[22.66px] font-[Sofia] font-[400] p-2 px-4  bg-[#FF0086] rounded"
+      const button="text-[12px] text-white md:text-[16px] leading-[22.66px] md:leading-[22.66px] font-[Sofia] font-[400] p-2 px-4  bg-[#FF0086] rounded w-[110px]"
 
   return (
     <div>
@@ -134,7 +134,7 @@ const Popup = () => {
       </div>
       <div  className="flex flex-col   pb-4 justify-end ">
           <div className="flex self-center gap-3 justify-center w-[100vw]">
-          <a href="https://www.ticket2u.com.my/event/38606" target="_blank" className="w-fit self-center flex justify-start "> 
+          <a href="https://www.ticket2u.com.my/event/38606" target="_blank" className="w-[100px] self-center flex justify-start "> 
                 <button className={button} alt="button">BUY NOW</button>
               </a>
               <a href="https://www.ticket2u.com.my/event/38609" target="_blank" className="w-fit self-center flex justify-start"> 
