@@ -51,10 +51,10 @@ const page = () => {
                       pinkfish X Chaigo T-shirt
                     </p>
                     <div className="flex gap-3">
-                      <p className="product-price">RM68.00</p>
+                      <p className="product-price">RM42.50</p>
                       <p className="product-price crossed">RM85.00</p>
                       <span className="inline-flex items-center rounded-xl bg-[#DA3F3F] px-2  text-[12px] font-medium text-white font-[Poppins-Regular]  uppercase">
-                        Save 20%
+                        Save 50%
                       </span>
                     </div>
                     <div className="flex gap-3">
@@ -90,10 +90,10 @@ const page = () => {
                         pinkfish Elemental T-shirt
                       </p>
                       <div className="flex gap-3">
-                        <p className="product-price">RM84.00</p>
+                        <p className="product-price">RM52.50</p>
                         <p className="product-price crossed">RM105.00</p>
                         <span className="inline-flex items-center rounded-xl bg-[#DA3F3F] px-2  text-[12px] font-medium text-white font-[Poppins-Regular]  uppercase">
-                          Save 20%
+                          Save 50%
                         </span>
                       </div>
                       <div className="flex gap-3">
@@ -126,10 +126,10 @@ const page = () => {
                       Pinkfish WTF T-Shirt
                       </p>
                       <div className="flex gap-3">
-                        <p className="product-price">RM72.00</p>
+                        <p className="product-price">RM45.00</p>
                         <p className="product-price crossed">RM90.00</p>
                         <span className="inline-flex items-center rounded-xl bg-[#DA3F3F] px-2  text-[12px] font-medium text-white font-[Poppins-Regular]  uppercase">
-                          Save 20%
+                          Save 50%
                         </span>
                       </div>
                       <div className="flex gap-3">
@@ -164,10 +164,10 @@ const page = () => {
                       pinkfish bandana
                       </p>
                       <div className="flex gap-3">
-                        <p className="product-price">RM24.00</p>
+                        <p className="product-price">RM15.00</p>
                         <p className="product-price crossed">RM30.00</p>
                         <span className="inline-flex items-center rounded-xl bg-[#DA3F3F] px-2  text-[12px] font-medium text-white font-[Poppins-Regular]  uppercase">
-                          Save 20%
+                          Save 50%
                         </span>
                       </div>
                       <div className="flex gap-3">
@@ -197,10 +197,10 @@ const page = () => {
                       bucket hat
                       </p>
                       <div className="flex gap-3">
-                        <p className="product-price">RM56.00</p>
+                        <p className="product-price">RM35.00</p>
                         <p className="product-price crossed">RM70.00</p>
                         <span className="inline-flex items-center rounded-xl bg-[#DA3F3F] px-2  text-[12px] font-medium text-white font-[Poppins-Regular]  uppercase">
-                          Save 20%
+                          Save 50%
                         </span>
                       </div>
                       <div className="flex gap-3">
@@ -230,10 +230,10 @@ const page = () => {
                       wtf cap
                       </p>
                       <div className="flex gap-3">
-                        <p className="product-price">RM48.00</p>
+                        <p className="product-price">RM30.00</p>
                         <p className="product-price crossed">RM60.00</p>
                         <span className="inline-flex items-center rounded-xl bg-[#DA3F3F] px-2  text-[12px] font-medium text-white font-[Poppins-Regular]  uppercase">
-                          Save 20%
+                          Save 50%
                         </span>
                       </div>
                       <div className="flex gap-3">

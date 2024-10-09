@@ -9,7 +9,7 @@ const textGallery1= "text-[16px] md:text-[24px] keading-[20.19px] md:leading-[32
 const overlayContainer="  opacity-0 hover:opacity-100 absolute z-1 w-[90%] md:max-w-[370px] h-[355px] md:h-[394px] pl-4 pb-4 flex flex-col justify-end bg-gradinet-gray";
 
 const text1="text-white text-[12px] leading-[16px] md:text-[16px] md:leading-[22.66px] font-[Sofia] font-[400] text-left";
-const button="bg-[#2A2A2A] w-[100px] md:w-[150px] self-center text-white text-[8px] md:text-[12.31px] leading-[10px] md:leading-[24.63px] font-[Sofia] font-[800] p-2 px-3 mt-3 mr-3 md:mr-0 rounded-md uppercase"
+const button="bg-[#FF0086] w-[100px] md:w-[150px] self-center text-white text-[8px] md:text-[12.31px] leading-[10px] md:leading-[24.63px] font-[Sofia] font-[800] p-2 px-3 mt-3 mr-3 md:mr-0 rounded-md uppercase"
 const FestivalContainer = ({data,index,active}) => {
     const [activeCard, setActiveCard] = useState(null);  
       const overlayContainerMob=' hidden   w-[90vw] h-[394px] flex flex-col justify-between bg-gradinet-gray pb-5';
