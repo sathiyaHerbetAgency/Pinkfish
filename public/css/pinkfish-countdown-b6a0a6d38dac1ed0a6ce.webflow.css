@@ -5913,6 +5913,158 @@ strong {
   top: 0;
 }
 
+.buy-tix-btn {
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  background-image: linear-gradient(127deg, #ca0000, #f37500);
+  border-radius: 20px;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 2.5em;
+  padding: 5px;
+  text-decoration: none;
+  display: flex;
+}
+
+.buy-tix-btn.new {
+  height: 3em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.buy-tix-btn.new.coming-soon {
+  cursor: not-allowed;
+}
+
+.buy-tix-btn.new.coming-soon.sale {
+  cursor: pointer;
+  background-color: #ff0086;
+  background-image: none;
+  border-radius: 10px;
+  width: 150px;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: Gotham, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.buy-tix-btn.new.sale {
+  background-color: #ff0086;
+  background-image: none;
+  border-radius: 10px;
+  width: 150px;
+  max-width: 150px;
+  height: 40px;
+  max-height: 40px;
+  padding: 0;
+  font-family: Gotham, sans-serif;
+  font-size: 17px;
+}
+
+.div-block-152 {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  display: flex;
+}
+
+.div-block-149 {
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  flex-flow: column;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+  min-height: 400px;
+  max-height: 600px;
+  display: flex;
+}
+
+.link-block-26 {
+  background-color: #ff0086;
+  border-radius: 5px;
+  width: 30px;
+  padding: 5px;
+}
+
+.div-block-153 {
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  display: flex;
+}
+
+.div-block-150 {
+  flex-flow: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 95%;
+  height: 25px;
+  margin-top: 10px;
+  display: flex;
+}
+
+.popup-container {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: #fff0;
+  background-image: none;
+  background-size: auto;
+  border-radius: 10px;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  min-width: auto;
+  max-width: none;
+  height: auto;
+  min-height: auto;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  inset: 0%;
+}
+
+.container-15 {
+  z-index: 99999;
+  background-color: #000000c4;
+  width: 100vw;
+  min-width: 100vw;
+  max-width: none;
+  height: 100%;
+  min-height: 100%;
+  position: fixed;
+  inset: 0%;
+}
+
+.image-36 {
+  max-width: 350px;
+}
+
+.pink-btn {
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #ff0086;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  max-width: 150px;
+  height: 40px;
+  padding: 0;
+  font-family: Gotham, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+}
+
 @media screen and (min-width: 1920px) {
   .navbarcontainer.mobile {
     display: none;
@@ -9216,6 +9368,81 @@ strong {
     font-family: Poppins, sans-serif;
     font-size: 10px;
     line-height: 14px;
+  }
+
+  .buy-tix-btn {
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+  }
+
+  .buy-tix-btn.new.coming-soon.sale {
+    cursor: pointer;
+    width: 120px;
+  }
+
+  .buy-tix-btn.new.sale {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    flex-flow: row;
+    width: 120px;
+  }
+
+  .div-block-152 {
+    flex-flow: row;
+    justify-content: center;
+  }
+
+  .div-block-149 {
+    grid-column-gap: 18px;
+    grid-row-gap: 18px;
+    -webkit-text-stroke-color: #3330;
+  }
+
+  .link-block-26 {
+    justify-content: center;
+    width: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+  }
+
+  .div-block-153 {
+    flex-flow: row;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto;
+  }
+
+  .popup-container {
+    width: 280px;
+    height: 500px;
+  }
+
+  .image-36 {
+    max-width: 280px;
+  }
+
+  .pink-btn {
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #ff0086;
+    border-radius: 10px;
+    justify-content: center;
+    width: 120px;
+    max-width: 120px;
+    height: 35px;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: Gotham, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+  }
+
+  .image-37 {
+    max-width: 15px;
   }
 }
 
