@@ -5,7 +5,7 @@ import "../../../styles/live.css"
 
 import  Link  from 'next/link';
 
-const textGallery1= "text-[16px] md:text-[24px] keading-[20.19px] md:leading-[32.06px] font-[Sofia] font-[800] text-white text-left w-[90%] ";
+const textGallery1= "text-[16px] md:text-[24px] leading-[20.19px] md:leading-[32.06px] font-[Sofia] font-[800] text-white text-left w-[90%] ";
 const overlayContainer="  opacity-0 hover:opacity-100 absolute z-1 w-[90%] md:max-w-[370px] h-[355px] md:h-[394px] pl-4 pb-4 flex flex-col justify-end bg-gradinet-gray";
 
 const text1="text-white text-[12px] leading-[16px] md:text-[16px] md:leading-[22.66px] font-[Sofia] font-[400] text-left";
