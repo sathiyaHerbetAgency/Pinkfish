@@ -12,6 +12,10 @@ const initialState = {
   }
 const FormFields = () => {
   const text="text-white text-[14px] leading-[24px] md:text-[14px] md:leading-[24.66px] font-[Sofia] font-[400] ";
+  const textSmall="text-white text-[8px] leading-[14px] md:text-[10px] md:leading-[16.66px] font-[Sofia] font-[400] ";
+  const heading= "self-center text-white text-[24px] leading-[28px] md:text-[28px] md:leading-[36.66px] font-[Sofia] font-[700] mb-6 ";
+
+
     const [{ name,phone, email, tableNumber, drinkType }, setState] = useState(initialState);
     let popupOverlayRef = useRef(null);
     let popupContainerRef = useRef(null);
@@ -69,17 +73,29 @@ const FormFields = () => {
   return (
     <div>
       <div className="flex flex-col justify-center w-[100%] md:h-[620px] my-6 md:my-0 bg-black">
+        <h2 className={heading}>Beverage Selection for #PFC2024</h2>
         <form onSubmit={formSubmit} className="flex flex-col  lg:w-[468px] w-[90%] max-w-[300px] md:max-w-[468px] self-center gap-3">
                     <input name='name'  onChange={onChange} value={name}  className="bg-white rounded-md text-black p-2 pl-6 w-full font-[Sofia]" type="text" placeholder="Name"/>
                     <input name='phone' onChange={onChange} value={phone}  className="bg-white rounded-md text-black p-2 pl-6" type="tel" placeholder="Phone Number"/>
                     <input name='email' onChange={onChange} value={email}  className="bg-white rounded-md text-black p-2 pl-6 w-full" type="text" placeholder="Email"/>
-                    <input name='tableNumber' onChange={onChange} value={tableNumber}  className="bg-white rounded-md text-black p-2 pl-6" type="tel" placeholder="Table Number"/>
+                    <div class="relative">
+                    <select onChange={onChange} name="tableNumber" value={drinkType} class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
+                      <option value="" disabled selected>Select Table Number</option>
+                      <option value="Gold 1-8" >Gold 1-8</option>
+                      <option value="Silver 1-11">Silver 1-11</option>
+                      <option value="Bronze 1-14">Bronze 1-14</option>
+                    </select>
+
+                  </div>
                     <div class="relative">
                     <select onChange={onChange} name="drinkType" value={drinkType} class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
                       <option value="" disabled selected>Select Drink</option>
-                      <option value="first" >First</option>
-                      <option value="second">Second</option>
+                      <option value="Gin" >Gin</option>
+                      <option value="Whisky">Whisky</option>
+                      <option value="Vodka">Vodka</option>
                     </select>
+                    <p className={textSmall}>*Beverage brands are subject to change without prior notice.
+                    </p>
                     {/* <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
                       <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_1805_2483)">
