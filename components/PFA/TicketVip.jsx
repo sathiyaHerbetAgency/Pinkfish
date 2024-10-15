@@ -5,28 +5,28 @@ import TicketContainer from './Components/TicketContainer';
 
 const TicketVip = () => {
   const Ticket1={
-    payLaterStatus:true,
-    payLater:"buy now pay later",
+    payLaterStatus:false,
+    payLater:"",
     title:"vip",
     type:"Earlybird",
     price:"RM 328",
+    TicketStatus:false,
+    BuyButton:"Sold Out",
+    BuyButtonStatus:false,
+    link1:"",
+    link2:"",
+  }
+  const Ticket2={
+    payLaterStatus:true,
+    payLater:"Buy Now Pay Later",
+    title:"vip",
+    type:"phase 1",
+    price:"RM 358",
     TicketStatus:true,
     BuyButton:"Buy Now",
     BuyButtonStatus:true,
     link1:"https://www.ticket2u.com.my/event/37375",
     link2:"https://www.ticket2u.com.my/event/37445",
-  }
-  const Ticket2={
-    payLaterStatus:false,
-    payLater:"",
-    title:"vip",
-    type:"phase 1",
-    price:"RM 358",
-    TicketStatus:false,
-    BuyButton:"Coming Soon",
-    BuyButtonStatus:false,
-    link1:"",
-    link2:"",
   }
 
   const Ticket3={
