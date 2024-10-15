@@ -651,7 +651,7 @@ contact_input:focus{
   .popup-card {
     padding: 20px;
     text-align: center;
-   
+    @apply w-[100%] md:w-[480px] h-[150px] flex flex-col justify-center;
   }
   .popup-card_main{
     padding: 20px;
@@ -682,7 +682,7 @@ contact_input:focus{
     padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
-    @apply text-[14px] md:text-[18px] font-[400] leading-[12px] md:leading-[21.5px]   font-[Sofia]  text-[#fff] ;
+    @apply text-[14px] md:text-[18px] font-[400] leading-[12px] md:leading-[21.5px]   font-[Sofia]  text-[#fff] w-fit self-center ;
   }
   
   #close-popup_main {

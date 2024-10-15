@@ -1,14 +1,14 @@
 /* eslint-disable */
 "use client";
-import React,{useState,useRef} from 'react'
+import React,{useState,useRef,useEffect} from 'react'
 import "../../styles/contact.css";
 import axios from "axios";
 const initialState = {
-  name: "",
-  phone:'',
-  email: "",
-  tableNumber:'',
-  drinkType:'',
+  Name: "",
+  Phone:'',
+  Email: "",
+  TableNumber:'',
+  DrinkType:'',
   }
 const FormFields = () => {
   const text="text-white text-[14px] leading-[24px] md:text-[14px] md:leading-[24.66px] font-[Sofia] font-[400] ";
@@ -16,11 +16,14 @@ const FormFields = () => {
   const heading= "self-center text-white text-[24px] leading-[28px] md:text-[28px] md:leading-[36.66px] font-[Sofia] font-[700] mb-6 ";
 
 
-    const [{ name,phone, email, tableNumber, drinkType }, setState] = useState(initialState);
+    const [{ Name,Phone, Email,TableNumber, DrinkType}, setState] = useState(initialState);
+    const [loading,setLoading]=useState(false)
     let popupOverlayRef = useRef(null);
     let popupContainerRef = useRef(null);
     let closePopupButtonRef = useRef(null);
     const [resultText, setResultText]=useState("")
+    const formRef = useRef(null);
+    const urlForm="https://script.google.com/macros/s/AKfycbwkMdM2su79hkYKcopWBAcJu2t_C0kmqNcMSojCIXEYgfMWCLOtnVOPz8R0trFplogZ/exec"
     const clearState = () => {
       setState({ ...initialState });
     };
@@ -31,26 +34,39 @@ const FormFields = () => {
       setState((prevState) => ({ ...prevState, [name]: value }));
    }
    function formSubmit(e) {
+    setLoading(true)
+    openPopup()
+
     e.preventDefault();
-    console.log(name,email,phone,tableNumber,drinkType)
+    const formData = new FormData(formRef.current);
+        // axios.post(urlForm, formData)
+    // axios.post(urlForm, formData)
     const data={
-      Name:name,
-      Email:email,
-      Phone:phone,
-      TableNumber:tableNumber,
-      DrinkType:drinkType,
+      Name,
+      Email,
+      Phone,
+      TableNumber,
+      DrinkType,
     };
-    axios.post('https://api.sheetbest.com/sheets/b66b75ad-a1e3-451e-97ac-7b5005ea2b45',data).then((res)=>{
-      console.log(res)
-      if(res.status===200){
+    axios.post(urlForm, formData).then((res)=>{
+      if(res.data.result==="success"){
         setResultText(" Your Response Recorded Successfully")
-        openPopup()
+        setLoading(false)
 
       }else{
         setResultText("Sorry Try Again")
-        openPopup()
+        setLoading(false)
       }
     })
+
+    // axios.post(urlForm, formData)
+    // .then(function (response) {
+    //   console.log('Data sent successfully:', response.data);
+    // })
+    // .catch(function (error) {
+    //   console.error('Error Message:', error);  // Logs the error message
+    // });
+  
    }
 
    function openPopup(e) {
@@ -61,7 +77,7 @@ const FormFields = () => {
     }, 100);
   }
   function closePopup() {
-    clearState()  
+    formRef.current.reset();
     setTimeout(() => {
       popupOverlayRef.current.style.display = "none";
       popupContainerRef.current.style.opacity = "0";
@@ -69,17 +85,18 @@ const FormFields = () => {
     }, 300);
    
   }
-
   return (
     <div>
       <div className="flex flex-col justify-center w-[100%] md:h-[620px] my-6 md:my-0 bg-black">
         <h2 className={heading}>Beverage Selection for #PFC2024</h2>
-        <form onSubmit={formSubmit} className="flex flex-col  lg:w-[468px] w-[90%] max-w-[300px] md:max-w-[468px] self-center gap-3">
-                    <input name='name'  onChange={onChange} value={name}  className="bg-white rounded-md text-black p-2 pl-6 w-full font-[Sofia]" type="text" placeholder="Name"/>
-                    <input name='phone' onChange={onChange} value={phone}  className="bg-white rounded-md text-black p-2 pl-6" type="tel" placeholder="Phone Number"/>
-                    <input name='email' onChange={onChange} value={email}  className="bg-white rounded-md text-black p-2 pl-6 w-full" type="text" placeholder="Email"/>
+        <form ref={formRef}  
+  onSubmit={formSubmit}
+ className="flex flex-col  lg:w-[468px] w-[90%] max-w-[300px] md:max-w-[468px] self-center gap-3">
+                    <input name='Name'     className="bg-white rounded-md text-black p-2 pl-6 w-full font-[Sofia]" type="text" placeholder="Name"/>
+                    <input name='Phone'   className="bg-white rounded-md text-black p-2 pl-6" type="tel" placeholder="Phone Number"/>
+                    <input name='Email'    className="bg-white rounded-md text-black p-2 pl-6 w-full" type="text" placeholder="Email"/>
                     <div class="relative">
-                    <select onChange={onChange} name="tableNumber" value={drinkType} class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
+                    <select  name="TableNumber"  class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
                       <option value="" disabled selected>Select Table Number</option>
                       <option value="Gold 1-8" >Gold 1-8</option>
                       <option value="Silver 1-11">Silver 1-11</option>
@@ -88,7 +105,7 @@ const FormFields = () => {
 
                   </div>
                     <div class="relative">
-                    <select onChange={onChange} name="drinkType" value={drinkType} class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
+                    <select  name="DrinkType"  class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
                       <option value="" disabled selected>Select Drink</option>
                       <option value="Gin" >Gin</option>
                       <option value="Whisky">Whisky</option>
@@ -117,9 +134,10 @@ const FormFields = () => {
         </div>
         <div ref={popupOverlayRef} className="popup-overlay">
           <div ref={popupContainerRef} className="popup-container">
-            <div className="popup-card mt-6">
+            {loading?<div className="popup-card"><img className="w-[100px] h-[50px] self-center" src="./Svg/spinner-form.svg" alt="" />  </div>:
+            <div className="popup-card  mt-6">
               <p className="thanks_text mb-6">
-               {resultText}
+              Your Response Recorded Successfully
               </p>
               <button
                 id="close-popup"
@@ -128,6 +146,7 @@ const FormFields = () => {
                 Close
               </button>
             </div>
+}
           </div>
         </div>
     </div>
