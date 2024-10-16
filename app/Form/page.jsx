@@ -100,17 +100,15 @@ const clearState = () => {
     <div className="flex flex-col">
     <Head title={title} description={description} />
       <NewNavbar />
-        <div className=" bg-form md:max-w-[1550px] w-[100vw]  flex md:flex-row flex-col justify-center text-white self-center">
-            {/* <div className="w-full md:w-[45%] ">
-                <LeftBanner />
-            </div> */}
+        {/* <div className=" bg-form md:max-w-[1550px] w-[100vw]  flex md:flex-row flex-col justify-center text-white self-center">
+           
             <div className="w-full md:w-[55%] text-black">
                 <FormFields />
             </div>
 
         </div>
       <img
-        className=" md:block hidden right-[0] top-[70%]  fixed" src="/fish.png"/>
+        className=" md:block hidden right-[0] top-[70%]  fixed" src="/fish.png"/> */}
       <Footer />
     </div>
   );
