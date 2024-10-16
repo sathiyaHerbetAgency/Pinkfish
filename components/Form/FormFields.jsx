@@ -12,8 +12,8 @@ const initialState = {
   }
 const FormFields = () => {
   const text="text-white text-[14px] leading-[24px] md:text-[14px] md:leading-[24.66px] font-[Sofia] font-[400] ";
-  const textSmall="text-white text-[8px] leading-[14px] md:text-[10px] md:leading-[16.66px] font-[Sofia] font-[400] ";
-  const heading= "self-center text-white text-[24px] leading-[28px] md:text-[28px] md:leading-[36.66px] font-[Sofia] font-[700] mb-6 ";
+  const textSmall="text-white text-[8px] leading-[14px] italic md:text-[11px] md:leading-[24px] font-[Sofia] font-[400] ";
+  const heading= "hero-shadow er text-white text-[28px] leading-[36.66px] md:text-[36px] md:leading-[36.66px] font-[Sofia] font-[800] mb-6  text-center uppercase ";
 
 
     const [{ Name,Phone, Email,TableNumber, DrinkType}, setState] = useState(initialState);
@@ -87,8 +87,15 @@ const FormFields = () => {
   }
   return (
     <div>
-      <div className="flex flex-col justify-center w-[100%] md:h-[620px] my-6 md:my-0 bg-black">
-        <h2 className={heading}>Beverage Selection for #PFC2024</h2>
+      <div className="flex flex-col justify-center w-[100%] md:h-[620px] my-6 md:my-0 ">
+        <div className="self-center flex flex-col gap-8 w-[85%] md:w-[450px]">
+          <div className="flex gap-3 self-center">
+            <img src="./Form/logo1.webp" alt="countdown-logo" />
+            <img src="./Form/logo2.webp" alt="spaceplus-logo" />
+
+          </div>
+          <h2 className={heading}>Beverage Selection for #PFC2024</h2>
+        </div>
         <form ref={formRef}  
   onSubmit={formSubmit}
  className="flex flex-col  lg:w-[468px] w-[90%] max-w-[300px] md:max-w-[468px] self-center gap-3">

@@ -135,7 +135,28 @@ select {
   background-repeat:no-repeat;
 
 }
+.bg-form{
+  background-image:url("/Form/hero_bg.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
 
+}
+
+
+@media screen and (max-width:768px){
+  .bg-form{
+    background-image:url("/Form/hero_bg_mob.webp");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  
+  }
+}
+.hero-shadow{
+  text-shadow: 5px 1px 8px #FFFFFFCC;
+
+}
 .ticket-body-bg{
   background-image:url("/PFA/tick.png");
   background-size:cover;
