@@ -3,20 +3,15 @@
 import React,{useState,useRef,useEffect} from 'react'
 import "../../styles/contact.css";
 import axios from "axios";
-const initialState = {
-  Name: "",
-  Phone:'',
-  Email: "",
-  TableNumber:'',
-  DrinkType:'',
-  }
+import Select from 'react-select';
+
 const FormFields = () => {
   const text="text-white text-[14px] leading-[24px] md:text-[14px] md:leading-[24.66px] font-[Sofia] font-[400] ";
   const textSmall="text-white text-[8px] leading-[14px] italic md:text-[11px] md:leading-[24px] font-[Sofia] font-[400] ";
   const heading= "hero-shadow er text-white text-[28px] leading-[36.66px] md:text-[36px] md:leading-[36.66px] font-[Sofia] font-[800] mb-6  text-center uppercase ";
 
 
-    const [{ Name,Phone, Email,TableNumber, DrinkType}, setState] = useState(initialState);
+    const [{ Name,Phone, Email,TableNumber, DrinkType}, setState] = useState([]);
     const [loading,setLoading]=useState(false)
     let popupOverlayRef = useRef(null);
     let popupContainerRef = useRef(null);
@@ -24,9 +19,7 @@ const FormFields = () => {
     const [resultText, setResultText]=useState("")
     const formRef = useRef(null);
     const urlForm="https://script.google.com/macros/s/AKfycbwkMdM2su79hkYKcopWBAcJu2t_C0kmqNcMSojCIXEYgfMWCLOtnVOPz8R0trFplogZ/exec"
-    const clearState = () => {
-      setState({ ...initialState });
-    };
+
 
     const onChange = (e) => {
       const { name, value } = e.target;
@@ -41,13 +34,7 @@ const FormFields = () => {
     const formData = new FormData(formRef.current);
         // axios.post(urlForm, formData)
     // axios.post(urlForm, formData)
-    const data={
-      Name,
-      Email,
-      Phone,
-      TableNumber,
-      DrinkType,
-    };
+
     axios.post(urlForm, formData).then((res)=>{
       if(res.data.result==="success"){
         setResultText(" Your Response Recorded Successfully")
@@ -59,13 +46,7 @@ const FormFields = () => {
       }
     })
 
-    // axios.post(urlForm, formData)
-    // .then(function (response) {
-    //   console.log('Data sent successfully:', response.data);
-    // })
-    // .catch(function (error) {
-    //   console.error('Error Message:', error);  // Logs the error message
-    // });
+
   
    }
 
@@ -85,6 +66,28 @@ const FormFields = () => {
     }, 300);
    
   }
+
+  const renderOptions = () => {
+    const options = [];
+
+    // Add Gold options (Gold 1 to Gold 8)
+    for (let i = 1; i <= 8; i++) {
+      options.push(<option key={`Gold-${i}`} value={`Gold ${i}`}>Gold {i}</option>);
+    }
+
+    // Add Silver options (Silver 1 to Silver 11)
+    for (let i = 1; i <= 11; i++) {
+      options.push(<option key={`Silver-${i}`} value={`Silver ${i}`}>Silver {i}</option>);
+    }
+
+    // Add Bronze options (Bronze 1 to Bronze 14)
+    for (let i = 1; i <= 14; i++) {
+      options.push(<option key={`Bronze-${i}`} value={`Bronze ${i}`}>Bronze {i}</option>);
+    }
+
+    return options;
+  };
+
   return (
     <div>
       <div className="flex flex-col justify-center w-[100%] md:h-[620px] my-6 md:my-0 ">
@@ -102,13 +105,18 @@ const FormFields = () => {
                     <input name='Name'     className="bg-white rounded-md text-black p-2 pl-6 w-full font-[Sofia]" type="text" placeholder="Name"/>
                     <input name='Phone'   className="bg-white rounded-md text-black p-2 pl-6" type="tel" placeholder="Phone Number"/>
                     <input name='Email'    className="bg-white rounded-md text-black p-2 pl-6 w-full" type="text" placeholder="Email"/>
-                    <div class="relative">
-                    <select  name="TableNumber"  class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
+                    <div class="relative select-wrapper">
+                    <select  onfocus='this.size=6;' onblur='this.size=6;' onfocusout='this.size=null;' onchange='this.size=6; this.blur();' name="TableNumber"  class="select block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
                       <option value="" disabled selected>Select Table Number</option>
-                      <option value="Gold 1-8" >Gold 1-8</option>
-                      <option value="Silver 1-11">Silver 1-11</option>
-                      <option value="Bronze 1-14">Bronze 1-14</option>
+                      {renderOptions()}
                     </select>
+                     {/* <Select
+                        options={options}
+                        styles={customStyles}
+                        placeholder="Select Table Number"
+                        components={{DropdownIndicator}}
+                        isSearchable={false}
+                      /> */}
 
                   </div>
                     <div class="relative">
@@ -118,6 +126,12 @@ const FormFields = () => {
                       <option value="Whisky">Whisky</option>
                       <option value="Vodka">Vodka</option>
                     </select>
+                     {/* <Select
+                        options={options2}
+                        styles={customStyles}
+                        placeholder="Select Drink"
+                        isSearchable={false}
+                      /> */}
                     <p className={textSmall}>*Beverage brands are subject to change without prior notice.
                     </p>
                     {/* <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">

@@ -663,8 +663,22 @@ contact_input:focus{
     text-align: center;
     @apply flex gap-3;
   }
+  .select-dropdown {
+    max-height: 100px; /* Adjust the height as needed */
+    overflow-y: auto;
+  }
 
-
+  .select-wrapper {
+    max-height: 50px;
+    overflow-y: visible;
+  }
+  
+  .select {
+    width: 100%;
+    /* make it min-height*/
+    max-height: 50px;
+   
+  }
   
   .popup-card h2 {
     font-size: 24px;
