@@ -8,7 +8,8 @@ import Select from 'react-select';
 const FormFields = () => {
   const text="text-white text-[14px] leading-[24px] md:text-[14px] md:leading-[24.66px] font-[Sofia] font-[400] ";
   const textSmall="text-white text-[8px] leading-[14px] italic md:text-[11px] md:leading-[24px] font-[Sofia] font-[400] ";
-  const heading= "hero-shadow er text-white text-[28px] leading-[36.66px] md:text-[36px] md:leading-[36.66px] font-[Sofia] font-[800] mb-6  text-center uppercase ";
+  const heading= "hero-shadow hidden md:block text-white text-[28px] leading-[36.66px] md:text-[36px] md:leading-[36.66px] font-[Sofia] font-[800] mb-6  text-center uppercase ";
+  const heading1= "hero-shadow1  md:hidden text-white text-[28px] leading-[36.66px] md:text-[36px] md:leading-[36.66px] font-[Sofia] font-[800] mb-6  text-center uppercase ";
 
 
     const [{ Name,Phone, Email,TableNumber, DrinkType}, setState] = useState([]);
@@ -98,6 +99,8 @@ const FormFields = () => {
 
           </div>
           <h2 className={heading}>Beverage Selection for #PFC2024</h2>
+          <h2 className={heading1}>Beverage Selection for #PFC2024</h2>
+
         </div>
         <form ref={formRef}  
   onSubmit={formSubmit}
