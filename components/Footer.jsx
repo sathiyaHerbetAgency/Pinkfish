@@ -152,7 +152,7 @@ const Footer = () => (
    
    <p className="footer_bottom_text uppercase">Copyright- Pinkfish lifestyle and Entertainment in Malaysia </p>
  
-   <div className='flex gap-2 text-white items-center ' >
+   <div className='flex gap-2 text-white items-center self-center' >
    <Link href="PrivacyPolicy" arial-label="Privacy Policy Page" >
          <p className="cursor-pointer footer_bottom_text  ">Privacy Policy</p>
          </Link>
