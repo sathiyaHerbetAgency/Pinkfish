@@ -154,7 +154,7 @@ select {
   }
 }
 .hero-shadow{
-  text-shadow: 3px 1  px 5px #ffffFFDD;
+  text-shadow: 3px 1  px 5px #FFFFFFDD !important;
 
 }
 .ticket-body-bg{
