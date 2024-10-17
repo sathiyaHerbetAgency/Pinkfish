@@ -152,6 +152,10 @@ select {
     background-position:center;
   
   }
+  .hero-shadow{
+    text-shadow: 3px 1px 5px #FFFFFFDD !important;
+  
+  }
 }
 .hero-shadow{
   text-shadow: 3px 1px 8px #FFFFFFDD !important;
