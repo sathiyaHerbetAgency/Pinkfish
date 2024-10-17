@@ -106,18 +106,10 @@ const FormFields = () => {
                     <input name='Phone'   className="bg-white rounded-md text-black p-2 pl-6" type="tel" placeholder="Phone Number"/>
                     <input name='Email'    className="bg-white rounded-md text-black p-2 pl-6 w-full" type="text" placeholder="Email"/>
                     <div class="relative select-wrapper">
-                    <select  onfocus='this.size=6;' onblur='this.size=6;' onfocusout='this.size=null;' onchange='this.size=6; this.blur();' name="TableNumber"  class="select block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
+                    <select name="TableNumber"  class="select block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
                       <option value="" disabled selected>Select Table Number</option>
                       {renderOptions()}
                     </select>
-                     {/* <Select
-                        options={options}
-                        styles={customStyles}
-                        placeholder="Select Table Number"
-                        components={{DropdownIndicator}}
-                        isSearchable={false}
-                      /> */}
-
                   </div>
                     <div class="relative">
                     <select  name="DrinkType"  class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
@@ -126,12 +118,6 @@ const FormFields = () => {
                       <option value="Whisky">Whisky</option>
                       <option value="Vodka">Vodka</option>
                     </select>
-                     {/* <Select
-                        options={options2}
-                        styles={customStyles}
-                        placeholder="Select Drink"
-                        isSearchable={false}
-                      /> */}
                     <p className={textSmall}>*Beverage brands are subject to change without prior notice.
                     </p>
                     {/* <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
