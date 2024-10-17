@@ -75,7 +75,7 @@ const Footer = () => (
     </div>
     <div className='flex flex-col  md:flex-row justify-between  w-[90%] md:w-[90%] max-w-[1500px] self-center  gap-11'>
    
-        <p className="footer_bottom_text capitalize">Copyright- Pinkfish lifestyle and Entertainment in Malaysia </p>
+        <p className="footer_bottom_text uppercase">Copyright-Pinkfish lifestyle and Entertainment in Malaysia </p>
 
         <div className='flex gap-2 text-white items-center' >
           <Link href="PrivacyPolicy">
@@ -150,7 +150,7 @@ const Footer = () => (
       </div>
         <div className='flex flex-col md:flex-row justify-between  mb-11 self-center  gap-3'>
    
-   <p className="footer_bottom_text capitalize">Copyright- Pinkfish lifestyle and Entertainment in Malaysia </p>
+   <p className="footer_bottom_text uppercase">Copyright- Pinkfish lifestyle and Entertainment in Malaysia </p>
  
    <div className='flex gap-2 text-white items-center ' >
    <Link href="PrivacyPolicy" arial-label="Privacy Policy Page" >
