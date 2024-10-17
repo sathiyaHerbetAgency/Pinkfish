@@ -105,17 +105,17 @@ const FormFields = () => {
         <form ref={formRef}  
   onSubmit={formSubmit}
  className="flex flex-col  lg:w-[468px] w-[90%] max-w-[300px] md:max-w-[468px] self-center gap-3">
-                    <input name='Name'     className="bg-white rounded-md text-black p-2 pl-6 w-full font-[Sofia]" type="text" placeholder="Name"/>
-                    <input name='Phone'   className="bg-white rounded-md text-black p-2 pl-6" type="tel" placeholder="Phone Number"/>
-                    <input name='Email'    className="bg-white rounded-md text-black p-2 pl-6 w-full" type="text" placeholder="Email"/>
+                    <input name='Name'  required   className="bg-white rounded-md text-black p-2 pl-6 w-full font-[Sofia]" type="text" placeholder="Name"/>
+                    <input name='Phone' required  className="bg-white rounded-md text-black p-2 pl-6" type="tel" placeholder="Phone Number"/>
+                    <input name='Email' required   className="bg-white rounded-md text-black p-2 pl-6 w-full" type="text" placeholder="Email"/>
                     <div class="relative select-wrapper">
-                    <select name="TableNumber"  class="select block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+                    <select name="TableNumber" required  class="select block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
                       <option value="" disabled selected>Select Table Number</option>
                       {renderOptions()}
                     </select>
                   </div>
                     <div class="relative">
-                    <select  name="DrinkType"  class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
+                    <select  name="DrinkType" required  class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
                       <option value="" disabled selected>Select Drink</option>
                       <option value="Gin" >Gin</option>
                       <option value="Whisky">Whisky</option>
