@@ -5,7 +5,7 @@ import { Footer, NewNavbar } from "../../components";
 import { useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import emailjs from "@emailjs/browser";
-import Head from './../../components/head';
+import Head from './../../components/heads';
 import LeftBanner from './../../components/Form/LeftBanner';
 import FormFields from './../../components/Form/FormFields';
 const initialState = {
