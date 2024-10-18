@@ -7,7 +7,7 @@ import Select from 'react-select';
 
 const FormFields = () => {
   const text="text-white text-[14px] leading-[24px] md:text-[14px] md:leading-[24.66px] font-[Sofia] font-[400] ";
-  const textSmall="text-white text-[8px] leading-[14px] italic md:text-[11px] md:leading-[24px] font-[Sofia] font-[400] ";
+  const textSmall="text-white text-[8px] leading-[14px] italic md:text-[11px] md:leading-[14px] pt-2 font-[Sofia] font-[400] ";
   const heading= "hero-shadow hidden md:block text-white text-[28px] leading-[36.66px] md:text-[36px] md:leading-[36.66px] font-[Sofia] font-[800] mb-6  text-center uppercase ";
   const heading1= "hero-shadow1  md:hidden text-white text-[28px] leading-[36.66px] md:text-[36px] md:leading-[36.66px] font-[Sofia] font-[800] mb-6  text-center uppercase ";
 
@@ -121,6 +121,8 @@ const FormFields = () => {
                       <option value="Whisky">Whisky</option>
                       <option value="Vodka">Vodka</option>
                     </select>
+                    <p className={textSmall}>*Champagne and Beer will be provided in the agreed quantities based on the selected package.
+                    </p>
                     <p className={textSmall}>*Beverage brands are subject to change without prior notice.
                     </p>
                     {/* <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
