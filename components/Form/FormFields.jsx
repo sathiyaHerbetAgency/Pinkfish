@@ -3,7 +3,6 @@
 import React,{useState,useRef,useEffect} from 'react'
 import "../../styles/contact.css";
 import axios from "axios";
-import Select from 'react-select';
 
 const FormFields = () => {
   const text="text-white text-[14px] leading-[24px] md:text-[14px] md:leading-[24.66px] font-[Sofia] font-[400] ";
@@ -93,13 +92,13 @@ const FormFields = () => {
     <div>
       <div className="flex flex-col justify-center w-[100%] md:h-[620px] my-6 md:my-0 ">
         <div className="self-center flex flex-col gap-8 w-[85%] md:w-[450px]">
-          <div className="flex gap-3 self-center">
+          {/* <div className="flex gap-3 self-center">
             <img src="./Form/logo1.webp" alt="countdown-logo" />
             <img src="./Form/logo2.webp" alt="spaceplus-logo" />
 
-          </div>
-          <h2 className={heading}>Beverage Selection for #PFC2024</h2>
-          <h2 className={heading1}>Beverage Selection for #PFC2024</h2>
+          </div> */}
+          <h2 className={heading}>Beverage Selection for #PFA2024</h2>
+          <h2 className={heading1}>Beverage Selection for #PFA2024</h2>
 
         </div>
         <form ref={formRef}  
@@ -139,7 +138,7 @@ const FormFields = () => {
                       </svg>
                     </div> */}
                   </div>
-                  <div  className="bg-[#FF0086] w-[100px] flex justify-center rounded-md p-1 border py-2 border-[#2D29D7]">
+                  <div  className="bg-[#FF0086] self-center w-[100px] flex justify-center rounded-md p-1 border py-2 border-[#2D29D7]">
                     <button type="submit" className={text}>Submit</button>
                   </div>
                   </form>
