@@ -71,15 +71,14 @@ const FormFields = () => {
     const options = [];
 
     // Add Gold options (Gold 1 to Gold 8)
-    for (let i = 1; i <= 11; i++) {
-      options.push(<option key={`VIP-${i}`} value={`VIP ${i}`}>VIP {i}</option>);
+    for (let i = 1; i <= 4; i++) {
+      options.push(<option key={`V-${i}`} value={`V ${i}`}>V {i}</option>);
     }
 
     // Add Silver options (Silver 1 to Silver 11)
-    // for (let i = 1; i <= 11; i++) {
-    //   options.push(<option key={`Silver-${i}`} value={`Silver ${i}`}>Silver {i}</option>);
-    // }
-
+    for (let i = 10; i <= 11; i++) {
+      options.push(<option key={`V-${i}`} value={`V ${i}`}>V {i}</option>);
+    }
     // // Add Bronze options (Bronze 1 to Bronze 14)
     // for (let i = 1; i <= 14; i++) {
     //   options.push(<option key={`Bronze-${i}`} value={`Bronze ${i}`}>Bronze {i}</option>);
