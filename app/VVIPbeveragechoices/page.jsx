@@ -102,7 +102,7 @@ const clearState = () => {
       <NewNavbar />
         <div className="md:max-w-[1550px] w-[100vw] bg-form-hide flex md:flex-row flex-col justify-center text-white self-center">
            
-            <div className="w-full md:w-[55%] text-black">
+            <div className="w-full md:w-[55%] text-black z-10">
                 <FormFields />
             </div>
 
