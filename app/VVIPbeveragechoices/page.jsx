@@ -116,7 +116,7 @@ const clearState = () => {
       <img src="/Form/sparkle_1.png" alt="Image 3" className="image bottom-left" />
       <img src="/Form/fish.png" alt="Image 4" className="image bottom-right" />
     </div>
-        <img className="max-w-[248px] md:max-w-[448px] lg:max-w-[648px] xl:max-w-[748px] self-center" src='/Form/Lounge.png'  alt="Lounge"/>
+        <img className="max-w-[300px] md:max-w-[448px] lg:max-w-[648px] xl:max-w-[748px] self-center" src='/Form/Lounge.png'  alt="Lounge"/>
         <hr className="md:hidden w-[85%] self-center " />
       <Footer />
     </div>
