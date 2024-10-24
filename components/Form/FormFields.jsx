@@ -96,8 +96,8 @@ const FormFields = () => {
             <img src="./Form/logo2.webp" alt="spaceplus-logo" />
 
           </div> */}
-          <h2 className={heading}>Beverage Selection for #PFC2024</h2>
-          <h2 className={heading1}>Beverage Selection for #PFC2024</h2>
+          <h2 className={heading}>Beverage Selection for #PFA2024</h2>
+          <h2 className={heading1}>Beverage Selection for #PFA2024</h2>
 
         </div>
         <form ref={formRef}  
