@@ -5,9 +5,9 @@ import { Footer, NewNavbar } from "../../components";
 import { useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import emailjs from "@emailjs/browser";
-import Head from './../../components/heads';
 import LeftBanner from './../../components/Form/LeftBanner';
 import FormFields from './../../components/Form/FormFields';
+import IndexHead from './../../components/indexhead';
 const initialState = {
   firstName: "",
   lastName:'',
@@ -98,7 +98,7 @@ const clearState = () => {
   }
   return (
     <div className="flex flex-col">
-    <Head title={title} description={description} />
+    <IndexHead title={title} description={description} />
       <NewNavbar />
         <div className="md:max-w-[1550px] w-[100vw] bg-form-hide flex md:flex-row flex-col justify-center text-white self-center">
            

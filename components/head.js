@@ -10,8 +10,6 @@ const Head = ({title,description}) =>{
     <meta property='og:url' content='www.pinkfishfestival.com'/>
     <meta property='og:image:width' content='1200' />
     <meta property='og:image:height' content='627' />
-    <meta name="robots" content="noindex" />
-
     <link rel="icon" href="/fav_icon.png" />
   </>
 );
