@@ -11,7 +11,7 @@ const Brands = () => {
                 <a href="music&artsfestival" className={containerClass}>
                     <img src="./Home/Brands/pf_logo.webp" clasName="self-center" alt="Pinkfish Music & Arts Festival Logo"/>
                 </a>
-                <a href="pfc-countdown-nye" className={containerClass}>
+                <a href="pfc-countdown-nye-2024" className={containerClass}>
                     <img src="./Home/Brands/pc_logo.webp" alt="Pinkfish Countdown Logo"/>
                 </a>
                 <a href="Live" className={containerClass}>

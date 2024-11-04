@@ -29,7 +29,7 @@ const Container = () => {
             altText:'Pinkfish Countdown Logo',
             spanText:'Pinkfish Countdown',
             text:" is a groundbreaking sub-brand designed to take your New Year's Eve celebration to new heights. Pinkfish Countdown is set to deliver an unparalleled experience that pushes boundaries and sets the stage for an unforgettable countdown party to midnight",
-            link:'/pfc-countdown-nye',
+            link:'/pfc-countdown-nye-2024',
             linkText:'You Only Live Once',
            img:'/FunHub/fun-hub-3.png',
            imgMob:'/FunHub/Mob/fun-hub-3.webp',
