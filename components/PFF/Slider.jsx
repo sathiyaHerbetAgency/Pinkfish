@@ -44,9 +44,10 @@ function checkContents1(){
     return PFAImages1
 }
 else if(select==="PFL"){
-  return PFLImages1
+  return [false,false]
 }
 }
+
 function checkContents2(){
   if(select==="PFF"){
       return PFFImages2
@@ -56,13 +57,14 @@ function checkContents2(){
     return [false,false]
 }
 else if(select==="PFL"){
-  return [false,false]
+  return PFLImages1
+ 
 }
 }
   return (
     <div className="flex flex-col min-w-[100vw]">
         <div className="md:max-w-[900px] max-w-[400px] px-6 md:px-0   self-center flex gap-3  py-2 pt-10">
-        {checkContents2()[0]&&
+        {checkContents1()[0]&&checkContents2()[0]&&
           <button
             onClick={handlePrev}
             className=" hidden md:block "
@@ -88,16 +90,19 @@ else if(select==="PFL"){
             modules={[Navigation, Autoplay, Pagination]}
             className="mySwiper"
           >
+              {checkContents1()[0]&&
             <SwiperSlide>
               <SlideImage url={checkContents1()[0]} urlMob={checkContents1()[1]} year="2024" link={checkContents1()[2]}  />
             </SwiperSlide>
+}
             {checkContents2()[0]&&
             <SwiperSlide>
                 <SlideImage  url={checkContents2()[0]} urlMob={checkContents2()[1]} year="2023" link={checkContents2()[2]} />
             </SwiperSlide>
-              }
+          }
+              
           </Swiper>
-          {checkContents2()[0]&&
+          {checkContents1()[0]&&checkContents2()[0]&&
           <button
             onClick={handleNext}
             className=" hidden md:block"

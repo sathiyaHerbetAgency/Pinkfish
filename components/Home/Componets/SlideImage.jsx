@@ -19,7 +19,7 @@ const SlideImage = ({url,urlMob,year,link,slide}) => {
       dateText:'1 November 2024 • Mega Star Arena, Kuala Lumpur',
       heading:'pinkfish arena: FIND YOUR HARMONY',
       text:'Get hyped for a live experience like never before — where bass comes to life.',
-      link:'/arena',
+      link:false,
       ticketText:'Buy Tickets'
     }
   ]
@@ -42,9 +42,10 @@ const SlideImage = ({url,urlMob,year,link,slide}) => {
           <p className={text}>{data[slide].dateText}</p>
               <h1 className={heading}>{data[slide].heading}</h1>
               <p className={`${text} pt-[7px]`}>{data[slide].text}</p>
-              <a href={data[slide].link} className="w-fit self-center flex justify-start mt-3"> 
+             {data[slide].link&& <a href={data[slide].link} className="w-fit self-center flex justify-start mt-3"> 
                 <button className={button} alt="button">{data[slide].ticketText}</button>
               </a>
+              }
               </div>
           </div>
       </div> 
