@@ -40,6 +40,8 @@ export default function Page() {
         className=" md:block hidden right-[0] top-[70%] z-[10] fixed  "
         src="/fish.png" alt="Pinkfish"
       />
+    
+
      <Footer />
   
     </div>

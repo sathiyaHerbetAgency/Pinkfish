@@ -10,38 +10,64 @@ const Banner = ({select}) => {
         first_heading:"what’s next in store?",
         text:"Scope out the other events we have lining up for you this year. Get hyped!",
         button_text:'Check out Pinkfish Countdown',
-        link:"/pfc-countdown-nye-2024"
+        link:"/pfc-countdown-nye-2024",
+        bg:'banner-container-pff',
+        text_color:"text-black"
+
     }
     const PFC={
         first_heading:"YOUR FOMO IS ABOUT TO GET REAL",
         text:"Get first access to lineup reveals and festival updates.",
         button_text:'Be Part of PFC2024',
-         link:"/countdown2024"
+         link:"/countdown2024",
+        bg:'banner-container-pfc',
+        text_color:"text-black",
     }
+    const PFA={
+      first_heading:"what’s next in store?",
+      text:"Scope out the other events we have lining up for you this year. Get hyped!",
+      button_text:'Check out Pinkfish Countdown',
+      link:"/pfc-countdown-nye-2024",
+        bg:'banner-container-pfa',
+        text_color:"text-white"
+  }
+  const PFL={
+    first_heading:"what’s next in store?",
+    text:"Scope out the other events we have lining up for you this year. Get hyped!",
+    button_text:'Check out Pinkfish Countdown',
+    link:"/pfc-countdown-nye-2024",
+      bg:'banner-container-pfl',
+      text_color:"text-white",
+      btn_color:'bg-black'
+}
     function checkContents(){
         if(select==="PFF"){
             return PFF
         }else if(select==="PFC"){
             return PFC
         }
+        else if(select==="PFA"){
+          return PFA
+      }
+      else if(select==="PFL"){
+        return PFL
+    }
     }
 
   return (
     <div
-      className={`${
-        select === "PFF" ? "banner-container-pff" : "banner-container-pfc"
-      } md:min-h-screen min-h-[50vh] flex flex-col justify-start gap-6 items-center `}
+      className={`${checkContents().bg}  flex flex-col justify-center gap-6 items-center `}
     >
       <div className="md:w-[30vw] w-[85vw] flex flex-col gap-6 pt-11">
         <h2
           className={` ${
-            select === "PFC" ? "text-[#000]" : "text-[#000]"
+            select === "PFC" ? "text-[#000]" : "text-[#fff]"
           } font-bold  font-[Integral] text-[34px] leading-[40px] text-center uppercase`}
         >
           {checkContents().first_heading}
         </h2>
         <p
-          className={`  font-[Sofia] text-[18px] leading-[22px] text-[#000]  text-center`}
+          className={` ${checkContents().text_color}  font-[Sofia] text-[18px] leading-[22px]   text-center`}
         >
           {checkContents().text}
         </p>
@@ -54,7 +80,8 @@ const Banner = ({select}) => {
             {" "}
             <button
               type="button"
-              className="uppercase text-white p-3 px-4 self-center bg-[#FF0086] rounded-md font-[SofiaMedium] text-[16px] md:text-[18px] w-fit"
+              className={`${
+                select === "PFL" ? "bg-[#000]" : "bg-[#FF0086]"} uppercase text-white p-3 px-4 self-center rounded-md font-[SofiaMedium] text-[16px] md:text-[18px] w-fit `}
             >
               {checkContents().button_text}
             </button>
@@ -68,7 +95,8 @@ const Banner = ({select}) => {
             {" "}
             <button
               type="button"
-              className="uppercase text-white p-3 px-4 self-center bg-[#FF0086] rounded-md font-[SofiaMedium] text-[16px] md:text-[18px] w-fit"
+              className={`${
+                select === "PFL" ? "bg-[#000]" : "bg-[#FF0086]"} uppercase text-white p-3 px-4 self-center  rounded-md font-[SofiaMedium] text-[16px] md:text-[18px] w-fit `}
             >
               {" "}
               {checkContents().button_text}

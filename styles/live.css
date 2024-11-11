@@ -739,6 +739,23 @@ background-size: cover;
     transform: scale(1.05);
   }
 
+  .bg-pfa{
+    background-image:url("/pfa_new/pfa_hero_img.webp");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    @apply min-h-[92vh] md:min-h-[87vh];
+
+  }
+  .bg-pfl{
+    background-image:url("/pfl_new/pfl_hero_img.webp");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    @apply min-h-[92vh] md:min-h-[87vh];
+
+  }
+
   .bg-pff{
     background: rgb(1,147,227);
     background-image:url("/PFF_1/pff-bg-gradient.webp");
@@ -764,15 +781,32 @@ background-size: cover;
       @apply min-h-[92vh] md:min-h-[85vh];
     }
 
-.bg-pff{
-  background: rgb(1,147,227);
-  background-image:url("/PFF_1/pff-bg-gradient-mob.webp");
-  background-size:cover;
-  background-position:center;
-  background-repeat:no-repeat;
-  @apply min-h-[92vh] md:min-h-[85vh];
+    .bg-pff{
+      background: rgb(1,147,227);
+      background-image:url("/PFF_1/pff-bg-gradient-mob.webp");
+      background-size:cover;
+      background-position:center;
+      background-repeat:no-repeat;
+      @apply min-h-[92vh] md:min-h-[85vh];
 
-}
+    }
+    .bg-pfa{
+      background-image:url("/pfa_new/pfa_hero_img_mob.webp");
+      background-size:cover;
+      background-position:center;
+      background-repeat:no-repeat;
+      @apply min-h-[92vh];
+
+    }
+    .bg-pfl{
+      background-image:url("/pfl_new/pfl_hero_img_mob.webp");
+      background-size:cover;
+      background-position:center;
+      background-repeat:no-repeat;
+      @apply min-h-[92vh] md:min-h-[87vh];
+  
+    }
+  
   }
 
 /* .bg-pff::before{
@@ -801,7 +835,7 @@ width: 100%;
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
-   
+    @apply md:min-h-screen min-h-[50vh];
   }
 
   /* .banner-container-pfc{
@@ -815,14 +849,37 @@ width: 100%;
     background-size:contain;
     background-position:bottom;
     background-repeat:no-repeat;
+   @apply md:min-h-screen min-h-[50vh];
+
+  }
+  .banner-container-pfa{
+    background-image:url("/pfa_new/pff_wns_bg.webp");
+    background-size:contain;
+    background-position:bottom;
+    background-repeat:no-repeat;
+   @apply md:min-h-screen min-h-[50vh];
+  }
+  .banner-container-pfl{
+    background-image:url("/pfl_new/pfl_wns_bg.webp");
+    background-size:cover;
+    background-position:bottom;
+    background-repeat:no-repeat;
+    @apply md:min-h-[60vh] min-h-[50vh] min-w-[100vw];
   }
   @media screen and (max-width: 767px) {
+
     .banner-container-pfc{
       background-image:url("/PFF_1/mountainf-pfc-mob.webp");
       background-size:contain;
       background-position:bottom;
       background-repeat:no-repeat;
       @apply min-h-[90vh];
+    }
+    .banner-container-pfa{
+      background-image:url("/pfa_new/pff_wns_bg.webp");
+      background-size:contain;
+      background-position:bottom;
+      background-repeat:no-repeat;
     }
   }
 

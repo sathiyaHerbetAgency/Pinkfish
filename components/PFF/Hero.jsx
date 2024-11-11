@@ -14,7 +14,8 @@ const Hero = ({select}) => {
         span_text:"Pinkfish Music & Arts Festival ",
         text:" is a curated creative music & arts experience that featured live acts, both local & international, as well as art installations from various artists gifted in multiple mediums to celebrate the best in music & art in one big event.",
         button_text:'Follow for more updates',
-        link:"https://www.instagram.com/pinkfishfestival/"
+        link:"https://www.instagram.com/pinkfishfestival/",
+        heroClass:'bg-pff',
     }
     const PFC={
         first_heading:"coming soon in 2024",
@@ -22,14 +23,39 @@ const Hero = ({select}) => {
         span_text:"Pinkfish Countdown ",
         text:" is a curated experience of tight-knit celebration that features both international and local live acts upon the ushering into the new year. This event brings together the creative and music-loving community, as we count down to the new year.",
         button_text:' Be Part of PFC2024',
-        link:"/countdown2024 "
+        link:"/countdown2024 ",
+        heroClass:'bg-pfc',
     }
+    const PFA={
+      first_heading:"thank you lavas!",
+      second_heading:"pinkfish arena",
+      span_text:"Pinkfish Arena, ",
+      text:" the latest sub-brand in the Pinkfish family, ready to set a new standard for arena shows with an electrifying focus on electronic dance music at iconic local venues, turning them into epicentres of DJ brilliance. Get hyped for a live experience like never before — where bass comes to life.",
+      button_text:'Follow for more updates',
+      link:"https://www.instagram.com/pinkfishfestival/",
+      heroClass:'bg-pfa',
+  }
+  const PFL={
+    first_heading:"thank you lavas!",
+    second_heading:"pinkfish Live",
+    span_text:"Pinkfish Live, ",
+    text:" a sub-division of Pinkfish, provides revolutionary and international-level live shows, electrifying stage setup and show production, mind-bending LED and sound setup. We elevate and celebrate the artistry of rap and hip-hop through the power of live performances, bringing this cultural force to life on stage.",
+    button_text:'Follow for more updates',
+    link:"https://www.instagram.com/pinkfishfestival/",
+    heroClass:'bg-pfl',
+}
     function checkContents(){
         if(select==="PFF"){
             return PFF
         }else if(select==="PFC"){
             return PFC
         }
+        else if(select==="PFA"){
+          return PFA
+      }
+      else if(select==="PFL"){
+        return PFL
+    }
     }
 
 
@@ -37,7 +63,7 @@ const Hero = ({select}) => {
   return (
     <div
       className={` flex flex-col justify-between pt-24  md:pt-24 md:pb-11  ${
-        select === "PFF" ? "bg-pff" : "bg-pfc"
+        checkContents().heroClass
       }`}
     >
       <div className="flex flex-col gap-4 md:pt-16 pt:36 self-center md:w-[80%]">

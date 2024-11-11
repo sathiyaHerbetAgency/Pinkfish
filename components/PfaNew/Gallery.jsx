@@ -6,7 +6,7 @@ import "../../styles/contact.css"
 import PhotoSwipeLightbox from 'photoswipe/lightbox';
 import 'photoswipe/style.css';
 
-import Gallery2024 from './Component/Gallery2024';
+// import Gallery2024 from './Component/Gallery2024';
 // import ResponsiveGallery from 'react-responsive-gallery';
 // import Masonry,{ResponsiveMasonry} from "react-responsive-masonry"
 const Gallery = ({select}) => {
@@ -38,7 +38,7 @@ const Gallery = ({select}) => {
   }, [select]);
     const imageSets = {
     
-      pff_mob: ["gallery_1", "gallery_2", "gallery_3", "gallery_4", "gallery_5", "gallery_6", "gallery_7", "gallery_8", "gallery_9", "gallery_10", "gallery_11", "gallery_12","gallery_13"],
+      pff_mob: ["gallery_1", "gallery_2", "gallery_3", "gallery_4", "gallery_5", "gallery_6", "gallery_7", "gallery_8", "gallery_9", "gallery_10", "gallery_11", "gallery_12","gallery_13","gallery_14"],
     };
 
     const count={xs: 1,s: 2,m: 3,l: 3,xl: 3, xxl:3}
@@ -54,17 +54,18 @@ const Gallery = ({select}) => {
       "https://picsum.photos/300/300?image=206",
   ]
 
-  const button1=`transition-all text-[16px] md:text-[20px] font-[Sofia] ${toogle==='1'?"bg-[#FF0086] text-[#fff]":'bg-[#DADADA] text-[#111111]' }  w-fit  px-4  rounded-lg`
+  const button1=`transition-all text-[16px] md:text-[20px] font-[Sofia] font-[800] ${toogle==='1'?"bg-[#FF0086] text-[#fff]":'bg-[#DADADA] text-[#111111]' }  w-fit  px-8 py-2  rounded-[119px]`
+
   const button2=`transition-all text-[16px] md:text-[20px] font-[Sofia] ${toogle==='2'?"bg-[#FF0086] text-[#fff]":'bg-[#DADADA] text-[#111111]' }  w-fit  px-4  rounded-lg`
   
   return (
     <div className=" flex flex-col gap-4" id="my-test-gallery" ref={galleryRef}>
     <div className="flex self-center gap-3 justiyfy-center">
-      <button className={button1}onClick={() => {setToogle("1");}}type="button">2023</button>
-      <button className={button2}onClick={() => {setToogle("2");}}type="button">2024</button>
+      <div className={button1}>2024</div>
+      {/* <button className={button2}onClick={() => {setToogle("2");}}type="button">2024</button> */}
 
     </div>
-    {toogle === "1" ? (
+   
       <div
         className="md:columns-3 columns-2 md:max-w-[60vw] gap-[4px] md:gap-[8px]  self-center"
        
@@ -72,20 +73,18 @@ const Gallery = ({select}) => {
        {imageSets["pff_mob"].map((file, index) => (
                 
                 <a
-                  href={`./PFF_1/2023Gallery/FullImage/${file}.webp`}
+                  href={`./pfa_new/2024Gallery/FullImage/${file}.webp`}
                   key={"my-test-gallery" + '-' + index}
                   target="_blank"
                   rel="noreferrer"
                   className=""
                 >
-                  <img src={`./PFF_1/2023Gallery/${file}.webp`} className="w-[100%] h-[100%] pb-1 md:pb-2" alt={`Arts festival ${index + 1} `} />
+                  <img src={`./pfa_new/2024Gallery/${file}.webp`} className="w-[100%] h-[100%] pb-1 md:pb-2" alt={`Arts festival ${index + 1} `} />
                 </a>
                
               ))}
       </div>
-    ) : (
-      <Gallery2024 />
-    )}
+    
   </div>
   )
 }

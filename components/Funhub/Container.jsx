@@ -42,7 +42,7 @@ const Container = () => {
           text:" the latest sub-brand in the Pinkfish family, ready to set a new standard  for arena shows with an electrifying focus on electronic dance music at iconic local venues, turning them into epicentres of DJ brilliance. Get hyped for a live experience like never before — where bass comes to life.",
           link:'/Arena',
           linkText:'Feel the Beat',
-          img:'/FunHub/fun-hub-4.png',
+          img:'/FunHub/fun-hub-4.webp',
           imgMob:'/FunHub/Mob/fun-hub-4.webp',
         }
 

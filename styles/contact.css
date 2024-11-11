@@ -719,6 +719,23 @@ contact_input:focus{
     @apply min-h-screen
   }
 
+    /* PFA */
+    .gradient-container-pfa{
+        /* background: rgb(70,177,236);
+        background: linear-gradient(180deg, rgba(70,177,236,1) 0%, rgba(248,184,138,0.5971638655462185) 50%, rgba(248,184,138,1) 100%); */
+        background: rgb(70,177,236);
+        background: linear-gradient(180deg, #7B0000 0%, #000000 66.06%);
+        @apply min-h-screen
+      }
+
+          /* PFA */
+    .gradient-container-pfl{
+        /* background: rgb(70,177,236);
+        background: linear-gradient(180deg, rgba(70,177,236,1) 0%, rgba(248,184,138,0.5971638655462185) 50%, rgba(248,184,138,1) 100%); */
+        background: black;
+        @apply min-h-screen
+      }
+
   .gradient-container-pfc{
     background: rgb(33,33,86);
     background: linear-gradient(180deg, rgba(33,33,86,1) 0%,  rgba(106,12,149,1) 27%, rgba(255,0,134,1) 56%, rgba(248,184,138,1) 85%);
