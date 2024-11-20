@@ -29,7 +29,7 @@ const Slider = ({select}) => {
 
 const PFFImages1=["./PFF_1/pff_slider_21.webp","./PFF_1/pff_slider_21.webp", "EventsIndividual"];
 const PFFImages2=["../PFF_1/pff_slider_1.webp","./PFF_1/pff_slider_1.webp","EventsIndividual"]
-const PFCImages1=["./PFC/Banner/pfc_banner_new.webp","./PFC/Banner/pfc_banner_mob_1_new.webp","countdown2024"];
+const PFCImages1=["./PFC/Banner/pfc_banner_new.webp","./PFC/Banner/pfc_banner_new_mob.webp","countdown2024"];
 const PFCImages2=["./PFC/Banner/pfc_banner_old.png","./PFC/Banner/pfc_banner_mob_1_old.png","#"]
 const PFAImages1=["./pfa_new/Slider/pfa_slider_1.webp","./pfa_new/Slider/pfa_slider_1.webp","#"]
 const PFLImages1=["./pfl_new/Slider/pfl_slider_1.webp","./pfl_new/Slider/pfl_slider_1.webp","#"]
