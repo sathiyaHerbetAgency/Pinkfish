@@ -60,7 +60,7 @@ const Container = () => {
   return (
     <>
     {dataContent.map((each,index)=>(
-    <div className="fan_box flex  md:flex-row flex-col border border-white rounded md:w-[70%]  gap-6 w-[90%] self-center bg-black">
+    <div className="fan_box flex  md:flex-row flex-col border border-white rounded md:w-[70%]  gap-6 w-[90%] self-center bg-black pb-6 md:pb-0">
       <div className="basis-1/2  order-2 md:order-1  flex flex-col justify-center gap-4">
         <div className="flex flex-col self-center w-[80%] gap-6">
           <img
@@ -78,7 +78,6 @@ const Container = () => {
       <div className="basis-1/2 order-1 md:order-2 flex justify-end">
         <img src={each.img} className=" hidden md:block" alt={"fanbox image "+index} />
         <img src={each.imgMob} className="  md:hidden" alt={"fanbox image "+index} />
-
       </div>
     </div>
     ))}
