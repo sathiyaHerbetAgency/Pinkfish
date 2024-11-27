@@ -44,6 +44,16 @@ const Container = () => {
           linkText:'Feel the Beat',
           img:'/FunHub/fun-hub-4.webp',
           imgMob:'/FunHub/Mob/fun-hub-4.webp',
+        },
+        {
+          logoImg:'/FunHub/Logos/pc-logo.svg',
+          altText:'Pinkfish live Logo',
+          spanText:'Pinkclub,',
+          text:"  is the newest addition to the Pinkfish banner, turning up the heat with a dynamic series of electronic dance music shows dedicated to curating high-energy nights and core memories. These events take place in intimate club venues, offering fans a chance to experience the music up close and personal, where every beat and vibe resonates like never before.",
+          link:'/Arena',
+          linkText:'Feel the Beat',
+          img:'/FunHub/fun-hub-5.webp',
+          imgMob:'/FunHub/Mob/fun-hub-5.webp',
         }
 
     ]
@@ -55,7 +65,7 @@ const Container = () => {
         <div className="flex flex-col self-center w-[80%] gap-6">
           <img
             src={each.logoImg}
-            className="self-center"
+            className="self-center w-[150px]"
             alt={each.altText}
           />
           <p className="fish_bottom_text text-center self-center">
