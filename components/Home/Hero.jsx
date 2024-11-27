@@ -66,11 +66,14 @@ const Hero = () => {
             modules={[Navigation]}
             className="mySwiper"
           >
-            <SwiperSlide>
-              <SlideImage url={"./Home/Hero/slide1-home-trail.jpg"} urlMob={"./Home/Hero/slide1-home-mob.webp"} year="2024" link="/countdown2024" slide={0} />
+              <SwiperSlide>
+              <SlideImage url={"./Home/Hero/slide3-home.webp"} urlMob={"./Home/Hero/slide3-home-mob.webp"} year="2024" link="/countdown2024" slide={0} />
             </SwiperSlide>
             <SwiperSlide>
-            <SlideImage url={"./Home/Hero/slide2-home.jpg"} urlMob={"./Home/Hero/slide2-home-mob.webp"} year="2024"  slide={1}  />
+              <SlideImage url={"./Home/Hero/slide1-home-trail.jpg"} urlMob={"./Home/Hero/slide1-home-mob.webp"} year="2024" link="/countdown2024" slide={1} />
+            </SwiperSlide>
+            <SwiperSlide>
+            <SlideImage url={"./Home/Hero/slide2-home.jpg"} urlMob={"./Home/Hero/slide2-home-mob.webp"} year="2024"  slide={2}  />
             </SwiperSlide>
           </Swiper>
           

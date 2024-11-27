@@ -13,6 +13,9 @@ const EventContainer = ({link,title,description}) => {
         }else if(title==="#PFA"){
             return "bg-pfa-event"
         }
+        else if(title==="#PC"){
+            return "bg-pc-event"
+        }
     }
 
   return (

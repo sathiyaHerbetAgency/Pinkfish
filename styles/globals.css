@@ -284,6 +284,12 @@ select {
   background-repeat:no-repeat;
 
 }
+.bg-pc-event{
+  background-image:url("/Home/Events/pc_event.webp");
+  background-size:cover;
+  background-repeat:no-repeat;
+
+}
 
 
 /* Landing Page */
