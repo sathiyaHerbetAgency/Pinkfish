@@ -9,9 +9,9 @@ const SlideImage = ({url,urlMob,year,link,slide}) => {
 
   const data=[
     {
-      dateText:'21 December 2024 • Surf Beach Sunway Lagoon',
+      dateText:'21 December 2024 • Over & Above, Kuala Lumpur',
       heading:'Pinkclub: Hannah Laing',
-      text:'Get ready to blast into 2025 at Pinkfish Countdown, where the beats drop as the clock strikes twelve!',
+      text:'Creating unforgettable nights in intimate venues, where every beat resonates and core memories are made.',
       link:'/countdown2024',
       ticketText:'Buy Tickets'
     },
