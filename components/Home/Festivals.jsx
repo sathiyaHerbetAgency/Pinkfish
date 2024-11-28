@@ -47,7 +47,7 @@ const Festivals = () => {
         {
             date:"21 December 2024",
             imgUrl:"./Home/Festival/festival-img-7.webp",
-            location:"Surf Beach Sunway Lagoon",
+            location:"Over & Above KL",
             link:"/countdown2024",
             sale:true,
             title:'Pinkclub: Hannah Laing'
@@ -152,7 +152,7 @@ const Festivals = () => {
         </div>
         <div className="md:hidden flex flex-col">
             <div className="flex flex-col gap-3 self-center">
-                <h3 className={heading}>Our Festivals</h3>
+                <h3 className={heading}>Making Memories</h3>
                 <div className="  flex flex-col justify-center items-center justify-items-center h-[350px] min-w-[100vw]   absolute  ">
                             <div className="flex justify-between self-center w-[90vw]">
                                     <button onClick={handlePrev1} className=" bg-[#000000A0] rounded-[100%] w-[40px] h-[40px] flex justify-center items-center  z-[2] ">
