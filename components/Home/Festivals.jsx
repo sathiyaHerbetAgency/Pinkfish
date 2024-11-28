@@ -48,7 +48,7 @@ const Festivals = () => {
             date:"21 December 2024",
             imgUrl:"./Home/Festival/festival-img-7.webp",
             location:"Over & Above KL",
-            link:"/countdown2024",
+            link:"/pinkclub",
             sale:true,
             title:'Pinkclub: Hannah Laing'
         },
