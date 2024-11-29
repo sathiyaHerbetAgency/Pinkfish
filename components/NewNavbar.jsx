@@ -78,7 +78,7 @@ return (
               <EventContainer link="pfc-countdown-nye-2024" title='#PFC' description="Pinkfish Countdown" />
               <EventContainer link="music&artsfestival" title='#PFF' description="pinkfish music & ARTS festival" />
               <EventContainer link="Live" title='#PFL' description="Pinkfish Live" />
-              <EventContainer link="pink-club" title='#PC' description="Pinkclub" />
+              <EventContainer link="pinkclub" title='#PC' description="Pinkclub" />
             </div>
           </div>
         </div>
@@ -195,7 +195,7 @@ return (
               <EventContainer  link="pfc-countdown-nye-2024" title='#PFC' description="Pinkfish Countdown" />
               <EventContainer link="music&artsfestival" title='#PFF' description="pinkfish music & ARTS festival" />
               <EventContainer link="Live" title='#PFL' description="Pinkfish Live" />
-              <EventContainer link="Live" title='#PC' description="Pink Club" />
+              <EventContainer link="pinkclub" title='#PC' description="Pink Club" />
 
             </div>
           </div>
