@@ -633,7 +633,3 @@ button:last-of-type {
   font-family: 'Trim';
   src: url("/fonts/Trim-Bold.ttf");
 }
-@font-face {
-  font-family: 'Trim-Regular';
-  src: url("/fonts/trim.ttf");
-}
