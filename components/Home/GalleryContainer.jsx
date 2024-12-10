@@ -1,7 +1,6 @@
 /* eslint-disable */
 'use client'
 import React from 'react'
-import Image from 'next/image'
 import  Link  from 'next/link';
 const GalleryContainer = () => {
     const textGallery="md:text-[28px] lg:text-[36px] leading-[46.87px] font-[Integral] font-[800] text-white md:p-4 lg:p-6 text-center"
