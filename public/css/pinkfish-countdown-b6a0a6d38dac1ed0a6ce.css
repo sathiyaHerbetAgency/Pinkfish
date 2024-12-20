@@ -2862,6 +2862,11 @@ strong {
   width: 14rem;
 }
 
+.card_wrapper.desktop.flip-animation.new {
+  background-color: #75343400;
+  transform: rotate(0);
+}
+
 .card_component {
   z-index: 3;
   grid-column-gap: 10px;
