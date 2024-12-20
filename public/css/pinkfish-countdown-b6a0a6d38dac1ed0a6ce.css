@@ -3028,7 +3028,7 @@ strong {
   transform: rotateX(0)rotateY(180deg)rotateZ(0);
 }
 
-.card_side.is-back.coming-soon.countdown-comming-soon {
+.card_side.is-back.coming-soon.countdown-comming-soon, .card_side.is-back.coming-soon.countdown-comming-soon-copy {
   background-image: url('../images/flip-coming-soon.png');
   background-position: 0 0;
   background-size: auto;
@@ -3105,6 +3105,10 @@ strong {
   background-image: linear-gradient(180deg, #ff9e1ff0, #ffd89000 80%), url('../images/ticket-BG.jpg'), linear-gradient(180deg, #ed2582, var(--brand-beige) 40%);
   background-position: 0 0, 50% 0, 0 0;
   background-size: auto, contain, auto;
+}
+
+.card_side.is-front.coming-soon, .card_side.is-front.vip-ticket {
+  background-image: url('../images/Tix1-1.png');
 }
 
 .card_side.is-front.new {
