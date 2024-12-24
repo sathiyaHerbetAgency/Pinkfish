@@ -727,6 +727,12 @@ contact_input:focus{
         background: linear-gradient(180deg, #7B0000 0%, #000000 66.06%);
         @apply min-h-screen
       }
+    /* PFP */
+    .gradient-container-pfa{
+        background: rgb(70,177,236);
+        background: linear-gradient(180deg, #5E0F38 0%, #000000 66.06%);
+        @apply min-h-screen
+      }
 
           /* PFA */
     .gradient-container-pfl{

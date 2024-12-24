@@ -44,6 +44,16 @@ const Hero = ({select}) => {
     link:"https://www.instagram.com/pinkfishfestival/",
     heroClass:'bg-pfl',
 }
+const PFP={
+  first_heading:"thank you lavas!",
+  second_heading:"pinkclub",
+  span_text:"Pinkclub, ",
+  text:" is the newest addition to the Pinkfish banner, turning up the heat with a dynamic series of electronic dance music shows dedicated to curating high-energy nights and core memories. These events take place in intimate club venues, offering fans a chance to experience the music up close and personal, where every beat and vibe resonates like never before.",
+  button_text:'Follow for more updates',
+  link:"https://www.instagram.com/pinkfishfestival/",
+  heroClass:'bg-pfb',
+}
+
     function checkContents(){
         if(select==="PFF"){
             return PFF
@@ -55,7 +65,9 @@ const Hero = ({select}) => {
       }
       else if(select==="PFL"){
         return PFL
-    }
+    }else if(select==="PFP"){
+      return PFP
+  }
     }
 
 

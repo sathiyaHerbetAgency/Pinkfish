@@ -747,6 +747,14 @@ background-size: cover;
     @apply min-h-[92vh] md:min-h-[87vh];
 
   }
+  .bg-pfb{
+    background-image:url("/pfp/Hero/pfb_hero_img.webp");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    @apply min-h-[92vh] md:min-h-[87vh];
+
+  }
   .bg-pfl{
     background-image:url("/pfl_new/pfl_hero_img.webp");
     background-size:cover;

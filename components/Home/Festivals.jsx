@@ -49,7 +49,7 @@ const Festivals = () => {
             imgUrl:"./Home/Festival/festival-img-7.webp",
             location:"Over & Above KL",
             link:"/pinkclub",
-            sale:true,
+            sale:false,
             title:'Pinkclub: Hannah Laing'
         },
         {
