@@ -12,7 +12,7 @@ const SlideImage = ({url,urlMob,year,link,slide}) => {
       dateText:'21 December 2024 • Over & Above, Kuala Lumpur',
       heading:'Pinkclub: Hannah Laing',
       text:'Creating unforgettable nights in intimate venues, where every beat resonates and core memories are made.',
-      link:'/pinkclub',
+      link:false,
       ticketText:'Buy Tickets'
     },
     {

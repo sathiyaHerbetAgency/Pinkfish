@@ -67,7 +67,7 @@ const Hero = () => {
             className="mySwiper"
           >
               <SwiperSlide>
-              <SlideImage url={"./Home/Hero/slide3-home.webp"} urlMob={"./Home/Hero/slide3-home-mob.webp"} year="2024" link="/pinkclub" slide={0} />
+              <SlideImage url={"./Home/Hero/slide3-home.webp"} urlMob={"./Home/Hero/slide3-home-mob.webp"} year="2024" slide={0} />
             </SwiperSlide>
             <SwiperSlide>
               <SlideImage url={"./Home/Hero/slide1-home-trail.jpg"} urlMob={"./Home/Hero/slide1-home-mob.webp"} year="2024" link="/countdown2024" slide={1} />
