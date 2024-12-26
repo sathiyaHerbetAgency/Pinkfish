@@ -41,7 +41,7 @@ const title="Experience the Best Music Festival in Malaysia - Pinkfish "
                {/* <Heading text={"#PFF2023 official aftermovie"} page={"PFF"} />
                <Video id={"F8k-yI4zWLg"} /> */}
                </div>
-               <Heading text={"#PFC gallery"} page={"PFC"}/>
+               <Heading text={"#PC gallery"} page={"PFC"}/>
                <Gallery select={"PFP"} />
                <Banner  select={"PFA"}  />
                <Bottom   />
