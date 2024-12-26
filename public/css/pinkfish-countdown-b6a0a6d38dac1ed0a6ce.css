@@ -7560,6 +7560,13 @@ strong {
   top: auto;
 }
 
+.div-block-161 {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
 @media screen and (min-width: 1920px) {
   .navbarcontainer.mobile {
     display: none;
@@ -9638,10 +9645,10 @@ strong {
   ._5-columns {
     grid-column-gap: 20px;
     grid-row-gap: 20px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: auto;
-    min-height: 300px;
+    min-height: 450px;
     max-height: 60vh;
     padding-bottom: 0;
   }
@@ -9692,6 +9699,10 @@ strong {
     align-self: center;
     margin-top: 20px;
     padding-top: 0;
+  }
+
+  .column-2.column-btn {
+    justify-content: center;
   }
 
   .hero-buttons {
