@@ -45,20 +45,20 @@ const Festivals = () => {
 
      const slideData=[
         {
-            date:"21 December 2024",
-            imgUrl:"./Home/Festival/festival-img-7.webp",
-            location:"Over & Above KL",
-            link:"/pinkclub",
-            sale:false,
-            title:'Pinkclub: Hannah Laing'
-        },
-        {
             date:"31 December 2024",
             imgUrl:"./Home/Festival/festival-img-1.webp",
             location:"Surf Beach Sunway Lagoon",
             link:"/countdown2024",
             sale:true,
             title:'Pinkfish Countdown 2024'
+        },
+        {
+            date:"21 December 2024",
+            imgUrl:"./Home/Festival/festival-img-7.webp",
+            location:"Over & Above KL",
+            link:"/pinkclub",
+            sale:false,
+            title:'Pinkclub: Hannah Laing'
         },
         {
             date:"1 November 2024",
