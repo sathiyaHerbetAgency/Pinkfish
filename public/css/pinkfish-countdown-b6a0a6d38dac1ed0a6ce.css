@@ -3995,7 +3995,7 @@ strong {
   cursor: not-allowed;
   height: 50px;
   position: absolute;
-  inset: auto 0% 15%;
+  inset: auto 0% 0%;
 }
 
 .bold-text-2, .text-span, .bold-text-3, .text-span-2, .link, .link-2 {
