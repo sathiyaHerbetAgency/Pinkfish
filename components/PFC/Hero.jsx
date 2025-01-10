@@ -17,13 +17,13 @@ const Hero = ({select}) => {
         link:"https://www.instagram.com/pinkfishfestival/"
     }
     const PFC={
-        first_heading:"are you ready, lavas?",
+        first_heading:"thank you lavas!",
         second_heading:"pinkfish countdown",
         span_text:"Pinkfish Countdown ",
         text:" is set to deliver an unparalleled experience that pushes boundaries and sets the stage for an unforgettable countdown to midnight.",
-        button_text:'BUY TICKETS NOW',
-        link:"/countdown2024",
-        dateText:' 31 December 2024 • Surf Beach Sunway Lagoon',
+        button_text:'Follow for more updates',
+        link:"https://www.instagram.com/pinkfishfestival/",
+        // dateText:' 31 December 2024 • Surf Beach Sunway Lagoon',
         ticketHeading:'gA, vIP & vVIP passes are on sale',
         faqHeading:'frequently asked questions',
     }

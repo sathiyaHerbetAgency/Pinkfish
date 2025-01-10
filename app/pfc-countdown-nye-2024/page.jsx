@@ -27,11 +27,11 @@ import Slider from './../../components/PFF/Slider';
         <NewNavbar />
         <div className="bg-black">
             <Hero select={"PFC"}  />
-            <Label1 text={"are you ready, lavas?"} />
+            <Label1 text={"Thank You Lavas!"} />
             <div className="gradient-container-pfc flex flex-col">
                 {/* <Banner1 /> */}
                 <Slider select="PFC" />
-                <Timer />
+                {/* <Timer /> */}
                 {/* <Ticket /> */}
                 {/* <img src="./PFC/dots.png" alt="decoration" className="self-center" /> */}
                {/* <Heading type="2" /> */}

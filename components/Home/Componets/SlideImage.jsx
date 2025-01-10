@@ -19,7 +19,7 @@ const SlideImage = ({url,urlMob,year,link,slide}) => {
       dateText:'31 December 2024 • Surf Beach Sunway Lagoon',
       heading:'pinkfish countdown 2024',
       text:'Get ready to blast into 2025 at Pinkfish Countdown, where the beats drop as the clock strikes twelve!',
-      link:'/countdown2024',
+      link:false,
       ticketText:'Buy Tickets'
     },
     

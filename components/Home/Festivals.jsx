@@ -48,8 +48,8 @@ const Festivals = () => {
             date:"31 December 2024",
             imgUrl:"./Home/Festival/festival-img-1.webp",
             location:"Surf Beach Sunway Lagoon",
-            link:"/countdown2024",
-            sale:true,
+            link:"/pfc-countdown-nye-2024",
+            sale:false,
             title:'Pinkfish Countdown 2024'
         },
         {
