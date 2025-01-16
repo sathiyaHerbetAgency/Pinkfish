@@ -27,7 +27,7 @@ import Slider from './../../components/PFF/Slider';
         <NewNavbar />
         <div className="bg-black">
             <Hero select={"PFC"}  />
-            <Label1 text={"Thank You Lavas!"} />
+            <Label1 text={"See You in 2026"} />
             <div className="gradient-container-pfc flex flex-col">
                 {/* <Banner1 /> */}
                 <Slider select="PFC" />

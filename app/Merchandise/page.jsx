@@ -31,7 +31,7 @@ const page = () => {
           </div>
         </div>
         <div className="mx-auto w-full md:max-w-screen-lg">
-          <div classsName=" flex self-center max-w-full ">
+          {/* <div classsName=" flex self-center max-w-full ">
             <div className="flex md:flex-row flex-col md:justify-between  min-w-full  py-[64px]">
               <div classname="md:max-w-[60%] max-w-[80%] px-12 ">
                 <img
@@ -69,7 +69,7 @@ const page = () => {
               
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="flex flex-col ">
           <div className="grid grid-cols-1 md:grid-cols-3 place-content-center self-center gap-4">
             <div classsName=" flex self-center max-w-full  ">
@@ -97,7 +97,6 @@ const page = () => {
                         </span>
                       </div>
                       <div className="flex gap-3">
-                        <p className="product-Size-small">XL</p>
                         <p className="product-Size-small">2XL</p>
                         <p className="product-Size-small">3XL</p>
                         <p className="product-Size-small">4XL</p>
@@ -133,7 +132,7 @@ const page = () => {
                         </span>
                       </div>
                       <div className="flex gap-3">
-                      <p className="product-Size-small">m</p>
+                      
                         <p className="product-Size-small">L</p>
                         <p className="product-Size-small">XL</p>
                         <p className="product-Size-small">2XL</p>
@@ -146,7 +145,7 @@ const page = () => {
                 <Button />
               </div>
             </div>
-            <div classsName=" flex self-center max-w-full  ">
+            {/* <div classsName=" flex self-center max-w-full  ">
               <div className="flex  flex-col  min-w-full md:py-16 py-6 ">
                 <div classname="">
                   <img
@@ -157,9 +156,9 @@ const page = () => {
                 </div>
                 <div className="w-full">
                     <div className=" flex flex-col gap-1 pt-5">
-                      {/* <h2 className="text-white font-family:Babas product-title font-bold uppercase">
+                       <h2 className="text-white font-family:Babas product-title font-bold uppercase">
                         cop the exclusive PFF2024 X chaigo the stray fit 
-                      </h2> */}
+                      </h2> 
                       <p className="product-sub-title">
                       pinkfish bandana
                       </p>
@@ -178,7 +177,7 @@ const page = () => {
                 <Button />
 
               </div>
-            </div>
+            </div> */}
             <div classsName=" flex self-center max-w-full ">
               <div className="flex  flex-col  min-w-full md:py-16 py-6  ">
                 <div classname="">

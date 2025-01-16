@@ -24,7 +24,7 @@ const Hero = ({select}) => {
         button_text:'Follow for more updates',
         link:"https://www.instagram.com/pinkfishfestival/",
         // dateText:' 31 December 2024 • Surf Beach Sunway Lagoon',
-        ticketHeading:'gA, vIP & vVIP passes are on sale',
+        ticketHeading:'',
         faqHeading:'frequently asked questions',
     }
     function checkContents(){
@@ -198,23 +198,30 @@ const textHeadingBtn="text-[16px] md:text-[16px] font-[Sofia] md:leading-[20.83p
             </p>
           <a
            
-            href="/countdown2024"
-            className=" bg-[#F33288]  text-[12px] leading-[14px] font-[Sofia] font-bold text-white w-[92px] h-[32px] flex justify-center items-center rounded-md  self-center"
+            href={checkContents().link}
+            className=" bg-[#F33288]  text-[12px] leading-[14px] font-[Sofia] font-bold text-white px-6 h-[32px] w-[200px] flex justify-center items-center rounded-md  self-center"
           >
-           Buy Now
+           {checkContents().button_text}
           </a>
+          <a
+            type="button"
+            href="/faq"
+            className=" bg-[#F33288]  text-[12px] leading-[14px] font-[Sofia] font-bold text-white  h-[32px] w-[200px] rounded-md  self-center flex justify-center items-center"
+          >
+           Faq
+           </a>
         </div>
         <div className="w-[90%] h-[103px] bg-[#FFFFFF1A] flex flex-col self-center justify-center gap-2  text-white  ">
-            <p className={textHeadingBtn}>
+            {/* <p className={textHeadingBtn}>
                 {checkContents().faqHeading}
-            </p>
-          <a
+            </p> */}
+          {/* <a
             type="button"
             href="/faq"
             className=" bg-[#F33288]  text-[12px] leading-[14px] font-[Sofia] font-bold text-white w-[92px] h-[32px] rounded-md  self-center flex justify-center items-center"
           >
            Faq
-           </a>
+           </a> */}
         </div>
       </div>
       </div>
