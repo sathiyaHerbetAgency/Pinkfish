@@ -25,7 +25,7 @@ const Container = () => {
           imgMob:'/FunHub/Mob/fun-hub-2.webp',
         },
         {
-            logoImg:'/fan_box_logo_3.png',
+            logoImg:'/FunHub/Logo/pc_logo.webp',
             altText:'Pinkfish Countdown Logo',
             spanText:'Pinkfish Countdown',
             text:" is a groundbreaking sub-brand designed to take your New Year's Eve celebration to new heights. Pinkfish Countdown is set to deliver an unparalleled experience that pushes boundaries and sets the stage for an unforgettable countdown party to midnight",
