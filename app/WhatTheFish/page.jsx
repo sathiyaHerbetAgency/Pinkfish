@@ -5,6 +5,7 @@ import NewNavbar from './../../components/NewNavbar';
 import Footer from './../../components/Footer';
 import Container from './../../components/Funhub/Container';
 import Head from './../../components/head';
+import Bottom from './../../components/Home/Bottom';
  const PFF = () => {
   const description="Discover the vibrant Pinkfish Music & Arts Festival, featuring live acts and art installations from local and international artists. Join us for a unique creative experience! "
   const title="Discover the Best Arts & Music Festival Events - Dates & Locations | Pinkfish "
@@ -61,7 +62,7 @@ import Head from './../../components/head';
           <Container />
         </div>
 
-        {/* <div className="hidden flex flex-col md:mt-11 mt-11">
+        <div className=" flex flex-col md:mt-11 mt-11">
           <div className="flex flex-col  gap-6 md:w-[50%] w-[80%] self-center">
             <h2 className="about_us_sub_header">THE CURATORS</h2>
 
@@ -123,7 +124,8 @@ import Head from './../../components/head';
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
+        <Bottom />
       </div>
       <Footer />
       <img
