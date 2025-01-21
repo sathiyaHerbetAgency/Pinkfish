@@ -34,8 +34,8 @@ export default function Page() {
       {/* <Gallery /> */}
       <GalleryContainer />
       <Label color="gray" direction="left" />
-      <News  />
-      <Bottom />
+      
+      {/* <Bottom /> */}
       <img
         className=" md:block hidden right-[0] top-[70%] z-[10] fixed  "
         src="/fish.png" alt="Pinkfish"
