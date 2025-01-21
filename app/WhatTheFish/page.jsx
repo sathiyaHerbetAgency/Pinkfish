@@ -62,7 +62,7 @@ import Bottom from './../../components/Home/Bottom';
           <Container />
         </div>
 
-        <div className=" flex flex-col md:mt-11 mt-11">
+        {/* <div className=" flex flex-col md:mt-11 mt-11">
           <div className="flex flex-col  gap-6 md:w-[50%] w-[80%] self-center">
             <h2 className="about_us_sub_header">THE CURATORS</h2>
 
@@ -125,7 +125,7 @@ import Bottom from './../../components/Home/Bottom';
             </div>
           </div>
         </div>
-        <Bottom />
+        <Bottom /> */}
       </div>
       <Footer />
       <img
