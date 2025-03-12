@@ -13,8 +13,8 @@ const TicketGa = () => {
     TicketStatus:false,
     BuyButton:"Sold out",
     BuyButtonStatus:false,
-    link1:"https://www.ticket2u.com.my/event/37375",
-    link2:"https://www.ticket2u.com.my/event/37445",
+    link1:"#",
+    link2:"#",
   }
   const Ticket2={
     payLaterStatus:true,
@@ -25,8 +25,8 @@ const TicketGa = () => {
     TicketStatus:true,
     BuyButton:"Buy Now",
     BuyButtonStatus:true,
-    link1:"https://www.ticket2u.com.my/event/37375",
-    link2:"https://www.ticket2u.com.my/event/37445",
+    link1:"#",
+    link2:"#",
   }
 
   const Ticket3={

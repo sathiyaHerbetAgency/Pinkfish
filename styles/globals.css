@@ -206,7 +206,7 @@ background: linear-gradient(180deg, rgba(0,0,0,0.4234068627450981) 0%, rgba(0,0,
     background-repeat:no-repeat;
   }
   .bg-bottom-pfa{
-    background-image:url("/PFA/Boris/bottom-bg.png");
+    background-image:url("/PFA/Boris/Bottom/bottom-bg-mob.png");
     background-size:cover;
     background-repeat:no-repeat;
   
@@ -227,11 +227,9 @@ background: linear-gradient(180deg, rgba(0,0,0,0.4234068627450981) 0%, rgba(0,0,
 }
 
 .bg-bottom-pfa{
-  background-image:url("/PFA/Boris/bottom-bg.png");
+  background-image:url("/PFA/Boris/Bottom/bottom-bg.png");
   background-size:cover;
   background-repeat:no-repeat;
-  background-position : center top;
-
 }
 
 .bg-countdown-new{
