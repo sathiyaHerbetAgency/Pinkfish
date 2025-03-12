@@ -102,8 +102,8 @@ const Festivals = () => {
   return (
     <div className="pb-11">
         <div className="hidden md:block">
-            <div className="flex flex-col min-w-[100vw] overflow-hidden py-11 ">
-                <div className="  w-[100vw] self-center z-10 pl-24">
+            <div className="flex flex-col min-w-[100%] overflow-hidden py-11 ">
+                <div className="  w-[100%] self-center z-10 pl-24">
                     <div className="">
                         <h3 className={heading}>Making Memories</h3>
                     </div>
@@ -137,7 +137,7 @@ const Festivals = () => {
                         // centeredSlides={true}
                         initialSlide={0}
                         // watchOverflow={true}
-                        className="mySwiper pt-3 bg-black w-[100vw]"
+                        className="mySwiper pt-3 bg-black w-[100%]"
                         >
                         {slideData.map((each,index)=>(
                         <SwiperSlide className={`${index===0&&"ml-20"}text-white max-w-[370px] h-[394px]`}>
@@ -153,7 +153,7 @@ const Festivals = () => {
         <div className="md:hidden flex flex-col">
             <div className="flex flex-col gap-3 self-center">
                 <h3 className={heading}>Making Memories</h3>
-                <div className="  flex flex-col justify-center items-center justify-items-center h-[350px] min-w-[100vw]   absolute  ">
+                <div className="  flex flex-col justify-center items-center justify-items-center h-[350px] min-w-[100%]   absolute  ">
                             <div className="flex justify-between self-center w-[90vw]">
                                     <button onClick={handlePrev1} className=" bg-[#000000A0] rounded-[100%] w-[40px] h-[40px] flex justify-center items-center  z-[2] ">
                                         <img src="./Home/Festival/Icons/left-arrow.png" className="w-[34px]" alt="arrow" />
@@ -168,7 +168,7 @@ const Festivals = () => {
                         slidesPerView={1.64}
                         centeredSlides={true}
                         spaceBetween={10}
-                        className="mySwiper pt-3 bg-black max-w-[100vw] "
+                        className="mySwiper pt-3 bg-black max-w-[100%] "
                         >
                 {slideData.map((each,index)=>(
                         <SwiperSlide onClick={()=>{setActiveCard(index)}} className="flex flex-col  text-white max-w-[60vw] h-[300px] justify-items-center self-center mb-3">

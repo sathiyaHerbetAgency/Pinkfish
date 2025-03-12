@@ -70,8 +70,8 @@ else if(select==="PFP"){
 }
 }
   return (
-    <div className="flex flex-col min-w-[100vw]">
-        <div className="md:max-w-[900px] max-w-[400px] px-6 md:px-0   self-center flex gap-3  py-2 pt-10">
+    <div className="flex flex-col ">
+        <div className="md:max-w-[900px] max-w-[400px] px-6 md:px-0   self-center flex  py-2 pt-10">
         {checkContents1()[0]&&checkContents2()[0]&&
           <button
             onClick={handlePrev}

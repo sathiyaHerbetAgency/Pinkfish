@@ -136,14 +136,14 @@ const EventsIndividual = () => {
             <div className=" flex gap-6  ">
               <div className=" flex flex-col    min-w-[200vw] ">
                 <div className=" max-w[90%]  flex gap-3 md:gap-1 ">
-                  <div className="min-w-[100vw] flex flex-col">
+                  <div className="min-w-[100%] flex flex-col">
                     <img
                       src="/Live/event_individual_2.webp"
                       className="md:w-[50%] w-[80%] self-center"
                       alt="img"
                     />
                   </div>
-                  <div className="min-w-[100vw] flex flex-col">
+                  <div className="min-w-[100%] flex flex-col">
                     <img
                       src="/Live/event_individual_3.webp"
                       className="md:w-[50%]  w-[80%] self-center"

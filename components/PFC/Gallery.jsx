@@ -55,7 +55,7 @@ const Gallery = ({check}) => {
 
 
   return (
-    <div className=" flex flex-col gap-4 min-w-[100vw] py-12" id="my-test-gallery" ref={galleryRef}>
+    <div className=" flex flex-col gap-4 min-w-[100%] py-12" id="my-test-gallery" ref={galleryRef}>
       <div className="md:columns-3 columns-2 md:max-w-[60vw] gap-[4px]  md:gap-[8px]  self-center">
          
             

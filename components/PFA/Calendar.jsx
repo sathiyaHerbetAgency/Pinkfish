@@ -6,7 +6,7 @@ import CalendarContainer from './Components/CalendarContainer';
 
 
 const Calendar = () => {
-    const countdownDate = new Date('11/01/2024');
+    const countdownDate = new Date('04/30/2025');
     //end date
     const [state, setState] = useState({
       days: 0,

@@ -71,7 +71,7 @@ return (
         </div>
       </div>
       {toogle&&
-        <div className="text-white absolute top-[63px] bg-black min-h-[40vh] min-w-[100vw] ">
+        <div className="text-white absolute top-[63px] bg-black min-h-[40vh] min-w-[100%] ">
           <div className="flex flex-col">
             <div className="self-center grid md:grid-cols-3  grid-1  gap-6 pb-6">
               <EventContainer link="arena" title='#PFA' description="pinkfish Arena" />
