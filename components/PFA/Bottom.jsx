@@ -9,7 +9,7 @@ const Bottom = () => {
   const heading="Seize the moment."
   const description=""
   return (
-    <div className="bg-bottom-pfa h-[90vh]  py-12   flex flex-col justify-center gap-6">
+    <div className="bg-bottom-pfa h-[60vh] md:h-[90vh]  py-12   flex flex-col justify-center gap-6">
         <div className="flex flex-col gap-6 w-[70%] self-center">
         <img src="./PFA/pf_arena_logo.png" alt="logo" className="self-center w-[150px]"/>
           <div className="flex flex-col items-center gap-6">

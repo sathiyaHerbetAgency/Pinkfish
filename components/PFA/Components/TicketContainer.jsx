@@ -26,7 +26,7 @@ const TicketContainer = ({...Ticket}) => {
 
             
         </div>
-        {/* <div className={`${Ticket.TicketStatus===true?"":"bg-soon"} absolute   w-[280px] h-[500px]  `}> */}
+        {/* <div className={`${Ticket.TicketStatus===true?"":"bg-soon"} absolute w-[180px]  md:w-[280px] h-[350px] md:h-[500px]  `}> */}
 
         {/* </div> */}
 

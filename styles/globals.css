@@ -208,6 +208,7 @@ background: linear-gradient(180deg, rgba(0,0,0,0.4234068627450981) 0%, rgba(0,0,
   .bg-bottom-pfa{
     background-image:url("/PFA/Boris/Bottom/bottom-bg-mob.png");
     background-size:cover;
+  background-position:center;
     background-repeat:no-repeat;
   
   }
