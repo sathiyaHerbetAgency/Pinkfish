@@ -3,8 +3,6 @@
 import React, { useEffect,useRef} from 'react';
 import "../../styles/live.css"
 import "../../styles/contact.css"
-import { getImageFiles } from './../../lib/utils/getImageFiles';
-
 import PhotoSwipeLightbox from 'photoswipe/lightbox';
 import 'photoswipe/style.css';
 import  Link  from 'next/link';
