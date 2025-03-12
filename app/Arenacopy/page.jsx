@@ -34,19 +34,20 @@ const title="Experience the Best Music Festival in Malaysia - Pinkfish "
         <Head title={title} description={description} />
         <div className="bg-black flex flex-col gap-11">
           <Hero select={"PFF"} />
-          <LineUp />
+          {/* <LineUp /> */}
           <Calendar />
           <div className="flex flex-col min-w-[70vw]">
             <TicketGa />
             <InfoNote image="GA" text="Kindly note that all phases of General Admission (GA) grant equal access to the free-standing and seating area." />
-            <TicketVip /> 
-             <InfoNote image="VIP" text="Kindly note that all phases of Premium Admission (VIP) grant equal access to the free-standing and seating area." />
+            {/* <TicketVip />  */}
             <VipBanner />
+             <InfoNote image="VIP" text="Kindly note that all phases of Premium Admission (VIP) grant equal access to the free-standing and seating area." />
+            {/* <VipBanner /> */}
           </div>
           <EventLayout />
-          <BookingLabel />
+          {/* <BookingLabel /> */}
           <Bottom />
-          <Contact />
+          {/* <Contact /> */}
         </div>
          {/* <div className="bg-black">
             <Hero select={"PFA"} />

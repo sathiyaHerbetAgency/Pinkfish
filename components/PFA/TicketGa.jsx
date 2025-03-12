@@ -10,7 +10,7 @@ const TicketGa = () => {
     title:"GENERAL ADMISSION",
     type:"Earlybird",
     price:"RM 198",
-    TicketStatus:true,
+    TicketStatus:false,
     BuyButton:"Sold out",
     BuyButtonStatus:false,
     link1:"https://www.ticket2u.com.my/event/37375",
