@@ -12,8 +12,8 @@ import Gallery2024 from './../../components/Gallery/Gallery2024';
 import GalleryComponent from './../../components/Gallery/GalleryComponent';
 import  Link  from 'next/link';
  const page = () => {
-  const description="Celebrate Countdown NYE 2024 with Pinkfish! Enjoy an exciting night filled with entertainment, drinks, and unforgettable memories as we welcome the new year together. "
-  const title="Celebrate Countdown NYE 2024 with Pinkfish | Unforgettable Events "
+  const description="Celebrate Find Your Harmony 2024 with Pinkfish! Enjoy an exciting night filled with entertainment, drinks, and unforgettable memories as we welcome the new year together. "
+  const title="Celebrate Find Your Harmony 2024 with Pinkfish | Unforgettable Events "
   const heading="text-[16px] md:text-[24px] leading-[19.2px] md:leading-[28.8px] font-[Integral] font-[700] uppercase text-white text-center" 
   const text1="self-center md:self-start text-white text-[16px] leading-[22.66px] font-[Sofia] font-[400]";
   const button="text-white text-[12px] md:text-[16px] leading-[22.66px] md:leading-[22.66px] font-[Sofia] font-[400] p-2 px-4  bg-[#FF0086] rounded"
