@@ -14,7 +14,7 @@ const Hero = () => {
         second_heading_year:"2024",
         span_text:"Pinkfish Music & Arts Festival ",
         text:"Wednesday  •  30 apr 2025",
-        text1:"Mega Star, Arena Kuala Lumpur",
+        text1:"Mega Star Arena, Kuala Lumpur",
         text2:"public holiday eve",
         text_mob1:"Wednesday  •  30 apr 2025",
         text_mob2:"Mega Star Arena, Kuala Lumpur",

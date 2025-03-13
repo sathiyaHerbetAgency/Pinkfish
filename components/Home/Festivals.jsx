@@ -1,3 +1,4 @@
+
 /* eslint-disable */
 import { useEffect, useRef, useState ,useCallback} from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -72,7 +73,7 @@ const Festivals = () => {
             date:"1 November 2024",
             imgUrl:"./Home/Festival/festival-img-2.webp",
             location:"Megastar Arena, Kuala Lumpur     ",
-            link:"Gallery/find-your-harmony",
+            link:"/arena",
             sale:false,
             title:'Pinkfish Arena: Find Your Harmony 2024'
         }, {
@@ -110,8 +111,8 @@ const Festivals = () => {
   return (
     <div className="pb-11">
         <div className="hidden md:block">
-            <div className="flex flex-col min-w-[100%] overflow-hidden py-11 ">
-                <div className="  w-[100%] self-center z-10 pl-24">
+            <div className="flex flex-col min-w-[100vw] overflow-hidden py-11 ">
+                <div className="  w-[100vw] self-center z-10 pl-24">
                     <div className="">
                         <h3 className={heading}>Making Memories</h3>
                     </div>
@@ -145,7 +146,7 @@ const Festivals = () => {
                         // centeredSlides={true}
                         initialSlide={0}
                         // watchOverflow={true}
-                        className="mySwiper pt-3 bg-black w-[100%]"
+                        className="mySwiper pt-3 bg-black w-[100vw]"
                         >
                         {slideData.map((each,index)=>(
                         <SwiperSlide className={`${index===0&&"ml-20"}text-white max-w-[370px] h-[394px]`}>
@@ -158,10 +159,10 @@ const Festivals = () => {
                 </div>
             </div>
         </div>
-        <div className="md:hidden max-w-[100vw] overflow-x-hidden overflow-hidden flex flex-col">
-            <div className="flex flex-col gap-3  min-w-[100%] overflow-hidden self-center">
+        <div className="md:hidden flex flex-col">
+            <div className="flex flex-col gap-3 self-center">
                 <h3 className={heading}>Making Memories</h3>
-                <div className="  flex flex-col justify-center items-center justify-items-center h-[350px] min-w-[100%]   absolute  ">
+                <div className="  flex flex-col justify-center items-center justify-items-center h-[350px] min-w-[100vw]   absolute  ">
                             <div className="flex justify-between self-center w-[90vw]">
                                     <button onClick={handlePrev1} className=" bg-[#000000A0] rounded-[100%] w-[40px] h-[40px] flex justify-center items-center  z-[2] ">
                                         <img src="./Home/Festival/Icons/left-arrow.png" className="w-[34px]" alt="arrow" />
@@ -172,11 +173,11 @@ const Festivals = () => {
                                 </div> 
                         </div>
                 <Swiper
-                    //  ref={BannerRef1}
+                     ref={BannerRef1}
                         slidesPerView={1.64}
-                        centeredSlides={false}
+                        centeredSlides={true}
                         spaceBetween={10}
-                        className="mySwiper pt-3 bg-black max-w-[100%] "
+                        className="mySwiper pt-3 bg-black max-w-[100vw] "
                         >
                 {slideData.map((each,index)=>(
                         <SwiperSlide onClick={()=>{setActiveCard(index)}} className="flex flex-col  text-white max-w-[60vw] h-[300px] justify-items-center self-center mb-3">
