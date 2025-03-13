@@ -41,6 +41,18 @@ const TicketGa = () => {
     link1:"",
     link2:"",
   }
+  const Ticket4={
+    payLaterStatus:false,
+    payLater:"",
+    title:"GENERAL ADMISSION",
+    type:"phase 3",
+    price:"RM 298",
+    TicketStatus:false,
+    BuyButton:"Coming Soon",
+    BuyButtonStatus:false,
+    link1:"",
+    link2:"",
+  }
   return (
     <div  className="text-[#fff] self-center  ">
      
@@ -50,8 +62,7 @@ const TicketGa = () => {
         <TicketContainer {...Ticket1} />
         <TicketContainer {...Ticket2} />
         <TicketContainer {...Ticket3} />
-        
-        
+        <TicketContainer {...Ticket4} />
         </div>
     </div>
   )
