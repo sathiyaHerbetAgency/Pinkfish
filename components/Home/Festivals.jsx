@@ -49,7 +49,7 @@ const Festivals = () => {
             imgUrl:"./Home/Festival/festival-img-8.jpg",
             location:"Megastar Arena, Kuala Lumpur     ",
             link:"/arena",
-            sale:false,
+            sale:true,
             title:'Pinkfish Arena: Boris Brejcha'
         },
         {
@@ -158,8 +158,8 @@ const Festivals = () => {
                 </div>
             </div>
         </div>
-        <div className="md:hidden flex flex-col">
-            <div className="flex flex-col gap-3 self-center">
+        <div className="md:hidden max-w-[100vw] overflow-x-hidden overflow-hidden flex flex-col">
+            <div className="flex flex-col gap-3  min-w-[100%] overflow-hidden self-center">
                 <h3 className={heading}>Making Memories</h3>
                 <div className="  flex flex-col justify-center items-center justify-items-center h-[350px] min-w-[100%]   absolute  ">
                             <div className="flex justify-between self-center w-[90vw]">
@@ -172,9 +172,9 @@ const Festivals = () => {
                                 </div> 
                         </div>
                 <Swiper
-                     ref={BannerRef1}
+                    //  ref={BannerRef1}
                         slidesPerView={1.64}
-                        centeredSlides={true}
+                        centeredSlides={false}
                         spaceBetween={10}
                         className="mySwiper pt-3 bg-black max-w-[100%] "
                         >
