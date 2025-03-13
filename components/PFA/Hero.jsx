@@ -9,7 +9,7 @@ import "../../styles/contact.css"
 const Hero = () => {
 
     const PFA={
-        first_heading:"pinkfish arena presents",
+        first_heading:"",
         second_heading:"Boris Brejcha",
         second_heading_year:"2024",
         span_text:"Pinkfish Music & Arts Festival ",
@@ -17,7 +17,7 @@ const Hero = () => {
         text1:"Mega Star Arena Kuala Lumpur",
         text2:"public holiday eve",
         text_mob1:"1 November 2024",
-        text_mob2:"Mega Star Arena Kuala Lumpur",
+        text_mob2:"Mega Star Arena, Kuala Lumpur",
         pinkbg_text:'Public Holiday EVE',
         button_text:'BUY TICKETS',
         link:"#Tickets"

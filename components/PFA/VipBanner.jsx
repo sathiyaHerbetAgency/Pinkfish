@@ -34,12 +34,12 @@ const VipBanner = () => {
       
       {/* Subheading */}
       <p className="text-[#FFC4E4] text-[12px] md:text-[20px] mt-2 font-[Integral] font-[400] uppercase">
-        Call for reservation
+      whatsapp for reservation
       </p>
       
       {/* Button linking to phone number */}
       <a
-        href="tel:+60122655783"
+        href="https://wa.me/60122655783" target="_blank" rel="noopener noreferrer"
         className="inline-block bg-pink-500 text-white font-[Integral] font-[300] text-[12px] md:text-[16.82px] w-[150px] md:w-[250px] text-center py-2 md:py-4 mt-2 md:mt-4  rounded-md uppercase"
       >
         +6012 265 5783

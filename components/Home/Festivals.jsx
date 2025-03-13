@@ -45,6 +45,14 @@ const Festivals = () => {
 
      const slideData=[
         {
+            date:"30 April 2025",
+            imgUrl:"./Home/Festival/festival-img-8.jpg",
+            location:"Megastar Arena, Kuala Lumpur     ",
+            link:"/arena",
+            sale:false,
+            title:'Pinkfish Arena: Boris Brejcha'
+        },
+        {
             date:"31 December 2024",
             imgUrl:"./Home/Festival/festival-img-1.webp",
             location:"Surf Beach Sunway Lagoon",
@@ -64,7 +72,7 @@ const Festivals = () => {
             date:"1 November 2024",
             imgUrl:"./Home/Festival/festival-img-2.webp",
             location:"Megastar Arena, Kuala Lumpur     ",
-            link:"/arena",
+            link:"Gallery/find-your-harmony",
             sale:false,
             title:'Pinkfish Arena: Find Your Harmony 2024'
         }, {

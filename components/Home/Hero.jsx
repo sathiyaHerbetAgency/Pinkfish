@@ -66,7 +66,9 @@ const Hero = () => {
             modules={[Navigation]}
             className="mySwiper"
           >
-           
+            <SwiperSlide>
+              <SlideImage url={"./Home/Hero/boris.png"} urlMob={"./Home/Hero/boris-mob.png"} year="2025"  slide={3} />
+            </SwiperSlide>
             <SwiperSlide>
               <SlideImage url={"./Home/Hero/slide1-home-trail.jpg"} urlMob={"./Home/Hero/slide1-home-mob.webp"} year="2024"  slide={1} />
             </SwiperSlide>

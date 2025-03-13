@@ -29,6 +29,13 @@ const SlideImage = ({url,urlMob,year,link,slide}) => {
       text:'Get hyped for a live experience like never before — where bass comes to life.',
       link:false,
       ticketText:'Buy Tickets'
+    },
+    {
+      dateText:'30 April 2025 • Mega Star Arena, Kuala Lumpur',
+      heading:'Pinkfish Arena: Boris Brejcha',
+      text:'',
+      link:true,
+      ticketText:'Buy Tickets'
     }
   ]
 
