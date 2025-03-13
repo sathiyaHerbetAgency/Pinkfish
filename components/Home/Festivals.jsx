@@ -111,8 +111,8 @@ const Festivals = () => {
   return (
     <div className="pb-11">
         <div className="hidden md:block">
-            <div className="flex flex-col min-w-[100vw] overflow-hidden py-11 ">
-                <div className="  w-[100vw] self-center z-10 pl-24">
+            <div className="flex flex-col min-w-[100%] overflow-hidden py-11 ">
+                <div className="  w-[100%] self-center z-10 pl-24">
                     <div className="">
                         <h3 className={heading}>Making Memories</h3>
                     </div>
