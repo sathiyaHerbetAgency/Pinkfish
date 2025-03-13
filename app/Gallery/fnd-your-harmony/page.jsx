@@ -22,7 +22,7 @@ import  Link  from 'next/link';
 const data=
   {
     title:'Pinkfish Arena: Find Your Harmony 2024',
-    link:'https://www.facebook.com/media/set/?set=a.331163143240998&type=3',
+    link:'https://www.facebook.com/media/set/?set=a.535651029458874&type=3',
     section:'',
     folderName:'FindYourHarmony',
     imageCount:13,
@@ -66,7 +66,7 @@ useEffect(()=>{
               <h1 className={heading}>{data.title}</h1>
           </div>
         </div>
-      <div className="flex flex-col self-center" >
+      <div className="flex flex-col self-center pb-6" >
         <div className="flex flex-col self-center" id="my-test-gallery" ref={galleryRef}>
           <GalleryComponent data={data} />
         </div>

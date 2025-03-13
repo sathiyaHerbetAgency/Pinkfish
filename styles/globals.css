@@ -182,10 +182,19 @@ select {
 background: linear-gradient(180deg, rgba(0,0,0,0.4234068627450981) 0%, rgba(0,0,0,0.6026785714285714) 35%, rgba(0,0,0,0.4514180672268907) 100%);
 }
 
-.bg-arena{
-  background-image:url("/PFA/Boris/Hero/bg.png");
-  background-size:cover;
-  background-repeat:no-repeat;
+.bg-arena {
+  background-image: url("/PFA/Boris/Hero/bg.png");
+  background-size: cover; /* or try cover if you prefer cropping */
+  background-repeat: no-repeat;
+  background-position: center;
+ /* Fallback or letterbox color */
+}
+
+.bg-banner-boris{
+  background-image: url("/PFA/Boris//VipBanner/vip-1.png");
+  background-size: cover; /* or try cover if you prefer cropping */
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .vip-banner{
@@ -195,11 +204,13 @@ background: linear-gradient(180deg, rgba(0,0,0,0.4234068627450981) 0%, rgba(0,0,
 }
 
 @media screen and (max-width:768px){
-  .bg-arena{
-    background-image:url("/PFA/Boris/Hero/bg-mob.png");
-    background-size:contain;
-    background-repeat:no-repeat;
+  .bg-arena {
+    background-image: url("/PFA/Boris/Hero/bg-mob.png");
+    background-size: 80%; /* reduces original size by ~30% */
+    background-repeat: no-repeat;
+    background-position: top; /* recommended to keep image centered */
   }
+  
   .vip-banner{
     background-image:url("/PFA/bg_vip_mob.png");
     background-size:contain;
