@@ -44,7 +44,7 @@ const TicketVip = () => {
   return (
     <div className="text-[#fff] self-center">
      
-    <TicketHeadingLabel text="premium ADMISSION (vip)" />
+    <TicketHeadingLabel text="premium ADMISSION (vVip)" />
     <div className="flex flex-wrap justify-center  gap-3 mt-12  min-w-[90vw] md:min-w-[60vw]">
     {/* <TicketContainer  {...Ticket1}  />
     <TicketContainer  {...Ticket2}  />
