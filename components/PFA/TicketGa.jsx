@@ -13,8 +13,8 @@ const TicketGa = () => {
     TicketStatus:true,
     BuyButton:"Buy Now",
     BuyButtonStatus:true,
-    link1:"#",
-    link2:"#",
+    link1:"https://www.ticket2u.com.my/event/42178_df7cc8f7d6ef440e8c1062e18677a7f0/pinkfish-arena-boris-brejcha-at%c2%a0malaysia",
+    link2:"https://www.ticket2u.com.my/event/42179_fa68d130c3314363b5235fbfdb45eec9/bnpl-pinkfish-arena-boris-brejcha-at%c2%a0malaysia",
   }
   const Ticket2={
     payLaterStatus:false,
