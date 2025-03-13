@@ -38,10 +38,11 @@ const title="Experience the Best Music Festival in Malaysia - Pinkfish "
           <Calendar />
           <div className="flex flex-col min-w-[70vw]">
             <TicketGa />
-            <InfoNote image="GA" text="Kindly note that all phases of General Admission (GA) grant equal access to the free-standing and seating area." />
-            <div className="self-center flex justify-center  w-[90%] mb-6 md:mb-11">
+            <div className="self-center flex justify-center  w-[90%] mt-6 md:mt-11">
                     <p className="text-[10px] md:text-[14px] font-[Sofia] items-center self-center text-[#fff]">*Ticket prices excludes ticket fee & booking charges.</p>
                 </div>
+            <InfoNote image="GA" text="Kindly note that all phases of General Admission (GA) grant equal access to the free-standing and seating area." />
+           
             <TicketVip /> 
             <VipBanner />
              <InfoNote image="VIP" text="Kindly note that all phases of Premium Admission (VVIP) grant equal access to the free-standing and seating area." />
