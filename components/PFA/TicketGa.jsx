@@ -5,26 +5,26 @@ import TicketContainer from './Components/TicketContainer';
 
 const TicketGa = () => {
   const Ticket1={
-    payLaterStatus:false,
-    payLater:"Sold out",
+    payLaterStatus:true,
+    payLater:"buy now pay later",
     title:"GENERAL ADMISSION",
     type:"Earlybird",
     price:"RM 198",
-    TicketStatus:false,
-    BuyButton:"Sold out",
-    BuyButtonStatus:false,
+    TicketStatus:true,
+    BuyButton:"Buy Now",
+    BuyButtonStatus:true,
     link1:"#",
     link2:"#",
   }
   const Ticket2={
-    payLaterStatus:true,
-    payLater:"buy now pay later",
+    payLaterStatus:false,
+    payLater:"",
     title:"GENERAL ADMISSION",
     type:"phase 1",
     price:"RM 228",
-    TicketStatus:true,
-    BuyButton:"Buy Now",
-    BuyButtonStatus:true,
+    TicketStatus:false,
+    BuyButton:"Coming Soon",
+    BuyButtonStatus:false,
     link1:"#",
     link2:"#",
   }
