@@ -34,7 +34,7 @@ const TicketGa = () => {
     payLater:"",
     title:"GENERAL ADMISSION",
     type:"phase 2",
-    price:"RM 258",
+    price:"RM 248",
     TicketStatus:false,
     BuyButton:"Coming Soon",
     BuyButtonStatus:false,
