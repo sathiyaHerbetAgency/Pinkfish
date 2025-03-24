@@ -73,7 +73,7 @@ const Festivals = () => {
             date:"1 November 2024",
             imgUrl:"./Home/Festival/festival-img-2.webp",
             location:"Megastar Arena, Kuala Lumpur     ",
-            link:"/arena",
+            link:"/gallery/find-your-harmony",
             sale:false,
             title:'Pinkfish Arena: Find Your Harmony 2024'
         }, {
