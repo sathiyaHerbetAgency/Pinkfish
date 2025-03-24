@@ -75,31 +75,31 @@ const Calendar = () => {
             <div className="counter-timer"> Time up </div>
           ) : (
             <div className="flex flex-col md:flex-row gap-6 px-5 md:px-0 self-center">
-              <div className="grid grid-cols-2 md:grid-cols-4 py-4 md-py-2 gap-4">
+              <div className="grid grid-cols-4 md:grid-cols-4 py-4 md-py-2 gap-4">
                 <div className="flex flex-col gap-3">
                   <CalendarContainer text={state.days || "00"} />
-                  <h3 className="text-[#fff] text-[24px] font-[ShareTech-Regular] text-center  uppercase">
+                  <h3 className="text-[#fff] text-[16px] md:text-[24px] font-[ShareTech-Regular] text-center  uppercase">
                     {" "}
                     Days{" "}
                   </h3>
                 </div>
                 <div className="flex flex-col gap-3">
                   <CalendarContainer text={state.hours || "00"} />
-                  <h3 className="text-[#fff] text-[24px] font-[ShareTech-Regular] text-center  uppercase">
+                  <h3 className="text-[#fff] text-[16px] md:text-[24px] font-[ShareTech-Regular] text-center  uppercase">
                     {" "}
                     Hours{" "}
                   </h3>
                 </div>{" "}
                 <div className="flex flex-col gap-3">
                   <CalendarContainer text={state.minutes || "00"} />
-                  <h3 className="text-[#fff] text-[24px] font-[ShareTech-Regular] text-center  uppercase">
+                  <h3 className="text-[#fff] text-[16px] md:text-[24px] font-[ShareTech-Regular] text-center  uppercase">
                     {" "}
                     Minutes{" "}
                   </h3>
                 </div>{" "}
                 <div className="flex flex-col gap-3">
                   <CalendarContainer text={state.seconds || "00"} />
-                  <h3 className="text-[#fff] text-[24px] font-[ShareTech-Regular] text-center  uppercase">
+                  <h3 className="text-[#fff] text-[16px] md:text-[24px] font-[ShareTech-Regular] text-center  uppercase">
                     {" "}
                     Seconds{" "}
                   </h3>
