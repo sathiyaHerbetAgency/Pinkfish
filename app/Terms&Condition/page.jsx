@@ -50,7 +50,10 @@ const page = () => {
         <h2 className='tnc_text_header'>8. Governing Law  </h2>
         <p className='tnc_text'>The Organiser shall not be responsible for loss or damage of property or belongings. Please keep all items at your own risk.  </p>
     </li>
-
+    <li className='flex flex-col gap-2'>
+        <h2 className='tnc_text_header'>9. Media & Photography Consent  </h2>
+        <p className='tnc_text'>TThe organisers reserve the right to use photography, motion pictures, recording, or any other media records taken by media officials of the event for promotional purposes. </p>
+    </li>
     <li className='tnc_text '>If you have any questions about these Terms and Conditions, please contact us at info@pinkfishfestival.com</li>
      <li className='tnc_text '>By accessing and using the Pinkfish website, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions.</li>
      <li style={{fontWeight:700}} className='tnc_text italic font-[900]' >Last Updated: 14 September 2023</li>

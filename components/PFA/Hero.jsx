@@ -23,7 +23,7 @@ const Hero = () => {
         link:"#Tickets"
     }
   return (
-    <div className={` flex flex-col justify-end md:justify-center pb-12 md:pb-0 min-h-[90vh] md:min-h-[92vh]  bg-arena }`}>
+    <div className={` flex flex-col justify-end md:justify-center pb-12 md:pb-0 min-h-[80vh] md:min-h-[92vh]  bg-arena }`}>
         <div className="flex flex-col gap-4  self-center">
             <div className=" flex flex-col self-center  gap-4">
                 <img src="./PFA/pf_arena_logo.png"  className="w-48 self-center" alt="pf_arena_logo" />  

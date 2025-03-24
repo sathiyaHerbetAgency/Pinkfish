@@ -206,7 +206,7 @@ background: linear-gradient(180deg, rgba(0,0,0,0.4234068627450981) 0%, rgba(0,0,
 @media screen and (max-width:768px){
   .bg-arena {
     background-image: url("/PFA/Boris/Hero/bg-mob.png");
-    background-size: 60%; /* reduces original size by ~30% */
+    background-size: 55%; /* reduces original size by ~30% */
     background-repeat: no-repeat;
     background-position: top; /* recommended to keep image centered */
   }
