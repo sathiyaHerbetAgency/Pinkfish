@@ -60,9 +60,9 @@ const Calendar = () => {
         }
       };
   return (
-    <div className="flex flex-col md:gap-11 justify-center md:max-w-[900px]  self-center items-center  md:py-24 ">
+    <div className="flex flex-col md:gap-11 justify-center md:max-w-[900px]  self-center items-center  ">
       <div className="flex flex-col md:flex-row justify-center  gap-6 self-center max-w-[100%] ">
-        <div className="flex flex-col  justify-center md:pb-11">
+        <div className="flex flex-col  justify-center ">
           <h2 className="text-[36px] font-[700] tracking-[2px] font-[Integral] text-center  text-[#fff]  uppercase">
             mark your
           </h2>
@@ -75,7 +75,7 @@ const Calendar = () => {
             <div className="counter-timer"> Time up </div>
           ) : (
             <div className="flex flex-col md:flex-row gap-6 px-5 md:px-0 self-center">
-              <div className="grid grid-cols-2 md:grid-cols-4 py-4 gap-4">
+              <div className="grid grid-cols-2 md:grid-cols-4 py-4 md-py-2 gap-4">
                 <div className="flex flex-col gap-3">
                   <CalendarContainer text={state.days || "00"} />
                   <h3 className="text-[#fff] text-[24px] font-[ShareTech-Regular] text-center  uppercase">
