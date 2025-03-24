@@ -36,7 +36,7 @@ const title="Experience the Best Music Festival in Malaysia - Pinkfish "
           <Hero select={"PFF"} />
           {/* <LineUp /> */}
           <Calendar />
-          <div className="flex flex-col min-w-[70vw]">
+          <div className="flex flex-col min-w-[70vw] ">
             <TicketGa />
             <div className="self-center flex justify-center  w-[90%] mt-6 md:mt-11">
                     <p className="text-[10px] md:text-[14px] font-[Sofia] items-center self-center text-[#fff]">*Ticket prices excludes ticket fee & booking charges.</p>

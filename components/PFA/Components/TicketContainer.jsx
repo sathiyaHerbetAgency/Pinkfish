@@ -7,8 +7,8 @@ const TicketContainer = ({...Ticket}) => {
 
   return (
     <div className="flex flex-col pt-11 relative">
-      <div className="flex flex-col gap-6 w-[160px] md:w-[280px] relative overflow-hidden">
-        <div className={`flex flex-col ${Ticket.TicketStatus ? "ticket-body-bg" : "ticket-body-bg"} justify-start h-[190px] md:h-[330px] gap-0 w-full`}>
+      <div className="flex flex-col gap-6 w-[160px] md:w-[220px] relative overflow-hidden">
+        <div className={`flex flex-col ${Ticket.TicketStatus ? "ticket-body-bg" : "ticket-body-bg"} justify-start h-[190px] md:h-[240px] gap-0 w-full`}>
           <div className="flex flex-col justify-around min-h-[80%] md:min-h-[70%]">
             <h2 className="text-[10px] w-[100%] text-center md:text-[14px] font-[100] font-[Integral] text-[#fff] uppercase">
               {Ticket.title}

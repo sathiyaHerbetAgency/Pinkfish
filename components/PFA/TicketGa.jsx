@@ -54,11 +54,11 @@ const TicketGa = () => {
     link2:"",
   }
   return (
-    <div  className="text-[#fff] self-center  ">
+    <div  className="text-[#fff] self-center flex flex-col ">
      
         <TicketHeadingLabel text="GENERAL ADMISSION (GA)" />
        
-        <div className="flex flex-wrap justify-center  gap-3  min-w-[90vw] md:min-w-[60vw]">
+        <div className="flex flex-wrap justify-center items-start  gap-3  max-w-[90vw] md:md:max-w-[1100px] self-center">
         <TicketContainer {...Ticket1} />
         <TicketContainer {...Ticket2} />
         <TicketContainer {...Ticket3} />
