@@ -5,28 +5,29 @@ import TicketContainer from './Components/TicketContainer';
 
 const TicketGa = () => {
   const Ticket1={
-    payLaterStatus:true,
-    payLater:"buy now pay later",
+    payLaterStatus:false,
+    payLater:"",
     title:"GENERAL ADMISSION",
     type:"Earlybird",
     price:"RM 198",
+    TicketStatus:false,
+    BuyButton:"Sold Out",
+    BuyButtonStatus:false,
+    link1:"#",
+    link2:"#",
+  }
+  const Ticket2={
+    payLaterStatus:true,
+    payLater:"buy now pay later",
+    title:"GENERAL ADMISSION",
+    type:"phase 1",
+    price:"RM 228",
     TicketStatus:true,
     BuyButton:"Buy Now",
     BuyButtonStatus:true,
     link1:"https://www.ticket2u.com.my/event/42178_df7cc8f7d6ef440e8c1062e18677a7f0/pinkfish-arena-boris-brejcha-at%c2%a0malaysia",
     link2:"https://www.ticket2u.com.my/event/42179_fa68d130c3314363b5235fbfdb45eec9/bnpl-pinkfish-arena-boris-brejcha-at%c2%a0malaysia",
-  }
-  const Ticket2={
-    payLaterStatus:false,
-    payLater:"",
-    title:"GENERAL ADMISSION",
-    type:"phase 1",
-    price:"RM 228",
-    TicketStatus:false,
-    BuyButton:"Coming Soon",
-    BuyButtonStatus:false,
-    link1:"#",
-    link2:"#",
+   
   }
 
   const Ticket3={
