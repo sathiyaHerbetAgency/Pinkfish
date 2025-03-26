@@ -54,6 +54,15 @@ const Festivals = ({setShowPopup}) => {
             title:'Pinkfish Arena: Boris Brejcha'
         },
         {
+            date:"26 April 2025",
+            imgUrl:"./Home/Festival/festival-img-8.webp",
+            location:"Lane23, KL",
+            link:"",
+            sale:true,
+            title:'Pinkclub: Eli Brown',
+            popup:true,
+        },
+        {
             date:"31 December 2024",
             imgUrl:"./Home/Festival/festival-img-1.webp",
             location:"Surf Beach Sunway Lagoon",
@@ -69,15 +78,7 @@ const Festivals = ({setShowPopup}) => {
             sale:false,
             title:'Pinkclub: Hannah Laing'
         },
-        {
-            date:"26 April 2025",
-            imgUrl:"./Home/Festival/festival-img-8.webp",
-            location:"Lane23, KL",
-            link:"",
-            sale:true,
-            title:'Eli Brown',
-            popup:true,
-        },
+        
         {
             date:"1 November 2024",
             imgUrl:"./Home/Festival/festival-img-2.webp",
@@ -190,7 +191,7 @@ const Festivals = ({setShowPopup}) => {
                         >
                 {slideData.map((each,index)=>(
                         <SwiperSlide onClick={()=>{setActiveCard(index)}} className="flex flex-col  text-white max-w-[60vw] h-[300px] justify-items-center self-center mb-3">
-                            <FestivalContainer data={each} index={index} active={activeCard} />
+                            <FestivalContainer setShowPopup={setShowPopup} data={each} index={index} active={activeCard} />
                         </SwiperSlide>
                         
                         ))}
