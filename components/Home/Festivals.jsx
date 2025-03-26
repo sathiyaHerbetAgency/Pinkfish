@@ -56,7 +56,7 @@ const Festivals = ({setShowPopup}) => {
         {
             date:"26 April 2025",
             imgUrl:"./Home/Festival/festival-img-8.webp",
-            location:"Lane23, KL",
+            location:"Lane 23, KL",
             link:"",
             sale:true,
             title:'Pinkclub: Eli Brown',
