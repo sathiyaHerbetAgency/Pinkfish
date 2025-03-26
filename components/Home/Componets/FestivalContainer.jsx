@@ -58,7 +58,7 @@ const FestivalContainer = ({setShowPopup, data,index,active}) => {
     <div className="md:hidden flex flex-col self-cente max-w-[60vw] bg-white">
         <div  className="max-w-[60vw] h-[300px]    self-center">
             {active===index&&(
-                <Link href={data.link} className={overlayContainerMobOpacity}>
+                <Link  onClick={handleClick} href={data.link} className={overlayContainerMobOpacity}>
                     {/* <div className="flex justify-end w-[100%] mr-3 md:w-[95%] ">
                         {data.sale&&<button className={button} type="button"> Tickets on sale  </button>}
                     </div> */}
