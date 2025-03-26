@@ -4,7 +4,6 @@ import React,{useState} from 'react'
 import "../../../styles/live.css"
 
 import  Link  from 'next/link';
-import Popup from './../Popup';
 
 const textGallery1= "text-[16px] md:text-[24px] leading-[20.19px] md:leading-[32.06px] font-[Sofia] font-[800] text-white text-left w-[90%] ";
 const overlayContainer="  opacity-0 hover:opacity-100 absolute z-1 w-[90%] md:max-w-[370px] h-[355px] md:h-[394px] pl-4 pb-4 flex flex-col justify-end bg-gradinet-gray";

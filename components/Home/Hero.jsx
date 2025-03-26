@@ -13,7 +13,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import SlideImage from './Componets/SlideImage';
 
-const Hero = () => {
+const Hero = ({setShowPopup}) => {
     const BannerRef = useRef(null);
     const handlePrev = useCallback(() => {
       if (BannerRef.current && BannerRef.current.swiper) {
@@ -68,6 +68,9 @@ const Hero = () => {
           >
             <SwiperSlide>
               <SlideImage url={"./Home/Hero/boris.png"} urlMob={"./Home/Hero/boris-mob.png"} year="2025"  slide={3} />
+            </SwiperSlide>
+            <SwiperSlide>
+              <SlideImage url={"./Home/Hero/eli-brown.jpg"} urlMob={"./Home/Hero/eli-brown.jpg"} year="2024"  slide={4} setShowPopup={setShowPopup} />
             </SwiperSlide>
             <SwiperSlide>
               <SlideImage url={"./Home/Hero/slide1-home-trail.jpg"} urlMob={"./Home/Hero/slide1-home-mob.webp"} year="2024"  slide={1} />

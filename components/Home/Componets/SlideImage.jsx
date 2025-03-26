@@ -1,8 +1,9 @@
 /* eslint-disable */
 import React from 'react'
 import "../../../styles/live.css"
+import  Link  from 'next/link';
 
-const SlideImage = ({url,urlMob,year,link,slide}) => {
+const SlideImage = ({url,urlMob,year,link,slide, setShowPopup}) => {
   const text="text-[12px] md:text-[16px] leading-[16.66px] md:leading-[22.66px] font-[Sofia] font-[400]"
   const heading="text-[24px] md:text-[36px] leading-[28.8px] md:leading-[43.2px] font-[Integral] font-[700] uppercase"
   const button="text-[12px] md:text-[16px] leading-[22.66px] md:leading-[22.66px] font-[Sofia] font-[400] p-2 px-4  bg-[#FF0086] rounded"
@@ -36,10 +37,24 @@ const SlideImage = ({url,urlMob,year,link,slide}) => {
       text:'',
       link:'/Arena',
       ticketText:'Buy Tickets'
-    }
+    },
+    {
+      dateText:'26 April 2025 • Lane 23, KL',
+      heading:'Pinkclub: Eli Brown',
+      text:'',
+      link:"/",
+      ticketText:'Buy Tickets',
+      popup:true,
+    },
   ]
 
-
+  const handleClick = (e) => {
+    if (data[slide].popup) {
+    e.preventDefault(); // stop navigation
+      setShowPopup(true);
+    }
+    // else: allow normal link navigation
+  };
   return (
     <div className=" flex flex-col  ">
     <div className="self-center ">
@@ -57,9 +72,9 @@ const SlideImage = ({url,urlMob,year,link,slide}) => {
           <p className={text}>{data[slide].dateText}</p>
               <h1 className={heading}>{data[slide].heading}</h1>
               <p className={`${text} pt-[7px]`}>{data[slide].text}</p>
-             {data[slide].link&& <a href={data[slide].link} className="w-fit self-center flex justify-start mt-3"> 
+             {data[slide].link&& <Link onClick={handleClick} href={data[slide].link} className="w-fit self-center flex justify-start mt-3"> 
                 <button className={button} alt="button">{data[slide].ticketText}</button>
-              </a>
+              </Link>
               }
               </div>
           </div>
@@ -71,15 +86,15 @@ const SlideImage = ({url,urlMob,year,link,slide}) => {
         className=" object-cover  min-h-[80vh] max-w-[100vw]"
         alt="slider"
       />
-      <div className="text-block_live  z-[999]   bg-gradinet-gray-mob text-white  h-[90vh]  ">
+      <div className="text-block_live  z-[999] min-w-[100vw]   bg-gradinet-gray-mob text-white  h-[90vh]  ">
         <div className="min-h-[80vh] flex flex-col justify-center">
           <div className="flex flex-col self-center w-[90%] max-h-[164px]">
           <p className={text}>{data[slide].dateText}</p>
               <h1 className={heading}>{data[slide].heading}</h1>
               <p className={text}>{data[slide].text}</p>
-              {data[slide].link&& <a href={data[slide].link} className="w-fit self-center flex justify-start mt-3"> 
+              {data[slide].link&&  <Link onClick={handleClick} href={data[slide].link} className="w-fit self-center flex justify-start mt-3"> 
                 <button className={button} alt="button">{data[slide].ticketText}</button>
-              </a>
+              </Link>
               }
               </div>
               </div>

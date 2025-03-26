@@ -30,7 +30,7 @@ export default function Page() {
     <div className="bg-transparent min-h-[100vh] ">
      {showPopup&& <Popup  setShowPopup={setShowPopup} />}
       <NewNavbar />
-      <Hero/>
+      <Hero setShowPopup={setShowPopup} />
       <Festivals setShowPopup={setShowPopup}  />
       {/* <Label color="pink" direction="left" /> */}
       <Brands />
