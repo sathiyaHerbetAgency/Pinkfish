@@ -11,7 +11,7 @@ import 'swiper/css';
 import FestivalContainer from './Componets/FestivalContainer';
 import { Navigation} from 'swiper/modules';
 
-const Festivals = () => {
+const Festivals = ({setShowPopup}) => {
     const BannerRef = useRef(null);
     const BannerRef1 = useRef(null);
 
@@ -68,6 +68,15 @@ const Festivals = () => {
             link:"/pinkclub",
             sale:false,
             title:'Pinkclub: Hannah Laing'
+        },
+        {
+            date:"26 April 2025",
+            imgUrl:"./Home/Festival/festival-img-8.webp",
+            location:"Lane23, KL",
+            link:"",
+            sale:true,
+            title:'Eli Brown',
+            popup:true,
         },
         {
             date:"1 November 2024",
@@ -150,7 +159,7 @@ const Festivals = () => {
                         >
                         {slideData.map((each,index)=>(
                         <SwiperSlide className={`${index===0&&"ml-20"}text-white max-w-[370px] h-[394px]`}>
-                            <FestivalContainer data={each} index={index} />
+                            <FestivalContainer setShowPopup={setShowPopup} data={each} index={index} />
                         </SwiperSlide>
                         ))}
                     </Swiper>

@@ -1,6 +1,6 @@
 /* eslint-disable */
 "use client";
-
+import {useState} from 'react'
 import { Footer, NewNavbar } from "../components";
 
 // import { Hero, World } from "../sections";
@@ -17,18 +17,21 @@ import GalleryContainer from './../components/Home/GalleryContainer';
 import Festivals from './../components/Home/Festivals';
 
 export default function Page() {
+  const [showPopup,setShowPopup]=useState(false)
   const description="Discover the ultimate music festival experience in Malaysia with PinkFish. Join us for an unforgettable event filled with music, fun, and memories."
   const title="Experience the Best Music Festival in Malaysia - Pinkfish "
-
+  const handleShowPopup = () => {
+    setShowPopup(true);
+  };
 
   return (
     <>
     <Head title={title} description={description} />
     <div className="bg-transparent min-h-[100vh] ">
-      {/* <Popup /> */}
+     {showPopup&& <Popup  setShowPopup={setShowPopup} />}
       <NewNavbar />
       <Hero/>
-      <Festivals />
+      <Festivals setShowPopup={setShowPopup}  />
       {/* <Label color="pink" direction="left" /> */}
       <Brands />
       {/* <Gallery /> */}

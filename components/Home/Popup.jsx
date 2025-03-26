@@ -2,7 +2,7 @@
 "use client";
 import { useEffect, useRef,useState } from "react";
 
-const Popup = () => {
+const Popup = ({setShowPopup}) => {
     let popupOverlayRef = useRef(null);
     let popupContainerRef = useRef(null);
     let popupOverlayRefMob = useRef(null);
@@ -34,11 +34,16 @@ const Popup = () => {
         popupContainerRefMob.current.style.opacity = "0";
         popupContainerRef.current.style.transform = "scale(0.8)";
         popupContainerRefMob.current.style.transform = "scale(0.8)";
-    
         setTimeout(() => {
-          popupOverlayRef.current.style.display = "none";
-          popupOverlayRefMob.current.style.display = "none";
-        }, 1000);
+          if (popupOverlayRef.current) {
+            popupOverlayRef.current.style.display = "none";
+          }
+          if (popupOverlayRefMob.current) {
+            popupOverlayRefMob.current.style.display = "none";
+          }
+        }, 1000); 
+        setShowPopup(false)
+
       }
 
       const button="text-[12px] text-white md:text-[16px] leading-[22.66px] md:leading-[22.66px] font-[Sofia] font-[400] p-2 px-4  bg-[#FF0086] rounded w-[110px]"
@@ -66,10 +71,10 @@ const Popup = () => {
           <img src="./Home/Popup/popup_home.webp" className="" alt="img" />
           <div className="flex flex-col justify-end ">
           <div className="flex self-center  gap-3 justify-center">
-          <a href="https://www.ticket2u.com.my/event/38606" target="_blank"className="w-fit self-center flex justify-start mt-3"> 
+          <a href="https://www.ticket2u.com.my/event/42298_f3f6966f929943358beee3f3d5a9a2b1/pinkclub-eli-brown" target="_blank"className="w-fit self-center flex justify-start mt-3"> 
                 <button className={button} alt="button">BUY NOW</button>
               </a>
-              <a href="https://www.ticket2u.com.my/event/38609" target="_blank" className="w-fit self-center flex justify-start mt-3"> 
+              <a href="https://www.ticket2u.com.my/event/42302_55a2f652d0d64894b6889475908992c3/bnpl-pinkclub-eli-brown" target="_blank" className="w-fit self-center flex justify-start mt-3"> 
                 <button className={button} alt="button">BNPL</button>
               </a>
         </div>
