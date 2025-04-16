@@ -66,9 +66,9 @@ const Hero = ({setShowPopup}) => {
             modules={[Navigation]}
             className="mySwiper"
           >
-            <SwiperSlide>
+            {/* <SwiperSlide>
               <SlideImage url={"./Home/Hero/boris.png"} urlMob={"./Home/Hero/boris-mob.png"} year="2025"  slide={3} />
-            </SwiperSlide>
+            </SwiperSlide> */}
             <SwiperSlide>
               <SlideImage url={"./Home/Hero/eli-brown.jpg"} urlMob={"./Home/Hero/eli-brown.jpg"} year="2024"  slide={4} setShowPopup={setShowPopup} />
             </SwiperSlide>

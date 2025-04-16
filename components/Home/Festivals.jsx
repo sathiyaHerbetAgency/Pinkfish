@@ -45,14 +45,14 @@ const Festivals = ({setShowPopup}) => {
     const [activeCard, setActiveCard] = useState(null);  
 
      const slideData=[
-        {
-            date:"30 April 2025",
-            imgUrl:"./Home/Festival/festival-img-8.jpg",
-            location:"Megastar Arena, Kuala Lumpur     ",
-            link:"/arena",
-            sale:true,
-            title:'Pinkfish Arena: Boris Brejcha'
-        },
+        // {
+        //     date:"30 April 2025",
+        //     imgUrl:"./Home/Festival/festival-img-8.jpg",
+        //     location:"Megastar Arena, Kuala Lumpur     ",
+        //     link:"/arena",
+        //     sale:true,
+        //     title:'Pinkfish Arena: Boris Brejcha'
+        // },
         {
             date:"26 April 2025",
             imgUrl:"./Home/Festival/festival-img-8.webp",

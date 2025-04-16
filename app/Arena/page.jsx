@@ -32,9 +32,9 @@ const title="Experience the Best Music Festival in Malaysia - Pinkfish "
     <div className="  max-w-[100%]">
         <NewNavbar />
         <Head title={title} description={description} />
-        <div className="bg-black flex flex-col gap-11">
+        {/* <div className="bg-black flex flex-col gap-11">
           <Hero select={"PFF"} />
-          {/* <LineUp /> */}
+        
           <Calendar />
           <div className="flex flex-col min-w-[70vw] ">
             <TicketGa />
@@ -46,29 +46,12 @@ const title="Experience the Best Music Festival in Malaysia - Pinkfish "
             <TicketVip /> 
             <VipBanner />
              <InfoNote image="VIP" text="Kindly note that all phases of Premium Admission (VVIP) grant equal access to the free-standing and seating area." />
-            {/* <VipBanner /> */}
+          
           </div>
           <EventLayout />
-          {/* <BookingLabel /> */}
           <Bottom />
-          {/* <Contact /> */}
-        </div>
-         {/* <div className="bg-black">
-            <Hero select={"PFA"} />
-            <Label text={"see you in 2025"} />
-            <div className="gradient-container-pfa flex flex-col  ">
-              <div className=" flex flex-col self-center  ">
-                <Slider select="PFA" />
-               <Heading text={"#PFF2023 official aftermovie"} page={"PFF"} />
-               <Video id={"F8k-yI4zWLg"} />
-               </div>
-               <Heading text={"#PFA gallery"} page={"PFC"}/>
-               <Gallery select={"PFF"} />
-                <Banner  select={"PFA"}  />
-               <Bottom   />
-            </div>
         </div> */}
-     
+       
         <Footer />
     </div>
   )
