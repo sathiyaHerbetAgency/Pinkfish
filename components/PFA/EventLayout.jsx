@@ -4,15 +4,18 @@ import React from 'react'
 const EventLayout = () => {
   return (
     <div className="flex flex-col gap-6 md:gap-0">
-        <h4 className="text-[24px] md:text-[32px]  tracking-[1px] font-[Integral] font-[700] text-center self-center text-[#fff]  uppercase">EVENT LAYOUT</h4>
-      <div className="self-center">
-        <img src="./PFA/Boris/Event/layout.png" className="min-w-[90vw] hidden md:block object-none max-h-[550px]" alt="layout" />
-        <img src="/PFA/Boris/Event/layout_mob.png" className=" block md:hidden self-center object-contain max-h-[195px] max-w-[350px] " alt="layout" />
+        {/* <h4 className="text-[24px] md:text-[32px]  tracking-[1px] font-[Integral] font-[700] text-center self-center text-[#fff]  uppercase">EVENT LAYOUT</h4> */}
+                  <img src="./PFA/Nifra/Event/payment-1.png" className="min-w-[90vw] self-center hidden md:block object-none max-h-[550px]" alt="layout" />
+      <div className="self-center flex flex-col items-center">
+<div class= "flex flex-col w-[80%] py-4 md:py-0 md:w-[643px] md:h-[142px] rounded-[48px] border-2 border-[#676767] bg-gradient-to-b from-[rgba(217,217,217,0.2)] to-[rgba(217,217,217,0)] self-center">  
+          <img src="./PFA/Nifra/Event/payment-2.png" className="min-w-[90vw] self-center hidden md:block object-none max-h-[550px]" alt="layout" />
+        
+        <img src="/PFA/Nifra/Event/payment-2.png" className=" block md:hidden self-center object-contain max-h-[195px] max-w-[350px] " alt="layout" />
+        </div>
       </div>
-      <div className=" self-center w-[80%] md:max-w-[700px]">
-        <p className="text-[10px] md:text-[14px] font-[Sofia] items-center self-center text-[#fff] text-center uppercase">DISCLAIMER</p>
-        <p className="text-[10px] md:text-[14px] font-[Sofia] items-center self-center text-[#fff] text-center  " >Venue layout is not drawn to scale and is for ticket location purposes only. Colour indicates price category.
-        Layout is subject to change without prior notice.</p>
+      <div className=" self-center w-[80%] md:max-w-[700px]pt-6 md:pt-11">
+        <p className="text-[10px] md:text-[12px] font-[manrope] font-bold items-center self-center text-[#fff] text-center uppercase">DISCLAIMER:</p>
+        <p className="text-[10px] md:text-[12px] font-[manrope] font-bold items-center self-center text-[#fff] text-center uppercase ">Ticket Price Exlcudes Ticket Fee & Booking Charges </p>
       </div>
 
     </div>

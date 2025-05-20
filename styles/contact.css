@@ -33,7 +33,7 @@ contact_input:focus{
 }
 .hero-submit-pfc11111{
     background: linear-gradient(0deg, #EA2181, #EA2181),linear-gradient(90deg, #7500D0 0%, #FE0886 100%);
-    @apply  rounded  text-center flex justify-center text-[16px] leading-[24px] font-[Sofia] text-white font-bold ;
+    @apply  rounded  text-center flex justify-center text-[13px] md:text-[16px] leading-[19px] md:leading-[24px] font-[Sofia] text-white font-bold ;
   }
   
 .contact_text_header_mob{

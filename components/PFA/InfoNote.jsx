@@ -3,7 +3,7 @@ import React from 'react'
 
 const InfoNote = ({image,text}) => {
   return (
-    <div className=" self-center max-w-[80vw] md:max-w-[45vw] py-11">
+    <div className=" self-center max-w-[80vw] md:max-w-[45vw] pt-11">
         <div className="flex  border-[1px] border-[#6B6B6B] rounded-2xl py-4">
             <div className="flex flex-row  w-fit border-[#6B6B6B] border-r pr-3">
                 {/* <div className="flex">

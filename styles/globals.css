@@ -162,7 +162,7 @@ select {
 
 }
 .ticket-body-bg{
-  background-image:url("/PFA/Boris/Tickets/ticket-30.png");
+  background-image:url("/PFA/Nifra/Tickets/ticket-30.png");
   background-size:cover;
   background-repeat:no-repeat;
 }
@@ -183,15 +183,15 @@ background: linear-gradient(180deg, rgba(0,0,0,0.4234068627450981) 0%, rgba(0,0,
 }
 
 .bg-arena {
-  background-image: url("/PFA/Boris/Hero/bg.png");
-  background-size: contain; /* or try cover if you prefer cropping */
+  background-image: url("/PFA/Nifra/Hero/bg.webp");
+  background-size: cover; /* or try cover if you prefer cropping */
   background-repeat: no-repeat;
   background-position: center;
  /* Fallback or letterbox color */
 }
 
 .bg-banner-boris{
-  background-image: url("/PFA/Boris//VipBanner/vip-1.png");
+  background-image: url("/PFA/Nifra//VipBanner/vip-1.png");
   background-size: cover; /* or try cover if you prefer cropping */
   background-repeat: no-repeat;
   background-position: center;
@@ -205,10 +205,10 @@ background: linear-gradient(180deg, rgba(0,0,0,0.4234068627450981) 0%, rgba(0,0,
 
 @media screen and (max-width:768px){
   .bg-arena {
-    background-image: url("/PFA/Boris/Hero/bg-mob.png");
-    background-size: 55%; /* reduces original size by ~30% */
+    background-image: url("/PFA/Nifra/Hero/bg-mob.webp");
+    background-size: contain; /* reduces original size by ~30% */
     background-repeat: no-repeat;
-    background-position: top; /* recommended to keep image centered */
+    background-position: center; /* recommended to keep image centered */
   }
   
   .vip-banner{
@@ -217,14 +217,14 @@ background: linear-gradient(180deg, rgba(0,0,0,0.4234068627450981) 0%, rgba(0,0,
     background-repeat:no-repeat;
   }
   .bg-bottom-pfa{
-    background-image:url("/PFA/Boris/Bottom/bottom-bg-mob.png");
+    background-image:url("/PFA/Nifra/Bottom/bottom-bg-mob.png");
     background-size:cover;
   background-position:center;
     background-repeat:no-repeat;
   
   }
   .ticket-body-bg{
-    background-image:url("/PFA/Boris/Tickets/ticket-mob.png");
+    background-image:url("/PFA/Nifra/Tickets/ticket-mob.png");
     background-size:cover;
     background-repeat:no-repeat;
   }
@@ -239,7 +239,7 @@ background: linear-gradient(180deg, rgba(0,0,0,0.4234068627450981) 0%, rgba(0,0,
 }
 
 .bg-bottom-pfa{
-  background-image:url("/PFA/Boris/Bottom/bottom-bg.png");
+  background-image:url("/PFA/Nifra/Bottom/bottom-bg.png");
   background-size:cover;
   background-repeat:no-repeat;
 }

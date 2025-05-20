@@ -9,38 +9,39 @@ const TicketGa = () => {
     payLater:"",
     title:"GENERAL ADMISSION",
     type:"Earlybird",
-    price:"RM 198",
-    TicketStatus:false,
-    BuyButton:"Sold Out",
-    BuyButtonStatus:false,
+    price:"RM 88",
+    TicketStatus:true,
+    BuyButton:"Buy Now",
+    BuyButtonStatus:true,
     link1:"#",
     link2:"#",
   }
   const Ticket2={
-    payLaterStatus:true,
-    payLater:"buy now pay later",
+    payLaterStatus:false,
+    payLater:"",
     title:"GENERAL ADMISSION",
     type:"phase 1",
-    price:"RM 228",
-    TicketStatus:true,
+    price:"RM 98",
+    TicketStatus:false,
     BuyButton:"Buy Now",
     BuyButtonStatus:true,
-    link1:"https://www.ticket2u.com.my/event/42178_df7cc8f7d6ef440e8c1062e18677a7f0/pinkfish-arena-boris-brejcha-at%c2%a0malaysia",
-    link2:"https://www.ticket2u.com.my/event/42179_fa68d130c3314363b5235fbfdb45eec9/bnpl-pinkfish-arena-boris-brejcha-at%c2%a0malaysia",
+    link1:"#",
+    link2:"#",
    
   }
 
   const Ticket3={
-    payLaterStatus:false,
+     payLaterStatus:false,
     payLater:"",
     title:"GENERAL ADMISSION",
-    type:"phase 2",
-    price:"RM 248",
+    type:"phase 1",
+    price:"RM 108",
     TicketStatus:false,
-    BuyButton:"Coming Soon",
-    BuyButtonStatus:false,
-    link1:"",
-    link2:"",
+    BuyButton:"Buy Now",
+    BuyButtonStatus:true,
+    link1:"#",
+    link2:"#",
+   
   }
   const Ticket4={
     payLaterStatus:false,
@@ -63,7 +64,7 @@ const TicketGa = () => {
         <TicketContainer {...Ticket1} />
         <TicketContainer {...Ticket2} />
         <TicketContainer {...Ticket3} />
-        <TicketContainer {...Ticket4} />
+        {/* <TicketContainer {...Ticket4} /> */}
         </div>
     </div>
   )
