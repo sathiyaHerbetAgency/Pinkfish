@@ -20,8 +20,8 @@ const Hero = () => {
     link: "#Tickets",
   };
   return (
-    <div className={` flex flex-col justify-end md:justify-start pb-12 md:pb-0 md:pl-36 min-h-[80vh] md:min-h-[92vh]  bg-arena }`}>
-      <div className="flex flex-col gap-2 md:gap-4 self-start ">
+    <div className={` flex flex-col justify-end md:justify-center pb-12 md:pb-0 md:pl-36 min-h-[80vh] md:min-h-[92vh]  bg-arena }`}>
+      <div className="flex flex-col justify-center gap-2 md:gap-4 self-start ">
         <div className=" flex flex-col justify-center self-center  md:gap-4">
           <div className="flex flex-col gap-2">
             <img
