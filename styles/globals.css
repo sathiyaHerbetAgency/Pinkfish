@@ -206,7 +206,7 @@ background: linear-gradient(180deg, rgba(0,0,0,0.4234068627450981) 0%, rgba(0,0,
 @media screen and (max-width:768px){
   .bg-arena {
     background-image: url("/PFA/Nifra/Hero/bg-mob.webp");
-    background-size: contain; /* reduces original size by ~30% */
+    background-size: cover; /* reduces original size by ~30% */
     background-repeat: no-repeat;
     background-position: center; /* recommended to keep image centered */
   }

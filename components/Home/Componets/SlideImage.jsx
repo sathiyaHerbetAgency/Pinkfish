@@ -32,7 +32,7 @@ const SlideImage = ({url,urlMob,year,link,slide, setShowPopup}) => {
       ticketText:'Buy Tickets'
     },
     {
-      dateText:'30 April 2025 • Mega Star Arena, Kuala Lumpur',
+      dateText:'16 August 2025 • Industry CSL, Kuala Lumpur',
       heading:'Pinkfish Arena: Boris Brejcha',
       text:'',
       link:'/Arena',

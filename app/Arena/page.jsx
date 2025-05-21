@@ -37,8 +37,8 @@ const Arena = () => {
             text="Kindly note that all phases of General Admission (GA) grant equal access to the free-standing and seating area."
           />
 
-          <div className="self-center flex justify-center  w-[90%] my-6 md:my-11">
-            <p className="text-[10px] md:text-[14px] leading-[12%] tracking-[2px] font-[manrope] items-center self-center text-[#fff] uppercase">
+          <div className="self-center flex justify-center  w-[80%] py-8 md:py-11">
+            <p className="text-[10px] md:text-[14px] tracking-[2px] font-[manrope] items-center self-center text-[#fff] uppercase">
               *Ticket prices excludes ticket fee & booking charges.
             </p>
           </div>
