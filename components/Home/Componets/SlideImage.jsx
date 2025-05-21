@@ -33,7 +33,7 @@ const SlideImage = ({url,urlMob,year,link,slide, setShowPopup}) => {
     },
     {
       dateText:'16 August 2025 • Industry CSL, Kuala Lumpur',
-      heading:'Pinkfish Arena: Boris Brejcha',
+      heading:'Pinkfish Arena: Nifra',
       text:'',
       link:'/Arena',
       ticketText:'Buy Tickets'
