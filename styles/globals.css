@@ -217,10 +217,11 @@ background: linear-gradient(180deg, rgba(0,0,0,0.4234068627450981) 0%, rgba(0,0,
     background-repeat:no-repeat;
   }
   .bg-bottom-pfa{
-    background-image:url("/PFA/Nifra/Bottom/bottom-bg-mob.png");
+    background-image:url("/PFA/Nifra/Bottom/bottom-bg-mob-1.png");
     background-size:cover;
   background-position:center;
     background-repeat:no-repeat;
+    background-position:top;
   
   }
   .ticket-body-bg{
@@ -238,11 +239,23 @@ background: linear-gradient(180deg, rgba(0,0,0,0.4234068627450981) 0%, rgba(0,0,
   
 }
 
-.bg-bottom-pfa{
-  background-image:url("/PFA/Nifra/Bottom/bottom-bg.png");
-  background-size:cover;
-  background-repeat:no-repeat;
+.bg-bottom-pfa {
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 1) 0%,         /* Solid black at the top */
+      rgba(0, 0, 0, 0.55) 40%,     /* Slight fade */
+      rgba(0, 0, 0, 0.4) 70%,      /* Softer dark */
+      rgba(0, 0, 0, 0.2) 90%,      /* Almost transparent */
+      rgba(0, 0, 0, 0) 100%        /* Fully transparent at bottom */
+    ),
+    url('/PFA/Nifra/Bottom/bottom-bg.png');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
 }
+
+
 
 .bg-countdown-new{
   background-image:url("/CountdownNew/main-bg.jpg");

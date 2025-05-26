@@ -17,7 +17,10 @@ import Bottom from "./../../components/PFA/Bottom";
 import Contact from "./../../components/PFA/Contact";
 import SliderLineup from "./../../components/PFA/Components/SliderLineup";
 import Head from "./../../components/head";
+import MapLayout from './../../components/PFA/MapLayout';
 // import Gallery from './../../components/PfaNew/Gallery';
+
+
 const Arena = () => {
   const description =
     "Discover the vibrant Pinkfish Music & Arts Festival, featuring live acts and art installations from local and international artists. Join us for a unique creative experience! ";
@@ -44,7 +47,7 @@ const Arena = () => {
           </div>
 
           <TicketVip />
-          {/* <VipBanner /> */}
+          <VipBanner />
           {/* <TicketVip /> */}
           <InfoNote
             image="VIP"
@@ -52,6 +55,7 @@ const Arena = () => {
           />
         </div>
         <EventLayout />
+        <MapLayout />
         <Bottom />
       </div>
 

@@ -34,7 +34,7 @@ const VipBanner = () => {
       
       {/* Subheading */}
       <p className="text-[#FFC4E4] text-[12px] md:text-[20px] mt-2 font-[Integral] font-[400] uppercase">
-      whatsapp for reservation
+      call for reservation
       </p>
       
       {/* Button linking to phone number */}
