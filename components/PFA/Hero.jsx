@@ -70,14 +70,19 @@ const Hero = () => {
             </div>
           </div>
           {/* <h2 className="text-[36px] md:text-[70px] font-[Integral] md:leading-[85px]  self-center leading-[38px] font-bold tracking-[1px] text-center text-[#fff] uppercase">{PFA.second_heading}</h2> */}
-          <div className="flex flex-col gap-0">
+          <div className="flex flex-col gap-4">
             <img
-              src="./PFA/Nifra/Hero/hero-title.png"
+              src="./PFA/Nifra/Hero/hero-title.webp"
               className="w-[60%] md:w-full self-center"
               alt="pf_arena_logo"
             />
             <img
-              src="./PFA/Nifra/Hero/hero-subtitle.png"
+              src="./PFA/Nifra/Hero/hero-subtitle.webp"
+              className=" self-center"
+              alt="pf_arena_logo"
+            />
+              <img
+              src="./PFA/Nifra/Hero/hero-subtitle-2.webp"
               className=" self-center"
               alt="pf_arena_logo"
             />
