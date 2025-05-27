@@ -3,7 +3,7 @@ import React from 'react'
 
 const MapLayout = () => {
   return (
-    <div className="flex flex-col gap-6 md:gap-0">
+    <div className="flex flex-col gap-6 md:gap-12">
         <h4 className="text-[32px] md:text-[66px]  tracking-[1px] md:leading-[70px] font-[Integral] font-[700] text-center self-center text-[#fff] max-w-[20%] uppercase">EVENT LAYOUT</h4>
       <div className="self-center flex flex-col items-center">
         <div class= "flex flex-col justify-center">  
