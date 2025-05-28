@@ -35,20 +35,20 @@ const TicketVip = () => {
     title:"vip",
     type:"phase 2",
     price:"RM 168",
-    TicketStatus:true,
+    TicketStatus:false,
     BuyButton:"Buy Now",
-    BuyButtonStatus:true,
+    BuyButtonStatus:false,
     link1:"",
     link2:"",
   }
   return (
     <div className="text-[#fff] self-center pb-6 md:pb-11">
      
-    <TicketHeadingLabel text="premium ADMISSION (VVIP)" />
+    <TicketHeadingLabel text="premium ADMISSION (VIP)" />
     <div className="flex flex-wrap justify-center  gap-3 mt-12  min-w-[90vw] md:min-w-[60vw]">
     {/* <TicketContainer  {...Ticket1}  /> */}
     <TicketContainer  {...Ticket2}  />
-    {/* <TicketContainer  {...Ticket3}  /> */}
+    <TicketContainer  {...Ticket3}  />
 
     </div>
 </div>

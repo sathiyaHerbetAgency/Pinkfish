@@ -30,7 +30,7 @@ const VipBanner = () => {
           </div>
           <div className=" p-3 md:p-6 md:pl-8 rounded-md max-w-xs my-auto text-left">
       {/* Large VVIP text */}
-      <h2 className=" text-[24px] md:text-[64px]   uppercase font-[Integral] font-[900] text-white">VVIP</h2>
+      <h2 className=" text-[24px] md:text-[64px]   uppercase font-[Integral] font-[900] text-white">VIP</h2>
       
       {/* Subheading */}
       <p className="text-[#FFC4E4] text-[12px] md:text-[20px] mt-2 font-[Integral] font-[400] uppercase">
