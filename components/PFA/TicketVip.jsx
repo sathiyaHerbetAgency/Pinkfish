@@ -17,16 +17,16 @@ const TicketVip = () => {
   //   link2:"",
   // }
   const Ticket2={
-    payLaterStatus:false,
-    payLater:"",
+     payLaterStatus:true,
+    payLater:"Buy Now Pay Later",
     title:"vip",
     type:"phase 1",
     price:"RM 148",
     TicketStatus:true,
     BuyButton:"Buy Now",
     BuyButtonStatus:true,
-    link1:"",
-    link2:"",
+     link1:"https://www.ticket2u.com.my/event/43246_380e571bc2164fd2a175c9fc2aff3cee/pinkfish-presents-nifra-360-madness-malaysia",
+    link2:"https://www.ticket2u.com.my/event/43248_3eb7cc124cd5479b9d498324ab09ef00/bnpl-pinkfish-presents-nifra-360-madness-malaysia",
   }
 
   const Ticket3={
@@ -48,7 +48,7 @@ const TicketVip = () => {
     <div className="flex flex-wrap justify-center  gap-3 mt-12  min-w-[90vw] md:min-w-[60vw]">
     {/* <TicketContainer  {...Ticket1}  /> */}
     <TicketContainer  {...Ticket2}  />
-    <TicketContainer  {...Ticket3}  />
+    {/* <TicketContainer  {...Ticket3}  /> */}
 
     </div>
 </div>
