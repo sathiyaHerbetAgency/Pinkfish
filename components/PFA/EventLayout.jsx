@@ -5,10 +5,10 @@ const EventLayout = () => {
   return (
     <div className="flex flex-col gap-6 md:gap-0">
         {/* <h4 className="text-[24px] md:text-[32px]  tracking-[1px] font-[Integral] font-[700] text-center self-center text-[#fff]  uppercase">EVENT LAYOUT</h4> */}
-                  <img src="./PFA/Nifra/Event/payment-1.png" className="w-[100%] md:w-[70%] self-center  " alt="layout" />
+                  <img src="./PFA/Nifra/Event/payment-1.png" className="w-[100%] md:w-[60%] self-center  " alt="layout" />
       <div className="self-center flex flex-col items-center">
-<div class= "flex flex-col justify-center w-[80%] md:py-0 md:w-[343px] md:h-[72px] rounded-[48px] border-2 border-[#676767] bg-gradient-to-b from-[rgba(217,217,217,0.2)] to-[rgba(217,217,217,0)] self-center">  
-          <img src="./PFA/Nifra/Event/payment-2.png" className="] self-center hidden md:block  max-h-[225px]" alt="layout" />
+<div class= "flex flex-col justify-center w-[80%] md:py-0 md:w-[343px] md:h-[82px] rounded-[48px] border-2 border-[#676767] bg-gradient-to-b from-[rgba(217,217,217,0.2)] to-[rgba(217,217,217,0)] self-center">  
+          <img src="./PFA/Nifra/Event/payment-2.png" className="] self-center hidden md:block  min-h-[65px]" alt="layout" />
         
         <img src="/PFA/Nifra/Event/payment-2.png" className=" block md:hidden self-center object-contain max-h-[195px] max-w-[350px] " alt="layout" />
         </div>

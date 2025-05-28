@@ -48,7 +48,7 @@ const Festivals = ({setShowPopup}) => {
         {
             date:"16 August 2025",
             imgUrl:"./Home/Festival/festival-img-9.webp",
-            location:"Industry CSL, Kuala Lumpur     ",
+            location:"Vox Live, Kuala Lumpur     ",
             link:"/arena",
             sale:true,
             title:'Pinkfish Arena: Nifra'

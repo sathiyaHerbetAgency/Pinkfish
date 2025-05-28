@@ -32,7 +32,7 @@ const SlideImage = ({url,urlMob,year,link,slide, setShowPopup}) => {
       ticketText:'Buy Tickets'
     },
     {
-      dateText:'16 August 2025 • Industry CSL, Kuala Lumpur',
+      dateText:'16 August 2025 • Vox Live, Kuala Lumpur',
       heading:'Pinkfish Arena: Nifra',
       text:'',
       link:'/Arena',
