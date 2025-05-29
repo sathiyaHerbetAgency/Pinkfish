@@ -18,7 +18,7 @@ const VipBanner = () => {
   return (
     <div className="flex flex-col">
      <div className="self-center flex flex-col ">
-       <TicketHeadingLabel text="VVIP" />
+       <TicketHeadingLabel text="premium ADMISSION (VVIP)" />
         {/* <img src="./PFA/Nifra/VipBanner/VIP.png" className="max-w-[80vw] hidden md:block  max-h-[300px] object-contain" alt="layout" /> */}
          {/* <img src="./PFA/Nifra/VipBanner/VIP.png" className=" block md:hidden self-center object-contain max-w-[343px] max-h-[232px]" alt="layout" /> */}
         <div className="bg-banner-boris w-[90vw] md:w-[600px] h-[140px] md:h-[250px] flex flex-grow mt-12" >
