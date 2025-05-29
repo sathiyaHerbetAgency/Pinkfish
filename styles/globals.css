@@ -222,7 +222,7 @@ background: linear-gradient(180deg, rgba(0,0,0,0.4234068627450981) 0%, rgba(0,0,
   @media (max-width: 768px) {
   .bg-arena {
     width: 100vw;
-    height: 90vh;              /* make it fill the screen */
+    height: 95vh;              /* make it fill the screen */
     background: url("/PFA/Nifra/Hero/bg-mob.webp")
                 center center      /* focus on the center */
                 / cover no-repeat;  /* fill & crop */
