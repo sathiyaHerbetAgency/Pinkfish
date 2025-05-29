@@ -219,12 +219,16 @@ background: linear-gradient(180deg, rgba(0,0,0,0.4234068627450981) 0%, rgba(0,0,
 }
 
 @media screen and (max-width:768px){
+  @media (max-width: 768px) {
   .bg-arena {
-    background-image: url("/PFA/Nifra/Hero/bg-mob.webp");
-    background-size: cover; /* reduces original size by ~30% */
-    background-repeat: no-repeat;
-    background-position: center; /* recommended to keep image centered */
+    width: 100vw;
+    height: 90vh;              /* make it fill the screen */
+    background: url("/PFA/Nifra/Hero/bg-mob.webp")
+                center center      /* focus on the center */
+                / cover no-repeat;  /* fill & crop */
   }
+}
+
   
   .vip-banner{
     background-image:url("/PFA/bg_vip_mob.png");
