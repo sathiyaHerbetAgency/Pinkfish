@@ -1,6 +1,7 @@
 /* eslint-disable */
 
 import React from 'react'
+import TicketHeadingLabel from './Components/TicketHeadingLabel';
 
 const VipBanner = () => {
     const bannerContent={
@@ -16,10 +17,11 @@ const VipBanner = () => {
     const text="text-[14px] md:text-[20px] font-[Sofia] text-[#000] md:w-[70%] text-center "
   return (
     <div className="flex flex-col">
-     <div className="self-center">
+     <div className="self-center flex flex-col ">
+       <TicketHeadingLabel text="VVIP" />
         {/* <img src="./PFA/Nifra/VipBanner/VIP.png" className="max-w-[80vw] hidden md:block  max-h-[300px] object-contain" alt="layout" /> */}
          {/* <img src="./PFA/Nifra/VipBanner/VIP.png" className=" block md:hidden self-center object-contain max-w-[343px] max-h-[232px]" alt="layout" /> */}
-        <div className="bg-banner-boris w-[90vw] md:w-[600px] h-[140px] md:h-[250px] flex flex-grow " >
+        <div className="bg-banner-boris w-[90vw] md:w-[600px] h-[140px] md:h-[250px] flex flex-grow mt-12" >
           <div className=" relative max-w-[40px] md:max-w-[70px] grow h-[140px] md:h-[250px] flex justify-center items-center ">
           <p
         className="
@@ -30,7 +32,7 @@ const VipBanner = () => {
           </div>
           <div className=" p-3 md:p-6 md:pl-8 rounded-md max-w-xs my-auto text-left">
       {/* Large VVIP text */}
-      <h2 className=" text-[24px] md:text-[64px]   uppercase font-[Integral] font-[900] text-white">VIP</h2>
+      <h2 className=" text-[24px] md:text-[64px]   uppercase font-[Integral] font-[900] text-white">VVIP</h2>
       
       {/* Subheading */}
       <p className="text-[#FFC4E4] text-[12px] md:text-[20px] mt-2 font-[Integral] font-[400] uppercase">
