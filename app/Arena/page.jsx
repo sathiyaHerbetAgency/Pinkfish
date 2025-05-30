@@ -37,7 +37,7 @@ const Arena = () => {
           <TicketGa />
           <InfoNote
             image="GA"
-            text="Kindly note that all phases of General Admission (GA) grant equal access to the free-standing and seating area."
+            text="Kindly note that all phases of General Admission (GA) grant equal access to the free-standing area."
           />
 
           <div className="self-center flex justify-center  w-[80%] py-8 md:py-11">
@@ -51,7 +51,7 @@ const Arena = () => {
           {/* <TicketVip /> */}
           <InfoNote
             image="VIP"
-            text="Kindly note that all phases of Premium Admission (VVIP) grant equal access to the free-standing and seating area."
+            text="Kindly note that all phases of Premium Admission (VVIP) grant equal access to the free-standing area."
           />
         </div>
         <EventLayout />
