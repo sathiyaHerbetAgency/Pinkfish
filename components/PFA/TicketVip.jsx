@@ -37,7 +37,7 @@ const TicketVip = () => {
     price:"RM 168",
     TicketStatus:false,
     BuyButton:"Buy Now",
-    BuyButtonStatus:false,
+    BuyButtonStatus:true,
     link1:"",
     link2:"",
   }
