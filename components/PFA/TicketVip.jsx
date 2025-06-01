@@ -30,12 +30,12 @@ const TicketVip = () => {
   }
 
   const Ticket3={
-    payLaterStatus:false,
-    payLater:"",
+    payLaterStatus:true,
+    payLater:"Buy Now Pay Later",
     title:"vip",
     type:"phase 2",
     price:"RM 168",
-    TicketStatus:false,
+    TicketStatus:true,
     BuyButton:"Buy Now",
     BuyButtonStatus:true,
     link1:"",
