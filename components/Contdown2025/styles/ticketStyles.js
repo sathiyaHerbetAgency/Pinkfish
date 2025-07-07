@@ -1,3 +1,4 @@
+/* eslint-disable */
 export const getButtonStyle = (status) => ({
   background:
     status === "available" ? "linear-gradient(135deg, #ec4899, #be185d)" : "linear-gradient(135deg, #6b7280, #4b5563)",

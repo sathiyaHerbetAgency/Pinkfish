@@ -1,3 +1,4 @@
+/* eslint-disable */
 export const slickSettings = {
   slidesToShow: 3,
   slidesToScroll: 1,

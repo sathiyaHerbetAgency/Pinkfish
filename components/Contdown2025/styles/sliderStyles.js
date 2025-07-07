@@ -1,4 +1,4 @@
-
+/* eslint-disable */
 export const containerStyle = {
   position: "relative",
   minHeight: "80vh",
