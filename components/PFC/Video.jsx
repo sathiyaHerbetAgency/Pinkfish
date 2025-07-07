@@ -19,9 +19,9 @@ const Video = ({id}) => {
       <div className='self-center'>
           <YoutubeEmbed 
           embedId={id}
-          title="What’s new in Material Design for the web (Chrome Dev Summit 2019)"
+          title="Video Treaser"
           type="PFC"
-          />:   
+          />
       </div>
     </div>
   ) 

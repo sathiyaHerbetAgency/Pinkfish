@@ -604,7 +604,24 @@ button:last-of-type {
   src: url("/fonts/DmSansLight.ttf");
 }
 
+@font-face {
+  font-family: 'InterBold';
+  src: url("/fonts/Inter/Inter_18pt-Bold.ttf");
+}
+@font-face {
+  font-family: 'InterBlack';
+  src: url("/fonts/Inter/Inter_18pt-Black.ttf");
+}
 
+@font-face {
+  font-family: 'InterRegular';
+  src: url("/fonts/Inter/Inter_18pt-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'press-start-2p';
+  src: url("/fonts/Press_Start_2P/PressStart2P-Regular.ttf");
+}
 @font-face {
   font-family: 'Integral';
   src: url("/fonts/Integral CF Regular.ttf");
