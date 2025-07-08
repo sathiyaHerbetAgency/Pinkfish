@@ -1,4 +1,5 @@
 /* eslint-disable */
+const isMobile = window.innerWidth <= 768;
 export const containerStyle = {
   position: "relative",
   minHeight: "80vh",
@@ -17,11 +18,11 @@ export const headerStyle = {
 }
 
 export const titleStyle = {
-  fontSize: "35px",
-  fontWeight: "bold",
+  fontSize: isMobile?"24px":"35px",
+  fontFamily: "InterBlack",
   color: "white",
   marginBottom: "30px",
-  letterSpacing: "4px",
+  letterSpacing: "0.05em",
   textTransform: "uppercase",
 }
 
@@ -38,7 +39,7 @@ export const disclaimerStyle = {
   fontSize: "10px",
   letterSpacing: "1px",
   textTransform: "uppercase",
-  maxWidth: "600px",
+  maxWidth: isMobile?"75%":"600px",
   margin: "0px auto 0",
   fontFamily:'InterRegular',
 }

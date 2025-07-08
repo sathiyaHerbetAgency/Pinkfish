@@ -20,20 +20,22 @@ import Head from './../../components/head';
 import Slider from './../../components/PFF/Slider';
 import YoutubeEmbed from './../../components/js/Youtube';
 import TicketsSlider from './../../components/Contdown2025/Components/tickets-slider';
+import Header from './../../components/Contdown2025/Header';
  const PFC = () => {
   const description="Celebrate Countdown NYE 2024 with Pinkfish! Enjoy an exciting night filled with entertainment, drinks, and unforgettable memories as we welcome the new year together. "
   const title="Celebrate Countdown NYE 2024 with Pinkfish | Unforgettable Events "
   return (
     <div>
        <Head title={title} description={description} />
-        <NewNavbar />
+        {/* <NewNavbar /> */}
+        <Header />
         <div className="bg-black">
             <Hero select={"PFC"}  />
             <div className="bg-[linear-gradient(to_bottom,_#58388D_77%,_#022F87_100%)] flex flex-col justify-center py-24">                           
              <div className="flex  flex-col gap-4">
                   <div className='self-center'>
                     <div className="text-center ">
-                      <h2 className="text-[28px] md:text-[35px] font-[InterBlack] text-white mb-4 tracking-wider uppercase">Relive the Energy</h2>
+                      <h2 className="text-[24px] md:text-[35px] font-[InterBlack] text-white mb-4 tracking-wider uppercase">Relive the Energy</h2>
                     </div>
                       <YoutubeEmbed 
                       embedId="_8JoocpM24M"

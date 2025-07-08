@@ -38,7 +38,9 @@ export default function HeroSection() {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <Image src="/PFC2025/Hero/hero-bg.webp" alt="Futuristic space background" fill className="object-cover" priority />
+        <Image src="/PFC2025/Hero/hero-bg.webp" alt="Futuristic space background" fill className="object-cover hidden md:block" priority />
+        <Image src="/PFC2025/Hero/hero-bg-mob.webp" alt="Futuristic space background" fill className="object-cover md:hidden" priority />
+
         {/* Overlay for better text readability */}
         <div className="absolute inset-0 bg-black/20" />
       </div>
@@ -46,15 +48,32 @@ export default function HeroSection() {
       {/* Content */}
       <div className="relative z-10 text-center max-w-4xl mx-auto">
         {/* Main Heading */}
-        <div className="flex justify-center">
-            <img src="/PFC2025/Hero/title.webp" alt="headoing text"  className="object-cover w-[50%]"  />
+        <div className="flex justify-center pb-3 md:pb-6 ">
+          <Image
+            src="/PFC2025/Hero/pfc-logo.webp"
+            alt="Pinkfish Countdown"
+            width={150}
+            height={66}
+            className="self-center"
+          />
+        </div>
+        <div className="flex flex-col gap-4 justify-center">
+           <div className="text-center text-white ">
+      <h2 className="text-[46px] md:text-[60px] text-shadow-lg font-[InterBlack]  text-[#fff] tracking-wide leading-[24px] md:leading-[44px]">
+        31<sup className="text-xl align-top pt-[10px]">ST</sup> DEC 2025
+      </h2>
+      
+    </div>
+    <p className="text-[25px] md:text-[32px] font-[InterBold]  text-shadow-lg text-[#fff] leading-[28px] md:leading-[33px] tracking-wide">
+        RESORTS WORLD AWANA <br /> <span className='text-[30px] md:text-[38px]'>GENTING HIGHLANDS</span>
+      </p>
         </div>
         <h1 className="text-md sm:text-md md:text-xl lg:text-2xl font-[InterBold]  text-[#FFD900] mb-4  mt-6  tracking-wide">
           {"WE'RE BACK THIS NEW YEAR'S EVE!"}
         </h1>
 
         {/* Countdown Timer */}
-        <div className="flex flex-wrap justify-center gap-4 sm:gap-6 mb-4 sm:mb-12">
+        <div className="flex flex-wrap justify-center gap-4 sm:gap-6 mb-4 ">
           <div className="bg-gradient-to-b from-[#022F87] via-[#011A4B]/50 to-transparent rounded-2xl p-4 sm:p-6 lg:p-8  min-w-[100px] sm:min-w-[120px] lg:min-w-[140px]">
             <div className="text-3xl sm:text-4xl lg:text-5xl font-[press-start-2p] text-white mb-2">
               {timeLeft.days.toString().padStart(3, "0")}
@@ -85,14 +104,14 @@ export default function HeroSection() {
         </div>
 
         {/* Subtitle */}
-        <p className="text-white text-lg sm:text-[14px] lg:text-[19px] font-[InterBold] mb-4 sm:mb-6 tracking-wide">
+        <p className="text-white text-[12px] md:text-[15px] font-[InterBold] mb-4 sm:mb-6 tracking">
           UNTIL WE LIGHT UP THE NIGHT AGAIN
         </p>
 
         {/* CTA Button */}
         <button
         
-          className="bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white text-[20px] font-[InterBlack]  sm:text-[14px] px-4 sm:px-12 py-2 sm:py-4 rounded-lg shadow-2xl transform hover:scale-105 transition-all duration-300 border-0"
+          className="bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white text-[12px] md:text-[16px] font-[InterBold] md:font-[InterBold]  px-6 py-2 md:px-8 md:py-2 rounded-lg shadow-2xl transform hover:scale-105 transition-all duration-300 border-0"
         >
           BUY TICKETS
         </button>
@@ -107,4 +126,5 @@ export default function HeroSection() {
       </div> */}
     </section>
   )
+           
 }

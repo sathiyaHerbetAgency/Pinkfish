@@ -1,4 +1,5 @@
 /* eslint-disable */
+const isMobile = window.innerWidth <= 768;
 export const getButtonStyle = (status) => ({
   background:
     status === "available" ? "linear-gradient(135deg, #ec4899, #be185d)" : "linear-gradient(135deg, #6b7280, #4b5563)",
@@ -8,7 +9,7 @@ export const getButtonStyle = (status) => ({
   color: "white",
   fontWeight: "bold",
   fontSize: "14px",
-  cursor: status === "available" ? "pointer" : "not-allowed",
+  cursor: status === "available" ? "not-allowed" : "not-allowed",
   opacity: status === "available" ? 1 : 0.6,
   transition: "all 0.3s ease",
   textTransform: "uppercase",
@@ -59,33 +60,41 @@ export const overlayStyle = {
 
 export const titleStyle = {
   color: "#ec4899",
-  fontSize: "16px",
-  fontWeight: "bold",
-  marginBottom: "4px",
-  letterSpacing: "2px",
+  fontSize: isMobile?"16px":"20px",
+  fontFamily:'InterBlack',
+  marginBottom: "8px",
   textTransform: "uppercase",
 }
 
 export const subtitleStyle = {
-  color: "#ec4899",
+  color: "#fff",
   fontSize: "12px",
-  marginBottom: "12px",
+  lineHeight:'12px',
   letterSpacing: "1px",
+  fontFamily:'InterBlack',
   textTransform: "uppercase",
 }
 
 export const priceStyle = {
   color: "white",
-  fontSize: "32px",
-  fontWeight: "bold",
+  fontSize: isMobile?"30px":"35px",
+  lineHeight:isMobile?"36px":"42px",
+  fontFamily:'InterBlack',
   marginBottom: "8px",
+}
+
+export const soonStyle = {
+  color: "rgba(255, 255, 255, 0.7)",
+   fontSize: isMobile?"30px":"35px",
+  lineHeight:isMobile?"36px":"42px",
+  fontFamily:'InterBlack',
 }
 
 export const comingSoonStyle = {
   color: "rgba(255, 255, 255, 0.7)",
-  fontSize: "24px",
-  fontWeight: "bold",
-  lineHeight: "1.2",
+ fontSize: isMobile?"14px":"18px",
+  lineHeight:isMobile?"18px":"24px",
+  fontFamily:'InterBlack',
 }
 
 export const belowContentStyle = {
@@ -93,7 +102,7 @@ export const belowContentStyle = {
   display: "flex",
   flexDirection: "column",
   justifyContent:"center",
-  gap: "16px",
+  gap: "8px",
   width:'70%',
 }
 

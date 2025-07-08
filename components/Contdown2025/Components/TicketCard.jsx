@@ -12,6 +12,7 @@ import {
   subtitleStyle,
   priceStyle,
   comingSoonStyle,
+  soonStyle,
   belowContentStyle,
   featuresStyle,
   descriptionStyle,
@@ -49,7 +50,7 @@ const TicketCard = ({ ticket }) => {
             alt="Ticket background"
             width={300}
             height={220}
-            style={{ width: "100%", height: "auto" }}
+              className="w-[300px] h-[220px] md:w-[300px] md:h-[220px] ]"
             draggable={false}
           />
 
@@ -63,7 +64,7 @@ const TicketCard = ({ ticket }) => {
               <div style={comingSoonStyle}>
                 COMING
                 <br />
-                SOON
+             <span style={soonStyle} >SOON</span>
               </div>
             )}
           </div>
@@ -84,7 +85,7 @@ const TicketCard = ({ ticket }) => {
             onMouseLeave={(e) => handleButtonHover(e, false)}
             onClick={handleButtonClick}
           >
-            {ticket.status === "available" ? "BUY NOW" : "COMING SOON"}
+            {ticket.status === "available" ? "On sale : 9th July, 12pm" : "COMING SOON"}
           </button>
 
             {ticket.description && 

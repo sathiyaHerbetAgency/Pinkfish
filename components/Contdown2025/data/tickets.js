@@ -7,7 +7,7 @@ export const ticketsData = [
     price: "RM 99",
     status: "available",
     features: ["EARLY BIRD TICKETS", "GENERAL ADMISSION ONLY", "18+ YEARS OLD", "NO OUTSIDE FOOD/DRINKS/ALCOHOL"],
-    description: "On sale : 9th July, 12pm",
+    // description: "On sale : 9th July, 12pm",
   },
   {
     id: "vip",
