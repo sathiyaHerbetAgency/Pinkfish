@@ -12,7 +12,7 @@ export default function Header() {
       <div className="flex items-center gap-4">
         <div className="">
           <Image
-            src="/PFC2025/Hero/pfc-logo.webp"
+            src="/PFC2025/Hero/pfc-logo.png"
             alt="Pinkfish Countdown"
             width={100}
             height={66}

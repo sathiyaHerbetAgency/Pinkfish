@@ -37,7 +37,7 @@ const TicketsSlider = () => {
           </div>
         </div>
 
-        <div style={disclaimerStyle(isMobile)}>DISCLAIMER: TICKET PRICE EXLCUDES TICKET FEE & BOOKING CHARGES</div>
+        <div style={disclaimerStyle(isMobile)}>DISCLAIMER: TICKET PRICE EXCLUDES TICKET FEE & BOOKING CHARGES</div>
       </div>
     </section>
   )

@@ -50,7 +50,7 @@ export default function HeroSection() {
         {/* Main Heading */}
         <div className="flex justify-center pb-3 md:pb-6 ">
           <Image
-            src="/PFC2025/Hero/pfc-logo.webp"
+            src="/PFC2025/Hero/pfc-logo.png"
             alt="Pinkfish Countdown"
             width={150}
             height={66}
