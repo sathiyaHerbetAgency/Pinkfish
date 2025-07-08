@@ -14,8 +14,9 @@ import {
   sliderContainerStyle,
   disclaimerStyle,
 } from "../styles/sliderStyles"
-
+import { useMediaQuery } from "react-responsive";
 const TicketsSlider = () => {
+   const isMobile = useMediaQuery({ maxWidth: 768 });
   const sliderRef = useRef(null)
 
   // Load and initialize Slick carousel
@@ -25,7 +26,7 @@ const TicketsSlider = () => {
     <section style={containerStyle}>
       <div style={maxWidthStyle}>
         <div style={headerStyle}>
-          <h2 style={titleStyle}>BLIND SALE</h2>
+          <h2 style={titleStyle(isMobile)}>BLIND SALE</h2>
         </div>
 
         <div style={sliderContainerStyle}>
@@ -36,7 +37,7 @@ const TicketsSlider = () => {
           </div>
         </div>
 
-        <div style={disclaimerStyle}>DISCLAIMER: TICKET PRICE EXLCUDES TICKET FEE & BOOKING CHARGES</div>
+        <div style={disclaimerStyle(isMobile)}>DISCLAIMER: TICKET PRICE EXLCUDES TICKET FEE & BOOKING CHARGES</div>
       </div>
     </section>
   )

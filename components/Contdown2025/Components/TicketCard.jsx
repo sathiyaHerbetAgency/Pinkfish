@@ -17,10 +17,10 @@ import {
   featuresStyle,
   descriptionStyle,
 } from "../styles/ticketStyles"
-
+import { useMediaQuery } from "react-responsive";
 const TicketCard = ({ ticket }) => {
   const buttonStyle = getButtonStyle(ticket.status)
-
+const isMobile = useMediaQuery({ maxWidth: 768 });
   const handleButtonHover = (e, isHover) => {
     if (ticket.status === "available") {
       if (isHover) {
@@ -55,16 +55,16 @@ const TicketCard = ({ ticket }) => {
           />
 
           <div style={overlayStyle}>
-            <h3 style={titleStyle}>{ticket.title}</h3>
+            <h3 style={titleStyle(isMobile)}>{ticket.title}</h3>
             {ticket.subtitle && <p style={subtitleStyle}>{ticket.subtitle}</p>}
 
-            {ticket.status === "available" && ticket.price && <div style={priceStyle}>{ticket.price}</div>}
+            {ticket.status === "available" && ticket.price && <div style={priceStyle(isMobile)}>{ticket.price}</div>}
 
             {ticket.status === "coming-soon" && (
-              <div style={comingSoonStyle}>
+              <div style={comingSoonStyle(isMobile)}>
                 COMING
                 <br />
-             <span style={soonStyle} >SOON</span>
+             <span style={soonStyle(isMobile)} >SOON</span>
               </div>
             )}
           </div>

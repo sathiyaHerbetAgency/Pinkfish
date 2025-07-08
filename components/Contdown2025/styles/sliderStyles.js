@@ -1,5 +1,5 @@
 /* eslint-disable */
-const isMobile = window.innerWidth <= 768;
+
 export const containerStyle = {
   position: "relative",
   minHeight: "80vh",
@@ -7,8 +7,8 @@ export const containerStyle = {
   padding: "80px 16px",
 }
 
-export const maxWidthStyle = {
-  maxWidth: "1280px",
+  export const maxWidthStyle = {
+    maxWidth: "1280px",
   margin: "0 auto",
 }
 
@@ -17,14 +17,14 @@ export const headerStyle = {
   marginBottom: "30px",
 }
 
-export const titleStyle = {
+export const titleStyle =(isMobile)=>( {
   fontSize: isMobile?"24px":"35px",
   fontFamily: "InterBlack",
   color: "white",
   marginBottom: "30px",
   letterSpacing: "0.05em",
   textTransform: "uppercase",
-}
+})
 
 export const sliderContainerStyle = {
   position: "relative",
@@ -33,7 +33,7 @@ export const sliderContainerStyle = {
   paddingBottom: "80px", // Space for dots
 }
 
-export const disclaimerStyle = {
+export const disclaimerStyle =(isMobile)=>( {
   textAlign: "center",
   color: "#fff",
   fontSize: "10px",
@@ -42,7 +42,7 @@ export const disclaimerStyle = {
   maxWidth: isMobile?"75%":"600px",
   margin: "0px auto 0",
   fontFamily:'InterRegular',
-}
+});
 
 export const slickCustomStyles = `
   .slick-dots {
