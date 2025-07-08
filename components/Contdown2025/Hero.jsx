@@ -35,7 +35,7 @@ export default function HeroSection() {
 
 },[])
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex  md:items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image src="/PFC2025/Hero/hero-bg.webp" alt="Futuristic space background" fill className="object-cover hidden md:block" priority />
@@ -46,7 +46,7 @@ export default function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 text-center max-w-4xl mx-auto">
+      <div className="relative z-10 text-center max-w-4xl mx-auto pt-24 md:pt-0">
         {/* Main Heading */}
         <div className="flex justify-center pb-3 md:pb-6 ">
           <Image

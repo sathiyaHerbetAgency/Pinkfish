@@ -97,4 +97,27 @@ export const slickCustomStyles = `
   .slick-slide > div {
     height: 100% !important;
   }
+  .slick-prev, .slick-next {
+  width: 58px;
+  height: 58px;
+  z-index: 10;
+  top: 50%;
+  transform: translateY(-50%);
+ 
+}
+  .slick-prev{
+   margin-left:15px !important;
+  
+  }
+  .slick-next{
+   margin-right:15px ;
+   }
+.slick-prev:before, .slick-next:before {
+  font-size: 58px;
+  opacity: 1;
+  color: #fff;
+}
+
+
+
 `

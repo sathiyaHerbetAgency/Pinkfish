@@ -3,7 +3,7 @@ export const slickSettings = {
   slidesToShow: 3,
   slidesToScroll: 1,
   infinite: false,
-  arrows: false,
+  arrows: true,
   draggable: true,
   swipe: true,
   touchMove: true,
@@ -13,6 +13,7 @@ export const slickSettings = {
   variableWidth: false,
   speed: 500,
   cssEase: "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+  
   responsive: [
     {
       breakpoint: 768,
@@ -21,11 +22,14 @@ export const slickSettings = {
         slidesToScroll: 1,
         centerMode: true,
         centerPadding: "10px",
+        arrows: true, // enable arrows on mobile
+        
       },
     },
   ],
   customPaging: (slider, i) => '<div class="custom-dot"></div>',
-}
+};
+
 
 export const slickCDNLinks = {
   css: "https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css",
