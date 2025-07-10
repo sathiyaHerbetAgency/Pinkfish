@@ -78,7 +78,7 @@ const SlideImage = ({url,urlMob,year,link,slide, setShowPopup}) => {
         </div>
         <div className="text-block_live_hero  max-w-[100vw] z-[999] bg-gradinet-gray text-white flex flex-col justify-center h-[75vh] w-full ">
           <div className="flex flex-col self-center w-[621px] max-h-[300px] ">
-            {data[slide].mainHeading&& <h1 className={heading}>{data[slide].mainHeading}</h1>}
+            {data[slide].mainHeading&&  <p className={text}>{data[slide].mainHeading}</p>}
           <p className={text}>{data[slide].dateText}</p>
               <h1 className={heading}>{data[slide].heading}</h1>
               <p className={`${text} pt-[7px]`}>{data[slide].text}</p>
