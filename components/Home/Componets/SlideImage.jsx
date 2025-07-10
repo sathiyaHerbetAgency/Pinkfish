@@ -48,6 +48,7 @@ const SlideImage = ({url,urlMob,year,link,slide, setShowPopup}) => {
     },
     {
       dateText:'31 December 2025 ',
+      mainHeading:'New Year’s Eve',
       heading:'Pinkfish Countdown',
       text:'',
       link:"/countdown",
@@ -77,6 +78,7 @@ const SlideImage = ({url,urlMob,year,link,slide, setShowPopup}) => {
         </div>
         <div className="text-block_live_hero  max-w-[100vw] z-[999] bg-gradinet-gray text-white flex flex-col justify-center h-[75vh] w-full ">
           <div className="flex flex-col self-center w-[621px] max-h-[300px] ">
+            {data[slide].mainHeading&& <h1 className={heading}>{data[slide].mainHeading}</h1>}
           <p className={text}>{data[slide].dateText}</p>
               <h1 className={heading}>{data[slide].heading}</h1>
               <p className={`${text} pt-[7px]`}>{data[slide].text}</p>
@@ -97,6 +99,7 @@ const SlideImage = ({url,urlMob,year,link,slide, setShowPopup}) => {
       <div className="text-block_live  z-[999] min-w-[100vw]   bg-gradinet-gray-mob text-white  h-[90vh]  ">
         <div className="min-h-[80vh] flex flex-col justify-center">
           <div className="flex flex-col self-center w-[90%] max-h-[164px]">
+            {data[slide].mainHeading&& <h1 className={heading}>{data[slide].mainHeading}</h1>}
           <p className={text}>{data[slide].dateText}</p>
               <h1 className={heading}>{data[slide].heading}</h1>
               <p className={text}>{data[slide].text}</p>

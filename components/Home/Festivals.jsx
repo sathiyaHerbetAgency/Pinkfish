@@ -51,7 +51,7 @@ const Festivals = ({setShowPopup}) => {
             location:"",
             link:"/countdown",
             sale:true,
-            title:'Pinkfish Countdown'
+            title:"Pinkfish Countdown: New Year's Eve"
         },
         {
             date:"16 August 2025",

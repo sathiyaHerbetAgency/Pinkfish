@@ -58,8 +58,8 @@ export default function HeroSection() {
           />
         </div>
         <div className="flex flex-col gap-4 justify-center">
-           <div className="text-center text-white ">
-      <h2 className="text-[36px] md:text-[60px] text-shadow-lg font-[InterBlack]  text-[#fff] tracking-wide leading-[24px] md:leading-[44px]">
+           <div className="text-center self-center text-white max-w-[80%] md:max-w-full">
+      <h2 className=" text-[36px] md:text-[60px] text-shadow-lg font-[InterBlack] text-center text-[#fff] tracking-wide leading-[24px] md:leading-[44px]">
         31<sup className="text-xl align-top pt-[10px]">ST</sup> DECEMBER <span className="leading-[44px] md:leading-[44px]">2025</span>
       </h2>
       
