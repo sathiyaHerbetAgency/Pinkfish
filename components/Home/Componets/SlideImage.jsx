@@ -46,6 +46,14 @@ const SlideImage = ({url,urlMob,year,link,slide, setShowPopup}) => {
       ticketText:'Buy Tickets',
       popup:true,
     },
+    {
+      dateText:'31 December 2025 ',
+      heading:'Pinkfish Countdown',
+      text:'',
+      link:"/countdown",
+      ticketText:'Buy Tickets',
+    
+    },
   ]
 
   const handleClick = (e) => {

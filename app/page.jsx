@@ -15,20 +15,25 @@ import Popup from './../components/Home/Popup';
 import Head from './../components/head';
 import GalleryContainer from './../components/Home/GalleryContainer';
 import Festivals from './../components/Home/Festivals';
+import Popup2 from './../components/Home/Popup2';
 
 export default function Page() {
   const [showPopup,setShowPopup]=useState(false)
+  const [showPopup1,setShowPopup1]=useState(true)
+
   const description="Discover the ultimate music festival experience in Malaysia with PinkFish. Join us for an unforgettable event filled with music, fun, and memories."
   const title="Experience the Best Music Festival in Malaysia - Pinkfish "
   const handleShowPopup = () => {
     setShowPopup(true);
   };
 
+
   return (
     <>
     <Head title={title} description={description} />
     <div className="bg-transparent min-h-[100vh] ">
      {showPopup&& <Popup  setShowPopup={setShowPopup} />}
+     {showPopup1&& <Popup2 setShowPopup={setShowPopup1}/> }
       <NewNavbar />
       <Hero setShowPopup={setShowPopup} />
       <Festivals setShowPopup={setShowPopup}  />

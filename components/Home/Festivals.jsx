@@ -45,6 +45,14 @@ const Festivals = ({setShowPopup}) => {
     const [activeCard, setActiveCard] = useState(null);  
 
      const slideData=[
+         {
+            date:"31 December 2025",
+            imgUrl:"./Home/Festival/festival-img-10.webp",
+            location:"",
+            link:"/countdown",
+            sale:true,
+            title:'Pinkfish Countdown'
+        },
         {
             date:"16 August 2025",
             imgUrl:"./Home/Festival/festival-img-9.webp",

@@ -38,14 +38,15 @@ const FestivalContainer = ({setShowPopup, data,index,active}) => {
             <div className="flex flex-col  gap-3  md:gap-5">
                 <h3 className={textGallery1}>{data.title}</h3>
                 <div className="flex flex-col gap-2 md:gap-2">
-                    <div className="flex items-center gap-2">
+                   {data.date&& <div className="flex items-center gap-2">
                     <img src="./Home/Festival/Icons/date.png" className="max-w-[15px] max-h-[15px]" alt="date" />
                         <p className={text1}>{data.date}</p>
-                    </div>
+                    </div>}
+                    {data.location &&
                     <div className="flex items-center gap-2">
                     <img src="./Home/Festival/Icons/location.png" className="max-w-[15px] max-h-[15px]" alt="date" />
                         <p className={text1}>{data.location}</p>
-                    </div>   
+                    </div> }
                    {data.sale&&<button className={button} type="button"> Buy Now </button>}   
                 </div>
               
