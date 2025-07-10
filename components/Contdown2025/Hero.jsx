@@ -64,9 +64,9 @@ export default function HeroSection() {
       </h2>
       
     </div>
-    <p className="text-[25px] md:text-[32px] font-[InterBold]  text-shadow-lg text-[#fff] leading-[28px] md:leading-[33px] tracking-wide">
+    {/* <p className="text-[25px] md:text-[32px] font-[InterBold]  text-shadow-lg text-[#fff] leading-[28px] md:leading-[33px] tracking-wide">
         RESORTS WORLD AWANA <br /> <span className='text-[30px] md:text-[38px]'>GENTING HIGHLANDS</span>
-      </p>
+      </p> */}
         </div>
         <h1 className="text-md sm:text-md md:text-xl lg:text-2xl font-[InterBold]  text-[#FFD900] mb-4  mt-6  tracking-wide">
           {"WE'RE BACK THIS NEW YEAR'S EVE!"}

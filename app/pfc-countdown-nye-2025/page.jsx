@@ -27,8 +27,8 @@ import Header from './../../components/Contdown2025/Header';
   return (
     <div>
        <Head title={title} description={description} />
-        {/* <NewNavbar /> */}
-        <Header />
+         <NewNavbar /> 
+      {/*  <Header /> */}
         <div className="bg-black">
             <Hero select={"PFC"}  />
             <div className="bg-[linear-gradient(to_bottom,_#58388D_77%,_#022F87_100%)] flex flex-col justify-center py-24">                           
