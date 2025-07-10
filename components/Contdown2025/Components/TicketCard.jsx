@@ -85,7 +85,7 @@ const isMobile = useMediaQuery({ maxWidth: 768 });
             onMouseLeave={(e) => handleButtonHover(e, false)}
             onClick={handleButtonClick}
           >
-            {ticket.status === "available" ? "On sale : 9th July, 12pm" : "COMING SOON"}
+            {ticket.status === "available" ? "ON SALE: 14 July, 12pm" : "COMING SOON"}
           </button>
 
             {ticket.description && 

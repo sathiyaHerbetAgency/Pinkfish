@@ -59,8 +59,8 @@ export default function HeroSection() {
         </div>
         <div className="flex flex-col gap-4 justify-center">
            <div className="text-center text-white ">
-      <h2 className="text-[46px] md:text-[60px] text-shadow-lg font-[InterBlack]  text-[#fff] tracking-wide leading-[24px] md:leading-[44px]">
-        31<sup className="text-xl align-top pt-[10px]">ST</sup> DEC 2025
+      <h2 className="text-[36px] md:text-[60px] text-shadow-lg font-[InterBlack]  text-[#fff] tracking-wide leading-[24px] md:leading-[44px]">
+        31<sup className="text-xl align-top pt-[10px]">ST</sup> DECEMBER <span className="leading-[44px] md:leading-[44px]">2025</span>
       </h2>
       
     </div>
@@ -75,21 +75,22 @@ export default function HeroSection() {
         {/* Countdown Timer */}
         <div className="flex flex-wrap justify-center gap-4 sm:gap-6 mb-4 ">
           <div className="bg-gradient-to-b from-[#022F87] via-[#011A4B]/50 to-transparent rounded-2xl p-4 sm:p-6 lg:p-8  min-w-[100px] sm:min-w-[120px] lg:min-w-[140px]">
-            <div className="text-3xl sm:text-4xl lg:text-5xl font-[press-start-2p] text-white mb-2">
+            <div className="text-xl md:text-5xl font-[press-start-2p] text-white mb-2">
+
               {timeLeft.days.toString().padStart(3, "0")}
             </div>
             <div className="text-yellow-400 text-sm sm:text-base lg:text-lg font-semibold tracking-wider">DAYS</div>
           </div>
 
           <div className="bg-gradient-to-b from-[#022F87] via-[#011A4B]/50 to-transparent rounded-2xl p-4 sm:p-6 lg:p-8  min-w-[100px] sm:min-w-[120px] lg:min-w-[140px]">
-            <div className="text-3xl sm:text-4xl lg:text-5xl font-[press-start-2p] text-white mb-2">
+            <div className="text-xl md:text-5xl font-[press-start-2p] text-white mb-2">
               {timeLeft.hours.toString().padStart(2, "0")}
             </div>
             <div className="text-yellow-400 text-sm sm:text-base lg:text-lg font-semibold tracking-wider">HOURS</div>
           </div>
 
           <div className="bg-gradient-to-b from-[#022F87] via-[#011A4B]/50 to-transparent rounded-2xl p-4 sm:p-6 lg:p-8  min-w-[100px] sm:min-w-[120px] lg:min-w-[140px]">
-            <div className="text-3xl sm:text-4xl lg:text-5xl font-[press-start-2p] text-white mb-2">
+            <div className="text-xl md:text-5xl font-[press-start-2p] text-white mb-2">
               {timeLeft.minutes.toString().padStart(2, "0")}
             </div>
             <div className="text-yellow-400 text-sm sm:text-base lg:text-lg font-semibold tracking-wider">MINUTES</div>
