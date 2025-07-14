@@ -110,12 +110,19 @@ export default function HeroSection() {
         </p>
 
         {/* CTA Button */}
-        <button
-        
-          className="bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white text-[12px] md:text-[16px] font-[InterBold] md:font-[InterBold]  px-6 py-2 md:px-8 md:py-2 rounded-lg shadow-2xl transform hover:scale-105 transition-all duration-300 border-0"
-        >
-          BUY TICKETS
-        </button>
+
+          <a
+            href="https://www.ticket2u.com.my/event/44617_19cee08589ce47d69a05ac9e4a734aea"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+              <button
+              
+                className="bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white text-[12px] md:text-[16px] font-[InterBold] md:font-[InterBold]  px-6 py-2 md:px-8 md:py-2 rounded-lg shadow-2xl transform hover:scale-105 transition-all duration-300 border-0"
+              >
+                BUY TICKETS
+              </button>
+            </a>
       </div>
 
       {/* Animated particles effect */}

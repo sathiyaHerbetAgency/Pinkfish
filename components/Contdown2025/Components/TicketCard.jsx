@@ -34,10 +34,11 @@ const isMobile = useMediaQuery({ maxWidth: 768 });
   }
 
   const handleButtonClick = (e) => {
-    e.stopPropagation() // Prevent slider interaction when clicking button
+    // e.stopPropagation() // Prevent slider interaction when clicking button/
     if (ticket.status === "available") {
       // Handle purchase logic here
-      console.log(`Purchase ticket: ${ticket.id}`)
+
+      window.open(e, "_blank");
     }
   }
 
@@ -83,9 +84,9 @@ const isMobile = useMediaQuery({ maxWidth: 768 });
             style={buttonStyle}
             onMouseEnter={(e) => handleButtonHover(e, true)}
             onMouseLeave={(e) => handleButtonHover(e, false)}
-            onClick={handleButtonClick}
+            onClick={()=>{handleButtonClick(ticket.link)}}
           >
-            {ticket.status === "available" ? "ON SALE: 14 July, 12pm" : "COMING SOON"}
+            {ticket.status === "available" ? "Buy Tickets" : "COMING SOON"}
           </button>
 
             {ticket.description && 

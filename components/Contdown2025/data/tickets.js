@@ -7,6 +7,7 @@ export const ticketsData = [
     price: "RM 98",
     status: "available",
     features: ["GENERAL ADMISSION ONLY", "18+ YEARS OLD", "NO OUTSIDE FOOD/DRINKS/ALCOHOL"],
+    link:"https://www.ticket2u.com.my/event/44617_19cee08589ce47d69a05ac9e4a734aea",
     // description: "On sale : 9th July, 12pm",
   },
   {
