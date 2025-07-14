@@ -23,7 +23,7 @@ const TicketsSlider = () => {
   useSlickLoader(sliderRef, slickSettings)
 
   return (
-    <section style={containerStyle}>
+    <section id='tickets' style={containerStyle}>
       <div style={maxWidthStyle}>
         <div style={headerStyle}>
           <h2 style={titleStyle(isMobile)}>BLIND SALE</h2>

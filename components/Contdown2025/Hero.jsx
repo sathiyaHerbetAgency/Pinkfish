@@ -112,8 +112,8 @@ export default function HeroSection() {
         {/* CTA Button */}
 
           <a
-            href="https://www.ticket2u.com.my/event/44617_19cee08589ce47d69a05ac9e4a734aea"
-            target="_blank"
+            href="#tickets"
+          
             rel="noopener noreferrer"
           >
               <button
