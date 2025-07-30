@@ -50,10 +50,10 @@ const TicketGa = () => {
     payLater:"",
     title:"GENERAL ADMISSION",
     type:"phase 3",
-    price:"RM 298",
-    TicketStatus:false,
-    BuyButton:"Coming Soon",
-    BuyButtonStatus:false,
+    price:"RM 128",
+    TicketStatus:true,
+    BuyButton:"Buy Now",
+    BuyButtonStatus:true,
      link1:"https://www.ticket2u.com.my/event/43246_380e571bc2164fd2a175c9fc2aff3cee/pinkfish-presents-nifra-360-madness-malaysia",
     link2:"https://www.ticket2u.com.my/event/43248_3eb7cc124cd5479b9d498324ab09ef00/bnpl-pinkfish-presents-nifra-360-madness-malaysia",
   }
@@ -66,7 +66,7 @@ const TicketGa = () => {
         <TicketContainer {...Ticket1} />
         <TicketContainer {...Ticket2} />
         <TicketContainer {...Ticket3} />
-        {/* <TicketContainer {...Ticket4} /> */}
+        <TicketContainer {...Ticket4} />
         </div>
     </div>
   )
