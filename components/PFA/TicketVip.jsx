@@ -30,14 +30,14 @@ const TicketVip = () => {
   }
 
   const Ticket3={
-    payLaterStatus:true,
-    payLater:"Buy Now Pay Later",
+    payLaterStatus:false,
+    payLater:"",
     title:"vip",
     type:"phase 2",
     price:"RM 168",
-    TicketStatus:true,
-    BuyButton:"Buy Now",
-    BuyButtonStatus:true,
+    TicketStatus:false,
+    BuyButton:"Sold Out",
+    BuyButtonStatus:false,
     link1:"https://www.ticket2u.com.my/event/43246_380e571bc2164fd2a175c9fc2aff3cee/pinkfish-presents-nifra-360-madness-malaysia",
     link2:"https://www.ticket2u.com.my/event/43248_3eb7cc124cd5479b9d498324ab09ef00/bnpl-pinkfish-presents-nifra-360-madness-malaysia",
   }
