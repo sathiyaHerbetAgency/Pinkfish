@@ -46,6 +46,15 @@ const Festivals = ({setShowPopup}) => {
 
      const slideData=[
          {
+            date:"2 October 2025",
+            imgUrl:"./Home/Festival/festival-img-11.webp",
+            location:"KYO, MANDARIN ORIENTAL, KL",
+            link:"/countdown",
+            sale:true,
+            title:"Vikkstar",
+             popup:true
+        },
+         {
             date:"31 December 2025",
             imgUrl:"./Home/Festival/festival-img-10.webp",
             location:"",
@@ -67,8 +76,8 @@ const Festivals = ({setShowPopup}) => {
             location:"Lane 23, KL",
             link:"",
             sale:true,
-            title:'Pinkclub: Eli Brown',
-            popup:true,
+            title:'Pinkclub: Eli Brown',
+          //  popup:true,
         },
         {
             date:"31 December 2024",

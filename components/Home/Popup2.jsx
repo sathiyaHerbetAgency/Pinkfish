@@ -68,11 +68,14 @@ const Popup2 = ({setShowPopup}) => {
         <div>
        
           {" "}
-          <img src="./Home/Festival/festival-img-10.webp" className="" alt="img" />
+          <img src="./Home/Festival/festival-img-11.webp" className="" alt="img" />
           <div className="flex flex-col justify-end ">
           <div className="flex self-center  gap-3 justify-center">
-          <a href="/countdown" target=""className="w-fit self-center flex justify-start mt-3"> 
+          <a href="#" target=""className="w-fit self-center flex justify-start mt-3"> 
                 <button className={button} alt="button">BUY NOW</button>
+              </a>
+                <a href="#" target="_blank" className="w-fit self-center flex justify-start mt-3"> 
+                <button className={button} alt="button">BNPL</button>
               </a>
              
         </div>
@@ -105,7 +108,7 @@ const Popup2 = ({setShowPopup}) => {
           {" "}
           <img
            ref={imgRef}
-            src="./Home/Festival/festival-img-10.webp"
+            src="./Home/Festival/festival-img-11.webp"
             className="object-cover "
             alt="img"
           />
@@ -114,8 +117,11 @@ const Popup2 = ({setShowPopup}) => {
       </div>
       <div  className="flex flex-col   pb-4 justify-end ">
           <div className="flex self-center gap-3 justify-center w-[100vw]">
-          <a href="/countdown" target="" className="w-[100px] self-center flex justify-start "> 
+          <a href="#" target="" className="w-[100px] self-center flex justify-start "> 
                 <button className={button} alt="button">BUY NOW</button>
+              </a>
+                <a href="#" target="_blank" className="w-fit self-center flex justify-start mt-3"> 
+                <button className={button} alt="button">BNPL</button>
               </a>
              
         </div>

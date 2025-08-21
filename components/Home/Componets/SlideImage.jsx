@@ -9,17 +9,18 @@ const SlideImage = ({url,urlMob,year,link,slide, setShowPopup}) => {
   const button="text-[12px] md:text-[16px] leading-[22.66px] md:leading-[22.66px] font-[Sofia] font-[400] p-2 px-4  bg-[#FF0086] rounded"
 
   const data=[
+
     {
       dateText:'21 December 2024 • Over & Above, Kuala Lumpur',
       heading:'Pinkclub: Hannah Laing',
-      text:'Creating unforgettable nights in intimate venues, where every beat resonates and core memories are made.',
+      text:'Creating unforgettable nights in intimate venues, where every beat resonates and core memories are made.',
       link:false,
       ticketText:'Buy Tickets'
     },
     {
       dateText:'31 December 2024 • Surf Beach Sunway Lagoon',
       heading:'pinkfish countdown 2024',
-      text:'Get ready to blast into 2025 at Pinkfish Countdown, where the beats drop as the clock strikes twelve!',
+      text:'Get ready to blast into 2025 at Pinkfish Countdown, where the beats drop as the clock strikes twelve!',
       link:false,
       ticketText:'Buy Tickets'
     },
@@ -54,6 +55,13 @@ const SlideImage = ({url,urlMob,year,link,slide, setShowPopup}) => {
       link:"/countdown",
       ticketText:'Buy Tickets',
     
+    },
+    {
+      dateText:'2 October 2025 • Kyo Mandarin Orinetal, KL',
+      heading:'Vikkstar',
+      text:'',
+      link:'/',
+      ticketText:'Buy Tickets'
     },
   ]
 

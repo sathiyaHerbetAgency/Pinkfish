@@ -68,13 +68,13 @@ const Popup = ({setShowPopup}) => {
         <div>
        
           {" "}
-          <img src="./Home/Popup/popup_home.webp" className="" alt="img" />
+          <img src="./Home/Popup/popup_home1.webp" className="" alt="img" />
           <div className="flex flex-col justify-end ">
           <div className="flex self-center  gap-3 justify-center">
-          <a href="https://www.ticket2u.com.my/event/42298_f3f6966f929943358beee3f3d5a9a2b1/pinkclub-eli-brown" target="_blank"className="w-fit self-center flex justify-start mt-3"> 
+          <a href="#" target="_blank"className="w-fit self-center flex justify-start mt-3"> 
                 <button className={button} alt="button">BUY NOW</button>
               </a>
-              <a href="https://www.ticket2u.com.my/event/42302_55a2f652d0d64894b6889475908992c3/bnpl-pinkclub-eli-brown" target="_blank" className="w-fit self-center flex justify-start mt-3"> 
+              <a href="#" target="_blank" className="w-fit self-center flex justify-start mt-3"> 
                 <button className={button} alt="button">BNPL</button>
               </a>
         </div>

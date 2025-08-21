@@ -67,6 +67,9 @@ const Hero = ({setShowPopup}) => {
             className="mySwiper"
           >
              <SwiperSlide>
+              <SlideImage url={"./Home/Hero/vikkstar.webp"} urlMob={"./Home/Hero/vikkstar.webp"} year="2025"  slide={6} />
+            </SwiperSlide>
+             <SwiperSlide>
               <SlideImage url={"./Home/Hero/pfc-2025.webp"} urlMob={"./PFC2025/Hero/hero-bg-mob.webp"} year="2025"  slide={5} />
             </SwiperSlide>
             <SwiperSlide>
