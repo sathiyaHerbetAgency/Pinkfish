@@ -48,7 +48,7 @@ const Festivals = ({setShowPopup}) => {
          {
             date:"2 October 2025",
             imgUrl:"./Home/Festival/festival-img-11.webp",
-            location:"KYO, MANDARIN ORIENTAL, KL",
+            location:"Kyo, Mandarin Oriental, KL",
             link:"/countdown",
             sale:true,
             title:"Vikkstar",
