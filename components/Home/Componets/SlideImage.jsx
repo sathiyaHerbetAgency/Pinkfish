@@ -57,7 +57,7 @@ const SlideImage = ({url,urlMob,year,link,slide, setShowPopup}) => {
     
     },
     {
-      dateText:'2 October 2025 • Kyo Mandarin Orinetal, KL',
+      dateText:'2 October 2025 • Kyo Mandarin Oriental, KL',
       heading:'Vikkstar',
       text:'',
       link:'/',
