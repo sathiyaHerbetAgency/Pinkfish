@@ -9,7 +9,6 @@ const SlideImage = ({url,urlMob,year,link,slide, setShowPopup}) => {
   const button="text-[12px] md:text-[16px] leading-[22.66px] md:leading-[22.66px] font-[Sofia] font-[400] p-2 px-4  bg-[#FF0086] rounded"
 
   const data=[
-
     {
       dateText:'21 December 2024 • Over & Above, Kuala Lumpur',
       heading:'Pinkclub: Hannah Laing',
