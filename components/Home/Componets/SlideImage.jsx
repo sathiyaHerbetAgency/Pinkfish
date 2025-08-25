@@ -59,7 +59,7 @@ const SlideImage = ({url,urlMob,year,link,slide, setShowPopup}) => {
       dateText:'2 October 2025 • Kyo Mandarin Oriental, KL',
       heading:'Vikkstar',
       text:'',
-      link:'/',
+      link:'https://www.ticket2u.com.my/event/45513_91cb3c62451045c481abbbe0076fd36f',
       ticketText:'Buy Tickets'
     },
   ]

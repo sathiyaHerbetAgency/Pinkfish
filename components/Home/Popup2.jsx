@@ -71,10 +71,10 @@ const Popup2 = ({setShowPopup}) => {
           <img src="./Home/Festival/festival-img-11.webp" className="" alt="img" />
           <div className="flex flex-col justify-end ">
           <div className="flex self-center  gap-3 justify-center">
-          <a href="#" target=""className="w-fit self-center flex justify-start mt-3"> 
+          <a href="https://www.ticket2u.com.my/event/45513_91cb3c62451045c481abbbe0076fd36f" target=""className="w-fit self-center flex justify-start mt-3"> 
                 <button className={button} alt="button">BUY NOW</button>
               </a>
-                <a href="#" target="_blank" className="w-fit self-center flex justify-start mt-3"> 
+                <a href="https://www.ticket2u.com.my/event/45515_637ac61b2643476ea93de8d6ea671318" target="_blank" className="w-fit self-center flex justify-start mt-3"> 
                 <button className={button} alt="button">BNPL</button>
               </a>
              
@@ -117,10 +117,10 @@ const Popup2 = ({setShowPopup}) => {
       </div>
       <div  className="flex flex-col   pb-4 justify-end ">
           <div className="flex self-center gap-3 justify-center w-[100vw]">
-          <a href="#" target="" className="w-[100px] self-center flex justify-start "> 
+          <a href="https://www.ticket2u.com.my/event/45513_91cb3c62451045c481abbbe0076fd36f" target="" className="w-[100px] self-center flex justify-start "> 
                 <button className={button} alt="button">BUY NOW</button>
               </a>
-                <a href="#" target="_blank" className="w-fit self-center flex justify-start mt-3"> 
+                <a href="https://www.ticket2u.com.my/event/45515_637ac61b2643476ea93de8d6ea671318" target="_blank" className="w-fit self-center flex justify-start mt-3"> 
                 <button className={button} alt="button">BNPL</button>
               </a>
              
