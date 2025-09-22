@@ -1,76 +1,69 @@
 /* eslint-disable */
 
-import React from 'react'
-import "../../styles/live.css"
-import "../../styles/contact.css"
+import React from "react";
+import "../../styles/live.css";
+import "../../styles/contact.css";
 
+const Hero = ({ select }) => {
+  const PFF = {
+    first_heading: "thank you lavas!",
+    second_heading: "pinkfish music & arts festival",
+    span_text: "Pinkfish Music & Arts Festival ",
+    text: " is a curated creative music & arts experience that featured live acts, both local & international, as well as art installations from various artists gifted in multiple mediums to celebrate the best in music & art in one big event.",
+    button_text: "Follow for more updates",
+    link: "https://www.instagram.com/pinkfishfestival/",
+    heroClass: "bg-pff",
+  };
+  const PFC = {
+    first_heading: "coming soon in 2024",
+    second_heading: "pinkfish countdown",
+    span_text: "Pinkfish Countdown ",
+    text: " is a curated experience of tight-knit celebration that features both international and local live acts upon the ushering into the new year. This event brings together the creative and music-loving community, as we count down to the new year.",
+    button_text: " Be Part of PFC2024",
+    link: "/countdown2024 ",
+    heroClass: "bg-pfc",
+  };
+  const PFA = {
+    first_heading: "thank you lavas!",
+    second_heading: "pinkfish arena",
+    span_text: "Pinkfish Arena, ",
+    text: " the latest sub-brand in the Pinkfish family, ready to set a new standard for arena shows with an electrifying focus on electronic dance music at iconic local venues, turning them into epicentres of DJ brilliance. Get hyped for a live experience like never before — where bass comes to life.",
+    button_text: "Follow for more updates",
+    link: "https://www.instagram.com/pinkfishfestival/",
+    heroClass: "bg-pfa",
+  };
+  const PFL = {
+    first_heading: "thank you lavas!",
+    second_heading: "pinkfish Live",
+    span_text: "Pinkfish Live, ",
+    text: " a sub-division of Pinkfish, provides revolutionary and international-level live shows, electrifying stage setup and show production, mind-bending LED and sound setup. We elevate and celebrate the artistry of rap and hip-hop through the power of live performances, bringing this cultural force to life on stage.",
+    button_text: "Follow for more updates",
+    link: "https://www.instagram.com/pinkfishfestival/",
+    heroClass: "bg-pfl",
+  };
+  const PFP = {
+    first_heading: "thank you lavas!",
+    second_heading: "pinkclub",
+    span_text: "Pinkclub, ",
+    text: " is the newest addition to the Pinkfish banner, turning up the heat with a dynamic series of electronic dance music shows dedicated to curating high-energy nights and core memories. These events take place in intimate club venues, offering fans a chance to experience the music up close and personal, where every beat and vibe resonates like never before.",
+    button_text: "Follow for more updates",
+    link: "https://www.instagram.com/pinkfishfestival/",
+    heroClass: "bg-pfb",
+  };
 
-
-const Hero = ({select}) => {
-
-    const PFF={
-        first_heading:"thank you lavas!",
-        second_heading:"pinkfish music & arts festival",
-        span_text:"Pinkfish Music & Arts Festival ",
-        text:" is a curated creative music & arts experience that featured live acts, both local & international, as well as art installations from various artists gifted in multiple mediums to celebrate the best in music & art in one big event.",
-        button_text:'Follow for more updates',
-        link:"https://www.instagram.com/pinkfishfestival/",
-        heroClass:'bg-pff',
+  function checkContents() {
+    if (select === "PFF") {
+      return PFF;
+    } else if (select === "PFC") {
+      return PFC;
+    } else if (select === "PFA") {
+      return PFA;
+    } else if (select === "PFL") {
+      return PFL;
+    } else if (select === "PFP") {
+      return PFP;
     }
-    const PFC={
-        first_heading:"coming soon in 2024",
-        second_heading:"pinkfish countdown",
-        span_text:"Pinkfish Countdown ",
-        text:" is a curated experience of tight-knit celebration that features both international and local live acts upon the ushering into the new year. This event brings together the creative and music-loving community, as we count down to the new year.",
-        button_text:' Be Part of PFC2024',
-        link:"/countdown2024 ",
-        heroClass:'bg-pfc',
-    }
-    const PFA={
-      first_heading:"thank you lavas!",
-      second_heading:"pinkfish arena",
-      span_text:"Pinkfish Arena, ",
-      text:" the latest sub-brand in the Pinkfish family, ready to set a new standard for arena shows with an electrifying focus on electronic dance music at iconic local venues, turning them into epicentres of DJ brilliance. Get hyped for a live experience like never before — where bass comes to life.",
-      button_text:'Follow for more updates',
-      link:"https://www.instagram.com/pinkfishfestival/",
-      heroClass:'bg-pfa',
   }
-  const PFL={
-    first_heading:"thank you lavas!",
-    second_heading:"pinkfish Live",
-    span_text:"Pinkfish Live, ",
-    text:" a sub-division of Pinkfish, provides revolutionary and international-level live shows, electrifying stage setup and show production, mind-bending LED and sound setup. We elevate and celebrate the artistry of rap and hip-hop through the power of live performances, bringing this cultural force to life on stage.",
-    button_text:'Follow for more updates',
-    link:"https://www.instagram.com/pinkfishfestival/",
-    heroClass:'bg-pfl',
-}
-const PFP={
-  first_heading:"thank you lavas!",
-  second_heading:"pinkclub",
-  span_text:"Pinkclub, ",
-  text:" is the newest addition to the Pinkfish banner, turning up the heat with a dynamic series of electronic dance music shows dedicated to curating high-energy nights and core memories. These events take place in intimate club venues, offering fans a chance to experience the music up close and personal, where every beat and vibe resonates like never before.",
-  button_text:'Follow for more updates',
-  link:"https://www.instagram.com/pinkfishfestival/",
-  heroClass:'bg-pfb',
-}
-
-    function checkContents(){
-        if(select==="PFF"){
-            return PFF
-        }else if(select==="PFC"){
-            return PFC
-        }
-        else if(select==="PFA"){
-          return PFA
-      }
-      else if(select==="PFL"){
-        return PFL
-    }else if(select==="PFP"){
-      return PFP
-  }
-    }
-
-
 
   return (
     <div
@@ -80,10 +73,10 @@ const PFP={
     >
       <div className="flex flex-col gap-4 md:pt-16 pt:36 self-center md:w-[80%]">
         <div className="md:w-[65%] w-[78%] flex flex-col self-center md:self-start gap-4">
-          <h2 className="text-[22px] font-[Integral]  text-[#FF0086] text-start uppercase">
+          <h2 className="text-[22px] font-[Archivo]  text-[#FF0086] text-start uppercase">
             {checkContents().first_heading}
           </h2>
-          <h1 className="text-[36px] md:text-[44px] font-[Integral] md:leading-[50px] leading-[38px] font-bold tracking-[1px] er text-[#fff] uppercase">
+          <h1 className="text-[36px] md:text-[44px] font-[Archivo] md:leading-[50px] leading-[38px] font-bold tracking-[1px] er text-[#fff] uppercase">
             {checkContents().second_heading}
           </h1>
           <p className="world_text w-[90%]  ">
@@ -108,7 +101,7 @@ const PFP={
           <button
             type="button"
             href="/faq"
-            className=" uppercase text-[16px] leading-[24px] font-[Sofia] text-white font-[500] px-3 outline outline-2 outline-[#fff] rounded-md "
+            className=" uppercase text-[16px] leading-[24px] font-[manrope] text-white font-[500] px-3 outline outline-2 outline-[#fff] rounded-md "
           >
             <a href="/Faq">FAQ</a>
           </button>
@@ -217,6 +210,6 @@ const PFP={
       </div>
     </div>
   );
-}
+};
 
-export default Hero
+export default Hero;

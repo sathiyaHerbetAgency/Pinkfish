@@ -1,9 +1,9 @@
 /* eslint-disable */
 
-'use client'
-import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
+"use client";
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
 
 const SliderLineup = () => {
   return (
@@ -30,15 +30,27 @@ const SliderLineup = () => {
       {/* Regular single image slides */}
       <SwiperSlide>
         <div className="flex flex-col gap-4 items-center">
-          <img src="./PFA/Lineup/lineup_4.png" className="object-contain self-center" alt="img_1" />
-          <h3 className="text-[16px] md:text-[24px] font-[Trim] text-white uppercase text-center self-center font-[700]">chukiess & Whackboi</h3>
+          <img
+            src="./PFA/Lineup/lineup_4.png"
+            className="object-contain self-center"
+            alt="img_1"
+          />
+          <h3 className="text-[16px] md:text-[24px] font-[manrope] text-white uppercase text-center self-center font-[700]">
+            chukiess & Whackboi
+          </h3>
         </div>
       </SwiperSlide>
 
       <SwiperSlide>
         <div className="flex flex-col gap-4 items-center">
-          <img src="./PFA/Lineup/lineup_4.png" className="object-contain self-center" alt="img_1" />
-          <h3 className="text-[16px] md:text-[24px] font-[Trim] text-white uppercase text-center self-center font-[700]">chukiess & Whackboi</h3>
+          <img
+            src="./PFA/Lineup/lineup_4.png"
+            className="object-contain self-center"
+            alt="img_1"
+          />
+          <h3 className="text-[16px] md:text-[24px] font-[manrope] text-white uppercase text-center self-center font-[700]">
+            chukiess & Whackboi
+          </h3>
         </div>
       </SwiperSlide>
 
@@ -46,12 +58,24 @@ const SliderLineup = () => {
       <SwiperSlide className="swiper-slide-double">
         <div className="flex gap-4 items-center justify-center">
           <div className="flex flex-col gap-4 items-center">
-            <img src="./PFA/Lineup/lineup_4.png" className="object-contain self-center" alt="img_1" />
-            <h3 className="text-[16px] md:text-[24px] font-[Trim] text-white uppercase text-center self-center font-[700]">chukiess & Whackboi</h3>
+            <img
+              src="./PFA/Lineup/lineup_4.png"
+              className="object-contain self-center"
+              alt="img_1"
+            />
+            <h3 className="text-[16px] md:text-[24px] font-[manrope] text-white uppercase text-center self-center font-[700]">
+              chukiess & Whackboi
+            </h3>
           </div>
           <div className="flex flex-col gap-4 items-center">
-            <img src="./PFA/Lineup/lineup_4.png" className="object-contain self-center" alt="img_1" />
-            <h3 className="text-[16px] md:text-[24px] font-[Trim] text-white uppercase text-center self-center font-[700]">chukiess & Whackboi</h3>
+            <img
+              src="./PFA/Lineup/lineup_4.png"
+              className="object-contain self-center"
+              alt="img_1"
+            />
+            <h3 className="text-[16px] md:text-[24px] font-[manrope] text-white uppercase text-center self-center font-[700]">
+              chukiess & Whackboi
+            </h3>
           </div>
         </div>
       </SwiperSlide>
@@ -59,12 +83,18 @@ const SliderLineup = () => {
       {/* More single image slides */}
       <SwiperSlide>
         <div className="flex flex-col gap-4 items-center">
-          <img src="./PFA/Lineup/lineup_4.png" className="object-contain self-center" alt="img_1" />
-          <h3 className="text-[16px] md:text-[24px] font-[Trim] text-white uppercase text-center self-center font-[700]">chukiess & Whackboi</h3>
+          <img
+            src="./PFA/Lineup/lineup_4.png"
+            className="object-contain self-center"
+            alt="img_1"
+          />
+          <h3 className="text-[16px] md:text-[24px] font-[manrope] text-white uppercase text-center self-center font-[700]">
+            chukiess & Whackboi
+          </h3>
         </div>
       </SwiperSlide>
     </Swiper>
   );
-}
+};
 
 export default SliderLineup;

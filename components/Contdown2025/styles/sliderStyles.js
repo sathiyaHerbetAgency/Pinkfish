@@ -5,43 +5,43 @@ export const containerStyle = {
   minHeight: "80vh",
   background: "linear-gradient(180deg, #0f172a 0%, #1e3a8a 50%, #0f172a 100%)",
   padding: "80px 16px",
-}
+};
 
-  export const maxWidthStyle = {
-    maxWidth: "1280px",
+export const maxWidthStyle = {
+  maxWidth: "1280px",
   margin: "0 auto",
-}
+};
 
 export const headerStyle = {
   textAlign: "center",
   marginBottom: "30px",
-}
+};
 
-export const titleStyle =(isMobile)=>( {
-  fontSize: isMobile?"24px":"35px",
-  fontFamily: "InterBlack",
+export const titleStyle = (isMobile) => ({
+  fontSize: isMobile ? "24px" : "35px",
+  fontFamily: "Manrope-Black",
   color: "white",
   marginBottom: "30px",
   letterSpacing: "0.05em",
   textTransform: "uppercase",
-})
+});
 
 export const sliderContainerStyle = {
   position: "relative",
   maxWidth: "1200px",
   margin: "0 auto",
   paddingBottom: "80px", // Space for dots
-}
+};
 
-export const disclaimerStyle =(isMobile)=>( {
+export const disclaimerStyle = (isMobile) => ({
   textAlign: "center",
   color: "#fff",
   fontSize: "10px",
   letterSpacing: "1px",
   textTransform: "uppercase",
-  maxWidth: isMobile?"75%":"600px",
+  maxWidth: isMobile ? "75%" : "600px",
   margin: "0px auto 0",
-  fontFamily:'InterRegular',
+  fontFamily: "Manrope",
 });
 
 export const slickCustomStyles = `
@@ -120,4 +120,4 @@ export const slickCustomStyles = `
 
 
 
-`
+`;

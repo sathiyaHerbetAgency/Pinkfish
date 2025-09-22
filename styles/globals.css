@@ -13,7 +13,7 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   text-indent: 1px;
-  text-overflow: '';
+  text-overflow: "";
 }
 
 /* Footer */
@@ -22,91 +22,84 @@ select {
   border: solid 0.1px #fff;
 }
 
-
-.buy_ticket_footer{
-  @apply font-[Sofia] bg-[#F33288] text-[14px] md:text-[18px] leading-[20px] md:leading-[24px] font-[700] font-[Sofia] uppercase rounded-lg gap-2 text-white p-3 md:w-fit w-full ;
+.buy_ticket_footer {
+  @apply font-[manrope] bg-[#F33288] text-[14px] md:text-[18px] leading-[20px] md:leading-[24px] font-[700] font-[manrope] uppercase rounded-lg gap-2 text-white p-3 md:w-fit w-full;
 }
 
-.browse_show{
-  @apply bg-transparent text-[14px] md:text-[18px] leading-[20px] md:leading-[24px] font-[700] font-[Sofia] uppercase rounded-lg gap-2 text-white p-3 md:w-fit w-full;  
+.browse_show {
+  @apply bg-transparent text-[14px] md:text-[18px] leading-[20px] md:leading-[24px] font-[700] font-[manrope] uppercase rounded-lg gap-2 text-white p-3 md:w-fit w-full;
   border: 1px solid #fff;
 }
 
-.footer_heading{
-  @apply text-white uppercase md:text-[32px]  leading-[34px]    font-[Integral];
-  
+.footer_heading {
+  @apply text-white uppercase md:text-[32px]  leading-[34px]    font-[Archivo];
 }
 
-.footer_bottom_text{
-  @apply text-[#fff] text-[12px] leading-[22px] text-center font-[Sofia]
+.footer_bottom_text {
+  @apply text-[#fff] text-[12px] leading-[22px] text-center font-[manrope];
 }
 
-.icon_text{
-  @apply text-white text-[20px] md:text-[14px] leading-[22px]    font-[Sofia];
+.icon_text {
+  @apply text-white text-[20px] md:text-[14px] leading-[22px]    font-[manrope];
   text-align: center;
-
 }
 
-.home_bottom_header{
-  @apply text-[12px] md:text-[16px] leading-[16px] md:leading-[20px] font-[Integral] text-white  font-[500]
-
+.home_bottom_header {
+  @apply text-[12px] md:text-[16px] leading-[16px] md:leading-[20px] font-[Archivo] text-white  font-[500];
 }
 
-.logo_container{
+.logo_container {
   @apply bg-[#00] md:bg-[#000];
 }
 
 /* NAVBAR */
- 
-.navbar_main_container{
-  @apply py-6 max-w-[100vw] md:py-3  sticky top-0   flex flex-col justify-center  bg-black ; 
+
+.navbar_main_container {
+  @apply py-6 max-w-[100vw] md:py-3  sticky top-0   flex flex-col justify-center  bg-black;
   z-index: 99;
 }
 *:focus {
   outline: none;
 }
 
-.video {   
-  object-fit: cover;   
+.video {
+  object-fit: cover;
   width: 100%;
   height: 100%;
   position: fixed;
-  z-index: -1; 
+  z-index: -1;
 }
-.navbar_container{
-  @apply  flex flex-col  self-center ;
+.navbar_container {
+  @apply flex flex-col  self-center;
 }
 
-
-.navbar_container_mob{
-  @apply    w-[100%]  md:hidden ;
+.navbar_container_mob {
+  @apply w-[100%]  md:hidden;
 }
 
 .dropdown {
-  @apply   w-full  rounded-lg bg-black min-w-[210px] flex flex-col gap-3  items-center;
+  @apply w-full  rounded-lg bg-black min-w-[210px] flex flex-col gap-3  items-center;
 }
 
 .dropdown_link {
   @apply text-sm  text-[#F33288]  font-medium;
 }
 
-.menu_text_mob{
-
-  @apply w-fit self-center  uppercase text-[white] font-[Integral] font-[100] text-[14px] leading-[24px] md:leading-[24px] tracking-[5px];
-} 
-.menu_text{
-
-  @apply w-[100%] text-center uppercase text-[white]    font-[Integral] font-[700] text-[12px] md:text-[10px] leading-[14px] md:leading-[14px] tracking-[1px];
+.menu_text_mob {
+  @apply w-fit self-center  uppercase text-[white] font-[Archivo] font-[100] text-[14px] leading-[24px] md:leading-[24px] tracking-[5px];
+}
+.menu_text {
+  @apply w-[100%] text-center uppercase text-[white]    font-[Archivo] font-[700] text-[12px] md:text-[10px] leading-[14px] md:leading-[14px] tracking-[1px];
   /* display: inline-block;
   text-decoration: none; */
 }
 
-.address_title{ 
-  @apply uppercase font-[Sofia] text-[#D9D9D9] text-[16px] md:text-[16px] leading-[20px] md:leading-[20px] tracking-[2.4px] md:tracking-[3.2px] font-[400]
+.address_title {
+  @apply uppercase font-[manrope] text-[#D9D9D9] text-[16px] md:text-[16px] leading-[20px] md:leading-[20px] tracking-[2.4px] md:tracking-[3.2px] font-[400];
 }
 
-.select{
-  @apply border-b-4 border-white ;
+.select {
+  @apply border-b-4 border-white;
   /* padding: -10px; */
 }
 
@@ -124,62 +117,60 @@ select {
   width: 100%;
 } */
 
-.buy_ticket{
-  @apply bg-[#F33288] rounded-lg uppercase pt-2 p-2  gap-2 text-white h-fit text-[12px] md:text-[14px] leading-[14px] md:leading-[16px] font-[500] font-[Integral];
-
+.buy_ticket {
+  @apply bg-[#F33288] rounded-lg uppercase pt-2 p-2  gap-2 text-white h-fit text-[12px] md:text-[14px] leading-[14px] md:leading-[16px] font-[500] font-[Archivo];
 }
 
-.ticket-bg{
-  background-image:url("/PFA/title_ticket_bg.png");
-  background-size:cover;
-  background-repeat:no-repeat;
-
+.ticket-bg {
+  background-image: url("/PFA/title_ticket_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.bg-form{
-  background-image:url("/Form/hero_bg.png");
-  background-size:cover;
-  background-repeat:no-repeat;
-  background-position:center;
-
+.bg-form {
+  background-image: url("/Form/hero_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-
-@media screen and (max-width:768px){
-  .bg-form{
-    background-image:url("/Form/hero_bg_mob.webp");
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-position:center;
-  
+@media screen and (max-width: 768px) {
+  .bg-form {
+    background-image: url("/Form/hero_bg_mob.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
-  .hero-shadow1{
-    text-shadow: 2px 1px 5px #FFFFFFDD !important;
-  
+  .hero-shadow1 {
+    text-shadow: 2px 1px 5px #ffffffdd !important;
   }
 }
-.hero-shadow{
-  text-shadow: 2px 2px 5px #FFFFFFDD !important;
-
+.hero-shadow {
+  text-shadow: 2px 2px 5px #ffffffdd !important;
 }
-.ticket-body-bg{
-  background-image:url("/PFA/Nifra/Tickets/ticket-30.png");
-  background-size:cover;
-  background-repeat:no-repeat;
-}
-
-.ticket-body-bg-gray{
-  background-image:url("/PFA/Tickets/grey_ticket.png");
-  background-size:cover;
-  background-repeat:no-repeat;
+.ticket-body-bg {
+  background-image: url("/PFA/Nifra/Tickets/ticket-30.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.ticket-body-bg-soon{
-  background-image:
+.ticket-body-bg-gray {
+  background-image: url("/PFA/Tickets/grey_ticket.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.bg-soon{
-  background: rgb(0,0,0);
-background: linear-gradient(180deg, rgba(0,0,0,0.4234068627450981) 0%, rgba(0,0,0,0.6026785714285714) 35%, rgba(0,0,0,0.4514180672268907) 100%);
+.ticket-body-bg-soon {
+  background-image: ;
+}
+
+.bg-soon {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.4234068627450981) 0%,
+    rgba(0, 0, 0, 0.6026785714285714) 35%,
+    rgba(0, 0, 0, 0.4514180672268907) 100%
+  );
 }
 
 .bg-arena {
@@ -187,194 +178,168 @@ background: linear-gradient(180deg, rgba(0,0,0,0.4234068627450981) 0%, rgba(0,0,
   background-size: cover; /* or try cover if you prefer cropping */
   background-repeat: no-repeat;
   background-position: center;
- /* Fallback or letterbox color */
+  /* Fallback or letterbox color */
 }
 
-.bg-banner-boris{
+.bg-banner-boris {
   background-image: url("/PFA/Nifra//VipBanner/vip-1.png");
   background-size: cover; /* or try cover if you prefer cropping */
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.vip-banner{
-  background-image:url("/PFA/bg_vip.png");
-  background-size:cover;
-  background-repeat:no-repeat;
+.vip-banner {
+  background-image: url("/PFA/bg_vip.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .bg-bottom-pfa {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 1) 0%,         /* Solid black at the top */
-      rgba(0, 0, 0, 0.55) 40%,     /* Slight fade */
-      rgba(0, 0, 0, 0.4) 70%,      /* Softer dark */
-      rgba(0, 0, 0, 0.2) 90%,      /* Almost transparent */
-      rgba(0, 0, 0, 0) 100%        /* Fully transparent at bottom */
+      rgba(0, 0, 0, 1) 0%,
+      /* Solid black at the top */ rgba(0, 0, 0, 0.55) 40%,
+      /* Slight fade */ rgba(0, 0, 0, 0.4) 70%,
+      /* Softer dark */ rgba(0, 0, 0, 0.2) 90%,
+      /* Almost transparent */ rgba(0, 0, 0, 0) 100%
+        /* Fully transparent at bottom */
     ),
-    url('/PFA/Nifra/Bottom/bottom-bg.png');
+    url("/PFA/Nifra/Bottom/bottom-bg.png");
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width: 768px) {
   @media (max-width: 768px) {
-  .bg-arena {
-    width: 100vw;
-    height: 95vh;              /* make it fill the screen */
-    background: url("/PFA/Nifra/Hero/bg-mob.webp")
-                center center      /* focus on the center */
-                / cover no-repeat;  /* fill & crop */
+    .bg-arena {
+      width: 100vw;
+      height: 95vh; /* make it fill the screen */
+      background: url("/PFA/Nifra/Hero/bg-mob.webp") center center
+        /* focus on the center */ / cover no-repeat; /* fill & crop */
+    }
+  }
+
+  .vip-banner {
+    background-image: url("/PFA/bg_vip_mob.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .bg-bottom-pfa {
+    background-image: url("/PFA/Nifra/Bottom/bottom-bg-mob-1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  .ticket-body-bg {
+    background-image: url("/PFA/Nifra/Tickets/ticket-mob.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .ticket-body-bg-gray {
+    background-image: url("/PFA/Tickets/grey_ticket_mob.png");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
 
-  
-  .vip-banner{
-    background-image:url("/PFA/bg_vip_mob.png");
-    background-size:contain;
-    background-repeat:no-repeat;
-  }
-  .bg-bottom-pfa{
-    background-image:url("/PFA/Nifra/Bottom/bottom-bg-mob-1.png");
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-position:top;
-  
-  }
-  .ticket-body-bg{
-    background-image:url("/PFA/Nifra/Tickets/ticket-mob.png");
-    background-size:cover;
-    background-repeat:no-repeat;
-  }
-
-  .ticket-body-bg-gray{
-    background-image:url("/PFA/Tickets/grey_ticket_mob.png");
-    background-size:cover;
-    background-repeat:no-repeat;
-  }
-  
-  
-}
-
-
-
-
-.bg-countdown-new{
-  background-image:url("/CountdownNew/main-bg.jpg");
-  background-size:cover;
-  background-position:center;
-  background-repeat:no-repeat;
+.bg-countdown-new {
+  background-image: url("/CountdownNew/main-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* //Hero// */
-.bg-new-hero{
-  background-image:url("/Home/hero_bg_new.png");
-  background-size:cover;
-  background-position:center;
-  background-repeat:no-repeat;
-  z-index:-1;
+.bg-new-hero {
+  background-image: url("/Home/hero_bg_new.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
 }
-.hero_container_new{
+.hero_container_new {
   /* background-image: url('/HEROIMG.png'); */
-@apply bg-black;
-
+  @apply bg-black;
 }
 
-
-.bg_ticket{
-  background-image:url("/PFC/Ticket/ticket_bg.png");
-    background-size:contain;
-    background-repeat:no-repeat;
-    background-position:center;
+.bg_ticket {
+  background-image: url("/PFC/Ticket/ticket_bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-
-
-@media screen and (max-width:768px){
-
-
-
-  .bg-new-hero{
-    background-image:url("/Home/hero_bg_new_mob.svg");
-    background-size:contain;
-    background-repeat:no-repeat;
-    background-position:center;
+@media screen and (max-width: 768px) {
+  .bg-new-hero {
+    background-image: url("/Home/hero_bg_new_mob.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }
 
-.bg-second-hero{
-  background-image:url("/Home/bg_player.png");
-  background-size:contain;
-  background-repeat:no-repeat;
+.bg-second-hero {
+  background-image: url("/Home/bg_player.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-.bg-pfc-event{
-  background-image:url("/Home/Events/pfc_event.webp");
-  background-size:cover;
-  background-repeat:no-repeat;
-
+.bg-pfc-event {
+  background-image: url("/Home/Events/pfc_event.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.bg-pff-event{
-  background-image:url("/Home/Events/pff_event.webp");
-  background-size:cover;
-  background-repeat:no-repeat;
-
+.bg-pff-event {
+  background-image: url("/Home/Events/pff_event.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.bg-pfl-event{
-  background-image:url("/Home/Events/pfl_event.webp");
-  background-size:cover;
-  background-repeat:no-repeat;
-
+.bg-pfl-event {
+  background-image: url("/Home/Events/pfl_event.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.bg-pfa-event{
-  background-image:url("/Home/Events/pfa_event.webp");
-  background-size:cover;
-  background-repeat:no-repeat;
-
+.bg-pfa-event {
+  background-image: url("/Home/Events/pfa_event.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.bg-pc-event{
-  background-image:url("/Home/Events/pc_event.webp");
-  background-size:cover;
-  background-repeat:no-repeat;
-
+.bg-pc-event {
+  background-image: url("/Home/Events/pc_event.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
 
 /* Landing Page */
-.bg-hero-landing-page{
-  background-image:url("/Landing-Page/bg_landingpage.webp");
-  background-size:cover;
-  background-repeat:no-repeat;
+.bg-hero-landing-page {
+  background-image: url("/Landing-Page/bg_landingpage.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.bg-follow-social{
-  background-image:url("/Landing-Page/SocialS/bg_social.webp");
-  background-size:cover;
-  background-position:center;
-  background-repeat:no-repeat;
+.bg-follow-social {
+  background-image: url("/Landing-Page/SocialS/bg_social.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
+@media screen and (max-width: 768px) {
+  .bg-hero-landing-page {
+    background-image: url("/Landing-Page/bg_landingpage_mob.webp");
+    background-size: contain;
 
-
-@media screen and (max-width:768px){
-  .bg-hero-landing-page{
-    background-image:url("/Landing-Page/bg_landingpage_mob.webp");
-    background-size:contain;
-
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
   }
-  
-  .bg-follow-social{
-    background-image:url("/Landing-Page/SocialS/bg_social_mob.webp");
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
+
+  .bg-follow-social {
+    background-image: url("/Landing-Page/SocialS/bg_social_mob.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
-
-
-
 
 .lineup-container {
   display: flex;
@@ -392,7 +357,7 @@ background: linear-gradient(180deg, rgba(0,0,0,0.4234068627450981) 0%, rgba(0,0,
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #fff;
-  font-family: 'Integral', sans-serif;
+  font-family: "Archivo", sans-serif;
 }
 
 .swiper-container {
@@ -425,14 +390,9 @@ background: linear-gradient(180deg, rgba(0,0,0,0.4234068627450981) 0%, rgba(0,0,
   @apply h-[200px] md:h-[225px];
 }
 
-
 .slide-image1 {
-
   transition: transform 0.5s ease;
 }
-
-
-
 
 /* .swiper-slider {
   flex-shrink: 0;
@@ -456,7 +416,7 @@ background: linear-gradient(180deg, rgba(0,0,0,0.4234068627450981) 0%, rgba(0,0,
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #fff;
-  font-family: 'Integral', sans-serif;
+  font-family: "Archivo", sans-serif;
 }
 
 /* Scaling effect for the active slide */
@@ -472,22 +432,19 @@ background: linear-gradient(180deg, rgba(0,0,0,0.4234068627450981) 0%, rgba(0,0,
   color: #ff0080; /* Highlight the text color for the active slide */
 }
 
-
-.vip_banner_heading{
+.vip_banner_heading {
   background: -webkit-linear-gradient(#3a3a3a, #9a9a9a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.vip_banner_text{
-  background: -webkit-linear-gradient(#CACACA  0%, #000 100%);
+.vip_banner_text {
+  background: -webkit-linear-gradient(#cacaca 0%, #000 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-
 /* Start Slider  */
-
 
 /* .slider-container {
   width: 600px;
@@ -594,45 +551,44 @@ button:last-of-type {
   right: 270px;
 }
 
-
-
-
-
-
 @font-face {
-  font-family: 'DmSansLight';
+  font-family: "DmSansLight";
   src: url("/fonts/Montserrat-Regular.ttf");
 }
 
 @font-face {
-  font-family: 'InterBold';
+  font-family: "InterBold";
   src: url("/fonts/Inter/Inter_18pt-Bold.ttf");
 }
 @font-face {
-  font-family: 'InterBlack';
+  font-family: "InterBlack";
   src: url("/fonts/Inter/Inter_18pt-Black.ttf");
 }
 
 @font-face {
-  font-family: 'InterRegular';
+  font-family: "InterRegular";
   src: url("/fonts/Inter/Inter_18pt-Regular.ttf");
 }
 
 @font-face {
-  font-family: 'press-start-2p';
+  font-family: "press-start-2p";
   src: url("/fonts/Montserrat-Regular.ttf");
 }
 @font-face {
-  font-family: 'Integral';
+  font-family: "Integral";
   src: url("/fonts/Integral CF Regular.ttf");
 }
 @font-face {
-  font-family: 'Sofia';
+  font-family: "Archivo";
+  src: url("/fonts/ArchivoBlack-Regular.ttf");
+}
+@font-face {
+  font-family: "sofia";
   src: url("/fonts/Montserrat-Regular.ttf");
 }
 
 @font-face {
-  font-family: 'Nunito';
+  font-family: "Nunito";
   src: url("/fonts/Montserrat-Regular.ttf");
 }
 
@@ -641,74 +597,70 @@ button:last-of-type {
   height: 100%;
 }
 
-
-
 @font-face {
-  font-family: 'ShareTech-Regular';
+  font-family: "ShareTech-Regular";
   src: url("/fonts/Montserrat-Regular.ttf");
 }
 
 @font-face {
-  font-family: 'manrope';
+  font-family: "manrope";
   src: url("/fonts/Manrope.ttf");
 }
 
 @font-face {
-  font-family: 'Babas';
+  font-family: "Babas";
   src: url("/fonts/Montserrat-Regular.ttf");
 }
 
 @font-face {
-  font-family: 'Poppins-Bold';
-  src: url("/fonts/Montserrat-Regular.ttf");
+  font-family: "Manrope-Bold";
+  src: url("/fonts/Manrope/Manrope-Bold.ttf");
 }
-
-
 @font-face {
-  font-family: 'Poppins-Regular';
-  src: url("/fonts/Montserrat-Regular.ttf");
+  font-family: "Manrope-Black";
+  src: url("/fonts/Manrope/Manrope-ExtraBold.ttf");
 }
 
 @font-face {
-  font-family: 'Montserrat-Bold';
+  font-family: "manrope";
+  src: url("/fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
   src: url("/fonts/Montserrat-Bold.ttf");
 }
 
 @font-face {
-  font-family: 'Montserrat-Regular';
-  src: url("/fonts/Montserrat-Regular.ttf");
-}
-
-
-
-
-@font-face {
-  font-family: 'SofiaLight';
+  font-family: "Montserrat-Regular";
   src: url("/fonts/Montserrat-Regular.ttf");
 }
 
 @font-face {
-  font-family: 'SofiaMedium';
+  font-family: "SofiaLight";
   src: url("/fonts/Montserrat-Regular.ttf");
 }
-
-
-
 
 @font-face {
-  font-family: 'Trim';
+  font-family: "SofiaMedium";
   src: url("/fonts/Montserrat-Regular.ttf");
 }
 
+@font-face {
+  font-family: "Trim";
+  src: url("/fonts/Montserrat-Regular.ttf");
+}
 
 @media screen and (max-width: 768px) {
-  .slick-prev, .slick-next {
+  .slick-prev,
+  .slick-next {
     display: block !important;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .slick-prev, .slick-next {
+  .slick-prev,
+  .slick-next {
     display: none !important;
   }
 }

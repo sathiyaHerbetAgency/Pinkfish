@@ -12,11 +12,12 @@ import {
 } from "../../utils/motion";
 import { Footer, NewNavbar } from "../../components";
 import Link from "next/link";
-import Container from "../../components/Funhub/Container"
-import Head from './../../components/head';
+import Container from "../../components/Funhub/Container";
+import Head from "./../../components/head";
 const FanHub = () => {
-  const description="Discover the vibrant Pinkfish Music & Arts Festival, featuring live acts and art installations from local and international artists. Join us for a unique creative experience! "
-const title="Experience the Best Music Festival in Malaysia - Pinkfish "
+  const description =
+    "Discover the vibrant Pinkfish Music & Arts Festival, featuring live acts and art installations from local and international artists. Join us for a unique creative experience! ";
+  const title = "Experience the Best Music Festival in Malaysia - Pinkfish ";
   return (
     <>
       <Head title={title} description={description} />
@@ -34,7 +35,9 @@ const title="Experience the Best Music Festival in Malaysia - Pinkfish "
           <Container />
         </div>
       </div> */}
-      <h1 className="text-white font-[800] font-[Integral] text-center">This Page No Longer Available</h1>
+      <h1 className="text-white font-[800] font-[Archivo] text-center">
+        This Page No Longer Available
+      </h1>
       <Footer />
       <img
         className=" md:block hidden right-[0] top-[70%]  fixed  "

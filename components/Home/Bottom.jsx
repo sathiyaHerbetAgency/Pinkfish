@@ -1,5 +1,5 @@
 /* eslint-disable */
-import React from 'react'
+import React from "react";
 import "../../styles/home.css";
 
 const Bottom = () => {
@@ -10,15 +10,15 @@ const Bottom = () => {
           <div className="w-[202px] md:w-auto md:basis-1/2 self-center  ">
             <div className="flex flex-col gap-6 ">
               <div className="  ">
-                <h1 className="text-[20.91px]  leading-[27.42px] md:text-[40px] text-left md:leading-[53px]  font-[700] font-[Integral]  text-[#fff]  uppercase m">
+                <h1 className="text-[20.91px]  leading-[27.42px] md:text-[40px] text-left md:leading-[53px]  font-[700] font-[Archivo]  text-[#fff]  uppercase m">
                   Ride on the rhythm of life
                 </h1>
               </div>
               <div className=" items-center self-center gap-6 text-left md:gap-11">
-                <p className="text-white text-[6.97px]  md:text-[16px] leading-[8.97px] md:leading-[20px] font-[Sofia] mb-3 md:mb-5">
+                <p className="text-white text-[6.97px]  md:text-[16px] leading-[8.97px] md:leading-[20px] font-[manrope] mb-3 md:mb-5">
                   Live your life loud and vibrant at Pinkfish!
                 </p>
-                <p className="text-white text-[6.97px]  md:text-[16px] leading-[8.97px] md:leading-[20px] font-[Sofia] mb-3 md:mb-5">
+                <p className="text-white text-[6.97px]  md:text-[16px] leading-[8.97px] md:leading-[20px] font-[manrope] mb-3 md:mb-5">
                   Get ready to ignite your spirit, join a tight-knit community,
                   and embrace self-expression in an explosion of music, arts,
                   and dance; all blending into one melting pot of creativity.
@@ -27,7 +27,7 @@ const Bottom = () => {
             </div>
           </div>
           <div className=" md:basis-1/2 flex flex-col md:mt-0  ">
-          <div className="w-[390.06px] flex flex-col self-center md:self-end">
+            <div className="w-[390.06px] flex flex-col self-center md:self-end">
               <h5 className="home_bottom_header_seen text-center md:mt-11 md:pt-6  self-center">
                 a curated adventure by
               </h5>
@@ -38,7 +38,7 @@ const Bottom = () => {
                   src="/home_bottom_logo_1.svg"
                 />
                 <img
-                  className= "w-[81px] md:w-[159px] h-[14.87px] md:h-[29.11px]"
+                  className="w-[81px] md:w-[159px] h-[14.87px] md:h-[29.11px]"
                   alt="Logo Happymoon"
                   src="/home_bottom_logo_2.svg"
                 />
@@ -49,6 +49,6 @@ const Bottom = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Bottom
+export default Bottom;

@@ -1,126 +1,141 @@
 /* eslint-disable */
-import React from 'react'
-import "../../../styles/live.css"
-import  Link  from 'next/link';
+import React from "react";
+import "../../../styles/live.css";
+import Link from "next/link";
 
-const SlideImage = ({url,urlMob,year,link,slide, setShowPopup}) => {
-  const text="text-[12px] md:text-[16px] leading-[16.66px] md:leading-[22.66px] font-[Sofia] font-[400]"
-  const heading="text-[24px] md:text-[36px] leading-[28.8px] md:leading-[43.2px] font-[Integral] font-[700] uppercase"
-  const button="text-[12px] md:text-[16px] leading-[22.66px] md:leading-[22.66px] font-[Sofia] font-[400] p-2 px-4  bg-[#FF0086] rounded"
+const SlideImage = ({ url, urlMob, year, link, slide, setShowPopup }) => {
+  const text =
+    "text-[12px] md:text-[16px] leading-[16.66px] md:leading-[22.66px] font-[manrope] font-[400]";
+  const heading =
+    "text-[24px] md:text-[36px] leading-[28.8px] md:leading-[43.2px] font-[Archivo] font-[700] uppercase";
+  const button =
+    "text-[12px] md:text-[16px] leading-[22.66px] md:leading-[22.66px] font-[manrope] font-[400] p-2 px-4  bg-[#FF0086] rounded";
 
-  const data=[
+  const data = [
     {
-      dateText:'21 December 2024 • Over & Above, Kuala Lumpur',
-      heading:'Pinkclub: Hannah Laing',
-      text:'Creating unforgettable nights in intimate venues, where every beat resonates and core memories are made.',
-      link:false,
-      ticketText:'Buy Tickets'
+      dateText: "21 December 2024 • Over & Above, Kuala Lumpur",
+      heading: "Pinkclub: Hannah Laing",
+      text: "Creating unforgettable nights in intimate venues, where every beat resonates and core memories are made.",
+      link: false,
+      ticketText: "Buy Tickets",
     },
     {
-      dateText:'31 December 2024 • Surf Beach Sunway Lagoon',
-      heading:'pinkfish countdown 2024',
-      text:'Get ready to blast into 2025 at Pinkfish Countdown, where the beats drop as the clock strikes twelve!',
-      link:false,
-      ticketText:'Buy Tickets'
+      dateText: "31 December 2024 • Surf Beach Sunway Lagoon",
+      heading: "pinkfish countdown 2024",
+      text: "Get ready to blast into 2025 at Pinkfish Countdown, where the beats drop as the clock strikes twelve!",
+      link: false,
+      ticketText: "Buy Tickets",
     },
-    
+
     {
-      dateText:'1 November 2024 • Mega Star Arena, Kuala Lumpur',
-      heading:'pinkfish arena: FIND YOUR HARMONY',
-      text:'Get hyped for a live experience like never before — where bass comes to life.',
-      link:false,
-      ticketText:'Buy Tickets'
-    },
-    {
-      dateText:'16 August 2025 • Vox Live, Kuala Lumpur',
-      heading:'Pinkfish Arena: Nifra',
-      text:'',
-      link:'/Arena',
-      ticketText:'Buy Tickets'
+      dateText: "1 November 2024 • Mega Star Arena, Kuala Lumpur",
+      heading: "pinkfish arena: FIND YOUR HARMONY",
+      text: "Get hyped for a live experience like never before — where bass comes to life.",
+      link: false,
+      ticketText: "Buy Tickets",
     },
     {
-      dateText:'26 April 2025 • Lane 23, KL',
-      heading:'Pinkclub: Eli Brown',
-      text:'',
-      link:"/",
-      ticketText:'Buy Tickets',
-      popup:true,
+      dateText: "16 August 2025 • Vox Live, Kuala Lumpur",
+      heading: "Pinkfish Arena: Nifra",
+      text: "",
+      link: "/Arena",
+      ticketText: "Buy Tickets",
     },
     {
-      dateText:'31 December 2025 ',
-      mainHeading:'New Year’s Eve',
-      heading:'Pinkfish Countdown',
-      text:'',
-      link:"/countdown",
-      ticketText:'Buy Tickets',
-    
+      dateText: "26 April 2025 • Lane 23, KL",
+      heading: "Pinkclub: Eli Brown",
+      text: "",
+      link: "/",
+      ticketText: "Buy Tickets",
+      popup: true,
     },
     {
-      dateText:'2 October 2025 • Kyo Mandarin Oriental, KL',
-      heading:'Vikkstar',
-      text:'',
-      link:'https://www.ticket2u.com.my/event/45513_91cb3c62451045c481abbbe0076fd36f',
-      ticketText:'Buy Tickets'
+      dateText: "31 December 2025 ",
+      mainHeading: "New Year’s Eve",
+      heading: "Pinkfish Countdown",
+      text: "",
+      link: "/countdown",
+      ticketText: "Buy Tickets",
     },
-  ]
+    {
+      dateText: "2 October 2025 • Kyo Mandarin Oriental, KL",
+      heading: "Vikkstar",
+      text: "",
+      link: "https://www.ticket2u.com.my/event/45513_91cb3c62451045c481abbbe0076fd36f",
+      ticketText: "Buy Tickets",
+    },
+  ];
 
   const handleClick = (e) => {
     if (data[slide].popup) {
-    e.preventDefault(); // stop navigation
+      e.preventDefault(); // stop navigation
       setShowPopup(true);
     }
     // else: allow normal link navigation
   };
   return (
     <div className=" flex flex-col  ">
-    <div className="self-center ">
-
-      <div className="hidden md:block">
-        <div className="pt-">
-        <img
-          src={url}
-          className="  object-cover "
-          alt="slider"
-        />
-        </div>
-        <div className="text-block_live_hero  max-w-[100vw] z-[999] bg-gradinet-gray text-white flex flex-col justify-center h-[75vh] w-full ">
-          <div className="flex flex-col self-center w-[621px] max-h-[300px] ">
-            {data[slide].mainHeading&&  <p className={text}>{data[slide].mainHeading}</p>}
-          <p className={text}>{data[slide].dateText}</p>
+      <div className="self-center ">
+        <div className="hidden md:block">
+          <div className="pt-">
+            <img src={url} className="  object-cover " alt="slider" />
+          </div>
+          <div className="text-block_live_hero  max-w-[100vw] z-[999] bg-gradinet-gray text-white flex flex-col justify-center h-[75vh] w-full ">
+            <div className="flex flex-col self-center w-[621px] max-h-[300px] ">
+              {data[slide].mainHeading && (
+                <p className={text}>{data[slide].mainHeading}</p>
+              )}
+              <p className={text}>{data[slide].dateText}</p>
               <h1 className={heading}>{data[slide].heading}</h1>
               <p className={`${text} pt-[7px]`}>{data[slide].text}</p>
-             {data[slide].link&& <Link onClick={handleClick} href={data[slide].link} className="w-fit self-center flex justify-start mt-3"> 
-                <button className={button} alt="button">{data[slide].ticketText}</button>
-              </Link>
-              }
-              </div>
+              {data[slide].link && (
+                <Link
+                  onClick={handleClick}
+                  href={data[slide].link}
+                  className="w-fit self-center flex justify-start mt-3"
+                >
+                  <button className={button} alt="button">
+                    {data[slide].ticketText}
+                  </button>
+                </Link>
+              )}
+            </div>
           </div>
-      </div> 
-     
-      <div className="md:hidden">
-      <img
-        src={urlMob}
-        className=" object-cover  min-h-[80vh] max-w-[100vw]"
-        alt="slider"
-      />
-      <div className="text-block_live  z-[999] min-w-[100vw]   bg-gradinet-gray-mob text-white  h-[90vh]  ">
-        <div className="min-h-[80vh] flex flex-col justify-center">
-          <div className="flex flex-col self-center w-[90%] max-h-[164px]">
-            {data[slide].mainHeading&&  <p className={text}>{data[slide].mainHeading}</p>}
-          <p className={text}>{data[slide].dateText}</p>
-              <h1 className={heading}>{data[slide].heading}</h1>
-              <p className={text}>{data[slide].text}</p>
-              {data[slide].link&&  <Link onClick={handleClick} href={data[slide].link} className="w-fit self-center flex justify-start mt-3"> 
-                <button className={button} alt="button">{data[slide].ticketText}</button>
-              </Link>
-              }
-              </div>
-              </div>
-          </div>
-    </div>
-    </div>
-  </div>
-  )
-}
+        </div>
 
-export default SlideImage
+        <div className="md:hidden">
+          <img
+            src={urlMob}
+            className=" object-cover  min-h-[80vh] max-w-[100vw]"
+            alt="slider"
+          />
+          <div className="text-block_live  z-[999] min-w-[100vw]   bg-gradinet-gray-mob text-white  h-[90vh]  ">
+            <div className="min-h-[80vh] flex flex-col justify-center">
+              <div className="flex flex-col self-center w-[90%] max-h-[164px]">
+                {data[slide].mainHeading && (
+                  <p className={text}>{data[slide].mainHeading}</p>
+                )}
+                <p className={text}>{data[slide].dateText}</p>
+                <h1 className={heading}>{data[slide].heading}</h1>
+                <p className={text}>{data[slide].text}</p>
+                {data[slide].link && (
+                  <Link
+                    onClick={handleClick}
+                    href={data[slide].link}
+                    className="w-fit self-center flex justify-start mt-3"
+                  >
+                    <button className={button} alt="button">
+                      {data[slide].ticketText}
+                    </button>
+                  </Link>
+                )}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default SlideImage;

@@ -5,66 +5,68 @@ import { Footer, NewNavbar } from "../../components";
 import { useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import emailjs from "@emailjs/browser";
-import Head from './../../components/head';
+import Head from "./../../components/head";
 const initialState = {
   firstName: "",
-  lastName:'',
+  lastName: "",
   email: "",
-  subject:'',
-  othertext:'',
-  message:'',
-  phone:'',
-  };
+  subject: "",
+  othertext: "",
+  message: "",
+  phone: "",
+};
 const Contact = () => {
-  const [{ firstName, email, lastName, subject,message,otherText,phone }, setState] = useState(initialState);
- let popupOverlayRef = useRef(null);
+  const [
+    { firstName, email, lastName, subject, message, otherText, phone },
+    setState,
+  ] = useState(initialState);
+  let popupOverlayRef = useRef(null);
   let popupContainerRef = useRef(null);
   let closePopupButtonRef = useRef(null);
-  const [disableBtn,setDisableBtn]=useState(false)
-  const [check,setCheck]=useState(false)
+  const [disableBtn, setDisableBtn] = useState(false);
+  const [check, setCheck] = useState(false);
   const form = useRef();
   const router = useRouter();
-  const description="Discover the vibrant Pinkfish Music & Arts Festival, featuring live acts and art installations from local and international artists. Join us for a unique creative experience! "
-  const title="Experience the Best Music Festival in Malaysia - Pinkfish "
+  const description =
+    "Discover the vibrant Pinkfish Music & Arts Festival, featuring live acts and art installations from local and international artists. Join us for a unique creative experience! ";
+  const title = "Experience the Best Music Festival in Malaysia - Pinkfish ";
 
-const clearState = () => {
+  const clearState = () => {
     setState({ ...initialState });
   };
   const onChangeRadio = (e) => {
     const { name, value } = e.target;
-   setState((prevState) => ({ ...prevState, [name]: value }));
-    setState((prevState) => ({ ...prevState, otherText: "" }));
-};
- const onChangeOtherText = (e) => {
-    const { name, value } = e.target;
-  if(!subject || subject!=='Other'){
-    setState((prevState) => ({ ...prevState, subject: "Other" }));
-   
- }
-  setState((prevState) => ({ ...prevState, [name]: value }));
- };
- const onChange = (e) => {
-    const { name, value } = e.target;
-    
     setState((prevState) => ({ ...prevState, [name]: value }));
- }
+    setState((prevState) => ({ ...prevState, otherText: "" }));
+  };
+  const onChangeOtherText = (e) => {
+    const { name, value } = e.target;
+    if (!subject || subject !== "Other") {
+      setState((prevState) => ({ ...prevState, subject: "Other" }));
+    }
+    setState((prevState) => ({ ...prevState, [name]: value }));
+  };
+  const onChange = (e) => {
+    const { name, value } = e.target;
+
+    setState((prevState) => ({ ...prevState, [name]: value }));
+  };
   function openPopup(e) {
     popupOverlayRef.current.style.display = "flex";
-   setTimeout(() => {
+    setTimeout(() => {
       popupContainerRef.current.style.opacity = "1";
       popupContainerRef.current.style.transform = "scale(1)";
     }, 100);
   }
   function closePopup() {
-    clearState()  
-    setDisableBtn(false)
-    setCheck(false)
+    clearState();
+    setDisableBtn(false);
+    setCheck(false);
     setTimeout(() => {
       popupOverlayRef.current.style.display = "none";
       popupContainerRef.current.style.opacity = "0";
       popupContainerRef.current.style.transform = "scale(0.8)";
     }, 300);
-   
   }
   function formSubmit(e) {
     e.preventDefault();
@@ -77,17 +79,19 @@ const clearState = () => {
       subject: subject === "Other" ? otherText : subject,
       message: message,
     };
-    if(!check){
-      setCheck(true)
-   emailjs.send("service_2qisjeo","template_nfb2e2p",params )
-    .then(()=>{
-      openPopup()
-    },()=>{
-      alert("something wrong try again")
-      clearState()
-    })
-   }
- }
+    if (!check) {
+      setCheck(true);
+      emailjs.send("service_2qisjeo", "template_nfb2e2p", params).then(
+        () => {
+          openPopup();
+        },
+        () => {
+          alert("something wrong try again");
+          clearState();
+        }
+      );
+    }
+  }
   function checkSubject(e) {
     if (e !== "Other") {
       setOtherText("");
@@ -96,7 +100,7 @@ const clearState = () => {
   }
   return (
     <>
-    <Head title={title} description={description} />
+      <Head title={title} description={description} />
       <NewNavbar />
       <div className="contact_main_container min-h-screen  text-white">
         <div className="hidden md:block">
@@ -160,7 +164,9 @@ const clearState = () => {
             <div className="flex flex-col items-center md:ml-0   md:w-[100%] w-[100vw] mt-11 md:mt-0 ">
               <form
                 ref={form}
-                onSubmit={(e) => {formSubmit(e),setDisableBtn(true)}}
+                onSubmit={(e) => {
+                  formSubmit(e), setDisableBtn(true);
+                }}
                 className="flex flex-col  w-[70vw] md:pr-6 md:w-[100%] self-center   gap-8"
               >
                 <div className="flex md:flex-row   flex-col gap-6">
@@ -169,7 +175,7 @@ const clearState = () => {
                     <input
                       className="contact_input"
                       required
-                      name='firstName'
+                      name="firstName"
                       onChange={onChange}
                       value={firstName}
                       type="text"
@@ -180,7 +186,7 @@ const clearState = () => {
                     <input
                       className="contact_input"
                       required
-                      name='lastName'
+                      name="lastName"
                       onChange={onChange}
                       value={lastName}
                       type="text"
@@ -193,17 +199,16 @@ const clearState = () => {
                     <input
                       className="contact_input"
                       required
-                      name='email'
+                      name="email"
                       value={email}
                       onChange={onChange}
-                      type="text"/>
-                      </div>
+                      type="text"
+                    />
+                  </div>
                   <div className="flex flex-col md:w-[50%]">
-                    <label className="contact_label" >
-                      Phone Number
-                    </label>
+                    <label className="contact_label">Phone Number</label>
                     <input
-                      name='phone'
+                      name="phone"
                       onChange={onChange}
                       required
                       value={phone}
@@ -220,14 +225,14 @@ const clearState = () => {
                         id="inline-checked-radio"
                         type="radio"
                         value="General Inquiry"
-                        checked={subject==="General Inquiry"}
+                        checked={subject === "General Inquiry"}
                         name="subject"
                         onChange={onChangeRadio}
                         className="w-4 h-4 text-[#F33288] bg-[#f8cbdf]"
                       />
                       <label
                         for="inline-checked-radio"
-                        className="ml-2  text-[12px] font-[Sofia] font-[400] text-[#F33288] "
+                        className="ml-2  text-[12px] font-[manrope] font-[400] text-[#F33288] "
                       >
                         General Inquiry
                       </label>
@@ -237,14 +242,14 @@ const clearState = () => {
                         id="inline-2-radio"
                         type="radio"
                         value="Carrer"
-                        checked={subject==="Carrer"}
+                        checked={subject === "Carrer"}
                         name="subject"
                         onClick={onChangeRadio}
                         className="w-4 h-4 text-[#F33288] bg-[#f8cbdf]"
                       />
                       <label
                         for="inline-2-radio"
-                        className="ml-2 text-[12px] font-[Sofia] font-[400] text-[#F33288] "
+                        className="ml-2 text-[12px] font-[manrope] font-[400] text-[#F33288] "
                       >
                         Career
                       </label>
@@ -255,21 +260,21 @@ const clearState = () => {
                         type="radio"
                         value="Other"
                         name="subject"
-                        checked={subject==="Other"}
+                        checked={subject === "Other"}
                         onClick={onChangeRadio}
                         className="w-4 h-4 text-[#F33288] bg-[#f8cbdf]"
                       />
                       <label
                         for="inline-2-radio"
-                        className="ml-2 text-[12px] font-[Sofia] font-[400] text-[#F33288] "
+                        className="ml-2 text-[12px] font-[manrope] font-[400] text-[#F33288] "
                       >
                         Other
                       </label>
                       <input
                         className="contact_input mb-3 w-full  md:hidden "
                         value={otherText}
-                        name='otherText'
-                        onChange= {onChangeOtherText}
+                        name="otherText"
+                        onChange={onChangeOtherText}
                         type="text"
                       />
                     </div>
@@ -277,10 +282,10 @@ const clearState = () => {
                       className="contact_input mb-3 w-full hidden md:block "
                       onkeydown="return false"
                       value={otherText}
-                      name='otherText'
-                     type="none"
+                      name="otherText"
+                      type="none"
                       readonly
-                      onChange= {onChangeOtherText}
+                      onChange={onChangeOtherText}
                     />
                   </div>
                 </div>
@@ -288,8 +293,8 @@ const clearState = () => {
                   <div className="flex flex-col  gap-2">
                     <label className="contact_label">Message</label>
                     <textarea
-                    name='message'
-                    value={message}
+                      name="message"
+                      value={message}
                       onChange={onChange}
                       className="contact_input"
                       rows="2"
@@ -301,7 +306,6 @@ const clearState = () => {
                 <div className="contact_submit self-center md:self-start items-center">
                   <button className="flex " type="submit" disabled={disableBtn}>
                     Send Message
-                  
                   </button>
                 </div>
               </form>
@@ -316,7 +320,9 @@ const clearState = () => {
               </p>
               <button
                 id="close-popup"
-                onClick={() => {closePopup()}}
+                onClick={() => {
+                  closePopup();
+                }}
               >
                 Close
               </button>
@@ -325,7 +331,9 @@ const clearState = () => {
         </div>
       </div>
       <img
-        className=" md:block hidden right-[0] top-[70%]  fixed" src="/fish.png"/>
+        className=" md:block hidden right-[0] top-[70%]  fixed"
+        src="/fish.png"
+      />
       <Footer />
     </>
   );

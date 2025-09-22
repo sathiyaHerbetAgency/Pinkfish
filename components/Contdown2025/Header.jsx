@@ -19,7 +19,7 @@ export default function Header() {
             className="w-[80px] md:w-[100px] h-[36px] md:h-[46px]"
           />
         </div>
-        <button className="border border-pink-500  px-4 py-2 rounded hover:bg-pink-500 transition font-[InterBold] text-[11px]">
+        <button className="border border-pink-500  px-4 py-2 rounded hover:bg-pink-500 transition font-[Manrope-Bold] text-[11px]">
           BUY TICKETS
         </button>
       </div>

@@ -1,22 +1,20 @@
 /* eslint-disable */
-'use client'
-import React from 'react'
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Mousewheel } from 'swiper/modules'; 
-import 'swiper/css';
+"use client";
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Mousewheel } from "swiper/modules";
+import "swiper/css";
 
 // function importAll(r) {
 //     let images = {};
 //     r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
 //     return images;
 //   }
-  
+
 //   // Import all images from the 'public/images' directory
 //   const images = importAll(require.context('../../public/PFA/Lineup', false, /\.(png|jpe?g|svg)$/));
-import LineupImage from './Components/LineupImage';
-import LineupBanner from './Components/LineupBanner';
-
-
+import LineupImage from "./Components/LineupImage";
+import LineupBanner from "./Components/LineupBanner";
 
 const LineUp = () => {
   return (
@@ -54,11 +52,11 @@ const LineUp = () => {
     //     }}
     //     //  slideToClickedSlide={true} // Allow clicking on a slide to make it active
     // >
-        
+
     //           <SwiperSlide key="1" className="swiper-slider  ">
     //           <div className="slide-content pt-12 pb-12  ">
     //       <img src='./PFA/Lineup/img_1.png' alt="slide_1" className="slide-image"/>
-    //       <h1 className="text-[20px] font-[700] tracking-[2px] font-[Integral] text-center  text-[#fff]  uppercase">Billings</h1>
+    //       <h1 className="text-[20px] font-[700] tracking-[2px] font-[Archivo] text-center  text-[#fff]  uppercase">Billings</h1>
     //     </div>
     //    </SwiperSlide>
     //    <SwiperSlide key="2" className="swiper-slider slide-group  ">
@@ -66,14 +64,14 @@ const LineUp = () => {
     //    <SwiperSlide key="2" className=" max-w-[220px]">
     //         <div className="slide-conten  max-w-[220px] pt-12 pb-12 ">
     //           <img src='./PFA/Lineup/img_2.png' alt="slide_2" className="max-w-[220px]" />
-    //           <h1 className="text-[20px] font-[700] tracking-[2px] font-[Integral] text-center text-[#fff] uppercase">Billings</h1>
+    //           <h1 className="text-[20px] font-[700] tracking-[2px] font-[Archivo] text-center text-[#fff] uppercase">Billings</h1>
     //         </div>
     //       </SwiperSlide>
 
     //       <SwiperSlide key="3" className="max-w-[220px]">
     //         <div className="slide-conten max-w-[220px] pt-12 pb-12">
     //           <img src='./PFA/Lineup/img_2.png' alt="slide_3" className="max-w-[220px]"/>
-    //           <h1 className="text-[20px] font-[700] tracking-[2px] font-[Integral] text-center text-[#fff] uppercase">Billings</h1>
+    //           <h1 className="text-[20px] font-[700] tracking-[2px] font-[Archivo] text-center text-[#fff] uppercase">Billings</h1>
     //         </div>
     //       </SwiperSlide>
     //       </div>
@@ -82,47 +80,44 @@ const LineUp = () => {
     //       <SwiperSlide key="1" className="swiper-slider  ">
     //           <div className="slide-content pt-12 pb-12  ">
     //       <img src='./PFA/Lineup/img_4.png' alt="slide_1" className="slide-image"/>
-    //       <h1 className="text-[20px] font-[700] tracking-[2px] font-[Integral] text-center  text-[#fff]  uppercase">Billings</h1>
+    //       <h1 className="text-[20px] font-[700] tracking-[2px] font-[Archivo] text-center  text-[#fff]  uppercase">Billings</h1>
     //     </div>
-    //    </SwiperSlide> 
+    //    </SwiperSlide>
     //     {/*<SwiperSlide key="1" className="swiper-slider ">
     //           <div className="slide-content pt-12 pb-12  ">
     //       <img src='./PFA/Lineup/img_5.png' alt="slide_1" className="slide-image"/>
-    //       <h1 className="text-[20px] font-[700] tracking-[2px] font-[Integral] text-center  text-[#fff]  uppercase">Billings</h1>
+    //       <h1 className="text-[20px] font-[700] tracking-[2px] font-[Archivo] text-center  text-[#fff]  uppercase">Billings</h1>
     //     </div>
     //    </SwiperSlide>
     //    <SwiperSlide key="1" className="swiper-slider ">
     //           <div className="slide-content pt-12 pb-12  ">
     //       <img src='./PFA/Lineup/img_5.png' alt="slide_1" className="slide-image"/>
-    //       <h1 className="text-[20px] font-[700] tracking-[2px] font-[Integral] text-center  text-[#fff]  uppercase">Billings</h1>
+    //       <h1 className="text-[20px] font-[700] tracking-[2px] font-[Archivo] text-center  text-[#fff]  uppercase">Billings</h1>
     //     </div>
     //    </SwiperSlide> */}
-    
+
     // </Swiper>
 
     //     </div>
     // </div>
-<>
-<div className="self-center w-[80%] max-w-[1100px] ">
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 self-center">
-      {/* <div className=""> 
+    <>
+      <div className="self-center w-[80%] max-w-[1100px] ">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 self-center">
+          {/* <div className=""> 
       <img src="./PFA/Lineup/img_111.png" classsName="object-contain " alt="img_1"/>
       </div> */}
-      {/* <div className="p-6"> 
+          {/* <div className="p-6"> 
       <img src="./PFA/Lineup/tba_lineup.png" classsName="object-contain pt-6 pb-6 pr-6" alt="img_1"/>
       </div> */}
-      {/* <div className="flex flex-col mt-1 ml-3 gap-3"> 
+          {/* <div className="flex flex-col mt-1 ml-3 gap-3"> 
       <img src="./PFA/Lineup/group_lineup.png" alt="img_1"/>
       <img src="./PFA/Lineup/bottom_label.png" alt="img_1"/>
       </div> */}
-     
-    
-     <LineupImage  />
 
+          <LineupImage />
+        </div>
       </div>
-    
-    </div>
-    {/* <div className="self-center  md:hidden">
+      {/* <div className="self-center  md:hidden">
     <div className="flex flex-col  gap-3 self-center">
       
       <div className="flex flex-col gap-3"> 
@@ -142,10 +137,9 @@ const LineUp = () => {
       <img src="./PFA/Lineup/bottom_label.png" className="min-w-[100vw]" alt="img_1"/>
       </div>
     </div> */}
-     <LineupBanner />
+      <LineupBanner />
     </>
+  );
+};
 
-  )
-}
-
-export default LineUp
+export default LineUp;

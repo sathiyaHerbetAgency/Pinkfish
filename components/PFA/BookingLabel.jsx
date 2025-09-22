@@ -1,6 +1,6 @@
 /* eslint-disable */
 
-import React from 'react'
+import React from "react";
 
 const BookingLabel = () => {
   return (
@@ -19,24 +19,24 @@ const BookingLabel = () => {
       </div>
       <div className="self-center flex flex-col md:flex-row justify-center md:items-center md:gap-11 gap-6 min-w-[80%]">
         <div className="flex flex-col gap-0">
-          <h2 className="text-[30px] md:text-[48px] leading-[32px] md:leading-[50px] font-[Babas] font-[300] text-center md:text-left  text-[#fff]">
+          <h2 className="text-[30px] md:text-[48px] leading-[32px] md:leading-[50px] font-[marope] font-[300] text-center md:text-left  text-[#fff]">
             Book VVIP Sofa:
           </h2>
-          <h2 className="text-[30px] md:text-[48px] leading-[32px] md:leading-[50px]  font-[Babas] font-[300] text-center md:text-left  text-[#fff]">
+          <h2 className="text-[30px] md:text-[48px] leading-[32px] md:leading-[50px]  font-[marope] font-[300] text-center md:text-left  text-[#fff]">
             The VVIP Experience Now
           </h2>
         </div>
         <div className="flex flex-col md:justify-start gap-3">
-          <h5 className="text-[16px]  md:text-[20px] leading-[16px] md:leading-[20px] font-[Babas] font-[300]   text-center md:text-left  text-[#fff]">
+          <h5 className="text-[16px]  md:text-[20px] leading-[16px] md:leading-[20px] font-[marope] font-[300]   text-center md:text-left  text-[#fff]">
             email: info@pinkfishfestival.com
           </h5>
-          <h5 className="text-[16px] md:text-[20px]  leading-[16px] md:leading-[20px] font-[Babas] font-[300]   text-center md:text-left text-[#fff]">
+          <h5 className="text-[16px] md:text-[20px]  leading-[16px] md:leading-[20px] font-[marope] font-[300]   text-center md:text-left text-[#fff]">
             contact: +6012-2655783
           </h5>
           <a
             href="./PFA/PDF/PFA_PDF.pdf"
             target="_blank"
-            className="text-[16px] md:text-[20px] font-[Babas] font-[300] bg-[#FF0086] self-center md:self-start text-[#fff] w-fit rounded px-6 py-1"
+            className="text-[16px] md:text-[20px] font-[marope] font-[300] bg-[#FF0086] self-center md:self-start text-[#fff] w-fit rounded px-6 py-1"
             type="button"
           >
             More Info
@@ -45,6 +45,6 @@ const BookingLabel = () => {
       </div>
     </div>
   );
-}
+};
 
-export default BookingLabel
+export default BookingLabel;

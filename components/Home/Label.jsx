@@ -1,12 +1,11 @@
 /* eslint-disable */
 
-import "../../styles/home.css"
+import "../../styles/home.css";
 import Marquee from "react-fast-marquee";
 
-const Label = ({color,direction}) => {
-
-  const text1="Experience music, dance and art in new and exciting ways"
-  const text2="Welcome to Malaysia's Premier Music Festival"
+const Label = ({ color, direction }) => {
+  const text1 = "Experience music, dance and art in new and exciting ways";
+  const text2 = "Welcome to Malaysia's Premier Music Festival";
 
   return (
     <>
@@ -41,15 +40,15 @@ const Label = ({color,direction}) => {
                 fill="white"
               />
             </svg>
-            <p className="text-[16px] md:text-[20px] font-[Integral] text-center drop-shadow-2xl  text-[#fff]  uppercase">
+            <p className="text-[16px] md:text-[20px] font-[Archivo] text-center drop-shadow-2xl  text-[#fff]  uppercase">
               {text1}
             </p>
             <a className="" arial-label="What The Fish Page" href="WhatTheFish">
-              <button className="text-[12px] md:p-2 p-1 font-[Sofia] text-center  text-[#fff] border-2 border-solid border-[#fff]  rounded-md">
+              <button className="text-[12px] md:p-2 p-1 font-[manrope] text-center  text-[#fff] border-2 border-solid border-[#fff]  rounded-md">
                 Find Out More
               </button>
             </a>
-            <p className="text-[16px] md:text-[20px] font-[200] font-[Integral] text-center  text-[#fff]  uppercase">
+            <p className="text-[16px] md:text-[20px] font-[200] font-[Archivo] text-center  text-[#fff]  uppercase">
               {text2}
             </p>
           </div>
@@ -57,5 +56,5 @@ const Label = ({color,direction}) => {
       </div>
     </>
   );
-}
+};
 export default Label;

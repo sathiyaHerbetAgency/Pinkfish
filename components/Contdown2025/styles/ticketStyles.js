@@ -2,7 +2,9 @@
 
 export const getButtonStyle = (status) => ({
   background:
-    status === "available" ? "linear-gradient(135deg, #ec4899, #be185d)" : "linear-gradient(135deg, #6b7280, #4b5563)",
+    status === "available"
+      ? "linear-gradient(135deg, #ec4899, #be185d)"
+      : "linear-gradient(135deg, #6b7280, #4b5563)",
   border: "none",
   borderRadius: "25px",
   padding: "12px 12px",
@@ -15,34 +17,31 @@ export const getButtonStyle = (status) => ({
   textTransform: "uppercase",
   letterSpacing: "1px",
   marginBottom: "12px",
-})
+});
 
 export const cardStyle = {
   display: "flex",
   justifyContent: "center",
   padding: "0 16px",
   outline: "none",
-}
+};
 
 export const contentStyle = {
   maxWidth: "300px",
   width: "100%",
-   display: "flex",
+  display: "flex",
   flexDirection: "column",
-  justifyContent:"center",
-    alignSelf:"center",
-  alignItems:"center"
-
-
-}
+  justifyContent: "center",
+  alignSelf: "center",
+  alignItems: "center",
+};
 
 export const ticketBgStyle = {
   position: "relative",
   marginBottom: "24px",
-  alignSelf:"center",
-  alignItems:"center"
-  
-}
+  alignSelf: "center",
+  alignItems: "center",
+};
 
 export const overlayStyle = {
   position: "absolute",
@@ -56,62 +55,62 @@ export const overlayStyle = {
   alignItems: "center",
   padding: "16px",
   textAlign: "center",
-}
+};
 
-export const titleStyle =(isMobile)=>( {
+export const titleStyle = (isMobile) => ({
   color: "#ec4899",
-  fontSize: isMobile?"16px":"20px",
-  fontFamily:'InterBlack',
+  fontSize: isMobile ? "16px" : "20px",
+  fontFamily: "Manrope-Black",
   marginBottom: "8px",
   textTransform: "uppercase",
-})
+});
 
 export const subtitleStyle = {
   color: "#fff",
   fontSize: "12px",
-  lineHeight:'12px',
+  lineHeight: "12px",
   letterSpacing: "1px",
-  fontFamily:'InterBlack',
+  fontFamily: "Manrope-Black",
   textTransform: "uppercase",
-}
+};
 
-export const priceStyle =(isMobile)=>( {
+export const priceStyle = (isMobile) => ({
   color: "white",
-  fontSize: isMobile?"30px":"35px",
-  lineHeight:isMobile?"36px":"42px",
-  fontFamily:'InterBlack',
+  fontSize: isMobile ? "30px" : "35px",
+  lineHeight: isMobile ? "36px" : "42px",
+  fontFamily: "Manrope-Black",
   marginBottom: "8px",
-})
+});
 
-export const soonStyle =(isMobile)=>( {
+export const soonStyle = (isMobile) => ({
   color: "rgba(255, 255, 255, 0.7)",
-   fontSize: isMobile?"30px":"35px",
-  lineHeight:isMobile?"36px":"42px",
-  fontFamily:'InterBlack',
-})
+  fontSize: isMobile ? "30px" : "35px",
+  lineHeight: isMobile ? "36px" : "42px",
+  fontFamily: "Manrope-Black",
+});
 
-export const comingSoonStyle =(isMobile)=>( {
+export const comingSoonStyle = (isMobile) => ({
   color: "rgba(255, 255, 255, 0.7)",
- fontSize: isMobile?"14px":"18px",
-  lineHeight:isMobile?"18px":"24px",
-  fontFamily:'InterBlack',
-})
+  fontSize: isMobile ? "14px" : "18px",
+  lineHeight: isMobile ? "18px" : "24px",
+  fontFamily: "Manrope-Black",
+});
 
 export const belowContentStyle = {
   textAlign: "center",
   display: "flex",
   flexDirection: "column",
-  justifyContent:"center",
+  justifyContent: "center",
   gap: "8px",
-  width:'70%',
-}
+  width: "70%",
+};
 
 export const featuresStyle = {
   color: "white",
   fontSize: "12px",
   lineHeight: "1.6",
-  textAlign:'left'
-}
+  textAlign: "left",
+};
 
 export const descriptionStyle = {
   color: "#FFD900",
@@ -119,5 +118,5 @@ export const descriptionStyle = {
   letterSpacing: "1px",
   textTransform: "uppercase",
   textAlign: "left",
-  fontFamily:'InterBold'
-}
+  fontFamily: "Manrope-Bold",
+};
