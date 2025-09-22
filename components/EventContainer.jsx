@@ -26,11 +26,11 @@ const EventContainer = ({ link, title, description }) => {
         <div className="self-center w-[90%] flex justify-between">
           <div className="flex flex-col ">
             <div className="flex items-center gap-2">
-              <h2 className="text-[24px] md:text-[40px] font-[Archivo] font-[700]  text-left  text-[#F20D86]">
+              <h2 className="text-[24px] md:text-[40px] font-[Archivo] uppercase font-[700]  text-left  text-[#F20D86]">
                 {title}
               </h2>
             </div>
-            <h2 className="text-[10px] md:text-[14px] font-[Archivo] font-[300]  text-left  text-[#fff]">
+            <h2 className="text-[10px] md:text-[14px] font-[Archivo] uppercase font-[300]  text-left  text-[#fff]">
               {description}
             </h2>
           </div>

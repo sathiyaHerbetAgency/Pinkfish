@@ -35,7 +35,7 @@ const FanHub = () => {
           <Container />
         </div>
       </div> */}
-      <h1 className="text-white font-[800] font-[Archivo] text-center">
+      <h1 className="text-white font-[800] font-[Archivo] uppercase text-center">
         This Page No Longer Available
       </h1>
       <Footer />

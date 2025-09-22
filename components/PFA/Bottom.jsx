@@ -18,7 +18,7 @@ const Bottom = () => {
           className="self-center w-[150px] md:w-[250px]"
         />
         <div className="flex flex-col self-center w-full md:w-[70%] items-center gap-6 ">
-          {/* <h3 className="text-[24px] md:text-[34px]  font-[Archivo] text-center  text-[#FF0086]">{heading}</h3> */}
+          {/* <h3 className="text-[24px] md:text-[34px]  font-[Archivo] uppercase text-center  text-[#FF0086]">{heading}</h3> */}
           <p className="text-[14px] md:text-[18px]  font-[manrope] text-center  text-[#fff]">
             <span className="font-bold">{textBold}</span> {text}
           </p>

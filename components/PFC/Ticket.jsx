@@ -12,7 +12,7 @@ const Ticket = () => {
             className="relative top-[10px]"
             alt="thunder-green"
           />
-          <h2 className="text-[20px] md:text-[28px] w-[70%] font-[Archivo] text-left  text-[#fff]">
+          <h2 className="text-[20px] md:text-[28px] w-[70%] font-[Archivo] uppercase text-left  text-[#fff]">
             COMING SOON
           </h2>
           <img

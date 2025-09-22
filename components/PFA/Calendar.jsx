@@ -62,10 +62,10 @@ const Calendar = () => {
     <div className="flex flex-col md:gap-11 justify-center md:max-w-[900px]  self-center items-center  ">
       <div className="flex flex-col md:flex-row justify-center  gap-6 self-center max-w-[100%] ">
         <div className="flex flex-col  justify-center ">
-          <h2 className="text-[36px] font-[700] tracking-[2px] font-[Archivo] text-center  text-[#fff]  uppercase">
+          <h2 className="text-[36px] font-[700] tracking-[2px] font-[Archivo] uppercase text-center  text-[#fff]  uppercase">
             mark your
           </h2>
-          <h2 className="text-[36px] font-[700] tracking-[2px] font-[Archivo] text-center  text-[#fff]  uppercase">
+          <h2 className="text-[36px] font-[700] tracking-[2px] font-[Archivo] uppercase text-center  text-[#fff]  uppercase">
             calendars!
           </h2>
         </div>

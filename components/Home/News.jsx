@@ -18,7 +18,7 @@ const News = () => {
       <div className="max-w-[1100px]  self-center flex flex-col">
         <div className="self-center flex flex-col gap-6 w-full">
           <div className="  border-solid border-b-[1px] pb-3">
-            <h2 className="text-[24px] font-[Archivo] text-center md:text-left  text-[#fff]  uppercase">
+            <h2 className="text-[24px] font-[Archivo] uppercase text-center md:text-left  text-[#fff]  uppercase">
               News
             </h2>
           </div>

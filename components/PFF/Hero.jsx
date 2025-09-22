@@ -73,10 +73,10 @@ const Hero = ({ select }) => {
     >
       <div className="flex flex-col gap-4 md:pt-16 pt:36 self-center md:w-[80%]">
         <div className="md:w-[65%] w-[78%] flex flex-col self-center md:self-start gap-4">
-          <h2 className="text-[22px] font-[Archivo]  text-[#FF0086] text-start uppercase">
+          <h2 className="text-[22px] font-[Archivo] uppercase  text-[#FF0086] text-start uppercase">
             {checkContents().first_heading}
           </h2>
-          <h1 className="text-[36px] md:text-[44px] font-[Archivo] md:leading-[50px] leading-[38px] font-bold tracking-[1px] er text-[#fff] uppercase">
+          <h1 className="text-[36px] md:text-[44px] font-[Archivo] uppercase md:leading-[50px] leading-[38px] font-bold tracking-[1px] er text-[#fff] uppercase">
             {checkContents().second_heading}
           </h1>
           <p className="world_text w-[90%]  ">

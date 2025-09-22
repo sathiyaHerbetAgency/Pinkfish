@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const page = ({ data }) => {
   const heading =
-    "text-[16px] md:text-[24px] leading-[19.2px] md:leading-[28.8px] font-[Archivo] font-[700] uppercase text-white text-center";
+    "text-[16px] md:text-[24px] leading-[19.2px] md:leading-[28.8px] font-[Archivo] uppercase font-[700] uppercase text-white text-center";
   const text1 =
     "self-center md:self-start text-white text-[16px] leading-[22.66px] font-[manrope] font-[400]";
   const button =

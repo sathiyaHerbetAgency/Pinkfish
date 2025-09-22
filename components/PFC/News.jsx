@@ -11,7 +11,7 @@ const News = () => {
   return (
     <div className="banner-container-pfc md:min-h-screen min-h-[50vh] flex flex-col justify-start gap-6 items-center">
       <div className="md:w-[30vw] w-[85vw] flex flex-col gap-6 pt-24 md:pt-11">
-        <h3 className="text-[#fff] font-bold  font-[Archivo] text-[24px] md:text-[34px] leading-[30px] text-center uppercase'">
+        <h3 className="text-[#fff] font-bold  font-[Archivo] uppercase text-[24px] md:text-[34px] leading-[30px] text-center uppercase'">
           {PFC.first_heading}
         </h3>
         <p className="text-[#fff] world_text  text-center">{PFC.text}</p>

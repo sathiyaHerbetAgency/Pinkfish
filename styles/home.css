@@ -27,10 +27,10 @@
   background-repeat: repeat-x;
 }
 .world_header {
-  @apply text-white text-[36px]  md:text-[48px] leading-[54px] md:leading-[54px] font-[900]  font-[Archivo];
+  @apply text-white text-[36px]  md:text-[48px] leading-[54px] md:leading-[54px] font-[900]  font-[Archivo] uppercase;
 }
 .world_header_home {
-  @apply text-white text-[36px]  md:text-[40px] leading-[44px] md:leading-[50px] font-[900]  font-[Archivo];
+  @apply text-white text-[36px]  md:text-[40px] leading-[44px] md:leading-[50px] font-[900]  font-[Archivo] uppercase;
 }
 
 .world_text {
@@ -115,7 +115,7 @@
   color: transparent;
 
   margin-right: 0px;
-  @apply mt-4 md:mt-0 font-[Archivo] text-[12px] md:text-[34px] leading-[16px] md:leading-[30px] font-[400] uppercase;
+  @apply mt-4 md:mt-0 font-[Archivo] uppercase text-[12px] md:text-[34px] leading-[16px] md:leading-[30px] font-[400] uppercase;
 }
 
 .svg_text {
@@ -124,7 +124,7 @@
 
 .horizantal_text_2 {
   color: #fff;
-  @apply mt-4 md:mt-0 font-[Archivo] text-[12px] md:text-[34px] leading-[16px] md:leading-[30px] font-[400] uppercase;
+  @apply mt-4 md:mt-0 font-[Archivo] uppercase text-[12px] md:text-[34px] leading-[16px] md:leading-[30px] font-[400] uppercase;
 }
 .svg-gap {
   @apply flex items-center gap-0 md:gap-6;
@@ -135,7 +135,7 @@
 }
 .horizantal_text_2_pff {
   color: #fff;
-  @apply md:mt-4 md:mt-0 font-[Archivo] text-[18px] md:text-[48px] leading-[30px] md:leading-[54px] font-bold uppercase;
+  @apply md:mt-4 md:mt-0 font-[Archivo] uppercase text-[18px] md:text-[48px] leading-[30px] md:leading-[54px] font-bold uppercase;
 }
 
 .horizantal_pink_container_body {
@@ -172,7 +172,7 @@
 }
 
 .event_header {
-  @apply text-white text-center text-[64px] leading-[24px] font-[700] font-[Archivo] tracking-[3px];
+  @apply text-white text-center text-[64px] leading-[24px] font-[700] font-[Archivo] uppercase tracking-[3px];
 }
 
 .image_container_home {
@@ -198,11 +198,11 @@
 }
 
 .event_text {
-  @apply text-[24px] md:text-[40px] leading-[24px] font-[500] font-[Archivo];
+  @apply text-[24px] md:text-[40px] leading-[24px] font-[500] font-[Archivo] uppercase;
 }
 
 .event_tickets {
-  @apply bg-[#F33288] rounded-lg w-fit md:w-[40%] p-2 flex text-[12px] md:text-[16px] leading-[14px] md:leading-[20px] font-[Archivo];
+  @apply bg-[#F33288] rounded-lg w-fit md:w-[40%] p-2 flex text-[12px] md:text-[16px] leading-[14px] md:leading-[20px] font-[Archivo] uppercase;
 }
 
 .event_text_date2 {
@@ -210,11 +210,11 @@
 }
 
 .event_text2 {
-  @apply text-[24px] md:text-[32px] leading-[24px] font-[500] font-[Archivo];
+  @apply text-[24px] md:text-[32px] leading-[24px] font-[500] font-[Archivo] uppercase;
 }
 
 .event_tickets2 {
-  @apply bg-[#fff] hover:bg-[#F33288] hover:text-[#fff] hover:border-[#fff] text-[#F33288] border border-[#F33288] rounded-lg w-fit md:w-fit p-2 flex text-[12px] md:text-[14px] leading-[14px] md:leading-[20px] font-[Archivo];
+  @apply bg-[#fff] hover:bg-[#F33288] hover:text-[#fff] hover:border-[#fff] text-[#F33288] border border-[#F33288] rounded-lg w-fit md:w-fit p-2 flex text-[12px] md:text-[14px] leading-[14px] md:leading-[20px] font-[Archivo] uppercase;
 }
 
 /* .buy_ticket {
@@ -235,7 +235,7 @@
 }
 
 .gallery_header {
-  @apply text-[24px] md:text-[32px] leading-[24px] font-[Archivo] text-white uppercase font-[500];
+  @apply text-[24px] md:text-[32px] leading-[24px] font-[Archivo] uppercase text-white uppercase font-[500];
 }
 
 .gallery_text {
@@ -279,13 +279,13 @@ div::-webkit-scrollbar {
   @apply overflow-x-scroll overflow-hidden;
 }
 .home_bottom_header {
-  @apply text-[12px] md:text-[16px] leading-[16px] md:leading-[20px] font-[Archivo] text-white  font-[500];
+  @apply text-[12px] md:text-[16px] leading-[16px] md:leading-[20px] font-[Archivo] uppercase text-white  font-[500];
 }
 .home_bottom_header_seen {
-  @apply text-[6.97px] md:text-[13.63px] leading-[8.63px]  md:leading-[16.88px] font-[Archivo] text-white  font-[400];
+  @apply text-[6.97px] md:text-[13.63px] leading-[8.63px]  md:leading-[16.88px] font-[Archivo] uppercase text-white  font-[400];
 }
 .banner_header {
-  @apply text-[36px] md:text-[80px] leading-[50px] md:leading-[95px] font-[Archivo] text-white uppercase font-[500];
+  @apply text-[36px] md:text-[80px] leading-[50px] md:leading-[95px] font-[Archivo] uppercase text-white uppercase font-[500];
 }
 
 .banner_text {

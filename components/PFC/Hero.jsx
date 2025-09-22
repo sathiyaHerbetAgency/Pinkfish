@@ -45,10 +45,10 @@ const Hero = ({ select }) => {
     >
       <div className="flex flex-col gap-4 md:pt-16 pt:36 self-center md:w-[620px]">
         <div className="md:w-[620px] w-[78%] flex flex-col self-center  gap-4">
-          <h2 className="text-[22px] font-[Archivo]  text-[#FF0086] text-center uppercase">
+          <h2 className="text-[22px] font-[Archivo] uppercase  text-[#FF0086] text-center uppercase">
             {checkContents().first_heading}
           </h2>
-          <h1 className="text-[32px] md:text-[40px] font-[Archivo] md:leading-[48px] leading-[38.04px] font-bold tracking-[1px] text-center text-[#fff] uppercase">
+          <h1 className="text-[32px] md:text-[40px] font-[Archivo] uppercase md:leading-[48px] leading-[38.04px] font-bold tracking-[1px] text-center text-[#fff] uppercase">
             {checkContents().second_heading}
           </h1>
           <p className={textHero}>{checkContents().dateText}</p>

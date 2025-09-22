@@ -34,15 +34,15 @@ contact_input:focus {
 }
 
 .contact_text_header_mob {
-  @apply text-[32px] md:text-[48px] leading-[38px] md:leading-[52px] font-[900] font-[Archivo] text-[#F33288];
+  @apply text-[32px] md:text-[48px] leading-[38px] md:leading-[52px] font-[900] font-[Archivo] uppercase text-[#F33288];
 }
 
 .contact_text_header {
-  @apply text-[36px] md:text-[48px] leading-[43.2px] md:leading-[52px] font-[900] font-[Archivo] text-[#fff];
+  @apply text-[36px] md:text-[48px] leading-[43.2px] md:leading-[52px] font-[900] font-[Archivo] uppercase text-[#fff];
 }
 
 .contact_text_header-merchandise {
-  @apply text-[20px] md:text-[64px] leading-[24px] md:leading-[72px] tracking-wide font-[900] font-[Archivo] text-[#fff];
+  @apply text-[20px] md:text-[64px] leading-[24px] md:leading-[72px] tracking-wide font-[900] font-[Archivo] uppercase text-[#fff];
 }
 .contact_sub_text {
   @apply text-[14px] md:text-[18px] leading-[16px] md:leading-[18px] font-[500] font-[manrope] text-[#fff];
@@ -58,7 +58,7 @@ contact_input:focus {
   @apply text-[12px] md:text-[14px] leading-[16px] md:leading-[20px] font-[500] font-[manrope] text-[#fff];
 }
 .contact_header {
-  @apply text-[14px] md:text-[16px] leading-[16px] md:leading-[18px] font-[900] font-[Archivo] text-[#F33288];
+  @apply text-[14px] md:text-[16px] leading-[16px] md:leading-[18px] font-[900] font-[Archivo] uppercase text-[#F33288];
 }
 
 .contact_text {
@@ -66,10 +66,10 @@ contact_input:focus {
 }
 
 .contact_sub_header {
-  @apply text-[16px] md:text-[24px] leading-[18px] md:leading-[28px] font-[500] font-[Archivo] text-[#F33288];
+  @apply text-[16px] md:text-[24px] leading-[18px] md:leading-[28px] font-[500] font-[Archivo] uppercase text-[#F33288];
 }
 .hero_text_heading {
-  @apply text-[16px] md:text-[24px] leading-[18px] md:leading-[28px] font-[500] font-[Archivo] text-[#fff];
+  @apply text-[16px] md:text-[24px] leading-[18px] md:leading-[28px] font-[500] font-[Archivo] uppercase text-[#fff];
 }
 .hero_button {
   @apply text-[12px] md:text-[14px] leading-[18px] md:leading-[24px] font-[500] font-[manrope] text-[#fff];
@@ -202,11 +202,11 @@ contact_input:focus {
   @apply cursor-pointer text-[10px] md:text-[12px] leading-[12px] md:leading-[14px] p-2 font-[500] font-[manrope] text-white border border-white rounded w-fit;
 }
 .home_bottom_header {
-  @apply text-[12px] md:text-[16px] leading-[16px] md:leading-[20px] font-[Archivo] text-white  font-[500];
+  @apply text-[12px] md:text-[16px] leading-[16px] md:leading-[20px] font-[Archivo] uppercase text-white  font-[500];
 }
 
 .home_bottom_header_seen {
-  @apply text-[6.97px] md:text-[13.63px] leading-[8.63px]  md:leading-[16.88px] font-[Archivo] text-white  font-[400];
+  @apply text-[6.97px] md:text-[13.63px] leading-[8.63px]  md:leading-[16.88px] font-[Archivo] uppercase text-white  font-[400];
 }
 
 .pink_btn {
@@ -335,7 +335,7 @@ contact_input:focus {
   @apply text-[16px] leading-[24px] font-[100] font-[manrope] text-white;
 }
 .top_btn {
-  @apply text-[12px] md:text-[18px]  leading-[13.5px] md:leading-[24px] font-[500] font-[Archivo] text-white uppercase;
+  @apply text-[12px] md:text-[18px]  leading-[13.5px] md:leading-[24px] font-[500] font-[Archivo] uppercase text-white uppercase;
 }
 .faq_main_container {
   background: url("/hero_blackGradient.webp") bottom no-repeat,
@@ -357,7 +357,7 @@ contact_input:focus {
 }
 
 .event_main_header {
-  @apply text-[64px] leading-[84px] font-[500] font-[Archivo] text-white text-center uppercase;
+  @apply text-[64px] leading-[84px] font-[500] font-[Archivo] uppercase text-white text-center uppercase;
 }
 
 .date_event_main_text {
@@ -366,7 +366,7 @@ contact_input:focus {
 }
 
 .event_section_header {
-  @apply font-[Archivo] text-[24px] md:text-[40px] font-[400] leading-[24px] uppercase text-white tracking-[8px];
+  @apply font-[Archivo] uppercase text-[24px] md:text-[40px] font-[400] leading-[24px] uppercase text-white tracking-[8px];
 }
 
 .event_section_text {
@@ -402,11 +402,11 @@ contact_input:focus {
 }
 
 .event_bottom_main_hearder {
-  @apply font-[Archivo] text-[48px] md:text-[80px] font-[400] leading-[52px] md:leading-[94px] uppercase text-white w-[90%] md:w-[75%];
+  @apply font-[Archivo] uppercase text-[48px] md:text-[80px] font-[400] leading-[52px] md:leading-[94px] uppercase text-white w-[90%] md:w-[75%];
 }
 
 .black_btn {
-  @apply font-[Archivo] rounded text-[12px] md:text-[14px] font-[400] leading-[13px] md:leading-[24px] uppercase text-white bg-black p-2 text-center  w-fit;
+  @apply font-[Archivo] uppercase rounded text-[12px] md:text-[14px] font-[400] leading-[13px] md:leading-[24px] uppercase text-white bg-black p-2 text-center  w-fit;
 }
 
 .details_container {
@@ -415,7 +415,7 @@ contact_input:focus {
 }
 
 .details_header {
-  @apply font-[Archivo] text-[32px] font-[400] leading-[42px] uppercase text-white;
+  @apply font-[Archivo] uppercase text-[32px] font-[400] leading-[42px] uppercase text-white;
 }
 
 .details_sub_header {
@@ -427,7 +427,7 @@ contact_input:focus {
 }
 
 .more_shows_header {
-  @apply font-[Archivo] text-[24px] md:text-[64px] font-[500] leading-[24px] md:leading-[82px] uppercase text-white  text-center mt-11 mb-6;
+  @apply font-[Archivo] uppercase text-[24px] md:text-[64px] font-[500] leading-[24px] md:leading-[82px] uppercase text-white  text-center mt-11 mb-6;
 }
 
 .first_container {
@@ -440,7 +440,7 @@ contact_input:focus {
 }
 
 .tnc_header {
-  @apply text-[24px] md:text-[64px] font-[500] leading-[24px] md:leading-[74px] text-center  font-[Archivo] uppercase mb-11;
+  @apply text-[24px] md:text-[64px] font-[500] leading-[24px] md:leading-[74px] text-center  font-[Archivo] uppercase uppercase mb-11;
 }
 
 .text_tnc_container {
@@ -473,7 +473,7 @@ contact_input:focus {
 }
 
 .about_us_main_header {
-  @apply text-[36px] md:text-[128px] font-[200] leading-[40px] md:leading-[164px] font-[700]  font-[Archivo] text-center;
+  @apply text-[36px] md:text-[128px] font-[200] leading-[40px] md:leading-[164px] font-[700]  font-[Archivo] uppercase text-center;
 }
 
 .about_us_text {
@@ -485,14 +485,14 @@ contact_input:focus {
 }
 
 .about_us_sub_header {
-  @apply text-[24px] md:text-[36px] font-[700] leading-[30px] md:leading-[42px]  font-[Archivo]  text-center;
+  @apply text-[24px] md:text-[36px] font-[700] leading-[30px] md:leading-[42px]  font-[Archivo] uppercase  text-center;
 }
 
 .fish_bottom_heading {
 }
 
 .party_banner_header {
-  @apply text-[24px] md:text-[48px] font-[500] leading-[32px] md:leading-[54px]   font-[Archivo];
+  @apply text-[24px] md:text-[48px] font-[500] leading-[32px] md:leading-[54px]   font-[Archivo] uppercase;
 }
 
 .pat_banner_text {

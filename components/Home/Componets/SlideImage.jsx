@@ -7,7 +7,7 @@ const SlideImage = ({ url, urlMob, year, link, slide, setShowPopup }) => {
   const text =
     "text-[12px] md:text-[16px] leading-[16.66px] md:leading-[22.66px] font-[manrope] font-[400]";
   const heading =
-    "text-[24px] md:text-[36px] leading-[28.8px] md:leading-[43.2px] font-[Archivo] font-[700] uppercase";
+    "text-[24px] md:text-[36px] leading-[28.8px] md:leading-[43.2px] font-[Archivo] uppercase font-[700] uppercase";
   const button =
     "text-[12px] md:text-[16px] leading-[22.66px] md:leading-[22.66px] font-[manrope] font-[400] p-2 px-4  bg-[#FF0086] rounded";
 

@@ -29,7 +29,7 @@ const Hero = () => {
           className="w-24 md:w-48 self-center"
           alt="pf_arena_logo"
         />
-        <p className="text-[11px] md:text-[16px] font-[Archivo] md:pb-2 font-[700] text-[#fff] text-center uppercase ">
+        <p className="text-[11px] md:text-[16px] font-[Archivo] uppercase md:pb-2 font-[700] text-[#fff] text-center uppercase ">
           {PFA.text1}
         </p>
         <div className="flex justify-center">
@@ -78,12 +78,12 @@ const Hero = () => {
                   className="w-24 md:w-48 self-center"
                   alt="pf_arena_logo"
                 />
-                <p className="text-[11px] md:text-[16px] font-[Archivo] md:pb-2 font-[700] text-[#fff] text-center uppercase ">
+                <p className="text-[11px] md:text-[16px] font-[Archivo] uppercase md:pb-2 font-[700] text-[#fff] text-center uppercase ">
                   {PFA.text1}
                 </p>
                 <div className="flex justify-center">
                   <div className="flex flex-col justify-center align-center">
-                    {/* <p className="text-[14px] md:text-[24px] font-[Archivo] md:pb-2 font-[700] text-[#fff] text-start ">{PFA.first_heading}</p> */}
+                    {/* <p className="text-[14px] md:text-[24px] font-[Archivo] uppercase md:pb-2 font-[700] text-[#fff] text-start ">{PFA.first_heading}</p> */}
 
                     <svg
                       width="60"
@@ -120,7 +120,7 @@ const Hero = () => {
               </div>
             </div>
             <div className=" flex flex-col justify-center self-center  md:gap-4">
-              {/* <h2 className="text-[36px] md:text-[70px] font-[Archivo] md:leading-[85px]  self-center leading-[38px] font-bold tracking-[1px] text-center text-[#fff] uppercase">{PFA.second_heading}</h2> */}
+              {/* <h2 className="text-[36px] md:text-[70px] font-[Archivo] uppercase md:leading-[85px]  self-center leading-[38px] font-bold tracking-[1px] text-center text-[#fff] uppercase">{PFA.second_heading}</h2> */}
               <div className="flex flex-col gap-4">
                 <img
                   src="./PFA/Nifra/Hero/hero-title.webp"
@@ -141,12 +141,12 @@ const Hero = () => {
             </div>
             <div className="min-w-[100%] flex md:flex-row flex-col justify-center md:py-3">
               {/* <div className="flex flex-col items-center align-center">                    
-                        <p className="text-[12px] md:text-[18px] font-[Archivo] px-1 pb-1 font-[400] text-[#000] text-start  bg-[#FF0086] uppercase ">{PFA.text2}</p>
-                        <p className="text-[16px] md:text-[24px] font-[Archivo] pb-2 font-[700] text-[#fff] text-start uppercase ">{PFA.text}</p>
-                        <p className="text-[12px] md:text-[16px] font-[Archivo] pb-2 font-[300] text-[#fff] text-start uppercase ">{PFA.text1}</p>
+                        <p className="text-[12px] md:text-[18px] font-[Archivo] uppercase px-1 pb-1 font-[400] text-[#000] text-start  bg-[#FF0086] uppercase ">{PFA.text2}</p>
+                        <p className="text-[16px] md:text-[24px] font-[Archivo] uppercase pb-2 font-[700] text-[#fff] text-start uppercase ">{PFA.text}</p>
+                        <p className="text-[12px] md:text-[16px] font-[Archivo] uppercase pb-2 font-[300] text-[#fff] text-start uppercase ">{PFA.text1}</p>
                     </div> */}
-              {/* <p className="text-[14px] md:text-[24px] leading-[16px] font-[Archivo] pb-2  font-[700] text-[#fff] text-center uppercase md:hidden">{PFA.text_mob1}</p> */}
-              {/* <p className="text-[14px] md:text-[24px] leading-[16px] font-[Archivo] pb-2 font-[700] text-[#fff] text-center uppercase md:hidden">{PFA.text_mob2}</p> */}
+              {/* <p className="text-[14px] md:text-[24px] leading-[16px] font-[Archivo] uppercase pb-2  font-[700] text-[#fff] text-center uppercase md:hidden">{PFA.text_mob1}</p> */}
+              {/* <p className="text-[14px] md:text-[24px] leading-[16px] font-[Archivo] uppercase pb-2 font-[700] text-[#fff] text-center uppercase md:hidden">{PFA.text_mob2}</p> */}
             </div>
             {/* <img src="./PFA/Banner/banner.png" alt="banner" className="hidden md:block py-3" />
                 <img src="./PFA/Banner/banner_mob.jpg" alt="banner" className=" md:hidden py-3" /> */}

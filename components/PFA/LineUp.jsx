@@ -56,7 +56,7 @@ const LineUp = () => {
     //           <SwiperSlide key="1" className="swiper-slider  ">
     //           <div className="slide-content pt-12 pb-12  ">
     //       <img src='./PFA/Lineup/img_1.png' alt="slide_1" className="slide-image"/>
-    //       <h1 className="text-[20px] font-[700] tracking-[2px] font-[Archivo] text-center  text-[#fff]  uppercase">Billings</h1>
+    //       <h1 className="text-[20px] font-[700] tracking-[2px] font-[Archivo] uppercase text-center  text-[#fff]  uppercase">Billings</h1>
     //     </div>
     //    </SwiperSlide>
     //    <SwiperSlide key="2" className="swiper-slider slide-group  ">
@@ -64,14 +64,14 @@ const LineUp = () => {
     //    <SwiperSlide key="2" className=" max-w-[220px]">
     //         <div className="slide-conten  max-w-[220px] pt-12 pb-12 ">
     //           <img src='./PFA/Lineup/img_2.png' alt="slide_2" className="max-w-[220px]" />
-    //           <h1 className="text-[20px] font-[700] tracking-[2px] font-[Archivo] text-center text-[#fff] uppercase">Billings</h1>
+    //           <h1 className="text-[20px] font-[700] tracking-[2px] font-[Archivo] uppercase text-center text-[#fff] uppercase">Billings</h1>
     //         </div>
     //       </SwiperSlide>
 
     //       <SwiperSlide key="3" className="max-w-[220px]">
     //         <div className="slide-conten max-w-[220px] pt-12 pb-12">
     //           <img src='./PFA/Lineup/img_2.png' alt="slide_3" className="max-w-[220px]"/>
-    //           <h1 className="text-[20px] font-[700] tracking-[2px] font-[Archivo] text-center text-[#fff] uppercase">Billings</h1>
+    //           <h1 className="text-[20px] font-[700] tracking-[2px] font-[Archivo] uppercase text-center text-[#fff] uppercase">Billings</h1>
     //         </div>
     //       </SwiperSlide>
     //       </div>
@@ -80,19 +80,19 @@ const LineUp = () => {
     //       <SwiperSlide key="1" className="swiper-slider  ">
     //           <div className="slide-content pt-12 pb-12  ">
     //       <img src='./PFA/Lineup/img_4.png' alt="slide_1" className="slide-image"/>
-    //       <h1 className="text-[20px] font-[700] tracking-[2px] font-[Archivo] text-center  text-[#fff]  uppercase">Billings</h1>
+    //       <h1 className="text-[20px] font-[700] tracking-[2px] font-[Archivo] uppercase text-center  text-[#fff]  uppercase">Billings</h1>
     //     </div>
     //    </SwiperSlide>
     //     {/*<SwiperSlide key="1" className="swiper-slider ">
     //           <div className="slide-content pt-12 pb-12  ">
     //       <img src='./PFA/Lineup/img_5.png' alt="slide_1" className="slide-image"/>
-    //       <h1 className="text-[20px] font-[700] tracking-[2px] font-[Archivo] text-center  text-[#fff]  uppercase">Billings</h1>
+    //       <h1 className="text-[20px] font-[700] tracking-[2px] font-[Archivo] uppercase text-center  text-[#fff]  uppercase">Billings</h1>
     //     </div>
     //    </SwiperSlide>
     //    <SwiperSlide key="1" className="swiper-slider ">
     //           <div className="slide-content pt-12 pb-12  ">
     //       <img src='./PFA/Lineup/img_5.png' alt="slide_1" className="slide-image"/>
-    //       <h1 className="text-[20px] font-[700] tracking-[2px] font-[Archivo] text-center  text-[#fff]  uppercase">Billings</h1>
+    //       <h1 className="text-[20px] font-[700] tracking-[2px] font-[Archivo] uppercase text-center  text-[#fff]  uppercase">Billings</h1>
     //     </div>
     //    </SwiperSlide> */}
 

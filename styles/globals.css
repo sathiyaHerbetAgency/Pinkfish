@@ -32,7 +32,7 @@ select {
 }
 
 .footer_heading {
-  @apply text-white uppercase md:text-[32px]  leading-[34px]    font-[Archivo];
+  @apply text-white uppercase md:text-[32px]  leading-[34px]    font-[Archivo] uppercase;
 }
 
 .footer_bottom_text {
@@ -45,7 +45,7 @@ select {
 }
 
 .home_bottom_header {
-  @apply text-[12px] md:text-[16px] leading-[16px] md:leading-[20px] font-[Archivo] text-white  font-[500];
+  @apply text-[12px] md:text-[16px] leading-[16px] md:leading-[20px] font-[Archivo] uppercase text-white  font-[500];
 }
 
 .logo_container {
@@ -86,10 +86,10 @@ select {
 }
 
 .menu_text_mob {
-  @apply w-fit self-center  uppercase text-[white] font-[Archivo] font-[100] text-[14px] leading-[24px] md:leading-[24px] tracking-[5px];
+  @apply w-fit self-center  uppercase text-[white] font-[Archivo] uppercase font-[100] text-[14px] leading-[24px] md:leading-[24px] tracking-[5px];
 }
 .menu_text {
-  @apply w-[100%] text-center uppercase text-[white]    font-[Archivo] font-[700] text-[12px] md:text-[10px] leading-[14px] md:leading-[14px] tracking-[1px];
+  @apply w-[100%] text-center uppercase text-[white]    font-[Archivo] uppercase font-[700] text-[12px] md:text-[10px] leading-[14px] md:leading-[14px] tracking-[1px];
   /* display: inline-block;
   text-decoration: none; */
 }
@@ -118,7 +118,7 @@ select {
 } */
 
 .buy_ticket {
-  @apply bg-[#F33288] rounded-lg uppercase pt-2 p-2  gap-2 text-white h-fit text-[12px] md:text-[14px] leading-[14px] md:leading-[16px] font-[500] font-[Archivo];
+  @apply bg-[#F33288] rounded-lg uppercase pt-2 p-2  gap-2 text-white h-fit text-[12px] md:text-[14px] leading-[14px] md:leading-[16px] font-[500] font-[Archivo] uppercase;
 }
 
 .ticket-bg {

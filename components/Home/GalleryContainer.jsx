@@ -4,13 +4,13 @@ import React from "react";
 import Link from "next/link";
 const GalleryContainer = () => {
   const textGallery =
-    "md:text-[28px] lg:text-[36px] leading-[46.87px] font-[Archivo] font-[800] text-white md:p-4 lg:p-6 text-center";
+    "md:text-[28px] lg:text-[36px] leading-[46.87px] font-[Archivo] uppercase font-[800] text-white md:p-4 lg:p-6 text-center";
   const textGallery1 =
-    "text-[16px] md:text-[24px] leading-[19.2px] md:leading-[32px] font-[Archivo] font-[800] text-white p-5 md:p-3 lg:p-6 text-center w-[247px] self-center md:w-auto";
+    "text-[16px] md:text-[24px] leading-[19.2px] md:leading-[32px] font-[Archivo] uppercase font-[800] text-white p-5 md:p-3 lg:p-6 text-center w-[247px] self-center md:w-auto";
   const textGallery2 =
-    "text-[16px] md:text-[24px] leading-[19.2px] md:leading-[32px] font-[Archivo] font-[800] text-white p-5 md:p-3 lg:p-6 text-center  w-[244px] self-center";
+    "text-[16px] md:text-[24px] leading-[19.2px] md:leading-[32px] font-[Archivo] uppercase font-[800] text-white p-5 md:p-3 lg:p-6 text-center  w-[244px] self-center";
   const textGallery1Bottom =
-    "text-[16px] md:text-[24px] leading-[19.2px] md:leading-[32px] font-[Archivo] font-[800] text-white p-5 md:p-3 lg:p-6 text-center self-center w-[90%] md:w-auto";
+    "text-[16px] md:text-[24px] leading-[19.2px] md:leading-[32px] font-[Archivo] uppercase font-[800] text-white p-5 md:p-3 lg:p-6 text-center self-center w-[90%] md:w-auto";
   const overlayContainer =
     " absolute z-1 w-[100vw] h-[217px] md:w-[220px] lg:w-[291px] md:h-[185px] lg:h-[337px] flex flex-col justify-center self-center";
   const overlayContainerbottom =
@@ -56,13 +56,13 @@ const GalleryContainer = () => {
       <div className="hidden md:block ">
         <div className=" flex justify-center">
           <div className="flex flex-col max-w-1176px">
-            <h2 className="text-[28px] md:text-[32px] leading-[32px] md:leading-[36px] self-start font-[700] font-[Archivo] text-left drop-shadow-2xl text- text-[#fff] py-4 pb-6 uppercase">
+            <h2 className="text-[28px] md:text-[32px] leading-[32px] md:leading-[36px] self-start font-[700] font-[Archivo] uppercase text-left drop-shadow-2xl text- text-[#fff] py-4 pb-6 uppercase">
               Gallery
             </h2>
           </div>
         </div>
         <div className="flex justify-center max-w-1176px ">
-          {/* <h2 className="text-[40px] font-[700] font-[Archivo] text-left drop-shadow-2xl  text-[#000] self-center uppercase">Gallery</h2> */}
+          {/* <h2 className="text-[40px] font-[700] font-[Archivo] uppercase text-left drop-shadow-2xl  text-[#000] self-center uppercase">Gallery</h2> */}
 
           <div className="self-center ">
             <Link
@@ -126,7 +126,7 @@ const GalleryContainer = () => {
       </div>
       <div className="md:hidden flex flex-col">
         <div className="flex flex-col  max-w-1176px">
-          <h2 className="text-[24px] md:text-[32px] leading-[28px] md:leading-[36px] self-center font-[700] font-[Archivo] text-left drop-shadow-2xl text- text-[#fff] py-4 pb-6 uppercase">
+          <h2 className="text-[24px] md:text-[32px] leading-[28px] md:leading-[36px] self-center font-[700] font-[Archivo] uppercase text-left drop-shadow-2xl text- text-[#fff] py-4 pb-6 uppercase">
             Gallery
           </h2>
         </div>

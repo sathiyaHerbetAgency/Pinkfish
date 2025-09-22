@@ -14,7 +14,7 @@ const Gallery = () => {
     <div className="flex flex-col bg-gallery-home py-11">
       <div className="flex flex-col self-center bg-white  md:max-w-[1100px] min-[80%]  py-11 mt-24 mb-11  rounded-lg">
         <div className="flex flex-col gap-3 self-center w-[95%] ">
-          <h2 className="text-[40px] font-[700] font-[Archivo] text-left drop-shadow-2xl  text-[#000]  uppercase">
+          <h2 className="text-[40px] font-[700] font-[Archivo] uppercase text-left drop-shadow-2xl  text-[#000]  uppercase">
             Gallery
           </h2>
           <div className="flex gap-3  ">

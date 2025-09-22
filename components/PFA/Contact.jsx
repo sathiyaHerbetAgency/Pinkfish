@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className="self-center flex flex-col md:flex-row w-[80%] max-w-[1100px] md:gap-16 gap-6">
       <div className="basis-2/5 flex md:justify-end">
-        <div className="text-[14px] md:text-[18px] w-[70%] font-[Archivo] text-left  text-[#fff] ">
+        <div className="text-[14px] md:text-[18px] w-[70%] font-[Archivo] uppercase text-left  text-[#fff] ">
           <h3 className="text-[#FF0086]">Don’t miss out—</h3>
           <h3>Subscribe now for the latest Pinkfish updates. </h3>
         </div>

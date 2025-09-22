@@ -10,7 +10,7 @@ const Bottom = () => {
           <div className="w-[202px] md:w-auto md:basis-1/2 self-center  ">
             <div className="flex flex-col gap-6 ">
               <div className="  ">
-                <h1 className="text-[20.91px]  leading-[27.42px] md:text-[40px] text-left md:leading-[53px]  font-[700] font-[Archivo]  text-[#fff]  uppercase m">
+                <h1 className="text-[20.91px]  leading-[27.42px] md:text-[40px] text-left md:leading-[53px]  font-[700] font-[Archivo] uppercase  text-[#fff]  uppercase m">
                   Ride on the rhythm of life
                 </h1>
               </div>

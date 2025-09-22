@@ -50,7 +50,7 @@ const Heading = ({ text, page, description }) => {
           </svg>
         )}
         <div className="flex flex-col gap-2">
-          <h2 className="text-white font-bold font-[Archivo] md:text-[36px] text-[14px] leading-[20px] md:leading-[40px]  uppercase text-center">
+          <h2 className="text-white font-bold font-[Archivo] uppercase md:text-[36px] text-[14px] leading-[20px] md:leading-[40px]  uppercase text-center">
             {text}
           </h2>
         </div>

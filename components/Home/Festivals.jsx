@@ -135,7 +135,7 @@ const Festivals = ({ setShowPopup }) => {
     },
   ];
   const heading =
-    "self-center text-[16px] md:text-[24px] leading-[19.2px] md:leading-[28.8px] tracking-[1px] font-[Archivo] font-[700] uppercase text-white";
+    "self-center text-[16px] md:text-[24px] leading-[19.2px] md:leading-[28.8px] tracking-[1px] font-[Archivo] uppercase font-[700] uppercase text-white";
   return (
     <div className="pb-11">
       <div className="hidden md:block">

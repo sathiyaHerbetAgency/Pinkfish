@@ -4,7 +4,7 @@ import React from "react";
 const EventLayout = () => {
   return (
     <div className="flex flex-col gap-6 md:gap-0">
-      {/* <h4 className="text-[24px] md:text-[32px]  tracking-[1px] font-[Archivo] font-[700] text-center self-center text-[#fff]  uppercase">EVENT LAYOUT</h4> */}
+      {/* <h4 className="text-[24px] md:text-[32px]  tracking-[1px] font-[Archivo] uppercase font-[700] text-center self-center text-[#fff]  uppercase">EVENT LAYOUT</h4> */}
       <img
         src="./PFA/Nifra/Event/payment-1.png"
         className="w-[100%] md:w-[60%] self-center  "

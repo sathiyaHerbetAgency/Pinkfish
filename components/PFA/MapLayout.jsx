@@ -4,7 +4,7 @@ import React from "react";
 const MapLayout = () => {
   return (
     <div className="flex flex-col gap-6 md:gap-12">
-      <h4 className="text-[32px] md:text-[66px]  tracking-[1px] md:leading-[70px] font-[Archivo] font-[700] text-center self-center text-[#fff] max-w-[40%] md:max-w-[20%] uppercase">
+      <h4 className="text-[32px] md:text-[66px]  tracking-[1px] md:leading-[70px] font-[Archivo] uppercase font-[700] text-center self-center text-[#fff] max-w-[40%] md:max-w-[20%] uppercase">
         EVENT LAYOUT
       </h4>
       <div className="self-center flex flex-col items-center">

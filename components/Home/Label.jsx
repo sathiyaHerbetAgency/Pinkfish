@@ -40,7 +40,7 @@ const Label = ({ color, direction }) => {
                 fill="white"
               />
             </svg>
-            <p className="text-[16px] md:text-[20px] font-[Archivo] text-center drop-shadow-2xl  text-[#fff]  uppercase">
+            <p className="text-[16px] md:text-[20px] font-[Archivo] uppercase text-center drop-shadow-2xl  text-[#fff]  uppercase">
               {text1}
             </p>
             <a className="" arial-label="What The Fish Page" href="WhatTheFish">
@@ -48,7 +48,7 @@ const Label = ({ color, direction }) => {
                 Find Out More
               </button>
             </a>
-            <p className="text-[16px] md:text-[20px] font-[200] font-[Archivo] text-center  text-[#fff]  uppercase">
+            <p className="text-[16px] md:text-[20px] font-[200] font-[Archivo] uppercase text-center  text-[#fff]  uppercase">
               {text2}
             </p>
           </div>

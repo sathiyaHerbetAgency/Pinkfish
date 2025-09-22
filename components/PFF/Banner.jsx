@@ -59,7 +59,7 @@ const Banner = ({ select }) => {
         <h2
           className={` ${
             select === "PFC" ? "text-[#000]" : "text-[#fff]"
-          } font-bold  font-[Archivo] text-[34px] leading-[40px] text-center uppercase`}
+          } font-bold  font-[Archivo] uppercase text-[34px] leading-[40px] text-center uppercase`}
         >
           {checkContents().first_heading}
         </h2>
