@@ -601,7 +601,7 @@ button:last-of-type {
 
 @font-face {
   font-family: 'DmSansLight';
-  src: url("/fonts/DmSansLight.ttf");
+  src: url("/fonts/Montserrat-Regular.ttf");
 }
 
 @font-face {
@@ -620,7 +620,7 @@ button:last-of-type {
 
 @font-face {
   font-family: 'press-start-2p';
-  src: url("/fonts/Press_Start_2P/PressStart2P-Regular.ttf");
+  src: url("/fonts/Montserrat-Regular.ttf");
 }
 @font-face {
   font-family: 'Integral';
@@ -628,12 +628,12 @@ button:last-of-type {
 }
 @font-face {
   font-family: 'Sofia';
-  src: url("/fonts/SofiaPro.ttf");
+  src: url("/fonts/Montserrat-Regular.ttf");
 }
 
 @font-face {
   font-family: 'Nunito';
-  src: url("/fonts/Nunito.ttf");
+  src: url("/fonts/Montserrat-Regular.ttf");
 }
 
 .swiper {
@@ -645,7 +645,7 @@ button:last-of-type {
 
 @font-face {
   font-family: 'ShareTech-Regular';
-  src: url("/fonts/ShareTech-Regular.ttf");
+  src: url("/fonts/Montserrat-Regular.ttf");
 }
 
 @font-face {
@@ -655,18 +655,18 @@ button:last-of-type {
 
 @font-face {
   font-family: 'Babas';
-  src: url("/fonts/BebasNeue-Regular.ttf");
+  src: url("/fonts/Montserrat-Regular.ttf");
 }
 
 @font-face {
   font-family: 'Poppins-Bold';
-  src: url("/fonts/Poppins-Bold.ttf");
+  src: url("/fonts/Montserrat-Regular.ttf");
 }
 
 
 @font-face {
   font-family: 'Poppins-Regular';
-  src: url("/fonts/Poppins-Regular.ttf");
+  src: url("/fonts/Montserrat-Regular.ttf");
 }
 
 @font-face {
@@ -684,12 +684,12 @@ button:last-of-type {
 
 @font-face {
   font-family: 'SofiaLight';
-  src: url("/fonts/SofiaProLight.ttf");
+  src: url("/fonts/Montserrat-Regular.ttf");
 }
 
 @font-face {
   font-family: 'SofiaMedium';
-  src: url("/fonts/SofiaProMedium.ttf");
+  src: url("/fonts/Montserrat-Regular.ttf");
 }
 
 
@@ -697,7 +697,7 @@ button:last-of-type {
 
 @font-face {
   font-family: 'Trim';
-  src: url("/fonts/Trim-Bold.ttf");
+  src: url("/fonts/Montserrat-Regular.ttf");
 }
 
 
