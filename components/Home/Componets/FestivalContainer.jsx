@@ -41,7 +41,7 @@ const FestivalContainer = ({ setShowPopup, data, index, active }) => {
         >
           <Link
             onClick={handleClick}
-            href={data.link}
+            href={data?.link}
             className={overlayContainer}
           >
             {/* <div className="flex justify-end w-[90%]  md:w-[95%] ">

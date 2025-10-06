@@ -67,11 +67,11 @@ const Hero = ({setShowPopup}) => {
             className="mySwiper"
           >
              <SwiperSlide>
-              <SlideImage url={"./Home/Hero/vikkstar.webp"} urlMob={"./Home/Hero/vikkstar-mob.webp"} year="2025"  slide={6} />
+              <SlideImage url={"./Home/Hero/vikkstar.webp"} urlMob={"./Home/Hero/vikkstar-mob.webp"} year="2025"  slide={5} />
             </SwiperSlide>
-             <SwiperSlide>
+             {/* <SwiperSlide>
               <SlideImage url={"./Home/Hero/pfc-2025.webp"} urlMob={"./PFC2025/Hero/hero-bg-mob.webp"} year="2025"  slide={5} />
-            </SwiperSlide>
+            </SwiperSlide> */}
             <SwiperSlide>
               <SlideImage url={"./Home/Hero/nifra.webp"} urlMob={"./Home/Hero/nifra-mob.webp"} year="2025"  slide={3} />
             </SwiperSlide>

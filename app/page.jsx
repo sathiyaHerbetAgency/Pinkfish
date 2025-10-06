@@ -19,7 +19,7 @@ import Popup2 from './../components/Home/Popup2';
 
 export default function Page() {
   const [showPopup,setShowPopup]=useState(false)
-  const [showPopup1,setShowPopup1]=useState(true)
+  const [showPopup1,setShowPopup1]=useState(false)
 
   const description="Discover the ultimate music festival experience in Malaysia with PinkFish. Join us for an unforgettable event filled with music, fun, and memories."
   const title="Experience the Best Music Festival in Malaysia - Pinkfish "
